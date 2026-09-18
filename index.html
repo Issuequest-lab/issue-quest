@@ -133,7 +133,7 @@ select {
 .chip { border: 1px solid rgba(215,255,99,.45); background: rgba(215,255,99,.08); color: var(--accent); border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 750; }
 .chip.subtle { color: var(--muted); border-color: var(--line); background: var(--panel-2); }
 .scenario-label { margin: 26px 0 5px; color: var(--muted); font-size: 12px; font-weight: 850; letter-spacing: .08em; }
-.scenario-text { margin: 0; font-size: clamp(17px, 3vw, 21px); line-height: 1.75; }
+.scenario-text { white-space: pre-line; margin: 0; font-size: clamp(17px, 3vw, 21px); line-height: 1.75; }
 .question-card h2 { margin: 28px 0 14px; font-size: clamp(20px, 3.8vw, 28px); }
 .options-list { display: grid; gap: 10px; margin-bottom: 18px; }
 .option-item { position: relative; }
@@ -638,7 +638,7 @@ body.text-large .daily-copy, body.text-large .hero-copy, body.text-large .meter-
           </div>
           <div class="daily-badge"><span id="dailyDate">--</span></div>
         </div>
-        <p class="daily-copy">Google Trendsで注目されている話題を材料に、「何を先に確かめ、何を問うべきか」を考えます。話題そのものの賛否ではなく、判断の前提を見抜くモードです。</p>
+        <p class="daily-copy">Google Trendsの話題を入口に、練習用の状況で「何を先に確かめ、何を問うべきか」を考えます。話題そのものの賛否ではなく、判断の前提を見抜くモードです。</p>
         <div id="dailyTopics" class="daily-topics" aria-label="今日のトレンド例"></div>
         <p id="dailyStatus" class="daily-status">時事データを準備中...</p>
         <button id="dailyStartBtn" class="primary-button" type="button">今日の時事イシューを開始</button>
@@ -1132,26 +1132,75 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
   function getAdvice(percent){if(percent>=90)return'現実の課題を1つ選び、「答えが変わったら次の行動も変わるか？」を確認してみてください。';if(percent>=70)return'解決策へ飛ぶ前に、「この問いに答えると何が決まる？」を一度挟むのが有効です。';return'「方法」より先に「何を判断する必要があるか」を探してください。';}
   function quitSession(){if(!state.session.length||state.index===0||window.confirm('現在のセッションを終了して設定画面に戻りますか？')){stopTimer();clearActiveSession();state.phase='idle';showScreen('home');refreshResumeBanner();}}
 
-  const DAILY_LENSES = [
-    {key:'source',issue:'この話題で主張されていることと、独立に確認できる事実をどう分けるか？',reason:'主張と確認済み事実を分けると、話題性に引っ張られず判断できる。',alts:['最も影響を受ける人は誰で、何が変わるか？','検索急増のきっかけとなった出来事は何か？','話題になっているので今すぐ賛否を決めるべきか？'],scores:[78,62,20],axes:[['情報の信頼性','主張と確認済み事実を区別できるか。'],['確認可能性','一次情報や複数ソースで確かめられるか。'],['判断への影響','確認結果によって評価や行動が変わるか。']]},
-    {key:'cause',issue:'検索関心が高まった直接のきっかけは何で、単なる同時発生とどう見分けるか？',reason:'時系列と比較条件を置くと、原因らしい出来事と偶然の同時発生を分けやすい。',alts:['この話題で最も影響を受ける主体は誰か？','今後の展開を左右する最大の未確定情報は何か？','一番刺激的な見出しを原因と考えるべきか？'],scores:[76,70,20],axes:[['原因特定への寄与','検索増加の起点をどれだけ絞れるか。'],['時系列の検証性','前後関係を確認できるか。'],['説明が変わる度','答えによって背景理解がどれだけ変わるか。']]},
-    {key:'impact',issue:'この話題で最も影響を受ける主体は誰で、具体的に何が変わるか？',reason:'「話題かどうか」から「誰の何が変わるか」へ移すと、重要度を評価しやすい。',alts:['何が起きたかを確認できる一次情報はどれか？','自分が今決める必要のある行動はあるか？','検索順位が高いので社会全体に重大と決めるべきか？'],scores:[80,72,20],axes:[['影響の大きさ','誰にどの程度影響するかを捉えられるか。'],['対象の特定','影響を受ける主体を絞れるか。'],['優先順位への影響','答えによって重要度評価が変わるか。']]},
-    {key:'decision',issue:'この話題について、自分や関係者が今決める必要のあることは何か？',reason:'情報収集そのものではなく、必要な意思決定を先に置くと調べる範囲を絞れる。',alts:['結論を変えうる未確定情報は何か？','最も信頼できる情報源はどれか？','関連投稿をできるだけ多く読むべきか？'],scores:[82,74,25],axes:[['意思決定への寄与','具体的な判断につながる問いか。'],['情報の絞り込み','判断に必要な情報だけに絞れるか。'],['行動が変わる度','答えで次の行動が変わるか。']]},
-    {key:'uncertainty',issue:'今の結論を最も大きく変えうる未確定情報は何か？',reason:'不確実性の中でも結論への感度が高い情報を先に確認すると効率がよい。',alts:['現時点で確定している事実は何か？','誰が最も影響を受けるか？','分からないことを全部同じ優先度で調べるべきか？'],scores:[80,72,22],axes:[['不確実性の重要度','結論を左右する未知情報か。'],['確認可能性','現実に確かめられる情報か。'],['結論が変わる度','答えで判断がどれだけ変わるか。']]},
-    {key:'compare',issue:'複数の説明候補のうち、どの事実を確認すれば最も早く見分けられるか？',reason:'候補を並べるだけでなく、候補間で予測が分かれる観察点を探すと切り分けが進む。',alts:['もっと多くの説明候補を集めるべきか？','最も人気の説明を採用するべきか？','まず影響範囲を確認するべきか？'],scores:[45,20,76],axes:[['切り分けへの寄与','説明候補を区別できる問いか。'],['検証可能性','観察・一次情報で確かめられるか。'],['次の調査が変わる度','答えで調査方向が変わるか。']]},
-    {key:'priority',issue:'この話題の中で、今すぐ対処すべき部分と待てる部分を分ける基準は何か？',reason:'緊急性と重要性を分けると、話題の大きさだけで優先順位を決めずに済む。',alts:['最も検索数が多い論点から対処するべきか？','事実関係が確定するまで何も判断しないべきか？','誰に影響があるかを先に確認するべきか？'],scores:[20,55,80],axes:[['優先順位への寄与','今すぐ扱うべき論点を分けられるか。'],['時間制約への適合','緊急性を判断できるか。'],['行動配分が変わる度','答えで時間や注意の配分が変わるか。']]},
-    {key:'safety',issue:'自分の地域・予定に影響する公式情報は何で、行動を変える基準はどこか？',reason:'安全に関わる話題では、一般的な注目度より自分の場所・時間・公式情報に基づく行動基準が重要。',alts:['SNSで不安な投稿が多いので予定を全部中止するべきか？','いつ何が起きる見込みかを公式情報で確認するべきか？','検索数が減るまで判断を待つべきか？'],scores:[25,82,20],axes:[['安全判断への寄与','自分の安全や予定に直接効く問いか。'],['公式情報での確認','信頼できる発表で確かめられるか。'],['行動が変わる度','答えで移動・中止・備えが変わるか。']]}
+  const DAILY_CASES = [
+    {key:'事実確認', scenario:'あなたは紹介記事の担当です。今日中に記事を公開します。手元には「新しい発表があった」という匿名投稿だけがあり、発表元の資料は未確認です。記事の見出しや配信先は決まっています。まず、発表があったと記事に書けるかを判断したい状況です。', question:'記事に書く前に、最初に確かめることは？', choices:[
+      ['発表元の公式資料に、その発表と日付が載っているか？',100,'発表があったと書くには、その事実の確認が先です。公式資料で内容と日付を確認してから掲載を判断します。'],
+      ['その投稿が何回共有されているか？',20,'共有数が多くても発表が事実だとは確認できません。'],
+      ['記事をどの時間帯に配信すれば読まれるか？',40,'配信時間より、掲載する発表が確認できるかが先です。'],
+      ['読者がその発表に賛成しているか？',30,'賛否を調べても、発表の有無は確かめられません。']
+    ]},
+    {key:'切り分け', scenario:'あなたは検索増加のきっかけを調べています。仮説は「テレビ放送」か「公式発表」の2つに絞りました。放送は昨日18時、発表は昨日21時です。ほかの大きな出来事はないものとします。検索が増え始めた時刻は未確認ですが、時間別の記録をすぐ見られます。', question:'2つの仮説を絞るため、最初に確かめることは？', choices:[
+      ['検索が増え始めたのは18時より前、18〜21時、21時以降のどこか？',100,'18〜21時に増えていれば、21時の発表は増加開始の原因にはできません。時刻だけで原因を断定はできませんが、候補を絞れます。'],
+      ['テレビ放送の内容に賛成する人は何人いるか？',30,'賛否の人数では、どちらが増加に先行したか分かりません。'],
+      ['来月も検索数が高いまま続くか？',40,'持続性より、今回の増加開始と2つの出来事の前後関係が先です。'],
+      ['公式発表の投稿には何件の感想があるか？',45,'反応数だけでは、発表より前に増えていたかを切り分けられません。']
+    ]},
+    {key:'影響範囲', scenario:'あなたは案内窓口の担当です。この話題に関する手続き変更が来月から実施されることは、公式資料で確認済みです。既存利用者だけに案内するか、新規利用者にも案内するかを今日決めます。対象者の条件は同じ資料に載っていますが、まだ読んでいません。', question:'案内を送る相手を決めるため、最初に確かめることは？', choices:[
+      ['公式資料では、変更の対象を既存・新規のどちらと定めているか？',100,'決めたいのは送付先です。対象条件を読めば、誰に案内が必要かを判断できます。'],
+      ['この話題の検索順位は昨日より上がったか？',20,'検索順位では手続き変更の対象者は分かりません。'],
+      ['案内文の文字色は何色が読みやすいか？',40,'読みやすさも大切ですが、今決める送付先の根拠にはなりません。'],
+      ['変更の発表がSNSで好評か？',30,'好評かどうかで公式の対象条件は変わりません。']
+    ]},
+    {key:'判断を変える条件', scenario:'あなたはこの話題の解説会を企画しています。会場費は2万円、参加費は1人千円で、ほかの費用はありません。赤字になるなら開催しない方針です。明日が会場予約の期限で、確実に参加する人数はまだ集計していません。参加希望者には今日確認できます。', question:'開催するかを決めるため、最初に確かめることは？', choices:[
+      ['参加費を支払って参加する人が20人以上いるか？',100,'千円×20人で会場費2万円を賄えます。赤字を避けるという条件に直接つながる確認です。'],
+      ['全国でこの話題を検索した人数は多いか？',40,'全国の検索数から、この会に参加費を払う人数は分かりません。'],
+      ['会のタイトルにはどの言葉を使うか？',35,'タイトルの検討より、開催条件を満たせるかの確認が先です。'],
+      ['去年の似た会には何人来たか？',65,'参考にはなりますが、今回は参加者に直接確認できるので現在の参加人数を優先します。']
+    ]},
+    {key:'優先順位', scenario:'あなたはこの話題の解説記事を公開しました。2つの修正候補があります。本文の日付が公式資料と違い、読者が締め切りを間違える恐れがあります。もう1つは、装飾画像の色が予定と違う点で、文字は読めます。今使える5分では片方しか直せません。', question:'先に直す箇所を決めるうえで、最も重要な問いは？', choices:[
+      ['読者が誤った日付で行動するのを防ぐには、どこを直すべきか？',100,'日付の誤りは読者の行動に影響します。読める装飾画像の色より、本文の日付を先に修正します。'],
+      ['装飾画像をもっと目立つ色にできるか？',35,'見た目の改善より、誤った締め切りを伝える状態の解消が先です。'],
+      ['どちらの修正が担当者の好みに合うか？',20,'担当者の好みでは、読者への影響を比較できません。'],
+      ['次の記事はどの話題を扱うべきか？',30,'次の記事より、今公開されている誤情報への対応が先です。']
+    ]}
   ];
-  function dailyLens(topic,idx){const s=String(topic);if(/台風|地震|津波|大雨|警報|災害|猛暑|大雪/.test(s))return DAILY_LENSES.find(x=>x.key==='safety');const base=hashText(s+idx)%7;return DAILY_LENSES[base];}
   function buildDailyQuestions(payload){
     return (payload.topics||[]).slice(0,12).map((topic,idx)=>{
-      const t=dailyLens(topic,idx); const options=[{text:t.issue,score:100,feedback:t.reason,tier:'best',axisScores:[94,91,95],axisLevels:['非常に高い','非常に高い','非常に高い']}];
-      t.alts.forEach((text,i)=>{const score=t.scores[i];const base=score>=75?[78,75,80]:score>=45?[60,55,58]:[35,30,28];options.push({text,score,feedback:score>=75?'有力な問いだが、この状況では最優先の判断より一段後に置くと整理しやすい。':score>=45?'関連はあるが、最初に置くと調査範囲が広がりやすい。':'話題性や印象を判断基準にしており、重要な意思決定につながりにくい。',tier:score>=75?'good':score>=45?'weak':'poor',axisScores:base,axisLevels:base.map(v=>v>=70?'高い':v>=50?'中程度':'低い')});});
-      const shuffled=shuffle(options);return{id:`daily-${payload.updatedAt}-${idx}-${t.key}`,category:'時事イシュー',categoryIcon:'📰',scenario:`Google Trends（日本）で「${topic}」への検索関心が高まっています。現時点で分かるのは「注目が増えている」ことまでで、背景や影響は問題文だけでは確定していません。`,prompt:'この話題で、いちばん先に答えるべき問いはどれ？',options:shuffled,axisMeta:t.axes.map(([label,meaning])=>({label,meaning})),issueLabel:`時事イシュー — ${t.key}`,issue:t.issue,principle:`トレンド「${topic}」では、${t.reason}`,variant:`時事・${t.key}`};
+      const c=DAILY_CASES[(idx+hashText(payload.updatedAt||''))%DAILY_CASES.length];
+      return {id:`daily-v2-${payload.updatedAt}-${idx}`,category:'時事イシュー',categoryIcon:'📰',
+        scenario:`話題の入口：「${topic}」（Google Trends 日本・取得日 ${payload.updatedAt}）。\n\n【ここからは練習用の仮定】実際のニュースや検索増加の理由を説明するものではありません。予備知識は不要です。\n\n${c.scenario}`,
+        prompt:c.question,options:shuffle(c.choices.map(([text,score,feedback])=>({text,score,feedback,tier:score===100?'best':score>=60?'good':'weak',axisScores:[score,score,score],axisLevels:Array(3).fill(score===100?'高い':score>=60?'中程度':'低い')}))),
+        axisMeta:[{label:'目的への適合',meaning:'問題文で決めたいことに直接つながるか。'},{label:'条件との整合',meaning:'提示された事実と条件を使っているか。'},{label:'優先する理由',meaning:'他の選択肢より先に確認する根拠があるか。'}],
+        issueLabel:`今回の主要イシュー — ${c.key}`,issue:c.choices[0][0],principle:c.choices[0][2],variant:`練習・${c.key}`};
     });
   }
-  async function loadDaily(){let payload=FALLBACK_DAILY,live=false;if(['http:','https:'].includes(location.protocol)){try{const d=new Date(),day=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;const res=await fetch(`daily-issues.json?d=${encodeURIComponent(day)}`,{cache:'no-store'});if(res.ok){const c=await res.json();if(Array.isArray(c.topics)&&c.topics.length){payload=c;live=c.mode==='live';}}}catch(_){}}dailyPayload=payload;dailyQuestions=buildDailyQuestions(payload);renderDaily(live);}
-  function renderDaily(live){$('#dailyDate').textContent=dailyPayload.updatedAt||'--';const box=$('#dailyTopics');box.innerHTML='';(dailyPayload.topics||[]).slice(0,5).forEach(topic=>{const el=document.createElement('span');el.className='daily-topic';el.textContent=topic;box.append(el);});$('#dailyStatus').textContent=live?`Google Trends Japanを元に自動更新。今日は${dailyQuestions.length}問。問題ごとに「事実確認・原因・影響・意思決定・不確実性」など論点が変化します。`:`このダウンロード版は${dailyPayload.updatedAt}の同梱データです。公開版では無料の定期更新で毎日差し替えできます。`;$('#dailyStartBtn').disabled=!dailyQuestions.length;}
+  function japanDay(){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());}
+  function validDaily(p){return p&&p.mode==='live'&&/^\d{4}-\d{2}-\d{2}$/.test(p.updatedAt)&&p.updatedAt<=japanDay()&&Array.isArray(p.topics)&&p.topics.length>=5&&p.topics.every(t=>typeof t==='string'&&t.length>0&&t.length<=200);}
+  async function loadDaily(){
+    let payload=FALLBACK_DAILY;
+    try{const cached=JSON.parse(readStore('issue-quest-daily-v2'));if(validDaily(cached))payload=cached;}catch(_){}
+    if(['http:','https:'].includes(location.protocol)){
+      // Raw data is served directly: an Actions token commit does not trigger Pages builds.
+      const urls=['https://raw.githubusercontent.com/Issuequest-lab/issue-quest/main/daily-issues.json','daily-issues.json'];
+      for(const url of urls){
+        const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),7000);
+        try{const res=await fetch(`${url}?t=${Date.now()}`,{cache:'no-store',signal:controller.signal});if(!res.ok)continue;
+          const p=await res.json();if(validDaily(p)&&(!validDaily(payload)||(p.fetchedAt||p.updatedAt)>=(payload.fetchedAt||payload.updatedAt)))payload=p;
+          if(validDaily(payload)&&payload.updatedAt===japanDay())break;
+        }catch(_){}finally{clearTimeout(timeout);}
+      }
+    }
+    if(validDaily(payload))writeStore('issue-quest-daily-v2',JSON.stringify(payload));
+    dailyPayload=payload;dailyQuestions=buildDailyQuestions(payload);renderDaily();
+  }
+  function renderDaily(){
+    $('#dailyDate').textContent=dailyPayload.updatedAt||'--';
+    const box=$('#dailyTopics');box.innerHTML='';(dailyPayload.topics||[]).slice(0,5).forEach(topic=>{const el=document.createElement('span');el.className='daily-topic';el.textContent=topic;box.append(el);});
+    const current=validDaily(dailyPayload)&&dailyPayload.updatedAt===japanDay();
+    $('#dailyStatus').textContent=(current?`日本時間 ${dailyPayload.updatedAt} の話題・${dailyQuestions.length}問。`:`更新が遅れています。最終取得日 ${dailyPayload.updatedAt} の話題で練習できます。`)+' 毎朝更新予定（実行時刻は前後します）。問題は話題を入口にした架空の練習です。ニュースの予備知識は不要です。';
+    $('#dailyStartBtn').disabled=!dailyQuestions.length;
+  }
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden&&dailyPayload.updatedAt!==japanDay())loadDaily();});
 
   function restoreSaved(saved){
     let session=[];if(saved.sessionData?.kind==='fixed')session=(saved.sessionData.ids||[]).map(id=>QUESTION_MAP.get(String(id))).filter(Boolean);else if(saved.sessionData?.kind==='daily')session=Array.isArray(saved.sessionData.questions)?saved.sessionData.questions:[];if(!session.length)return false;
