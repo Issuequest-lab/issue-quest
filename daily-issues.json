@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-09-19",
-  "fetchedAt": "2026-09-19T03:27:55.324721+09:00",
+  "fetchedAt": "2026-09-19T05:52:20.221395+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "黒田勇樹",
-    "レゼ編",
-    "バイエルン 対 ウニオン・ベルリン",
-    "エドウィン ディアス",
-    "渡邊渚",
-    "ノート",
-    "ヴォルフスブルク 対 ダルムシュタット",
-    "遺書",
-    "レートチェック",
-    "オールナイトニッポン"
+    "bayern vs union berlin",
+    "大の里泰輝",
+    "ローラ",
+    "jra",
+    "ロシア",
+    "日曜劇場",
+    "abema",
+    "富澤たけし 病気",
+    "大和物流",
+    "brentford vs chelsea"
   ]
 }
