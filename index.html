@@ -603,7 +603,35 @@ body.text-large .daily-copy, body.text-large .hero-copy, body.text-large .meter-
   .profile-row { grid-template-columns:74px 1fr 34px; }
 }
 
-  </style>
+/* Timed questions: reserve space for an always-visible status bar. */
+body.quiz-active .site-header { display: none; }
+#quizScreen { padding-top: var(--quiz-bar-height, 112px); }
+#quizScreen .quiz-topbar {
+  position: fixed; top: 0; left: 50%; transform: translateX(-50%);
+  width: min(920px, calc(100% - 32px)); z-index: 60;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) 8px 10px;
+  margin: 0; background: var(--bg); border-bottom: 1px solid var(--line);
+  box-shadow: 0 5px 15px rgba(0,0,0,.25); gap: 8px;
+}
+#questionCard, #feedbackPanel { scroll-margin-top: calc(var(--quiz-bar-height, 112px) + 12px); }
+#questionCard h2 { margin: 0 0 12px; }
+#questionCard .question-meta { margin-bottom: 12px; }
+#questionCard .scenario-label { margin: 12px 0 5px; }
+#scenarioText { margin-bottom: 18px; }
+#scenarioText mark { background: transparent; color: var(--accent); font-weight: 800; }
+.question-details { margin-top: 16px; color: var(--muted); font-size: 12px; }
+.question-details summary { cursor: pointer; padding: 8px 0; }
+.question-details p { white-space: pre-line; }
+.timer.critical { transform: none; }
+@media (max-width: 620px) {
+  #quizScreen .streak { grid-column: 1 / -1; grid-row: 2; font-size: 11px; }
+  #quizScreen .streak strong { font-size: 14px; }
+  #quizScreen .progress-meta { flex-wrap: wrap; gap: 0 8px; }
+  #questionCard { padding: 18px; }
+  #questionCard .scenario-text { font-size: 16px; line-height: 1.65; }
+}
+
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -724,15 +752,16 @@ body.text-large .daily-copy, body.text-large .hero-copy, body.text-large .meter-
       </div>
 
       <article id="questionCard" class="question-card">
+        <h2 id="quizPrompt">いちばん先に答えるべき問いはどれ？</h2>
         <div class="question-meta">
           <span id="categoryChip" class="chip">カテゴリ</span>
           <span id="variantChip" class="chip subtle">通常</span><span id="bonusChip" class="chip bonus-chip" hidden>BONUS ISSUE</span>
         </div>
-        <p class="scenario-label">状況</p>
+        <p class="scenario-label">判断に必要な状況・条件</p>
         <p id="scenarioText" class="scenario-text"></p>
-        <h2 id="quizPrompt">いちばん先に答えるべき問いはどれ？</h2>
         <div id="optionsList" class="options-list" role="radiogroup" aria-labelledby="quizPrompt"></div>
         <button id="judgeBtn" class="primary-button" type="button">判定する</button>
+        <details id="questionDetails" class="question-details" hidden><summary>話題・取得日・練習について</summary><p id="questionDetailsText"></p></details>
       </article>
 
       <section id="feedbackPanel" class="feedback-panel" aria-live="polite" hidden>
@@ -826,7 +855,7 @@ body.text-large .daily-copy, body.text-large .hero-copy, body.text-large .meter-
   </dialog>
 
   <footer class="site-footer">
-    <p>ISSUE QUEST v4 — Independent learning game. Not affiliated with any book, author, or publisher.</p>
+    <p>ISSUE QUEST v4.1 — Independent learning game. Not affiliated with any book, author, or publisher.</p>
   </footer>
 
   <script>
@@ -976,8 +1005,10 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
   }
 
   function stopTimer(){ if(state.timerId){clearInterval(state.timerId);state.timerId=null;} hideCountdown(); }
-  function showScreen(name){ if(name!=='quiz')stopTimer(); Object.values(screens).forEach(el=>el.classList.remove('active')); screens[name].classList.add('active'); window.scrollTo({top:0,behavior:'smooth'}); }
-  function scrollToQuestionTop(){ requestAnimationFrame(()=>$('#questionCard')?.scrollIntoView({behavior:'smooth',block:'start'})); }
+  function showScreen(name){ document.body.classList.toggle('quiz-active',name==='quiz'); if(name!=='quiz')stopTimer(); Object.values(screens).forEach(el=>el.classList.remove('active')); screens[name].classList.add('active'); window.scrollTo({top:0,behavior:'smooth'}); }
+  function scrollToQuestionTop(){ requestAnimationFrame(()=>{syncQuizBarHeight();$('#questionCard')?.scrollIntoView({behavior:'instant',block:'start'});}); }
+  function syncQuizBarHeight(){const bar=$('.quiz-topbar');if(bar?.offsetHeight)document.documentElement.style.setProperty('--quiz-bar-height',`${bar.offsetHeight+12}px`);}
+  new ResizeObserver(syncQuizBarHeight).observe($('.quiz-topbar'));
 
   function uniqueCategories(){ const map=new Map(); QUESTIONS.forEach(q=>{if(!map.has(q.category))map.set(q.category,{name:q.category,icon:q.categoryIcon,count:0});map.get(q.category).count++;}); return [...map.values()]; }
   function renderCategories(){
@@ -1004,16 +1035,7 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
 
   function prepareQuestion(original){
     const q=deepClone(original); if(!Array.isArray(q.options)) return q;
-    const maxLen=Math.max(...q.options.map(o=>String(o.text).length));
-    const suffixes=['それを今、最優先の判断に置くべきか？','その確認を先に置くと次の行動は本当に変わるか？','それを最初に決める価値は十分にあるか？'];
-    q.options.forEach((o,i)=>{
-      let text=String(o.text);
-      if(maxLen-text.length>=10){
-        const base=text.replace(/[？?]\s*$/,'');
-        text=`${base}。${suffixes[(hashText(String(q.id)+':'+i))%suffixes.length]}`;
-      }
-      o.displayText=text;
-    });
+    q.options.forEach(o=>{o.displayText=String(o.text);});
     return q;
   }
 
@@ -1041,13 +1063,31 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
     const labels=$$('#optionsList .option-item label'); labels.forEach(l=>l.style.minHeight='');
     const max=Math.max(0,...labels.map(l=>l.getBoundingClientRect().height)); if(max)labels.forEach(l=>l.style.minHeight=`${Math.ceil(max)}px`);
   }
+  function renderScenario(q){
+    let scenario=q.scenario||'', details=q.dailyContext||'';
+    // Existing saved sessions may still include the old introductory paragraphs.
+    if(q.category==='時事イシュー' && scenario.startsWith('話題の入口：')){
+      const parts=scenario.split('\n\n');
+      if(parts.length>=3){details=parts.slice(0,2).join('\n\n');scenario=parts.slice(2).join('\n\n');}
+    }
+    const text=$('#scenarioText'); text.replaceChildren();
+    const highlights=q.highlights||[];
+    const pattern=highlights.length?new RegExp('('+highlights.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','g'):null;
+    for(const part of pattern?scenario.split(pattern):[scenario]){
+      if(highlights.includes(part)){const mark=document.createElement('mark');mark.textContent=part;text.append(mark);}
+      else text.append(document.createTextNode(part));
+    }
+    $('#questionDetails').hidden=!details;$('#questionDetails').open=false;
+    $('#questionDetailsText').textContent=details;
+    if(details)$('#variantChip').textContent='架空の練習';
+  }
   function renderQuestion(opts={}){
     stopTimer(); const raw=state.session[state.index]; if(!raw)return finishSession(); const q=prepareQuestion(raw);
     const restoreAnswered=Boolean(opts.restoreAnswered&&state.answered&&state.lastAnswer);
     if(!restoreAnswered){state.answered=false;state.lastAnswer=null;state.phase='question';}
     $('#feedbackPanel').hidden=true; $('#judgeBtn').disabled=restoreAnswered; updateTopbar();
     $('#categoryChip').textContent=`${q.categoryIcon} ${q.category}`; $('#variantChip').textContent=q.variant||'通常'; $('#bonusChip').hidden=!state.bonusActive; $('#questionCard').classList.toggle('bonus-mode',state.bonusActive);
-    $('#scenarioText').textContent=q.scenario; $('#quizPrompt').textContent=q.prompt;
+    renderScenario(q); $('#quizPrompt').textContent=q.prompt;
     const list=$('#optionsList'); list.innerHTML='';
     q.options.forEach((option,idx)=>{
       const item=document.createElement('div');item.className='option-item'; const input=document.createElement('input');input.type='radio';input.name='issue-option';input.id=`option-${idx}`;input.value=String(idx);
@@ -1066,8 +1106,7 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
       state.timeRemaining-=1;updateTimerDisplay();if(state.timeRemaining<=0){stopTimer();resolveAnswer(null,true);}
     },1000);
   }
-  function updateTimerDisplay(){const r=Math.max(0,state.timeRemaining),wrap=$('#timerWrap');$('#timerText').textContent=String(r);wrap.classList.toggle('urgent',r<=10&&r>5);wrap.classList.toggle('critical',r<=5);if(r<=10&&r>0)showCountdown(r);else hideCountdown();}
-  function showCountdown(r){const overlay=$('#countdownOverlay'),big=$('#countdownBig');overlay.hidden=false;big.textContent=String(r);big.style.setProperty('--countdown-size',`${80+(10-r)*10}px`);big.classList.toggle('critical',r<=5);big.animate?.([{transform:'scale(.82)',opacity:.35},{transform:'scale(1.08)',opacity:1,offset:.45},{transform:'scale(1)',opacity:.92}],{duration:420,easing:'cubic-bezier(.2,.8,.2,1)'});}
+  function updateTimerDisplay(){const r=Math.max(0,state.timeRemaining),wrap=$('#timerWrap');$('#timerText').textContent=String(r);wrap.classList.toggle('urgent',r<=10&&r>5);wrap.classList.toggle('critical',r<=5);hideCountdown();}
   function hideCountdown(){const o=$('#countdownOverlay');if(o)o.hidden=true;}
 
   function judge(){if(state.answered)return;const selected=$('input[name="issue-option"]:checked');if(!selected){$('#judgeBtn').animate?.([{transform:'translateX(-4px)'},{transform:'translateX(4px)'},{transform:'translateX(0)'}],{duration:180});return;}resolveAnswer(Number(selected.value),false);}
@@ -1133,31 +1172,31 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
   function quitSession(){if(!state.session.length||state.index===0||window.confirm('現在のセッションを終了して設定画面に戻りますか？')){stopTimer();clearActiveSession();state.phase='idle';showScreen('home');refreshResumeBanner();}}
 
   const DAILY_CASES = [
-    {key:'事実確認', scenario:'あなたは紹介記事の担当です。今日中に記事を公開します。手元には「新しい発表があった」という匿名投稿だけがあり、発表元の資料は未確認です。記事の見出しや配信先は決まっています。まず、発表があったと記事に書けるかを判断したい状況です。', question:'記事に書く前に、最初に確かめることは？', choices:[
+    {key:'事実確認', rubric:[[100, 100, 100], [20, 30, 10], [40, 70, 10], [30, 40, 20]], scenario:"紹介記事を今日中に公開します。「新しい発表があった」という匿名投稿だけがあり、公式資料は未確認。見出し・配信先は決まっています。発表があったと記事に書けるかを判断します。", highlights:["今日中", "匿名投稿だけ", "公式資料は未確認"], question:'記事に書く前に、最初に確かめることは？', choices:[
       ['発表元の公式資料に、その発表と日付が載っているか？',100,'発表があったと書くには、その事実の確認が先です。公式資料で内容と日付を確認してから掲載を判断します。'],
       ['その投稿が何回共有されているか？',20,'共有数が多くても発表が事実だとは確認できません。'],
       ['記事をどの時間帯に配信すれば読まれるか？',40,'配信時間より、掲載する発表が確認できるかが先です。'],
       ['読者がその発表に賛成しているか？',30,'賛否を調べても、発表の有無は確かめられません。']
     ]},
-    {key:'切り分け', scenario:'あなたは検索増加のきっかけを調べています。仮説は「テレビ放送」か「公式発表」の2つに絞りました。放送は昨日18時、発表は昨日21時です。ほかの大きな出来事はないものとします。検索が増え始めた時刻は未確認ですが、時間別の記録をすぐ見られます。', question:'2つの仮説を絞るため、最初に確かめることは？', choices:[
+    {key:'切り分け', rubric:[[100, 100, 100], [30, 40, 20], [40, 60, 20], [45, 60, 30]], scenario:"検索増加の原因候補は、昨日18時のテレビ放送と21時の公式発表。ほかに大きな出来事はないとします。増加開始時刻は未確認ですが、時間別の検索記録をすぐ確認できます。", highlights:["18時", "21時", "増加開始時刻は未確認", "すぐ確認できます"], question:'2つの仮説を絞るため、最初に確かめることは？', choices:[
       ['検索が増え始めたのは18時より前、18〜21時、21時以降のどこか？',100,'18〜21時に増えていれば、21時の発表は増加開始の原因にはできません。時刻だけで原因を断定はできませんが、候補を絞れます。'],
       ['テレビ放送の内容に賛成する人は何人いるか？',30,'賛否の人数では、どちらが増加に先行したか分かりません。'],
       ['来月も検索数が高いまま続くか？',40,'持続性より、今回の増加開始と2つの出来事の前後関係が先です。'],
       ['公式発表の投稿には何件の感想があるか？',45,'反応数だけでは、発表より前に増えていたかを切り分けられません。']
     ]},
-    {key:'影響範囲', scenario:'あなたは案内窓口の担当です。この話題に関する手続き変更が来月から実施されることは、公式資料で確認済みです。既存利用者だけに案内するか、新規利用者にも案内するかを今日決めます。対象者の条件は同じ資料に載っていますが、まだ読んでいません。', question:'案内を送る相手を決めるため、最初に確かめることは？', choices:[
+    {key:'影響範囲', rubric:[[100, 100, 100], [20, 30, 10], [40, 70, 10], [30, 40, 20]], scenario:"来月の手続き変更は公式資料で確認済み。既存利用者だけに案内するか、新規利用者にも送るかを今日決めます。対象条件は同じ資料にありますが、まだ読んでいません。", highlights:["既存利用者だけ", "新規利用者にも", "今日", "対象条件"], question:'案内を送る相手を決めるため、最初に確かめることは？', choices:[
       ['公式資料では、変更の対象を既存・新規のどちらと定めているか？',100,'決めたいのは送付先です。対象条件を読めば、誰に案内が必要かを判断できます。'],
       ['この話題の検索順位は昨日より上がったか？',20,'検索順位では手続き変更の対象者は分かりません。'],
       ['案内文の文字色は何色が読みやすいか？',40,'読みやすさも大切ですが、今決める送付先の根拠にはなりません。'],
       ['変更の発表がSNSで好評か？',30,'好評かどうかで公式の対象条件は変わりません。']
     ]},
-    {key:'判断を変える条件', scenario:'あなたはこの話題の解説会を企画しています。会場費は2万円、参加費は1人千円で、ほかの費用はありません。赤字になるなら開催しない方針です。明日が会場予約の期限で、確実に参加する人数はまだ集計していません。参加希望者には今日確認できます。', question:'開催するかを決めるため、最初に確かめることは？', choices:[
+    {key:'判断を変える条件', rubric:[[100, 100, 100], [40, 60, 20], [35, 60, 10], [75, 65, 55]], scenario:"解説会の会場費は2万円、参加費は1人千円。ほかの費用はなく、赤字なら開催しません。予約期限は明日。確実に参加する人数は未集計ですが、希望者に今日確認できます。", highlights:["2万円", "1人千円", "赤字なら開催しません", "今日確認できます"], question:'開催するかを決めるため、最初に確かめることは？', choices:[
       ['参加費を支払って参加する人が20人以上いるか？',100,'千円×20人で会場費2万円を賄えます。赤字を避けるという条件に直接つながる確認です。'],
       ['全国でこの話題を検索した人数は多いか？',40,'全国の検索数から、この会に参加費を払う人数は分かりません。'],
       ['会のタイトルにはどの言葉を使うか？',35,'タイトルの検討より、開催条件を満たせるかの確認が先です。'],
       ['去年の似た会には何人来たか？',65,'参考にはなりますが、今回は参加者に直接確認できるので現在の参加人数を優先します。']
     ]},
-    {key:'優先順位', scenario:'あなたはこの話題の解説記事を公開しました。2つの修正候補があります。本文の日付が公式資料と違い、読者が締め切りを間違える恐れがあります。もう1つは、装飾画像の色が予定と違う点で、文字は読めます。今使える5分では片方しか直せません。', question:'先に直す箇所を決めるうえで、最も重要な問いは？', choices:[
+    {key:'優先順位', rubric:[[100, 100, 100], [35, 60, 10], [20, 30, 10], [30, 50, 10]], scenario:"公開記事に2つの修正候補があります。①日付が公式資料と違い、読者が締め切りを間違える恐れ。②装飾画像の色違い（文字は読める）。使える時間は5分で、片方しか直せません。", highlights:["締め切りを間違える恐れ", "文字は読める", "5分", "片方しか直せません"], question:'先に直す箇所を決めるうえで、最も重要な問いは？', choices:[
       ['読者が誤った日付で行動するのを防ぐには、どこを直すべきか？',100,'日付の誤りは読者の行動に影響します。読める装飾画像の色より、本文の日付を先に修正します。'],
       ['装飾画像をもっと目立つ色にできるか？',35,'見た目の改善より、誤った締め切りを伝える状態の解消が先です。'],
       ['どちらの修正が担当者の好みに合うか？',20,'担当者の好みでは、読者への影響を比較できません。'],
@@ -1165,11 +1204,11 @@ window.ISSUE_QUEST_QUESTIONS = [{"id":1,"category":"デバッグ","categoryIcon"
     ]}
   ];
   function buildDailyQuestions(payload){
-    return (payload.topics||[]).slice(0,12).map((topic,idx)=>{
+    return (payload.topics||[]).slice(0,DAILY_CASES.length).map((topic,idx)=>{
       const c=DAILY_CASES[(idx+hashText(payload.updatedAt||''))%DAILY_CASES.length];
-      return {id:`daily-v2-${payload.updatedAt}-${idx}`,category:'時事イシュー',categoryIcon:'📰',
-        scenario:`話題の入口：「${topic}」（Google Trends 日本・取得日 ${payload.updatedAt}）。\n\n【ここからは練習用の仮定】実際のニュースや検索増加の理由を説明するものではありません。予備知識は不要です。\n\n${c.scenario}`,
-        prompt:c.question,options:shuffle(c.choices.map(([text,score,feedback])=>({text,score,feedback,tier:score===100?'best':score>=60?'good':'weak',axisScores:[score,score,score],axisLevels:Array(3).fill(score===100?'高い':score>=60?'中程度':'低い')}))),
+      return {id:`daily-v3-${payload.updatedAt}-${idx}`,category:'時事イシュー',categoryIcon:'📰',
+        scenario:c.scenario, highlights:c.highlights, dailyContext:`話題の入口：「${topic}」（Google Trends 日本・取得日 ${payload.updatedAt}）。\n\nこれは架空の練習問題です。実際のニュースや検索増加の理由を説明するものではありません。予備知識は不要です。`,
+        prompt:c.question,options:shuffle(c.choices.map(([text,score,feedback],i)=>({text,score,feedback,tier:score===100?'best':score>=60?'good':'weak',axisScores:c.rubric[i],axisLevels:c.rubric[i].map(v=>v>=70?'高い':v>=50?'中程度':'低い')}))),
         axisMeta:[{label:'目的への適合',meaning:'問題文で決めたいことに直接つながるか。'},{label:'条件との整合',meaning:'提示された事実と条件を使っているか。'},{label:'優先する理由',meaning:'他の選択肢より先に確認する根拠があるか。'}],
         issueLabel:`今回の主要イシュー — ${c.key}`,issue:c.choices[0][0],principle:c.choices[0][2],variant:`練習・${c.key}`};
     });
