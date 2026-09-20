@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-09-21",
-  "fetchedAt": "2026-09-21T03:26:49.643566+09:00",
+  "fetchedAt": "2026-09-21T05:51:58.720586+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "リール サッカー",
+    "태풍 두쥐안",
+    "台風情報",
+    "千葉市 天気",
     "リーグアン",
     "real madrid",
     "田中碧",
     "エンドゲーム アンコール",
     "ヨーロッパ",
     "石橋静河",
-    "ダウンタイム ネタバレ",
-    "リヴァプール",
-    "始球式 キャバ嬢"
+    "ダウンタイム ネタバレ"
   ]
 }
