@@ -6,7 +6,7 @@ const dayJst=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format
 const time=s=>new Date(s).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',hour12:false})+' JST';
 const jpDate=s=>{const [y,m,d]=s.split('-').map(Number);return `${y}年${m}月${d}日`;};
 function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
-async function read(path){for(const base of [raw,'./']){try{const r=await fetch(base+path+'?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(r.ok)return await r.json();}catch(e){}}throw Error('通信できませんでした。時間をおいて再読み込みしてください。');}
+async function read(path){const results=await Promise.all([raw,'./'].map(async base=>{try{const r=await fetch(base+path+'?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(r.ok)return await r.json();}catch(e){}return null;}));const available=results.filter(Boolean),stamp=d=>d.updatedAt||d.fetchedAt||d.snapshots?.at(-1)?.fetchedAt||'';if(available.length)return available.sort((a,b)=>stamp(b).localeCompare(stamp(a)))[0];throw Error('通信できませんでした。時間をおいて再読み込みしてください。');}
 function options(el,values,label=x=>x){el.replaceChildren(...values.map(v=>{const o=node('option',label(v));o.value=v;return o;}));}
 function reset(){selected.clear();$('#compareArea').hidden=true;updateSelection();}
 function updateSelection(){const n=selected.size;$('#selectedCount').textContent=n===0?'2件選ぶと比較できます':`比較に選択：${n} / 3件`;$('#compareBtn').disabled=n<2;$('#clearBtn').hidden=n===0;}
