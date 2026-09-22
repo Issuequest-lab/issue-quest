@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-23",
+  "snapshots": [
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-23",
+      "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+      "sources": [
+        {
+          "id": "asahi-paper",
+          "name": "朝日新聞",
+          "country": "日本",
+          "kind": "paper",
+          "lang": "ja",
+          "edition": "朝刊・公式記事一覧（地域版未確認）",
+          "sourceUrl": "https://www.asahi.com/shimen/20260923/",
+          "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+          "articles": [],
+          "status": "unavailable",
+          "error": "取得または掲載位置・日付の確認に失敗しました"
+        },
+        {
+          "id": "guardian-paper",
+          "name": "The Guardian",
+          "country": "英国",
+          "kind": "paper",
+          "lang": "en",
+          "edition": "公式紙面記事一覧（地域版未確認）",
+          "sourceUrl": "https://www.theguardian.com/theguardian",
+          "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+          "articles": [
+            {
+              "id": "549937e17fb0c3e6",
+              "titleOriginal": "UK to give support to Saudi jets in attempt to counter Houthi fighters",
+              "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+              "publicationDate": "2026-09-22",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "Houthi戦闘機に対抗するためにサウジアラビアのジェット機を支援する英国",
+              "translation": "machine"
+            },
+            {
+              "id": "aec477bc94e5cee0",
+              "titleOriginal": "Martha’s rule to be expanded to every A&E in England",
+              "url": "https://www.theguardian.com/society/2026/sep/22/marthas-rule-expanded-nhs-england",
+              "publicationDate": "2026-09-22",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "イングランドのすべてのA&Eに拡大されるマーサのルール",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": "2026-09-22"
+        },
+        {
+          "id": "mainichi-paper",
+          "name": "毎日新聞",
+          "country": "日本",
+          "kind": "paper",
+          "lang": "ja",
+          "edition": "東京朝刊",
+          "sourceUrl": "https://mainichi.jp/shimen/tokyo/m/?sd=20260923",
+          "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+          "articles": [],
+          "status": "unavailable",
+          "error": "取得または掲載位置・日付の確認に失敗しました"
+        },
+        {
+          "id": "mainichi-web",
+          "name": "毎日新聞",
+          "country": "日本",
+          "kind": "web",
+          "lang": "ja",
+          "edition": "日本向けWeb",
+          "sourceUrl": "https://mainichi.jp/",
+          "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+          "articles": [
+            {
+              "id": "22f74477f29080b1",
+              "titleOriginal": "トランプ氏、対イラン「大きな決断を控えている」 国連総会演説",
+              "url": "https://mainichi.jp/articles/20260923/k00/00m/030/003000c",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "トランプ氏、対イラン「大きな決断を控えている」 国連総会演説",
+              "translation": "original-ja"
+            },
+            {
+              "id": "483881f8430062d9",
+              "titleOriginal": "謝罪も「試合影響ない」 相次ぐミス、アジア大会組織委の釈明は",
+              "url": "https://mainichi.jp/articles/20260922/k00/00m/050/146000c",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "謝罪も「試合影響ない」 相次ぐミス、アジア大会組織委の釈明は",
+              "translation": "original-ja"
+            },
+            {
+              "id": "a731335fdea02f87",
+              "titleOriginal": "日本が約7億人の胃袋をつかむには 専門家が語る東南アジア戦略",
+              "url": "https://mainichi.jp/articles/20260919/k00/00m/030/055000c",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "日本が約7億人の胃袋をつかむには 専門家が語る東南アジア戦略",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "guardian-web",
+          "name": "The Guardian",
+          "country": "英国",
+          "kind": "web",
+          "lang": "en",
+          "edition": "英国向けWeb",
+          "sourceUrl": "https://www.theguardian.com/uk",
+          "fetchedAt": "2026-09-23T01:32:00.821850+09:00",
+          "articles": [
+            {
+              "id": "9820d3850777e874",
+              "titleOriginal": "United Nations Superpowers cannot solve world’s problems, UN chief says in final general assembly address",
+              "url": "https://www.theguardian.com/world/2026/sep/22/un-chief-antonio-guterres-final-general-assembly-address",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-20",
+              "titleJa": "国連のスーパーパワーは世界の問題を解決できない、と国連事務総長は最終総会での演説で述べた",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        }
+      ]
+    }
+  ]
+}
