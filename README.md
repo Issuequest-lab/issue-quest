@@ -36,3 +36,14 @@ python3 -m http.server 8765
 - Added individual reasons for every answer and a stale-data notice.
 - Refreshes topics on return to the tab after a Japanese date change; active
   sessions retain their questions until completion.
+
+
+## Newspaper comparison (v4.2)
+
+Open `newspapers.html`. Japanese headlines are primary; originals are collapsed and source links secondary. Select two or three articles to compare. Paper and Web records never substitute for each other. The initial sources are Asahi and Mainichi paper lists, the Guardian paper list, Mainichi Web and Guardian UK Web. These are selected from official listings, not a claim to cover every newspaper. Top placement is not inferred: current records explicitly say paper-listed / web-featured. Local print editions remain unverified except where explicitly supplied by the source.
+
+`newspapers.yml` runs at 08:23 and 17:23 JST, subject to GitHub schedule delays. It shares the existing updater concurrency group to avoid concurrent git writes. Snapshots append to `newspapers/YYYY-MM/YYYY-MM-DD.json`, with an index for month/day selection. Month rollover needs no manual folder creation. Records preserve fetch time separately from print date. A failed source is recorded as unavailable; earlier snapshots remain accessible. Guardian Sunday can retain Saturday's issue, displayed with its true date. Data is read from raw main because bot commits do not rebuild Pages.
+
+Translations use MyMemory's public GET API, cache exact original headlines and show translation failures explicitly. No article bodies or paper images are copied. This is headline comparison, not a factual summary or automatically scored news quiz. Web article publication dates are not inferred from URL strings.
+
+Run `python -m pip install beautifulsoup4==4.14.3`, `python test_newspapers.py`, then `python update_newspapers.py`. Scheduled workflows can be disabled by GitHub after repository inactivity; check Actions when the visible fetch date is old.

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-20",
+  "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+  "sources": [
+    {
+      "id": "asahi-paper",
+      "name": "朝日新聞",
+      "country": "日本",
+      "kind": "paper",
+      "lang": "ja",
+      "edition": "朝刊・公式記事一覧（地域版未確認）",
+      "sourceUrl": "https://www.asahi.com/shimen/20260920/",
+      "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+      "articles": [
+        {
+          "id": "1a1f0f0609bd1fd6",
+          "titleOriginal": "アジア、ここでひとつに 名古屋で開幕、選手ら１．５万人超",
+          "url": "https://www.asahi.com/articles/DA3S16550541.html",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "アジア、ここでひとつに 名古屋で開幕、選手ら１．５万人超",
+          "translation": "original-ja"
+        },
+        {
+          "id": "ba3434fbff179091",
+          "titleOriginal": "最高裁調査官の報告書発見 検察の起訴無効か、８０年の判断",
+          "url": "https://www.asahi.com/articles/DA3S16550542.html",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "最高裁調査官の報告書発見 検察の起訴無効か、８０年の判断",
+          "translation": "original-ja"
+        },
+        {
+          "id": "c3e1dd9aa27a66c4",
+          "titleOriginal": "山の行楽、マダニ注意 感染症、今年も高水準",
+          "url": "https://www.asahi.com/articles/DA3S16550543.html",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "山の行楽、マダニ注意 感染症、今年も高水準",
+          "translation": "original-ja"
+        }
+      ],
+      "status": "ok",
+      "paperDate": "2026-09-20"
+    },
+    {
+      "id": "guardian-paper",
+      "name": "The Guardian",
+      "country": "英国",
+      "kind": "paper",
+      "lang": "en",
+      "edition": "公式紙面記事一覧（地域版未確認）",
+      "sourceUrl": "https://www.theguardian.com/theguardian",
+      "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+      "articles": [
+        {
+          "id": "37021ee03f99018a",
+          "titleOriginal": "Sensitive UK police data vulnerable to ‘compromise’ by US government and foreign actors",
+          "url": "https://www.theguardian.com/uk-news/2026/sep/18/sensitive-uk-police-data-vulnerable-to-compromise-by-us-government-and-foreign-actors",
+          "publicationDate": "2026-09-19",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "米国政府と外国の関係者による「侵害」を受けやすい機密性の高い英国警察データ",
+          "translation": "machine"
+        }
+      ],
+      "status": "ok",
+      "paperDate": "2026-09-19"
+    },
+    {
+      "id": "mainichi-paper",
+      "name": "毎日新聞",
+      "country": "日本",
+      "kind": "paper",
+      "lang": "ja",
+      "edition": "東京朝刊",
+      "sourceUrl": "https://mainichi.jp/shimen/tokyo/m/?sd=20260920",
+      "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+      "articles": [
+        {
+          "id": "0595908e23f5f212",
+          "titleOriginal": "10月 酒税法改正（その1） 令和のビール戦争、幕開け",
+          "url": "https://mainichi.jp/articles/20260920/ddm/001/020/130000c",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "10月 酒税法改正（その1） 令和のビール戦争、幕開け",
+          "translation": "original-ja"
+        },
+        {
+          "id": "1429d03f2094f1a6",
+          "titleOriginal": "米、グリーンランド安保管理 デンマークと調印へ",
+          "url": "https://mainichi.jp/articles/20260920/ddm/001/030/116000c",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "米、グリーンランド安保管理 デンマークと調印へ",
+          "translation": "original-ja"
+        },
+        {
+          "id": "6b9d174ee9fc7200",
+          "titleOriginal": "日銀が「レートチェック」 円急騰、一時156円台後半",
+          "url": "https://mainichi.jp/articles/20260920/ddm/001/020/113000c",
+          "publicationDate": "2026-09-20",
+          "verification": "paper-listed",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "日銀が「レートチェック」 円急騰、一時156円台後半",
+          "translation": "original-ja"
+        }
+      ],
+      "status": "ok",
+      "paperDate": "2026-09-20"
+    },
+    {
+      "id": "mainichi-web",
+      "name": "毎日新聞",
+      "country": "日本",
+      "kind": "web",
+      "lang": "ja",
+      "edition": "日本向けWeb",
+      "sourceUrl": "https://mainichi.jp/",
+      "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+      "articles": [
+        {
+          "id": "27ff01af2eee7275",
+          "titleOriginal": "アメリカでは小学生でも知ってる偉人「すーせんびー」 その素顔",
+          "url": "https://mainichi.jp/articles/20260917/k00/00m/030/142000c",
+          "publicationDate": null,
+          "verification": "web-featured",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "アメリカでは小学生でも知ってる偉人「すーせんびー」 その素顔",
+          "translation": "original-ja"
+        },
+        {
+          "id": "96bec72b1b8cf864",
+          "titleOriginal": "ラグジュアリースイート？国税当局が目を付けた聖地・高野山の今",
+          "url": "https://mainichi.jp/articles/20260909/k00/00m/040/173000c",
+          "publicationDate": null,
+          "verification": "web-featured",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "ラグジュアリースイート？国税当局が目を付けた聖地・高野山の今",
+          "translation": "original-ja"
+        },
+        {
+          "id": "ed7ea25401bbaa74",
+          "titleOriginal": "始まりは一目ぼれだった あなたに会いたくて、和菓子職人の恋",
+          "url": "https://mainichi.jp/articles/20260916/k00/00m/310/274000c",
+          "publicationDate": null,
+          "verification": "web-featured",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "始まりは一目ぼれだった あなたに会いたくて、和菓子職人の恋",
+          "translation": "original-ja"
+        }
+      ],
+      "status": "ok",
+      "paperDate": null
+    },
+    {
+      "id": "guardian-web",
+      "name": "The Guardian",
+      "country": "英国",
+      "kind": "web",
+      "lang": "en",
+      "edition": "英国向けWeb",
+      "sourceUrl": "https://www.theguardian.com/uk",
+      "fetchedAt": "2026-09-20T14:53:11.361047+09:00",
+      "articles": [
+        {
+          "id": "81175e915ab99397",
+          "titleOriginal": "Saudi Arabia Thick smoke seen near Riyadh airport as Houthis claim attack on Saudi capital",
+          "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+          "publicationDate": null,
+          "verification": "web-featured",
+          "change": "new",
+          "comparedWith": null,
+          "titleJa": "サウジアラビア、リヤド空港近くで濃い煙が見られ、フーシ派がサウジアラビアの首都を攻撃したと主張",
+          "translation": "machine"
+        }
+      ],
+      "status": "ok",
+      "paperDate": null
+    }
+  ]
+}
