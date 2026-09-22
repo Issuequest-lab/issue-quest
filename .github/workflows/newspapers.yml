@@ -1,0 +1,39 @@
+name: Update newspaper archive
+on:
+  schedule:
+    - cron: '23 23 * * *'
+    - cron: '23 8 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - update_newspapers.py
+      - test_newspapers.py
+      - .github/workflows/newspapers.yml
+permissions:
+  contents: write
+concurrency:
+  group: daily-issues
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.14.3
+      - run: python test_newspapers.py
+      - run: python update_newspapers.py
+      - name: Preserve snapshots and monthly folders
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add newspapers newspaper-index.json newspaper-latest.json newspaper-translations.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive newspaper headlines and Japanese translations (JST)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
