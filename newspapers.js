@@ -6,13 +6,13 @@ const dayJst=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format
 const time=s=>new Date(s).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',hour12:false})+' JST';
 const jpDate=s=>{const [y,m,d]=s.split('-').map(Number);return `${y}年${m}月${d}日`;};
 function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;}
-async function read(path){for(const base of [raw,'./']){try{const r=await fetch(base+path,{cache:'no-store',signal:AbortSignal.timeout(12000)});if(r.ok)return await r.json();}catch(e){}}throw Error('通信できませんでした。時間をおいて再読み込みしてください。');}
+async function read(path){for(const base of [raw,'./']){try{const r=await fetch(base+path+'?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(r.ok)return await r.json();}catch(e){}}throw Error('通信できませんでした。時間をおいて再読み込みしてください。');}
 function options(el,values,label=x=>x){el.replaceChildren(...values.map(v=>{const o=node('option',label(v));o.value=v;return o;}));}
 function reset(){selected.clear();$('#compareArea').hidden=true;updateSelection();}
 function updateSelection(){const n=selected.size;$('#selectedCount').textContent=n===0?'2件選ぶと比較できます':`比較に選択：${n} / 3件`;$('#compareBtn').disabled=n<2;$('#clearBtn').hidden=n===0;}
 function link(url,text){const a=node('a',text,'source');try{if(new URL(url).protocol!=='https:')return node('span','リンク未確認');}catch{return node('span','リンク未確認');}a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
 function verificationLabel(a){if(a.verification==='paper-top')return '一面トップ確認済み';if(a.verification==='paper-listed')return '一面掲載確認';if(a.verification==='feed-featured')return '公式フィード主要見出し';return 'Web主要見出し';}
-function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得失敗';case'date-unverified':return '発行日確認失敗';case'position-unverified':return '掲載位置確認失敗';case'no-headlines':return '見出し確認失敗';default:return '未取得';}}
+function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得失敗';case'date-unverified':return '発行日確認失敗';case'position-unverified':return '掲載位置確認失敗';case'no-headlines':return '見出し確認失敗';case'parse-failed':return '掲載内容確認失敗';default:return '未取得';}}
 function card(s,a,choosable=true){const el=node('article',undefined,'card');el.append(node('div',`${s.name} · ${s.country} · ${s.kind==='paper'?'紙面':'Web'}`,'meta'));
 el.append(node('h3',a.titleJa||'日本語訳を取得できませんでした'));
 el.append(node('span',verificationLabel(a),'tag'));
@@ -31,7 +31,7 @@ const ordered=[...groups.entries()].filter(([,els])=>els.length).sort(([a],[b])=
 for(const [region,els] of ordered){const section=node('section',undefined,'region'),h=node('h2',undefined,'region-title');h.append(document.createTextNode(region),node('span',`${els.length}件`,'region-count'));const grid=node('div',undefined,'source-grid');grid.append(...els);section.append(h,grid);area.append(section);}
 if(!area.children.length)area.append(node('p','条件に合う記事はありません。'));
 $('#latestHeading').textContent=`${jpDate(payload.date)}の新聞比較`;
-$('#status').textContent=`更新 ${time(payload.fetchedAt)} · 見出し ${articleCount}件 · 取得成功 ${successSources}媒体 · 未取得 ${failedSources}媒体`+(payload.date<dayJst()?(days[0]<dayJst()?' — 今日の記録はまだありません。':' — 過去の記録を表示中。'):'');}
+$('#status').textContent=`更新 ${time(payload.fetchedAt)} · 見出し ${articleCount}件 · 取得成功 ${successSources}取得元 · 未取得 ${failedSources}取得元`+(payload.date<dayJst()?(days[0]<dayJst()?' — 今日の記録はまだありません。':' — 過去の記録を表示中。'):'');}
 async function loadDay(){const seq=++revision;reset();payload=null;$('#cards').replaceChildren();$('#status').textContent='履歴を読み込んでいます…';try{const day=$('#day').value;let data;try{data=await read(`newspapers/${day.slice(0,7)}/${day}.json`);}catch(error){const latest=await read('newspaper-latest.json');if(latest.date!==day)throw error;data={snapshots:[latest]};}if(seq!==revision)return;options($('#snapshot'),data.snapshots.map((_,i)=>String(i)),i=>time(data.snapshots[i].fetchedAt));$('#snapshot').value=String(data.snapshots.length-1);const apply=()=>{reset();payload=data.snapshots[Number($('#snapshot').value)];render();};$('#snapshot').onchange=apply;apply();}catch(e){if(seq===revision)$('#status').textContent=e.message;}}
 function setMonth(){const month=$('#month').value;options($('#day'),days.filter(d=>d.startsWith(month)));return loadDay();}
 $('#month').onchange=setMonth;$('#day').onchange=loadDay;$('#kind').onchange=render;$('#search').oninput=render;$('#clearBtn').onclick=()=>{reset();render();};$('#compareBtn').onclick=()=>{const area=$('#comparison');area.replaceChildren(...[...selected.values()].map(({s,a})=>card(s,a,false)));$('#compareArea').hidden=false;$('#compareArea').scrollIntoView({behavior:'smooth'});};
