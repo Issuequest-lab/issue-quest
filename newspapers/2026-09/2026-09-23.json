@@ -141,6 +141,426 @@
           "paperDate": null
         }
       ]
+    },
+    {
+      "schemaVersion": 2,
+      "date": "2026-09-23",
+      "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+      "sources": [
+        {
+          "id": "asahi-paper",
+          "name": "朝日新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "paper",
+          "lang": "ja",
+          "edition": "朝刊・公式記事一覧（地域版未確認）",
+          "sourceUrl": "https://www.asahi.com/shimen/20260923/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "48ce8a1b8f5e9183",
+              "titleOriginal": "ＩＣＣ脱退呼びかけ トランプ氏、国連演説で 高市氏、制裁言及せぬ方針",
+              "url": "https://www.asahi.com/articles/DA3S16551855.html",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "ＩＣＣ脱退呼びかけ トランプ氏、国連演説で 高市氏、制裁言及せぬ方針",
+              "translation": "original-ja"
+            },
+            {
+              "id": "44d747173d4c6601",
+              "titleOriginal": "（大転換期の安全保障）新しい戦い方：１ 戦場革新、米軍がドローンに注力 ウクライナ戦争で威力発揮",
+              "url": "https://www.asahi.com/articles/DA3S16551858.html",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "（大転換期の安全保障）新しい戦い方：１ 戦場革新、米軍がドローンに注力 ウクライナ戦争で威力発揮",
+              "translation": "original-ja"
+            },
+            {
+              "id": "cb8fb4347d0d7695",
+              "titleOriginal": "台風の爪痕 神奈川",
+              "url": "https://www.asahi.com/articles/DA3S16551859.html",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "台風の爪痕 神奈川",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": "2026-09-23"
+        },
+        {
+          "id": "guardian-paper",
+          "name": "The Guardian",
+          "country": "英国",
+          "region": "英国",
+          "kind": "paper",
+          "lang": "en",
+          "edition": "公式紙面記事一覧（地域版未確認）",
+          "sourceUrl": "https://www.theguardian.com/theguardian",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "549937e17fb0c3e6",
+              "titleOriginal": "UK to give support to Saudi jets in attempt to counter Houthi fighters",
+              "url": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters",
+              "publicationDate": "2026-09-22",
+              "verification": "paper-listed",
+              "change": "same",
+              "comparedWith": "2026-09-23",
+              "titleJa": "Houthi戦闘機に対抗するためにサウジアラビアのジェット機を支援する英国",
+              "translation": "machine"
+            },
+            {
+              "id": "aec477bc94e5cee0",
+              "titleOriginal": "Martha’s rule to be expanded to every A&E in England",
+              "url": "https://www.theguardian.com/society/2026/sep/22/marthas-rule-expanded-nhs-england",
+              "publicationDate": "2026-09-22",
+              "verification": "paper-listed",
+              "change": "same",
+              "comparedWith": "2026-09-23",
+              "titleJa": "イングランドのすべてのA&Eに拡大されるマーサのルール",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": "2026-09-22"
+        },
+        {
+          "id": "mainichi-paper",
+          "name": "毎日新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "paper",
+          "lang": "ja",
+          "edition": "東京朝刊",
+          "sourceUrl": "https://mainichi.jp/shimen/tokyo/m/?sd=20260923",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "c30e01db1327fe08",
+              "titleOriginal": "台風 土砂崩れ7人死亡 5人不明 千葉・神奈川",
+              "url": "https://mainichi.jp/articles/20260923/ddm/001/040/099000c",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "台風 土砂崩れ7人死亡 5人不明 千葉・神奈川",
+              "translation": "original-ja"
+            },
+            {
+              "id": "5de85cf03fb89e69",
+              "titleOriginal": "欧州最後の秘境、狙うトランプ家（その1） ビーチ6000億円開発計画",
+              "url": "https://mainichi.jp/articles/20260923/ddm/001/030/080000c",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "欧州最後の秘境、狙うトランプ家（その1） ビーチ6000億円開発計画",
+              "translation": "original-ja"
+            },
+            {
+              "id": "febbd9b78e11c250",
+              "titleOriginal": "ICC、一貫して支持 国連演説 首相表明へ",
+              "url": "https://mainichi.jp/articles/20260923/ddm/001/010/074000c",
+              "publicationDate": "2026-09-23",
+              "verification": "paper-listed",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "ICC、一貫して支持 国連演説 首相表明へ",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": "2026-09-23"
+        },
+        {
+          "id": "asahi-web",
+          "name": "朝日新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "web",
+          "lang": "ja",
+          "edition": "日本向けWeb",
+          "sourceUrl": "https://www.asahi.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "ed9c2d9c299778d0",
+              "titleOriginal": "日米首脳が会談、高市首相「同盟の強さ示す」 ICC問題もやりとり",
+              "url": "https://www.asahi.com/articles/ASV9Q62ZXV9QUQIP04LM.html?iref=comtop_7_01",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "日米首脳が会談、高市首相「同盟の強さ示す」 ICC問題もやりとり",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "mainichi-web",
+          "name": "毎日新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "web",
+          "lang": "ja",
+          "edition": "日本向けWeb",
+          "sourceUrl": "https://mainichi.jp/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "e4a4e61277367922",
+              "titleOriginal": "日米首脳会談始まる トランプ氏「偉大な首相」と友好をアピール",
+              "url": "https://mainichi.jp/articles/20260923/k00/00m/030/006000c",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-23",
+              "titleJa": "日米首脳会談始まる トランプ氏「偉大な首相」と友好をアピール",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "yomiuri-web",
+          "name": "読売新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "web",
+          "lang": "ja",
+          "edition": "日本向けWeb",
+          "sourceUrl": "https://www.yomiuri.co.jp/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "954a7398427fd9b7",
+              "titleOriginal": "高市首相とトランプ米大統領、約３５分間会談「日米同盟の強固さを世界に示せた」…ＩＣＣ巡る率直なやりとりも",
+              "url": "https://www.yomiuri.co.jp/politics/20260923-GYT1T00082/",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "高市首相とトランプ米大統領、約３５分間会談「日米同盟の強固さを世界に示せた」…ＩＣＣ巡る率直なやりとりも",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "nikkei-web",
+          "name": "日本経済新聞",
+          "country": "日本",
+          "region": "日本",
+          "kind": "web",
+          "lang": "ja",
+          "edition": "日本向けWeb",
+          "sourceUrl": "https://www.nikkei.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "c3eb916b917f1275",
+              "titleOriginal": "日米首脳、習氏訪米前に同盟強化確認 ICC問題も協議",
+              "url": "https://www.nikkei.com/article/DGXZQOUA221I60S6A920C2000000/",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "日米首脳、習氏訪米前に同盟強化確認 ICC問題も協議",
+              "translation": "original-ja"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "guardian-web",
+          "name": "The Guardian",
+          "country": "英国",
+          "region": "英国",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://www.theguardian.com/international",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "e605f9123c23ace3",
+              "titleOriginal": "US politics live Trump defends actions in Iran and Venezuela amid rising tensions with allies",
+              "url": "https://www.theguardian.com/us-news/live/2026/sep/22/donald-trump-unga-speech-iran-middle-east-ukraine-latest-news-updates",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": "2026-09-23",
+              "titleJa": "米国の政治ライブトランプは、同盟国との緊張が高まっている中で、イランとベネズエラでの行動を擁護",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "nyt-web",
+          "name": "The New York Times",
+          "country": "米国",
+          "region": "米国",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "2af44fc063b1927d",
+              "titleOriginal": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+              "url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+              "publicationDate": null,
+              "verification": "feed-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "国連ライブアップデート：トランプ大統領がイランを脅かす中、他の指導者たちは深い分裂を警告",
+              "translation": "machine"
+            }
+          ],
+          "fallbackUsed": true,
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "ft-web",
+          "name": "Financial Times",
+          "country": "英国",
+          "region": "英国",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://www.ft.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [],
+          "status": "unavailable",
+          "errorCode": "fetch-failed",
+          "error": "取得に失敗しました"
+        },
+        {
+          "id": "reuters-web",
+          "name": "Reuters",
+          "country": "国際",
+          "region": "通信社",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://www.reuters.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [],
+          "status": "unavailable",
+          "errorCode": "fetch-failed",
+          "error": "取得に失敗しました"
+        },
+        {
+          "id": "lemonde-web",
+          "name": "Le Monde",
+          "country": "フランス",
+          "region": "欧州",
+          "kind": "web",
+          "lang": "en",
+          "edition": "英語版Web",
+          "sourceUrl": "https://www.lemonde.fr/en/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "fb1d2582cb10b154",
+              "titleOriginal": "Trump's unpredictability forces America's Asian allies to rethink security",
+              "url": "https://www.lemonde.fr/en/international/article/2026/09/22/trump-s-unpredictability-forces-america-s-asian-allies-to-rethink-security_6757827_4.html",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "トランプ氏の予測不可能性により、米国のアジアの同盟国は安全保障を再考せざるを得ない",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "aljazeera-web",
+          "name": "Al Jazeera",
+          "country": "カタール",
+          "region": "中東・グローバルサウス",
+          "kind": "web",
+          "lang": "en",
+          "edition": "英語版Web",
+          "sourceUrl": "https://www.aljazeera.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "10210915cfde4ecf",
+              "titleOriginal": "Trump threatens Iran again as Witkoff, Araghchi meet in New York",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/9/22/iran-war-live-irgc-says-us-israel-must-accept-withdrawal-from-region",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "WitkoffとAraghchiがニューヨークで会う中、トランプは再びイランを脅かす",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        },
+        {
+          "id": "scmp-web",
+          "name": "South China Morning Post",
+          "country": "香港",
+          "region": "アジア",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://www.scmp.com/",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [],
+          "status": "unavailable",
+          "errorCode": "position-unverified",
+          "error": "主要見出しの掲載位置を確認できません"
+        },
+        {
+          "id": "bbc-web",
+          "name": "BBC News",
+          "country": "英国",
+          "region": "英国",
+          "kind": "web",
+          "lang": "en",
+          "edition": "国際版Web",
+          "sourceUrl": "https://www.bbc.com/news",
+          "fetchedAt": "2026-09-23T07:00:59.809413+09:00",
+          "articles": [
+            {
+              "id": "8f8f16e00dbe5a87",
+              "titleOriginal": "Trump tells UN he has 'big decision' on whether to 'annihilate' Iran or make peace deal",
+              "url": "https://www.bbc.com/news/articles/c52e0ywl9pr7o",
+              "publicationDate": null,
+              "verification": "web-featured",
+              "change": "new",
+              "comparedWith": null,
+              "titleJa": "トランプ米大統領、イランを「全滅」するか和平交渉するかで「大きな決断」",
+              "translation": "machine"
+            }
+          ],
+          "status": "ok",
+          "paperDate": null
+        }
+      ]
     }
   ]
 }
