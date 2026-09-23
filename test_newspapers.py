@@ -5,6 +5,22 @@ from unittest.mock import patch
 import update_newspapers as u
 
 class NewspaperTests(unittest.TestCase):
+    def test_description_prefers_article_metadata_and_rejects_login(self):
+        text='地域の開発計画について、規模と住民への影響を専門家と現地の取材から説明する記事です。'
+        self.assertEqual(u.extract_description(f'<meta property="og:description" content="{text}">'),text)
+        self.assertIsNone(u.extract_description('<meta name="description" content="Subscribe to continue reading all our latest news and analysis.">'))
+        self.assertIsNone(u.extract_description('<script type="application/ld+json">{"@type":"Organization","description":"This publisher brings you all the latest news from around the world."}</script>'))
+
+    def test_issue_is_a_question_and_unknown_topics_are_not_invented(self):
+        self.assertTrue(u.derive_issue('ビーチ6000億円開発計画').endswith('？'))
+        self.assertIsNone(u.derive_issue('New award for local artist'))
+        self.assertIsNone(u.derive_viewpoint('新しい詩集を発表'))
+        self.assertIn('規模',u.derive_viewpoint('ビーチ6000億円開発計画'))
+
+    def test_summary_length_and_multibyte_translation_limit(self):
+        self.assertLessEqual(len(u.shorten('説明文です。'*100,100)),101)
+        self.assertLessEqual(len(u._utf8_limit('説明文です。'*100).encode('utf-8')),453)
+
     def test_asahi_accepts_non_padded_date_and_rejects_wrong_date(self):
         source=next(s for s in u.SOURCES if s['id']=='asahi-paper')
         raw='<title>2026年9月20日朝刊記事一覧</title><div id="shimen-page1"><li class="HeadlineTop"><a href="/articles/a.html">これは確認用の一面記事です</a></li></div>'

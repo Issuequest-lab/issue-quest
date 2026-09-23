@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -69,23 +70,124 @@ SOURCES = [
          fallback_url='https://feeds.bbci.co.uk/news/rss.xml'),
 ]
 
+ISSUE_RULES = [
+    (r'気候|エルニーニョ|温暖化|\b(?:climate|El Niño)\b', '気候変動による被害を抑えるため、何を優先すべきか？'),
+    (r'起業|创业|entrepreneur', '事業を続けるために必要な条件と課題は何か？'),
+    (r'価格|EV|半導体|物価|インフレ|\b(?:price|inflation)\b', '価格や競争の変化は、消費者と産業にどう影響するか？'),
+    (r'皇室|天皇|神武', '歴史に関する主張を、どの根拠で確かめるべきか？'),
+    (r'極右|選挙|政権交代|\b(?:election|far.right)\b', '政治勢力の変化は、政策や統治にどう影響するか？'),
+
+    (r'ICC|国際刑事裁判所|International Criminal Court', '各国の対応は、国際司法の機能にどう影響するか？'),
+    (r'台風|土砂|洪水|地震|災害|\b(?:typhoon|storm|flood|earthquake)\b', '被害の状況から、救助・復旧で何を優先すべきか？'),
+    (r'開発|投資|ビーチ|\b(?:development|investment)\b', '開発・投資の利益と地域への負担をどう評価するか？'),
+    (r'NHS|A&E|Martha|病院|医療|患者|\b(?:medical|hospital|health)\b', '患者の安全を守るため、どの仕組みを変えるべきか？'),
+    (r'ドローン|戦場|軍|戦争|安全保障|フーシ|イラン|ウクライナ|\b(?:Houthi|Iran|Ukraine|military|war)\b', '安全保障上の変化に、関係国はどう対応すべきか？'),
+    (r'飲酒|事故|遺族|被害者|\b(?:crash|accident)\b', '被害の原因をどう確かめ、再発を防ぐか？'),
+    (r'日米|首脳|同盟|国連|外交|制裁|\b(?:allies|summit|diplomacy)\b', '各国の立場の違いは、協調や交渉にどう影響するか？'),
+]
+
 class SourceError(ValueError):
     def __init__(self, code, message):
         super().__init__(message)
         self.code = code
 
 
-def fetch(url):
+def fetch(url, timeout=25, max_bytes=3_000_000):
     req = urllib.request.Request(url, headers={
         'User-Agent': 'IssueQuest-Newspapers/2.0 (+https://issuequest-lab.github.io/issue-quest/)',
         'Accept-Language': 'ja,en-US;q=0.8,en;q=0.7',
     })
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read(3_000_000).decode('utf-8', errors='replace')
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read(max_bytes).decode('utf-8', errors='replace')
 
 
 def clean(s):
     return re.sub(r'\s+', ' ', s).strip()
+
+
+def shorten(s, limit=120):
+    s = clean(html.unescape(s or ''))
+    if len(s) <= limit:
+        return s
+    return s[:limit].rstrip(' 、,。.!?…') + '…'
+
+
+def _utf8_limit(s, max_bytes=450):
+    raw = clean(s).encode('utf-8')
+    if len(raw) <= max_bytes:
+        return clean(s)
+    return raw[:max_bytes].decode('utf-8', errors='ignore').rstrip(' 、,。.!?…') + '…'
+
+
+def extract_description(raw):
+    soup = BeautifulSoup(raw, 'html.parser')
+    selectors = [
+        ('meta', {'property': 'og:description'}),
+        ('meta', {'name': 'description'}),
+        ('meta', {'name': 'twitter:description'}),
+    ]
+    for tag, attrs in selectors:
+        el = soup.find(tag, attrs=attrs)
+        value = clean(el.get('content', '')) if el else ''
+        if len(value) >= 30 and not re.search(r'購読|会員登録|ログイン|subscribe|sign in|access denied|enable javascript', value, re.I):
+            return shorten(value, 180)
+
+    def find_description(obj):
+        if isinstance(obj, dict):
+            value = obj.get('description')
+            if obj.get('@type') in ('NewsArticle', 'Article', 'ReportageNewsArticle') and isinstance(value, str) and len(clean(value)) >= 30:
+                return clean(value)
+            for child in obj.values():
+                found = find_description(child)
+                if found:
+                    return found
+        elif isinstance(obj, list):
+            for child in obj:
+                found = find_description(child)
+                if found:
+                    return found
+        return None
+
+    for script in soup.select('script[type="application/ld+json"]'):
+        try:
+            value = find_description(json.loads(script.string or script.get_text()))
+        except (json.JSONDecodeError, TypeError):
+            value = None
+        if value:
+            return shorten(value, 180)
+
+    return None
+
+
+def derive_issue(text):
+    text = unicodedata.normalize('NFKC', clean(text))
+    for pattern, label in ISSUE_RULES:
+        if re.search(pattern, text, flags=re.I):
+            return label
+    return None
+
+
+def derive_viewpoint(text):
+    text = unicodedata.normalize('NFKC', clean(text))
+    if re.search(r'死亡|不明|遺族|両親|被害者|victim|killed|dead|missing', text, flags=re.I):
+        return '被害者・当事者への影響を前面に置く'
+    if re.search(r'\d+(?:[,.]\d+)?\s*(?:人|億|兆|%|ドル|円|billion|million)', text, flags=re.I):
+        return '人数・金額など具体的な規模を前面に置く'
+    if re.search(r'計画|方針|支援|拡大|導入|plan|policy|support|expand', text, flags=re.I):
+        return '政策・計画の内容と実施方針に焦点を置く'
+    if re.search(r'「|」|said|says|speech|演説|発言', text, flags=re.I):
+        return '引用した言葉や表現を前面に置く'
+    if re.search(r'ICC|国連|首脳|同盟|外交|制裁|allies|summit|diploma', text, flags=re.I):
+        return '外交上の立場や各国関係に焦点を置く'
+    if re.search(r'ドローン|戦場|軍|安全保障|military|drone', text, re.I):
+        return '軍事技術や安全保障の変化に焦点を置く'
+    if re.search(r'台風|被災|災害|爪痕|storm|flood', text, re.I):
+        return '災害による現地への影響に焦点を置く'
+    if re.search(r'関係|会談|対話|交渉|talks|relations', text, re.I):
+        return '関係国の対話や関係の変化に焦点を置く'
+    if re.search(r'気候|温暖化|エルニーニョ|climate', text, re.I):
+        return '気候変動の影響や対策に焦点を置く'
+    return None
 
 
 def _jp_date_in_text(text):
@@ -182,7 +284,8 @@ def parse(source, raw, day):
         anchors = []
         for _ in range(3):
             anchors = section.select('a:has(h3.articlelist-title), article a, h3 a')
-            if anchors: break
+            if anchors:
+                break
             section = section.parent
         paper_date = detected
 
@@ -328,6 +431,7 @@ def main():
 
     entries=list(ThreadPoolExecutor(max_workers=6).map(collect,SOURCES))
     old={s['id']:s for s in previous.get('sources',[])}
+    article_pairs=[]
     for entry in entries:
         old_urls={a['url'] for a in old.get(entry['id'],{}).get('articles',[])}
         comparison_date=previous.get('date')
@@ -342,7 +446,38 @@ def main():
                     a['translation']='machine'
             except Exception:
                 a['titleJa']=None;a['translation']='unavailable'
-    payload=dict(schemaVersion=2,date=day,fetchedAt=now.isoformat(),sources=entries)
+            article_pairs.append((entry,a))
+
+    def fetch_description(pair):
+        _, article = pair
+        try:
+            return extract_description(fetch(article['url'], timeout=12, max_bytes=1_200_000))
+        except Exception:
+            return None
+
+    descriptions=list(ThreadPoolExecutor(max_workers=6).map(fetch_description, article_pairs))
+    for (entry,a), description in zip(article_pairs, descriptions):
+        title_ja=a.get('titleJa') or a['titleOriginal']
+        summary=None
+        if description:
+            try:
+                if entry['lang']=='ja':
+                    summary=shorten(description,100)
+                else:
+                    summary=shorten(translate(_utf8_limit(description),cache,entry['lang']),100)
+            except Exception:
+                summary=None
+        a['summaryBasis']='publisher-description' if summary else 'unavailable'
+        a['summaryStatus']='ok' if summary else ('translation-failed' if description else 'description-unavailable')
+        a['summaryJa']=summary
+        a['summaryOriginal']=description
+        a['summarySourceUrl']=a['url']
+        # Suggestions are derived from the headline, not asserted publisher intent.
+        a['issue']=derive_issue(title_ja)
+        a['viewpoint']=derive_viewpoint(title_ja)
+        a['analysisBasis']='headline-rules'
+
+    payload=dict(schemaVersion=3,date=day,fetchedAt=now.isoformat(),sources=entries)
     if previous.get('date') and not (ROOT / f"newspapers/{previous['date'][:7]}/{previous['date']}.json").exists():
         archive(ROOT,previous)
     archive(ROOT,payload)
