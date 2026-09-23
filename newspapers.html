@@ -5,9 +5,9 @@
 </style>
 <main><header><a href="./">← ISSUE QUESTに戻る</a><h1>新聞でイシューを比較</h1><p class="intro">日本と海外で、<strong>その日に何が重要な問題として扱われているか</strong>を先に表示します。気になった見出しだけ選び、誰の・どんな判断につながる問いかを比較します。</p></header>
 <h2 id="latestHeading">最新の新聞比較</h2><p id="status" role="status">記事を読み込んでいます…</p>
+<div id="cards"></div><section id="compareArea" hidden><h2>選んだ見出しを比較</h2><p>同じ出来事でも、誰への影響や何を先に確かめるかは違うでしょうか？</p><div id="comparison"></div></section>
 <details class="controls"><summary>条件を変更</summary><div class="toolbar"><label>保存月<select id="month" aria-label="保存月"></select></label><label>取得日（日本時間）<select id="day" aria-label="取得日"></select></label><label>更新履歴<select id="snapshot" aria-label="更新履歴"></select></label><label>表示対象<select id="kind"><option value="all" selected>紙とWeb</option><option value="paper">紙の一面</option><option value="web">Web・補足</option></select></label><label>見出しを絞り込む<input id="search" type="search" placeholder="例：経済、選挙"></label></div></details>
 <p class="hint">地域ラベルは比較のための整理です。紙面の発行日と取得日は別に表示し、トップ位置を確認できない記事はその旨を明記します。</p>
-<div id="cards"></div><section id="compareArea" hidden><h2>選んだ見出しを比較</h2><p>同じ出来事でも、誰への影響や何を先に確かめるかは違うでしょうか？</p><div id="comparison"></div></section>
 <footer>毎日、日本時間8時台・17時台に取得予定（実行時刻は前後します）。履歴は月別に保存します。海外見出しは自動翻訳です。本文や紙面画像は転載しません。取得できなかった媒体も一覧から消さず、失敗理由を表示します。</footer>
 </main><div class="compare-bar"><span id="selectedCount">2件選ぶと比較できます</span><button id="compareBtn" disabled>比較する</button><button id="clearBtn" class="secondary" hidden>解除</button></div>
 <script src="newspapers.js?v=20260923d"></script></html>
