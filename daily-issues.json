@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "updatedAt": "2026-09-25",
-  "fetchedAt": "2026-09-25T03:29:47.642783+09:00",
+  "fetchedAt": "2026-09-25T05:55:13.025412+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "ロイヤルズ 対 ホワイトソックス",
-    "オランダ 対 ドイツ",
-    "たばこ",
-    "小園海斗",
-    "パイレーツ 対 カージナルス",
-    "エンセン井上",
-    "西勇輝",
-    "ひる おび ふともも",
-    "ana",
-    "bkb"
+    "逮捕",
+    "風雨",
+    "犯罪",
+    "記者会見",
+    "大塚明夫",
+    "ロッキーズ 対 dバックス",
+    "行司",
+    "ネーションズリーグ",
+    "portugal vs wales",
+    "ロイヤルズ 対 ホワイトソックス"
   ]
 }
