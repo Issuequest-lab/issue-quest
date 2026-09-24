@@ -55,25 +55,43 @@ function card(s,a,choosable=true){
   return el;
 }
 function unavailableCard(s){const el=node('article',undefined,'card error');el.append(node('div',`${s.name} · ${s.country} · ${s.kind==='paper'?'紙面':'Web'}`,'meta'),node('h3',s.name),node('p',failureLabel(s),'notice'),node('p',s.error||'この取得回では情報を確認できませんでした。','meta'));if(s.sourceUrl)el.append(link(s.sourceUrl,'確認元を開く ↗'));return el;}
+// Choose the daily reading list before search/type filters so its membership stays stable.
+function readingList(sources){
+  const japanese=[],overseas=[];
+  for(const s of sources){
+    if(s.status!=='ok'||(s.country==='日本'&&s.kind!=='paper'))continue;
+    const articles=(s.articles||[]).filter(a=>a.titleJa&&a.translation!=='unavailable');
+    if(s.country==='日本')japanese.push(articles.map(a=>({s,a})));
+    else overseas.push(...articles.map(a=>({s,a})));
+  }
+  // Round-robin papers: each publisher gets one place before a second article.
+  const papers=[];
+  for(let i=0;japanese.some(rows=>i<rows.length);i++){
+    for(const rows of japanese)if(rows[i])papers.push(rows[i]);
+  }
+  const limit=overseas.length?Math.max(1,Math.round(overseas.length/3)):2;
+  return {rows:[...papers.slice(0,limit),...overseas],japan:Math.min(papers.length,limit),foreign:overseas.length};
+}
 function render(){
   const area=$('#cards');area.replaceChildren();if(!payload)return;
-  const kind=$('#kind').value,q=$('#search').value.trim().toLowerCase();let articleCount=0,successSources=0,failedSources=0;const groups=new Map();
-  for(const s of payload.sources){
+  const kind=$('#kind').value,q=$('#search').value.trim().toLowerCase();let articleCount=0,japanCount=0;const groups=new Map(),shownSources=new Set();
+  const selection=readingList(payload.sources);
+  for(const {s,a} of selection.rows){
     if(kind!=='all'&&s.kind!==kind)continue;
-    const region=s.region||s.country||'その他';if(!groups.has(region))groups.set(region,[]);
-    if(s.status!=='ok'){groups.get(region).push(unavailableCard(s));failedSources++;continue;}
-    successSources++;
-    for(const a of s.articles){
+    const region=s.region||s.country||'その他';
       const haystack=`${a.titleJa||''} ${a.titleOriginal||''} ${a.summaryJa||''} ${a.issue||''} ${a.viewpoint||''} ${s.name} ${region}`.toLowerCase();
       if(q&&!haystack.includes(q))continue;
-      groups.get(region).push(card(s,a));articleCount++;
-    }
+      if(!groups.has(region))groups.set(region,[]);
+      groups.get(region).push(card(s,a));articleCount++;shownSources.add(s.id);
+      if(s.country==='日本')japanCount++;
   }
   const ordered=[...groups.entries()].filter(([,els])=>els.length).sort(([a],[b])=>{const ai=REGION_ORDER.indexOf(a),bi=REGION_ORDER.indexOf(b);return (ai<0?999:ai)-(bi<0?999:bi);});
   for(const [region,els] of ordered){const section=node('section',undefined,'region'),h=node('h2',undefined,'region-title');h.append(document.createTextNode(region),node('span',`${els.length}件`,'region-count'));const grid=node('div',undefined,'source-grid');grid.append(...els);section.append(h,grid);area.append(section);}
   if(!area.children.length)area.append(node('p','条件に合う記事はありません。'));
   $('#latestHeading').textContent=`${jpDate(payload.date)}の新聞比較`;
-  $('#status').textContent=`更新 ${time(payload.fetchedAt)} · 見出し ${articleCount}件 · 取得成功 ${successSources}取得元 · 未取得 ${failedSources}取得元`+(payload.date<dayJst()?(days[0]<dayJst()?' — 今日の記録はまだありません。':' — 過去の記録を表示中。'):'');
+  $('#status').textContent=`更新 ${time(payload.fetchedAt)} · 表示 ${articleCount}件（日本 ${japanCount}・海外 ${articleCount-japanCount}） · ${shownSources.size}取得元`+(payload.date<dayJst()?(days[0]<dayJst()?' — 今日の記録はまだありません。':' — 過去の記録を表示中。'):'');
+  const ratio=selection.rows.length?Math.round(selection.japan/selection.rows.length*100):0;
+  $('#balanceNote').textContent=`日本は紙面のみ、各紙から順に選び全体の2〜3割を目安に表示。今回の一覧は日本 ${selection.japan}件・海外 ${selection.foreign}件（日本 ${ratio}％）。`+(selection.rows.length&&(ratio<20||ratio>30)?'取得できた記事数が少ないため、目安の比率には調整できません。':'')+'検索・表示対象の切替後は比率が変わります。';
 }
 async function loadDay(){
   const seq=++revision;reset();payload=null;$('#cards').replaceChildren();$('#status').textContent='履歴を読み込んでいます…';

@@ -6,9 +6,11 @@
 <main><header><a href="./">← ISSUE QUESTに戻る</a><h1>新聞でイシューを比較</h1><p class="intro">日本と海外で、<strong>その日に何が重要な問題として扱われているか</strong>を、タイトル・短い要約・イシュー・視点の順で確認できます。媒体ごとに何を前面へ出しているかを見比べ、必要な記事だけ原文を開けます。</p></header>
 <h2 id="latestHeading">最新の新聞比較</h2><p id="status" role="status">記事を読み込んでいます…</p>
 <div id="cards"></div><section id="compareArea" hidden><h2>選んだ見出しを比較</h2><p>同じ出来事でも、何をイシューとして、どの要素を前面に出しているかを見比べます。</p><div id="comparison"></div></section>
-<details class="controls"><summary>条件を変更</summary><div class="toolbar"><label>保存月<select id="month" aria-label="保存月"></select></label><label>取得日（日本時間）<select id="day" aria-label="取得日"></select></label><label>更新履歴<select id="snapshot" aria-label="更新履歴"></select></label><label>表示対象<select id="kind"><option value="all" selected>紙とWeb</option><option value="paper">紙の一面</option><option value="web">Web・補足</option></select></label><label>見出しを絞り込む<input id="search" type="search" placeholder="例：経済、選挙"></label></div></details>
+<details class="controls"><summary>条件を変更</summary><div class="toolbar"><label>保存月<select id="month" aria-label="保存月"></select></label><label>取得日（日本時間）<select id="day" aria-label="取得日"></select></label><label>更新履歴<select id="snapshot" aria-label="更新履歴"></select></label><label>表示対象<select id="kind"><option value="all" selected>日本の紙面＋海外</option><option value="paper">紙の一面</option><option value="web">海外Web</option></select></label><label>見出しを絞り込む<input id="search" type="search" placeholder="例：経済、選挙"></label></div></details>
+<p id="balanceNote" class="hint"></p>
 <p class="hint">地域ラベルは比較のための整理です。要約は記事の説明文の短い抜粋です。イシュー候補と視点は見出しからの推定で、本文全体や媒体の意図を確認したものではありません。「視点」は政治的立場の判定ではなく、記事が何を前面に出しているかを示します。</p>
-<footer>毎日、日本時間8時台・17時台に取得予定（実行時刻は前後します）。履歴は月別に保存します。海外見出し・要約は自動翻訳です。本文や紙面画像は転載しません。取得できなかった媒体も一覧から消さず、失敗理由を表示します。</footer>
+<footer>毎日、日本時間8時台・17時台に取得予定（実行時刻は前後します）。履歴は月別に保存します。海外見出し・要約は自動翻訳です。本文や紙面画像は転載しません。記事一覧には取得できた日本語見出しを表示します。取得に失敗した媒体も再取得を続け、成功すれば表示対象に戻ります。</footer>
 </main><div class="compare-bar"><span id="selectedCount">2件選ぶと比較できます</span><button id="compareBtn" disabled>比較する</button><button id="clearBtn" class="secondary" hidden>解除</button></div>
-<script src="newspapers.js?v=20260924-compact1"></script></html>
+<script src="newspapers.js?v=20260924-balance1"></script></html>
+
 
