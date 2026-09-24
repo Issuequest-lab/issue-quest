@@ -14,28 +14,43 @@ function link(url,text){const a=node('a',text,'source');try{if(new URL(url).prot
 function verificationLabel(a){if(a.verification==='paper-top')return '一面トップ確認済み';if(a.verification==='paper-listed')return '一面掲載確認';if(a.verification==='feed-featured')return '公式フィード主要見出し';return 'Web主要見出し';}
 function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得失敗';case'date-unverified':return '発行日確認失敗';case'position-unverified':return '掲載位置確認失敗';case'no-headlines':return '見出し確認失敗';case'parse-failed':return '掲載内容確認失敗';default:return '未取得';}}
 function insightRow(label,text,cls=''){const p=node('p',undefined,`insight-row ${cls}`.trim());p.append(node('strong',label),document.createTextNode(text));return p;}
+function compactSummary(a){
+  const text=(a.summaryJa||'').normalize('NFKC').trim();
+  if(!text)return {label:'要約',text:a.summaryStatus==='translation-failed'?'説明文の日本語訳を取得できませんでした。':'この記録には記事の説明文がありません。'};
+  // Keep complete sentences, never hide a clipped tail behind an ellipsis.
+  const sentences=[];let start=0,depth=0;
+  for(let i=0;i<text.length;i++){
+    if('「『（('.includes(text[i]))depth++;
+    if('」』）)'.includes(text[i]))depth=Math.max(0,depth-1);
+    if(depth===0&&'。！？!?'.includes(text[i])){sentences.push(text.slice(start,i+1).trim());start=i+1;}
+  }
+  if(sentences.length){let result=sentences[0];for(const next of sentences.slice(1)){if((result+next).length>90)break;result+=next;}return {label:'要約',text:result};}
+  if(!/(?:…|\.\.\.)$/.test(text))return {label:'要約',text};
+  return {label:'見出しの要点',text:a.titleJa||'説明文を短い完結文として取得できませんでした。'};
+}
 function card(s,a,choosable=true){
   const el=node('article',undefined,'card');
   el.append(node('div',`${s.name} · ${s.country} · ${s.kind==='paper'?'紙面':'Web'}`,'meta'));
   el.append(node('h3',a.titleJa||'日本語訳を取得できませんでした'));
   const insight=node('div',undefined,'insight');
-  insight.append(insightRow('要約',a.summaryJa||(a.summaryStatus==='translation-failed'?'説明文の日本語訳を取得できませんでした。':'この記録には記事の説明文がありません。'),'summary'));
+  const summary=compactSummary(a);
+  insight.append(insightRow(summary.label,summary.text,'summary'));
   insight.append(insightRow('イシュー候補',a.issue||'見出しだけでは問いを特定できません。','issue'));
   insight.append(insightRow('視点（推定）',a.viewpoint||'見出しだけでは焦点を特定できません。','viewpoint'));
-  insight.append(node('small',a.summaryJa?'要約：記事の説明文から抜粋。問い・視点：見出しから推定。':'問い・視点：見出しから推定。'));
+
   el.append(insight);
-  el.append(node('span',verificationLabel(a),'tag'));
-  if(a.translation==='machine')el.append(node('span','自動翻訳','tag'));
-  if(a.translation==='unavailable')el.append(node('p','翻訳未取得。原文は詳細から確認できます。','notice'));
-  if(a.dateBasis==='official-url')el.append(node('span','発行日：公式日付URL','tag'));
-
-
-
-  el.append(node('p',s.kind==='paper'?`紙面発行日：${a.publicationDate||'未確認'} / ${s.edition}`:`掲載日：${a.publicationDate||'未確認'} / ${s.edition}`,'meta'));
-  el.append(node('p',`取得：${time(s.fetchedAt)}`,'meta'));
-  if(s.kind==='paper'&&a.publicationDate&&a.publicationDate!==payload.date)el.append(node('p','取得日とは異なる発行日の紙面です。','notice'));
-  if(a.comparedWith)el.append(node('p',`${a.comparedWith}の前回取得と比較：${a.change==='same'?'継続掲載':'今回の記録に追加'}`,'meta'));
-  const details=node('details',undefined,'meta-details');details.append(node('summary','原文・出典'));details.append(node('p',a.titleOriginal));details.append(link(s.sourceUrl,'掲載位置の確認元'));el.append(details,link(a.url,'元記事を開く ↗'));
+  const details=node('details',undefined,'meta-details');
+  details.append(node('summary','日付・出典・補足'));
+  details.append(node('p',s.kind==='paper'?`紙面発行日：${a.publicationDate||'未確認'} / ${s.edition}`:`掲載日：${a.publicationDate||'未確認'} / ${s.edition}`));
+  details.append(node('p',`取得：${time(s.fetchedAt)}`));
+  details.append(node('p',verificationLabel(a)));
+  if(a.translation==='machine')details.append(node('p','海外見出し・説明文は自動翻訳です。'));
+  if(s.kind==='paper'&&a.publicationDate&&a.publicationDate!==payload.date)details.append(node('p','取得日とは異なる発行日の紙面です。','notice'));
+  if(a.comparedWith)details.append(node('p',`${a.comparedWith}の前回取得と比較：${a.change==='same'?'継続掲載':'今回の記録に追加'}`));
+  details.append(node('p',summary.label==='要約'?'要約：記事の説明文から文単位で抜粋。問い・視点：見出しから推定。':'説明文が途中で切れているため、見出しの要点を表示。問い・視点：見出しから推定。'));
+  if(a.summaryJa&&a.summaryJa!==summary.text)details.append(node('p',`取得した説明文：${a.summaryJa}`));
+  details.append(node('p',a.titleOriginal),link(s.sourceUrl,'掲載位置の確認元'));
+  el.append(details,link(a.url,'元記事を開く ↗'));
   if(choosable){const label=node('label',undefined,'choose'),input=document.createElement('input');input.type='checkbox';input.checked=selected.has(a.id);input.addEventListener('change',()=>{if(input.checked){if(selected.size>=3){input.checked=false;$('#selectedCount').textContent='比較は3件まで。1件解除してください。';return;}selected.set(a.id,{s,a});}else selected.delete(a.id);updateSelection();});label.append(input,document.createTextNode('比較に選ぶ'));el.append(label);}
   return el;
 }
@@ -73,3 +88,4 @@ async function loadDay(){
 function setMonth(){const month=$('#month').value;options($('#day'),days.filter(d=>d.startsWith(month)));return loadDay();}
 $('#month').onchange=setMonth;$('#day').onchange=loadDay;$('#kind').onchange=render;$('#search').oninput=render;$('#clearBtn').onclick=()=>{reset();render();};$('#compareBtn').onclick=()=>{const area=$('#comparison');area.replaceChildren(...[...selected.values()].map(({s,a})=>card(s,a,false)));$('#compareArea').hidden=false;$('#compareArea').scrollIntoView({behavior:'smooth'});};
 (async()=>{try{const idx=await read('newspaper-index.json');days=idx.days.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d));if(!days.length)throw Error('まだ取得履歴がありません。');options($('#month'),[...new Set(days.map(d=>d.slice(0,7)))]);await setMonth();}catch(e){$('#status').textContent=e.message;}})();
+
