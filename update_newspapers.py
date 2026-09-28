@@ -230,6 +230,9 @@ def _article_from_anchor(source, a, publication_date=None, verification='web-fea
     url = urllib.parse.urljoin(source['url'].format(compact=''), href).split('#')[0]
     if not url.startswith('https://'):
         return None
+    # Live-blog update links repeat the same article with a different headline.
+    if source['id']=='aljazeera-web' and 'update' in urllib.parse.parse_qs(urllib.parse.urlsplit(url).query):
+        return None
     if source.get('domain'):
         host = (urllib.parse.urlparse(url).hostname or '').lower()
         domain = source['domain'].lower()

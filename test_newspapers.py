@@ -5,6 +5,13 @@ from unittest.mock import patch
 import update_newspapers as u
 
 class NewspaperTests(unittest.TestCase):
+    def test_liveblog_updates_do_not_take_another_article_slot(self):
+        source=next(s for s in u.SOURCES if s['id']=='aljazeera-web')
+        raw='<main><h2><a href="/news/liveblog/example">Main live news headline</a></h2><h2><a href="/news/liveblog/example?update=123">Specific update headline</a></h2><h2><a href="/news/another">Another different article</a></h2></main>'
+        _, articles=u.parse(source,raw,'2026-09-28')
+        self.assertEqual(len(articles),2)
+        self.assertTrue(articles[1]['url'].endswith('/news/another'))
+
     def test_description_prefers_article_metadata_and_rejects_login(self):
         text='地域の開発計画について、規模と住民への影響を専門家と現地の取材から説明する記事です。'
         self.assertEqual(u.extract_description(f'<meta property="og:description" content="{text}">'),text)

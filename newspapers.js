@@ -73,7 +73,7 @@ function readingList(sources){
     for(const a of s.articles||[]){
       if(!a.titleJa||a.translation==='unavailable')continue;
       let key;
-      try{const url=new URL(a.url);if(url.protocol!=='https:')continue;url.hash='';for(const k of [...url.searchParams.keys()])if(k.startsWith('utm_')||k==='iref')url.searchParams.delete(k);key=url.href;}catch{continue;}
+      try{const url=new URL(a.url);if(url.protocol!=='https:')continue;url.hash='';if(url.hostname==='www.aljazeera.com'||url.hostname==='aljazeera.com')url.searchParams.delete('update');for(const k of [...url.searchParams.keys()])if(k.startsWith('utm_')||k==='iref')url.searchParams.delete(k);key=url.href;}catch{continue;}
       if(seen.has(key))continue;seen.add(key);
       outlets.get(s.name).push({s,a,region});
     }

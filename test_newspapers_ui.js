@@ -16,3 +16,5 @@ b.articles[0].url=a.articles[0].url+'?utm_source=test';result=ctx.readingList([a
 assert.equal(ctx.regionFor({country:'英国'}),'ヨーロッパ');assert.equal(ctx.regionFor({country:'タイ'}),'アジア（その他）');assert.equal(ctx.regionFor({country:'香港'}),'中国');
 assert.equal(ctx.readingList([source('アフリカ',1)]).rows.length,1);
 console.log('PASS regional targets, redistribution, Japan Web exclusion, failures, translation, outlet diversity, deduplication, legacy regions');
+
+const live=source('中東',2);live.articles[0].url='https://www.aljazeera.com/news/liveblog/2026/9/28/example';live.articles[1].url=live.articles[0].url+'?update=123';assert.equal(ctx.readingList([live]).rows.length,1);
