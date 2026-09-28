@@ -63,14 +63,21 @@ class NewspaperTests(unittest.TestCase):
             u.parse(s,raw,'2026-09-22')
         self.assertEqual(cm.exception.code,'date-unverified')
 
-    def test_overseas_catalog_has_eight_outlets_and_regions(self):
-        overseas={s['name'] for s in u.SOURCES if s['region']!='日本'}
-        self.assertEqual(overseas,{
-            'The Guardian','The New York Times','Financial Times','Reuters','Le Monde',
-            'Al Jazeera','South China Morning Post','BBC News'
-        })
+    def test_overseas_catalog_covers_requested_regions(self):
         regions={s['region'] for s in u.SOURCES}
-        self.assertTrue({'日本','米国','英国','欧州','アジア','中東・グローバルサウス','通信社'} <= regions)
+        self.assertTrue({'日本','アフリカ','中東','ヨーロッパ','アメリカ','アジア（その他）','韓国','中国'} <= regions)
+        countries={s['country'] for s in u.SOURCES}
+        self.assertTrue({'タイ','マレーシア','韓国','中国'} <= countries)
+
+    def test_feed_dates_dedup_and_description(self):
+        src={'id':'feed','max_articles':3}
+        raw='<rss><channel><item><title>Old headline is not current news</title><link>https://news.test/old</link><pubDate>Mon, 01 Jun 2026 10:00:00 +0000</pubDate></item><item><title>A current headline about regional policy</title><link>https://news.test/current</link><pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate><description>A brief publisher description covering the regional policy decision.</description></item><item><title>A current headline about regional policy</title><link>https://news.test/current</link><pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate></item></channel></rss>'
+        _,rows=u.parse_feed(src,raw,'2026-09-25')
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['publicationDate'],'2026-09-24')
+        self.assertEqual(rows[0]['verification'],'feed-featured')
+        self.assertIn('publisher',rows[0]['feedDescription'])
+        with self.assertRaises(u.SourceError):u.parse_feed(src,raw,'2026-10-01')
 
     def test_web_parser_keeps_source_region_and_single_featured_story(self):
         s=next(s for s in u.SOURCES if s['id']=='nyt-web')
@@ -80,3 +87,4 @@ class NewspaperTests(unittest.TestCase):
         self.assertEqual(articles[0]['verification'],'web-featured')
 
 if __name__=='__main__':unittest.main()
+

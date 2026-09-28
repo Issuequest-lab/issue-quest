@@ -1,7 +1,8 @@
 'use strict';
 const $=s=>document.querySelector(s), raw='https://raw.githubusercontent.com/Issuequest-lab/issue-quest/main/';
 let days=[],payload=null,revision=0,selected=new Map();
-const REGION_ORDER=['日本','米国','英国','欧州','アジア','中東・グローバルサウス','通信社','その他'];
+const REGION_WEIGHTS={'日本':1,'アフリカ':1,'中東':1,'ヨーロッパ':2,'アメリカ':2,'アジア（その他）':1,'韓国':1,'中国':1};
+const REGION_ORDER=Object.keys(REGION_WEIGHTS);
 const dayJst=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format(new Date());
 const time=s=>new Date(s).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',hour12:false})+' JST';
 const jpDate=s=>{const [y,m,d]=s.split('-').map(Number);return `${y}年${m}月${d}日`;};
@@ -11,7 +12,7 @@ function options(el,values,label=x=>x){el.replaceChildren(...values.map(v=>{cons
 function reset(){selected.clear();$('#compareArea').hidden=true;updateSelection();}
 function updateSelection(){const n=selected.size;$('#selectedCount').textContent=n===0?'2件選ぶと比較できます':`比較に選択：${n} / 3件`;$('#compareBtn').disabled=n<2;$('#clearBtn').hidden=n===0;}
 function link(url,text){const a=node('a',text,'source');try{if(new URL(url).protocol!=='https:')return node('span','リンク未確認');}catch{return node('span','リンク未確認');}a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
-function verificationLabel(a){if(a.verification==='paper-top')return '一面トップ確認済み';if(a.verification==='paper-listed')return '一面掲載確認';if(a.verification==='feed-featured')return '公式フィード主要見出し';return 'Web主要見出し';}
+function verificationLabel(a){if(a.verification==='paper-top')return '一面トップ確認済み';if(a.verification==='paper-listed')return '一面掲載確認';if(a.verification==='feed-featured')return '公式配信の記事（トップ位置未確認）';return 'Web主要見出し';}
 function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得失敗';case'date-unverified':return '発行日確認失敗';case'position-unverified':return '掲載位置確認失敗';case'no-headlines':return '見出し確認失敗';case'parse-failed':return '掲載内容確認失敗';default:return '未取得';}}
 function insightRow(label,text,cls=''){const p=node('p',undefined,`insight-row ${cls}`.trim());p.append(node('strong',label),document.createTextNode(text));return p;}
 function compactSummary(a){
@@ -55,30 +56,51 @@ function card(s,a,choosable=true){
   return el;
 }
 function unavailableCard(s){const el=node('article',undefined,'card error');el.append(node('div',`${s.name} · ${s.country} · ${s.kind==='paper'?'紙面':'Web'}`,'meta'),node('h3',s.name),node('p',failureLabel(s),'notice'),node('p',s.error||'この取得回では情報を確認できませんでした。','meta'));if(s.sourceUrl)el.append(link(s.sourceUrl,'確認元を開く ↗'));return el;}
-// Choose the daily reading list before search/type filters so its membership stays stable.
+// Classify publisher regions/editions, never the locations mentioned in a headline.
+function regionFor(s){
+  const countries={'日本':'日本','韓国':'韓国','中国':'中国','香港':'中国','米国':'アメリカ','カナダ':'アメリカ','英国':'ヨーロッパ','フランス':'ヨーロッパ','ドイツ':'ヨーロッパ','カタール':'中東','タイ':'アジア（その他）','マレーシア':'アジア（その他）'};
+  return countries[s.country]||({'欧州':'ヨーロッパ','英国':'ヨーロッパ','米国':'アメリカ','中東・グローバルサウス':'中東','アジア':'アジア（その他）','通信社':'ヨーロッパ'}[s.region])||s.region||'その他';
+}
 function readingList(sources){
-  const japanese=[],overseas=[];
+  const publishers=new Map(),seen=new Set();
   for(const s of sources){
     if(s.status!=='ok'||(s.country==='日本'&&s.kind!=='paper'))continue;
-    const articles=(s.articles||[]).filter(a=>a.titleJa&&a.translation!=='unavailable');
-    if(s.country==='日本')japanese.push(articles.map(a=>({s,a})));
-    else overseas.push(...articles.map(a=>({s,a})));
+    const region=regionFor(s);
+    if(!REGION_WEIGHTS[region])continue;
+    if(!publishers.has(region))publishers.set(region,new Map());
+    const outlets=publishers.get(region);
+    if(!outlets.has(s.name))outlets.set(s.name,[]);
+    for(const a of s.articles||[]){
+      if(!a.titleJa||a.translation==='unavailable')continue;
+      let key;
+      try{const url=new URL(a.url);if(url.protocol!=='https:')continue;url.hash='';for(const k of [...url.searchParams.keys()])if(k.startsWith('utm_')||k==='iref')url.searchParams.delete(k);key=url.href;}catch{continue;}
+      if(seen.has(key))continue;seen.add(key);
+      outlets.get(s.name).push({s,a,region});
+    }
   }
-  // Round-robin papers: each publisher gets one place before a second article.
-  const papers=[];
-  for(let i=0;japanese.some(rows=>i<rows.length);i++){
-    for(const rows of japanese)if(rows[i])papers.push(rows[i]);
+  const queues=new Map();
+  for(const [region,outlets] of publishers){
+    const lists=[...outlets.values()],queue=[];
+    for(let i=0;lists.some(rows=>i<rows.length);i++)for(const rows of lists)if(rows[i])queue.push(rows[i]);
+    queues.set(region,queue);
   }
-  const limit=overseas.length?Math.max(1,Math.round(overseas.length/3)):2;
-  return {rows:[...papers.slice(0,limit),...overseas],japan:Math.min(papers.length,limit),foreign:overseas.length};
+  const rows=[],counts=Object.fromEntries(REGION_ORDER.map(r=>[r,0]));
+  const take=r=>{const item=queues.get(r)?.shift();if(item){rows.push(item);counts[r]++;return true;}return false;};
+  // 20 articles: 2 each, 4 for Europe/Americas. Fill empty slots with available articles.
+  for(const r of REGION_ORDER)for(let i=0;i<REGION_WEIGHTS[r]*2;i++)if(!take(r))break;
+  while(rows.length<20){
+    const available=REGION_ORDER.filter(r=>queues.get(r)?.length && (r!=='日本'||counts[r]<2));
+    if(!available.length)break;
+    available.sort((a,b)=>counts[a]/REGION_WEIGHTS[a]-counts[b]/REGION_WEIGHTS[b]);take(available[0]);
+  }
+  return {rows,counts,japan:counts['日本'],foreign:rows.length-counts['日本']};
 }
 function render(){
   const area=$('#cards');area.replaceChildren();if(!payload)return;
   const kind=$('#kind').value,q=$('#search').value.trim().toLowerCase();let articleCount=0,japanCount=0;const groups=new Map(),shownSources=new Set();
   const selection=readingList(payload.sources);
-  for(const {s,a} of selection.rows){
+  for(const {s,a,region} of selection.rows){
     if(kind!=='all'&&s.kind!==kind)continue;
-    const region=s.region||s.country||'その他';
       const haystack=`${a.titleJa||''} ${a.titleOriginal||''} ${a.summaryJa||''} ${a.issue||''} ${a.viewpoint||''} ${s.name} ${region}`.toLowerCase();
       if(q&&!haystack.includes(q))continue;
       if(!groups.has(region))groups.set(region,[]);
@@ -90,8 +112,7 @@ function render(){
   if(!area.children.length)area.append(node('p','条件に合う記事はありません。'));
   $('#latestHeading').textContent=`${jpDate(payload.date)}の新聞比較`;
   $('#status').textContent=`更新 ${time(payload.fetchedAt)} · 表示 ${articleCount}件（日本 ${japanCount}・海外 ${articleCount-japanCount}） · ${shownSources.size}取得元`+(payload.date<dayJst()?(days[0]<dayJst()?' — 今日の記録はまだありません。':' — 過去の記録を表示中。'):'');
-  const ratio=selection.rows.length?Math.round(selection.japan/selection.rows.length*100):0;
-  $('#balanceNote').textContent=`日本は紙面のみ、各紙から順に選び全体の2〜3割を目安に表示。今回の一覧は日本 ${selection.japan}件・海外 ${selection.foreign}件（日本 ${ratio}％）。`+(selection.rows.length&&(ratio<20||ratio>30)?'取得できた記事数が少ないため、目安の比率には調整できません。':'')+'検索・表示対象の切替後は比率が変わります。';
+  $('#balanceNote').textContent='媒体の拠点・地域版で地域を分類。目安は日本・アフリカ・中東・アジア（日本・韓国・中国を除く）・韓国・中国が各10％、ヨーロッパ・アメリカが各20％。最大20件で、不足分は表示できる地域の記事で補います。今回：'+REGION_ORDER.filter(r=>selection.counts[r]).map(r=>`${r} ${selection.counts[r]}件`).join('／')+'。検索後は比率が変わります。';
 }
 async function loadDay(){
   const seq=++revision;reset();payload=null;$('#cards').replaceChildren();$('#status').textContent='履歴を読み込んでいます…';
@@ -106,4 +127,5 @@ async function loadDay(){
 function setMonth(){const month=$('#month').value;options($('#day'),days.filter(d=>d.startsWith(month)));return loadDay();}
 $('#month').onchange=setMonth;$('#day').onchange=loadDay;$('#kind').onchange=render;$('#search').oninput=render;$('#clearBtn').onclick=()=>{reset();render();};$('#compareBtn').onclick=()=>{const area=$('#comparison');area.replaceChildren(...[...selected.values()].map(({s,a})=>card(s,a,false)));$('#compareArea').hidden=false;$('#compareArea').scrollIntoView({behavior:'smooth'});};
 (async()=>{try{const idx=await read('newspaper-index.json');days=idx.days.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d));if(!days.length)throw Error('まだ取得履歴がありません。');options($('#month'),[...new Set(days.map(d=>d.slice(0,7)))]);await setMonth();}catch(e){$('#status').textContent=e.message;}})();
+
 

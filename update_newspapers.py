@@ -11,6 +11,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
@@ -18,12 +19,11 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent
 JST = ZoneInfo('Asia/Tokyo')
 
-# One comparison set: 4 Japanese outlets + 8 overseas outlets.
-# Paper sources are kept where an official dated front-page/article-list page is available.
+# Official paper lists, homepages and explicitly labeled publisher feeds.
 SOURCES = [
     dict(id='asahi-paper', name='朝日新聞', country='日本', region='日本', kind='paper', lang='ja',
          url='https://www.asahi.com/shimen/{compact}/', edition='朝刊・公式記事一覧（地域版未確認）', max_articles=3),
-    dict(id='guardian-paper', name='The Guardian', country='英国', region='英国', kind='paper', lang='en',
+    dict(id='guardian-paper', name='The Guardian', country='英国', region='ヨーロッパ', kind='paper', lang='en',
          url='https://www.theguardian.com/theguardian', edition='公式紙面記事一覧（地域版未確認）', max_articles=3),
     dict(id='mainichi-paper', name='毎日新聞', country='日本', region='日本', kind='paper', lang='ja',
          url='https://mainichi.jp/shimen/tokyo/m/?sd={compact}', edition='東京朝刊', max_articles=3),
@@ -41,33 +41,50 @@ SOURCES = [
          url='https://www.nikkei.com/', edition='日本向けWeb', domain='nikkei.com', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'),
 
-    dict(id='guardian-web', name='The Guardian', country='英国', region='英国', kind='web', lang='en',
+    dict(id='guardian-web', name='The Guardian', country='英国', region='ヨーロッパ', kind='web', lang='en',
          url='https://www.theguardian.com/international', edition='国際版Web', domain='theguardian.com', max_articles=1,
          selectors='main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)', fallback_url='https://www.theguardian.com/world/rss'),
-    dict(id='nyt-web', name='The New York Times', country='米国', region='米国', kind='web', lang='en',
-         url='https://www.nytimes.com/international/', edition='国際版Web', domain='nytimes.com', max_articles=1,
+    dict(id='nyt-web', name='The New York Times', country='米国', region='アメリカ', kind='web', lang='en',
+         url='https://www.nytimes.com/international/', edition='国際版Web', domain='nytimes.com', max_articles=2,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)',
          fallback_url='https://rss.nytimes.com/services/xml/rss/nyt/World.xml'),
-    dict(id='ft-web', name='Financial Times', country='英国', region='英国', kind='web', lang='en',
+    dict(id='ft-web', name='Financial Times', country='英国', region='ヨーロッパ', kind='web', lang='en',
          url='https://www.ft.com/', edition='国際版Web', domain='ft.com', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'),
-    dict(id='reuters-web', name='Reuters', country='国際', region='通信社', kind='web', lang='en',
+    dict(id='reuters-web', name='Reuters', country='国際', region='ヨーロッパ', kind='web', lang='en',
          url='https://www.reuters.com/', edition='国際版Web', domain='reuters.com', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'),
-    dict(id='lemonde-web', name='Le Monde', country='フランス', region='欧州', kind='web', lang='en',
+    dict(id='lemonde-web', name='Le Monde', country='フランス', region='ヨーロッパ', kind='web', lang='en',
          url='https://www.lemonde.fr/en/', edition='英語版Web', domain='lemonde.fr', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'),
-    dict(id='aljazeera-web', name='Al Jazeera', country='カタール', region='中東・グローバルサウス', kind='web', lang='en',
-         url='https://www.aljazeera.com/', edition='英語版Web', domain='aljazeera.com', max_articles=1,
+    dict(id='aljazeera-web', name='Al Jazeera', country='カタール', region='中東', kind='web', lang='en',
+         url='https://www.aljazeera.com/', edition='英語版Web', domain='aljazeera.com', max_articles=2,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)',
          fallback_url='https://www.aljazeera.com/xml/rss/all.xml'),
-    dict(id='scmp-web', name='South China Morning Post', country='香港', region='アジア', kind='web', lang='en',
+    dict(id='scmp-web', name='South China Morning Post', country='香港', region='中国', kind='web', lang='en',
          url='https://www.scmp.com/', edition='国際版Web', domain='scmp.com', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'),
-    dict(id='bbc-web', name='BBC News', country='英国', region='英国', kind='web', lang='en',
+    dict(id='bbc-web', name='BBC News', country='英国', region='ヨーロッパ', kind='web', lang='en',
          url='https://www.bbc.com/news', edition='国際版Web', domain='bbc.com', max_articles=1,
          selectors='main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)',
          fallback_url='https://feeds.bbci.co.uk/news/rss.xml'),
+    dict(id='africanews-web', name='Africanews', country='アフリカ広域', region='アフリカ', kind='web', lang='en',
+         url='https://www.africanews.com/feed/rss', format='rss', https_host='www.africanews.com', edition='英語版・公式ニュース配信', max_articles=2),
+    dict(id='maverick-web', name='Daily Maverick', country='南アフリカ', region='アフリカ', kind='web', lang='en',
+         url='https://www.dailymaverick.co.za/dmrss/', format='rss', edition='公式ニュース配信', max_articles=2),
+    dict(id='npr-web', name='NPR', country='米国', region='アメリカ', kind='web', lang='en',
+         url='https://feeds.npr.org/1001/rss.xml', format='rss', edition='公式ニュース配信', max_articles=2),
+    dict(id='bangkokpost-web', name='Bangkok Post', country='タイ', region='アジア（その他）', kind='web', lang='en',
+         url='https://www.bangkokpost.com/rss/data/topstories.xml', format='rss', edition='英語版・公式トップニュース配信', max_articles=2),
+    dict(id='malaymail-web', name='Malay Mail', country='マレーシア', region='アジア（その他）', kind='web', lang='en',
+         url='https://www.malaymail.com/feed/rss/malaysia', format='rss', edition='英語版・公式国内ニュース配信', max_articles=2),
+    dict(id='chinadaily-web', name='China Daily', country='中国', region='中国', kind='web', lang='en',
+         url='https://www.chinadaily.com.cn/', domain='chinadaily.com.cn', edition='英語版Web', max_articles=2,
+         selectors='h1 a, h2 a, h3 a'),
+    dict(id='koreatimes-web', name='The Korea Times', country='韓国', region='韓国', kind='web', lang='en',
+         url='https://www.koreatimes.co.kr/', domain='koreatimes.co.kr', edition='英語版Web', max_articles=2,
+         selectors='h1 a, h2 a, h3 a, a:has(h1), a:has(h2), a:has(h3)'),
+
 ]
 
 ISSUE_RULES = [
@@ -316,40 +333,56 @@ def parse(source, raw, day):
     return paper_date, articles
 
 
-def parse_feed(source, raw):
+def parse_feed(source, raw, day=None):
     try:
         root = ET.fromstring(raw)
     except ET.ParseError as e:
         raise SourceError('no-headlines', '公式フィードを解析できません') from e
     rows = []
     for item in root.findall('.//item'):
-        title = clean(item.findtext('title') or '')
-        url = clean(item.findtext('link') or '')
-        if title and url:
-            rows.append((title, url))
+        rows.append((item.findtext('title') or '', item.findtext('link') or '',
+                     item.findtext('pubDate') or '', item.findtext('description') or ''))
     if not rows:
         ns = {'a': 'http://www.w3.org/2005/Atom'}
         for entry in root.findall('.//a:entry', ns):
-            title = clean(entry.findtext('a:title', default='', namespaces=ns))
-            link_el = entry.find('a:link', ns)
-            url = clean(link_el.get('href', '') if link_el is not None else '')
-            if title and url:
-                rows.append((title, url))
-    articles = []
-    for title, url in rows:
-        if not url.startswith('https://') or not 8 <= len(title) <= 350:
+            links = entry.findall('a:link', ns)
+            link_el = next((el for el in links if el.get('rel', 'alternate') == 'alternate'), None)
+            rows.append((entry.findtext('a:title', default='', namespaces=ns),
+                         link_el.get('href', '') if link_el is not None else '',
+                         entry.findtext('a:published', default='', namespaces=ns) or entry.findtext('a:updated', default='', namespaces=ns),
+                         entry.findtext('a:summary', default='', namespaces=ns)))
+    articles, seen = [], set()
+    for title, url, stamp, description in rows:
+        title, url = clean(html.unescape(title)), clean(url)
+        if url.startswith('http://') and urllib.parse.urlparse(url).hostname == source.get('https_host'):
+            url='https://'+url[7:]
+        if not url.startswith('https://') or not 8 <= len(title) <= 350 or url in seen:
             continue
-        articles.append(dict(
-            id=hashlib.sha256((source['id'] + url).encode()).hexdigest()[:16],
-            titleOriginal=title,
-            url=url,
-            publicationDate=None,
-            verification='feed-featured',
-        ))
+        published = None
+        if stamp:
+            try:
+                dt = parsedate_to_datetime(stamp)
+            except (ValueError, TypeError):
+                try:
+                    dt = datetime.fromisoformat(stamp.replace('Z', '+00:00'))
+                except ValueError:
+                    dt = None
+            if dt is not None:
+                published = dt.date().isoformat()
+                if day and not (datetime.fromisoformat(day).date()-timedelta(days=3) <= dt.date() <= datetime.fromisoformat(day).date()):
+                    continue
+        seen.add(url)
+        article = dict(id=hashlib.sha256((source['id']+url).encode()).hexdigest()[:16],
+                       titleOriginal=title, url=url, publicationDate=published,
+                       verification='feed-featured', dateBasis='publisher-feed' if published else None)
+        description = clean(BeautifulSoup(description, 'html.parser').get_text(' ', strip=True))
+        if len(description) >= 30 and not re.search(r'subscribe|sign in|access denied', description, re.I):
+            article['feedDescription'] = shorten(description, 180)
+        articles.append(article)
         if len(articles) >= source.get('max_articles', 1):
             break
     if not articles:
-        raise SourceError('no-headlines', '公式フィードに見出しがありません')
+        raise SourceError('no-headlines', '公式フィードに対象期間の見出しがありません')
     return None, articles
 
 
@@ -361,7 +394,7 @@ def translate(title, cache, source_lang='en'):
         raise ValueError('翻訳対象が長すぎます')
     # MyMemory supports many language pairs. Non-English sources are translated directly to Japanese.
     url='https://api.mymemory.translated.net/get?'+urllib.parse.urlencode(dict(q=title,langpair=f'{source_lang}|ja'))
-    result=json.loads(fetch(url))
+    result=json.loads(fetch(url, timeout=12))
     value=html.unescape(result.get('responseData',{}).get('translatedText','')).strip()
     if result.get('responseStatus')!=200 or not re.search('[ぁ-んァ-ン一-龯]',value) or result.get('quotaFinished'):
         raise ValueError('日本語訳を取得できません')
@@ -405,14 +438,14 @@ def main():
         try:
             try:
                 raw=fetch(source['url'].format(compact=day.replace('-','')))
-                date, articles=parse(source,raw,day)
+                date, articles=parse_feed(source,raw,day) if source.get('format')=='rss' else parse(source,raw,day)
             except Exception as primary:
                 fallback=source.get('fallback_url')
                 if not fallback:
                     raise
                 try:
                     raw=fetch(fallback)
-                    date,articles=parse_feed(source,raw)
+                    date,articles=parse_feed(source,raw,day)
                     entry['fallbackUsed']=True
                     entry['sourceUrl']=fallback
                 except Exception:
@@ -429,7 +462,7 @@ def main():
             print(source['id'],'parse-failed',type(e).__name__,str(e)[:120])
         return entry
 
-    entries=list(ThreadPoolExecutor(max_workers=6).map(collect,SOURCES))
+    entries=list(ThreadPoolExecutor(max_workers=6).map(collect,[s for s in SOURCES if not (s['country']=='日本' and s['kind']=='web')]))
     old={s['id']:s for s in previous.get('sources',[])}
     article_pairs=[]
     for entry in entries:
@@ -451,7 +484,7 @@ def main():
     def fetch_description(pair):
         _, article = pair
         try:
-            return extract_description(fetch(article['url'], timeout=12, max_bytes=1_200_000))
+            return article.get('feedDescription') or extract_description(fetch(article['url'], timeout=12, max_bytes=1_200_000))
         except Exception:
             return None
 
@@ -477,7 +510,7 @@ def main():
         a['viewpoint']=derive_viewpoint(title_ja)
         a['analysisBasis']='headline-rules'
 
-    payload=dict(schemaVersion=3,date=day,fetchedAt=now.isoformat(),sources=entries)
+    payload=dict(schemaVersion=4,date=day,fetchedAt=now.isoformat(),sources=entries)
     if previous.get('date') and not (ROOT / f"newspapers/{previous['date'][:7]}/{previous['date']}.json").exists():
         archive(ROOT,previous)
     archive(ROOT,payload)

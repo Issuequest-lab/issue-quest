@@ -1,0 +1,18 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const code=fs.readFileSync(__dirname+'/newspapers.js','utf8');
+const ctx={URL};vm.createContext(ctx);
+vm.runInContext(code.slice(code.indexOf('const REGION_WEIGHTS'),code.indexOf('const dayJst'))+code.slice(code.indexOf('function regionFor'),code.indexOf('function render')),ctx);
+const regions=['日本','アフリカ','中東','ヨーロッパ','アメリカ','アジア（その他）','韓国','中国'];
+const source=(r,n=5,name=r)=>({id:name,name,country:r,region:r,kind:r==='日本'?'paper':'web',status:'ok',articles:Array.from({length:n},(_,i)=>({id:name+i,titleJa:'日本語の見出し'+i,url:'https://example.test/'+encodeURIComponent(name)+'/'+i,translation:'machine'}))});
+let data=regions.map(r=>source(r));let result=ctx.readingList(data);
+assert.equal(result.rows.length,20);assert.equal(JSON.stringify(result.counts),JSON.stringify(Object.fromEntries(regions.map(r=>[r,['ヨーロッパ','アメリカ'].includes(r)?4:2]))));
+result=ctx.readingList(data.filter(s=>s.region!=='アフリカ'));
+assert.equal(result.rows.length,20);assert.equal(result.counts['アフリカ'],0);assert.equal(result.counts['日本'],2);
+assert.equal(ctx.readingList([]).rows.length,0);
+const invalid=source('韓国');invalid.status='unavailable';const jp=source('日本');jp.kind='web';const untranslated=source('中国');untranslated.articles.forEach(a=>a.translation='unavailable');assert.equal(ctx.readingList([invalid,jp,untranslated]).rows.length,0);
+const a=source('アフリカ',3,'one'),b=source('アフリカ',3,'two');result=ctx.readingList([a,b]);assert.equal(result.rows[0].s.name,'one');assert.equal(result.rows[1].s.name,'two');
+b.articles[0].url=a.articles[0].url+'?utm_source=test';result=ctx.readingList([a,b]);assert.equal(result.rows.length,5);
+assert.equal(ctx.regionFor({country:'英国'}),'ヨーロッパ');assert.equal(ctx.regionFor({country:'タイ'}),'アジア（その他）');assert.equal(ctx.regionFor({country:'香港'}),'中国');
+assert.equal(ctx.readingList([source('アフリカ',1)]).rows.length,1);
+console.log('PASS regional targets, redistribution, Japan Web exclusion, failures, translation, outlet diversity, deduplication, legacy regions');
