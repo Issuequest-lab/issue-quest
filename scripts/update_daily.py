@@ -7,6 +7,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from daily_briefs import build_briefs
+
 URL = 'https://trends.google.com/trending/rss?geo=JP'
 
 def parse_feed(raw):
@@ -23,11 +25,13 @@ def parse_feed(raw):
 def main():
     request = urllib.request.Request(URL, headers={'User-Agent': 'IssueQuest/1.1'})
     with urllib.request.urlopen(request, timeout=45) as response:
-        topics = parse_feed(response.read(2_000_000))
+        raw = response.read(2_000_000)
+        topics = parse_feed(raw)
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
-    payload = dict(schemaVersion=2, updatedAt=now.date().isoformat(),
+    payload = dict(schemaVersion=3, updatedAt=now.date().isoformat(),
                    fetchedAt=now.isoformat(), source='Google Trends Japan',
-                   sourceUrl=URL, mode='live', topics=topics)
+                   sourceUrl=URL, mode='live', topics=topics,
+                   briefs=build_briefs(raw,topics))
     target = Path(__file__).resolve().parents[1] / 'daily-issues.json'
     temp = target.with_suffix('.tmp')
     temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -36,3 +40,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
