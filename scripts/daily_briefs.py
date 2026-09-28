@@ -54,13 +54,19 @@ def description(raw):
 
 def short(text,limit=160):
     text=clean(text)
-    sentences=re.findall(r'.+?[。！？!?](?:[」』])?|.+$',text)
+    sentences=[];start=0;depth=0
+    for i,char in enumerate(text):
+        if char in '「『（(':depth+=1
+        elif char in '」』）)':depth=max(0,depth-1)
+        if depth==0 and char in '。！？!?':
+            sentences.append(text[start:i+1]);start=i+1
+    if depth==0 and start<len(text):sentences.append(text[start:])
     result=''
     for sentence in sentences:
-        if re.search(r'(?:…|\.\.\.)$',sentence.strip()):break
-        if len(result+sentence)>limit:break
+        if re.search(r'(?:…|\.\.\.)$',sentence.strip()) or len(result+sentence)>limit:break
         result+=sentence
-    return result or (text if len(text)<=limit and not re.search(r'(?:…|\.\.\.)$',text) else '')
+    return result
+
 
 def translate(text):
     if japanese(text):return text

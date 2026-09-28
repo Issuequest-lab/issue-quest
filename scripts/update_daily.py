@@ -23,7 +23,7 @@ def parse_feed(raw):
     return topics
 
 def main():
-    request = urllib.request.Request(URL, headers={'User-Agent': 'IssueQuest/1.1'})
+    request = urllib.request.Request(URL, headers={'User-Agent': 'IssueQuest/1.2'})
     with urllib.request.urlopen(request, timeout=45) as response:
         raw = response.read(2_000_000)
         topics = parse_feed(raw)

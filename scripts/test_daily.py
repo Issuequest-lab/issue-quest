@@ -33,6 +33,7 @@ class BriefTests(unittest.TestCase):
     def test_incomplete_sentences_and_unsafe_sources(self):
         self.assertEqual(b.short('最初の文です。続きは途中…'),'最初の文です。')
         self.assertEqual(b.short('途中で終わる…'),'')
+        self.assertEqual(b.short('発表がありました。「途中の引用です！まだ続く…'),'発表がありました。')
         self.assertFalse(b.safe_url('javascript:alert(1)'))
         self.assertFalse(b.safe_url('http://example.com'))
     def test_no_political_or_popularity_claim(self):
