@@ -156,3 +156,15 @@ def build_briefs(raw,topics):
     by_topic={clean(item.findtext('title')):feed_articles(item) for item in root.findall('./channel/item')}
     with ThreadPoolExecutor(max_workers=6) as pool:
         return list(pool.map(lambda t:make_brief(t,by_topic.get(t,[])),topics))
+
+
+def retain_same_day(briefs,previous,day,fetched_at):
+    old={b['topic']:b for b in previous.get('briefs',[]) if b.get('status')=='ok'} if previous.get('updatedAt')==day else {}
+    result=[]
+    for brief in briefs:
+        if brief.get('status')=='ok':
+            brief=dict(brief,verifiedAt=fetched_at,retained=False)
+        elif brief['topic'] in old:
+            brief=dict(old[brief['topic']],verifiedAt=old[brief['topic']].get('verifiedAt') or previous.get('fetchedAt'),retained=True)
+        result.append(brief)
+    return result

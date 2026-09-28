@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from daily_briefs import build_briefs
+from daily_briefs import build_briefs, retain_same_day
 
 URL = 'https://trends.google.com/trending/rss?geo=JP'
 
@@ -28,10 +28,13 @@ def main():
         raw = response.read(2_000_000)
         topics = parse_feed(raw)
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
+    target = Path(__file__).resolve().parents[1] / 'daily-issues.json'
+    previous = json.loads(target.read_text(encoding='utf-8')) if target.exists() else {}
+    briefs = retain_same_day(build_briefs(raw,topics),previous,now.date().isoformat(),now.isoformat())
     payload = dict(schemaVersion=3, updatedAt=now.date().isoformat(),
                    fetchedAt=now.isoformat(), source='Google Trends Japan',
                    sourceUrl=URL, mode='live', topics=topics,
-                   briefs=build_briefs(raw,topics))
+                   briefs=briefs)
     target = Path(__file__).resolve().parents[1] / 'daily-issues.json'
     temp = target.with_suffix('.tmp')
     temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

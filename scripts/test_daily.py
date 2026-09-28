@@ -36,6 +36,14 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(b.short('発表がありました。「途中の引用です！まだ続く…'),'発表がありました。')
         self.assertFalse(b.safe_url('javascript:alert(1)'))
         self.assertFalse(b.safe_url('http://example.com'))
+    def test_temporary_failure_keeps_only_same_day_verified_brief(self):
+        old=dict(updatedAt='2026-09-29',fetchedAt='2026-09-29T08:00:00+09:00',briefs=[dict(topic='話題',status='ok',summary='確認できた内容')])
+        failed=[dict(topic='話題',status='unavailable')]
+        kept=b.retain_same_day(failed,old,'2026-09-29','2026-09-29T09:00:00+09:00')[0]
+        self.assertEqual(kept['summary'],'確認できた内容')
+        self.assertEqual(kept['verifiedAt'],old['fetchedAt'])
+        self.assertTrue(kept['retained'])
+        self.assertEqual(b.retain_same_day(failed,old,'2026-09-30','later')[0]['status'],'unavailable')
     def test_no_political_or_popularity_claim(self):
         question,reason=b.issue_for('日本バレーボール協会','日本バレーボール協会がSNS中傷に声明')
         self.assertIn('被害',question)
