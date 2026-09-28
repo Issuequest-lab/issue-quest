@@ -17,7 +17,7 @@ function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得�
 function insightRow(label,text,cls=''){const p=node('p',undefined,`insight-row ${cls}`.trim());p.append(node('strong',label),document.createTextNode(text));return p;}
 function compactSummary(a){
   const text=(a.summaryJa||'').normalize('NFKC').trim();
-  if(!text)return {label:'要約',text:a.summaryStatus==='translation-failed'?'説明文の日本語訳を取得できませんでした。':'この記録には記事の説明文がありません。'};
+  if(!text)return null;
   // Keep complete sentences, never hide a clipped tail behind an ellipsis.
   const sentences=[];let start=0,depth=0;
   for(let i=0;i<text.length;i++){
@@ -27,7 +27,21 @@ function compactSummary(a){
   }
   if(sentences.length){let result=sentences[0];for(const next of sentences.slice(1)){if((result+next).length>90)break;result+=next;}return {label:'要約',text:result};}
   if(!/(?:…|\.\.\.)$/.test(text))return {label:'要約',text};
-  return {label:'見出しの要点',text:a.titleJa||'説明文を短い完結文として取得できませんでした。'};
+  return null;
+}
+function headlineInsights(a){
+  const title=(a.titleJa||'').normalize('NFKC');
+  // Questions are comparison prompts, not claims about the article's conclusions.
+  const rules=[
+    [/(?:欧州|ヨーロッパ).*(?:統一|結束|連帯)/,'欧州の結束を進めるうえで、何が課題になるか？','欧州の結束をめぐる発言・働きかけに焦点'],
+    [/(?:学生|進路|教育|学校)/,'学ぶ人の選択や学習環境に、何が影響しているか？','教育や学ぶ人の動向に焦点'],
+    [/(?:土石流|山津波|洪水|地震|災害)/,'被害を踏まえ、救助・生活再建で何を優先すべきか？','災害の被害と現地の状況に焦点'],
+    [/\bAI\b|人工知能/,'AIの利用で、どのような影響や課題を確かめるべきか？','AIの利用に伴う懸念に焦点'],
+    [/(?:地雷|国防|軍事|安全保障)/,'安全を守るため、事実確認と対応をどう進めるべきか？','安全保障上のリスクと対応に焦点'],
+    [/(?:支出|予算).*(?:中止|キャンセル|削減)/,'支出の停止は誰に影響し、判断の根拠は何か？','公的支出を止める判断に焦点'],
+  ];
+  const match=rules.find(([pattern])=>pattern.test(title));
+  return {issue:a.issue||match?.[1]||null,viewpoint:a.viewpoint||match?.[2]||null};
 }
 function card(s,a,choosable=true){
   const el=node('article',undefined,'card');
@@ -35,11 +49,11 @@ function card(s,a,choosable=true){
   el.append(node('h3',a.titleJa||'日本語訳を取得できませんでした'));
   const insight=node('div',undefined,'insight');
   const summary=compactSummary(a);
-  insight.append(insightRow(summary.label,summary.text,'summary'));
-  insight.append(insightRow('イシュー候補',a.issue||'見出しだけでは問いを特定できません。','issue'));
-  insight.append(insightRow('視点（推定）',a.viewpoint||'見出しだけでは焦点を特定できません。','viewpoint'));
-
-  el.append(insight);
+  const inferred=headlineInsights(a);
+  if(summary)insight.append(insightRow(summary.label,summary.text,'summary'));
+  if(inferred.issue)insight.append(insightRow('イシュー候補',inferred.issue,'issue'));
+  if(inferred.viewpoint)insight.append(insightRow('視点（推定）',inferred.viewpoint,'viewpoint'));
+  if(insight.childElementCount)el.append(insight);
   const details=node('details',undefined,'meta-details');
   details.append(node('summary','日付・出典・補足'));
   details.append(node('p',s.kind==='paper'?`紙面発行日：${a.publicationDate||'未確認'} / ${s.edition}`:`掲載日：${a.publicationDate||'未確認'} / ${s.edition}`));
@@ -48,8 +62,8 @@ function card(s,a,choosable=true){
   if(a.translation==='machine')details.append(node('p','海外見出し・説明文は自動翻訳です。'));
   if(s.kind==='paper'&&a.publicationDate&&a.publicationDate!==payload.date)details.append(node('p','取得日とは異なる発行日の紙面です。','notice'));
   if(a.comparedWith)details.append(node('p',`${a.comparedWith}の前回取得と比較：${a.change==='same'?'継続掲載':'今回の記録に追加'}`));
-  details.append(node('p',summary.label==='要約'?'要約：記事の説明文から文単位で抜粋。問い・視点：見出しから推定。':'説明文が途中で切れているため、見出しの要点を表示。問い・視点：見出しから推定。'));
-  if(a.summaryJa&&a.summaryJa!==summary.text)details.append(node('p',`取得した説明文：${a.summaryJa}`));
+  details.append(node('p',summary?.label==='要約'?'要約：記事の説明文から文単位で抜粋。問い・視点：見出しから推定。':'問い・視点：見出しから推定した比較の手がかりです。記事の結論を示すものではありません。'));
+  if(a.summaryJa&&a.summaryJa!==summary?.text)details.append(node('p',`取得した説明文：${a.summaryJa}`));
   details.append(node('p',a.titleOriginal),link(s.sourceUrl,'掲載位置の確認元'));
   el.append(details,link(a.url,'元記事を開く ↗'));
   if(choosable){const label=node('label',undefined,'choose'),input=document.createElement('input');input.type='checkbox';input.checked=selected.has(a.id);input.addEventListener('change',()=>{if(input.checked){if(selected.size>=3){input.checked=false;$('#selectedCount').textContent='比較は3件まで。1件解除してください。';return;}selected.set(a.id,{s,a});}else selected.delete(a.id);updateSelection();});label.append(input,document.createTextNode('比較に選ぶ'));el.append(label);}

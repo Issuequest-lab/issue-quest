@@ -18,3 +18,13 @@ assert.equal(ctx.readingList([source('アフリカ',1)]).rows.length,1);
 console.log('PASS regional targets, redistribution, Japan Web exclusion, failures, translation, outlet diversity, deduplication, legacy regions');
 
 const live=source('中東',2);live.articles[0].url='https://www.aljazeera.com/news/liveblog/2026/9/28/example';live.articles[1].url=live.articles[0].url+'?update=123';assert.equal(ctx.readingList([live]).rows.length,1);
+
+vm.runInContext(code.slice(code.indexOf('function compactSummary'),code.indexOf('function card')),ctx);
+assert.equal(ctx.compactSummary({}),null);
+assert.equal(ctx.compactSummary({summaryJa:'途中で終わった説明…'}),null);
+assert.equal(ctx.compactSummary({summaryJa:'完結した説明です。続き…'}).text,'完結した説明です。');
+const pope=ctx.headlineInsights({titleJa:'教皇レオ14世がヨーロッパの統一について話すためにメスに到着'});
+assert.match(pope.issue,/欧州の結束/);assert.match(pope.viewpoint,/発言/);
+assert.equal(ctx.headlineInsights({titleJa:'新しい詩集を発表'}).issue,null);
+assert.equal(ctx.headlineInsights({titleJa:'AIへの懸念',issue:'既存の問い'}).issue,'既存の問い');
+console.log('PASS absent insights, complete summary sentences, grounded headline prompts');
