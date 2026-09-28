@@ -1,20 +1,177 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-09-29",
-  "fetchedAt": "2026-09-29T05:56:58.942070+09:00",
+  "fetchedAt": "2026-09-29T08:31:46.170682+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "黒柳徹子",
-    "amazon.com",
-    "snow man",
-    "earthquake now",
-    "田中みな実",
-    "earthquake today",
-    "千葉 地震速報 今",
-    "yahoo 地震",
-    "nhk",
-    "yahoo ニュース"
+    "宇野千代",
+    "福本莉子",
+    "ナオキマン",
+    "青柳晃洋",
+    "オーシャン",
+    "ナスダック100指数",
+    "佐藤淑乃",
+    "yahoo!ニュース",
+    "日本バレーボール協会",
+    "pac プロレス"
+  ],
+  "briefs": [
+    {
+      "topic": "宇野千代",
+      "status": "ok",
+      "summary": "宇野千代はニートで暴君の父を恨んでいなかった…98歳まで生きた朝ドラ｢ブラッサム｣のモデルが捧げた言葉",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "宇野千代はニートで暴君の父を恨んでいなかった…98歳まで生きた朝ドラ｢ブラッサム｣のモデルが捧げた言葉",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iYXhsa196aERJUmI0SkFoQ3RLTmVrZjVfaGVnY0hpem5NdDNFSm1ya1kxRVY0WWZ6LUg1aVZBMEFiWGhhY0E0MDVhdV9MSGV3blJhZzRUQU9iM3BmY2NjSzMwNWQ5UkxJNW5EajJlTVpJYXlIMmNDSWNVWlRvOXM?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 21:15:44 GMT"
+        },
+        {
+          "title": "朝ドラ「ブラッサム」風俗考証者が語る、宇野千代の“モダン”と“和”",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LQjZLSE9MSmNCRHdJVjBtVzFmQkpodXo2ZXJDVGJmNmFOUHBkbHBWbm1oQVdheHNZdkhQcl9vX3B3eUdsR3E1NEtsWVBCMzM4bVE?oc=5",
+          "name": "NHK出版デジタルマガジン",
+          "publishedAt": "Mon, 28 Sep 2026 00:34:27 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "福本莉子",
+      "status": "ok",
+      "summary": "西畑大吾＆福本莉子W主演『時給三〇〇円の死神』死神バディの感涙シーンが初公開！予告編完全版映像が完成",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "西畑大吾＆福本莉子W主演『時給三〇〇円の死神』死神バディの感涙シーンが初公開！予告編完全版映像が完成",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYWlkyZlBaQUc4YkNMOFAxLWZTTm10bkpMNzhPRXRLN0VDMTZNSGFjQThaMnEyWmZpc0xyNnZuRHBFSXktaWMzaWhfelEzaWM3c3FUREpsOU1EOElrTE5fMUxqQ0JXaV9aVFlyV05kajEyMjVjc1BkLXZnMEpWZEk?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 23:04:57 GMT"
+        },
+        {
+          "title": "西畑大吾×福本莉子「時給三〇〇円の死神」物語の神髄に迫る予告編完全版が公開",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00OXhPRWV6Q2ItNXhVcDd0VFdQNm95dTRXeXhLa3hHQ1VCQkR2dGdlS1dzb0piTDBQN2J2MUthczNYUVk3ZjMxeldQQQ?oc=5",
+          "name": "ナタリー",
+          "publishedAt": "Mon, 28 Sep 2026 23:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "ナオキマン",
+      "status": "unavailable"
+    },
+    {
+      "topic": "青柳晃洋",
+      "status": "ok",
+      "summary": "ヤクルト青柳晃洋 来季戦力構想外",
+      "summaryBasis": "related-headline",
+      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
+      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ヤクルト青柳晃洋 来季戦力構想外",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11bHZ6RTdQRXMzS3k4T3VVWWYtcW95OV9iQ0JyUDhsbldBLUM5SmZkNkQtY25oQzdLRzZkN3U5dVpHRUdfdlVoT21FZHI3QkNI?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 21:30:56 GMT"
+        },
+        {
+          "title": "【ヤクルト】青柳晃洋、来季構想外 昨年７月に加入、今季は１軍昇格なし 現役続行の意向か（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40Z3VyYjhjR1VMNHNiUXFWV0F5UzVjd21Gb1hGOG52U3dWMWNDcHgzc2JZVEMwa3RrYW9rOUZ2bjBDc1QyZ1BObXNHZlNfWDVpY1BmU1NjNVVTbkZqSkdxNEpUVDh5d3FwbS1ZQzFBYzNQZTRoeldkUG03QlFiak0?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 19:02:36 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "オーシャン",
+      "status": "ok",
+      "summary": "高田松原ににぎわいを 「海辺のマルシェ」と「オーシャンフリー」 地元事業者 らが企画 気仙の多彩な魅力発信",
+      "summaryBasis": "related-headline",
+      "issue": "企画は地域のどんな課題に応え、住民や事業者にどのような効果があるか？",
+      "whyItMatters": "開催自体を目的にせず、参加・消費・継続性などの成果で評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "高田松原ににぎわいを 「海辺のマルシェ」と「オーシャンフリー」 地元事業者 らが企画 気仙の多彩な魅力発信",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZVHc2a1ZuT3NzZXIwa3h0T3ZSWVJWenpDQ1BfT3dvSTIzR0tjVE9Gd1Z0YVNVOEdrRkptZnB6d0oxdVg0ZUpmdG5MZTZJWlk0Z3hHdGNR?oc=5",
+          "name": "東海新報",
+          "publishedAt": "Mon, 28 Sep 2026 17:23:05 GMT"
+        },
+        {
+          "title": "金沢港に”三井オーシャンサクラ”寄港へ 今月デビューの新造船来年には輪島や七尾へも（テレビ金沢）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TZHZBZmxuYWhwV1p4UDZBR1dnMEtCd1YwdHVRYVdyekNhdFZ3VkFJemcwTVhPZ0dmX1lkaG5XVEg0Z3h1R3JjZGVFTzRKMnNwMjEwS2hGMWlHODB4SEFFZUlfb08xMVZFcFF6TEROQ0wwMUJyU3EtdGtGMmdCRWs?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 09:52:00 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "ナスダック100指数",
+      "status": "ok",
+      "summary": "3つの逆風が重なり、ナスダック100指数が下落",
+      "summaryBasis": "related-headline",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "3つの逆風が重なり、ナスダック100指数が下落",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jTTl2S2xsN2FkeVV6dnhNcHFUeW9OZ2xBdk03VFo1ZUNDWTJnQ2ZDaWlPRmxtbm9nYmJ0ajk2el9IRHFsdkgySHJBdTlpTk1qZmRNeWhrTVJmdw?oc=5",
+          "name": "Moomoo",
+          "publishedAt": "Mon, 28 Sep 2026 15:54:38 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "佐藤淑乃",
+      "status": "ok",
+      "summary": "バレー女子日本代表・佐藤淑乃が２７日、インスタグラムを更新。ファンミーティングの様子が投稿された。 佐藤は詰めかけた多くのファンと撮影した写真を添え「こんなに沢山の方が応援してくれていることを実感できて、嬉しかったです！",
+      "summaryBasis": "publisher-description",
+      "issue": "どのような交流や今後の活動が公表され、参加者に何が伝えられたか？",
+      "whyItMatters": "本人の発信と周囲の解釈を分け、活動や参加の判断につながる情報を押さえるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "バレー女子 佐藤淑乃が「衣装・ヘアメイクともにガラッとチェンジ」雰囲気一変の姿に反響「似合ってる」「笑顔でホッとしました」",
+          "url": "https://www.daily.co.jp/general/2026/09/28/0020870253.shtml",
+          "name": "デイリースポーツ",
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "topic": "yahoo!ニュース",
+      "status": "unavailable"
+    },
+    {
+      "topic": "日本バレーボール協会",
+      "status": "ok",
+      "summary": "日本バレーボール協会がSNS中傷に声明発表。世界のスポーツ団体の対応は、より強硬に #エキスパートトピ",
+      "summaryBasis": "related-headline",
+      "issue": "被害を防ぐために、どの行為を問題とし、どんな対応が必要か？",
+      "whyItMatters": "正当な批判と攻撃を分け、被害者保護と表現の自由を両立する対応を考えるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "日本バレーボール協会がSNS中傷に声明発表。世界のスポーツ団体の対応は、より強硬に #エキスパートトピ",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXBxbkF0c1hzUEtXZkdxM1NLa3N1YmJ2SV9tVjgtZVB1bkdhQ09ReXRVTDFvYXRPQ0E3YWhFcTZjSmRxb0tDYnFpSk9NTC1IZEZ1THRXOVFTN0VDVHVlSFRveWZKYWcyTVdWSTZidE82cUplVWtBQ2daTE51MWJSY0EtY2RPTzdr?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 27 Sep 2026 13:21:55 GMT"
+        }
+      ]
+    },
+    {
+      "topic": "pac プロレス",
+      "status": "unavailable"
+    }
   ]
 }
