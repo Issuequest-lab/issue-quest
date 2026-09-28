@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-28",
-  "fetchedAt": "2026-09-28T05:53:02.533748+09:00",
+  "updatedAt": "2026-09-29",
+  "fetchedAt": "2026-09-29T03:31:39.328833+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "酒田市",
-    "西村優菜",
-    "nfl",
-    "菊池 風磨",
-    "大雨警報",
-    "倉木麻衣",
-    "全般台風情報、台風第26号",
-    "norwegia vs portugal",
-    "ブルージェイズ 対 レッズ",
-    "ホワイトソックス 対 ロッキーズ"
+    "ベルギー 対 フランス",
+    "高宮まり",
+    "宝くじ",
+    "インフルエンザ",
+    "ps5 pro",
+    "今野龍太",
+    "中河原駅",
+    "河本準一",
+    "反町隆史",
+    "高橋慶帆"
   ]
 }
