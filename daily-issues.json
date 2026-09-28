@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-09-29",
-  "fetchedAt": "2026-09-29T08:33:53.805743+09:00",
+  "fetchedAt": "2026-09-29T08:37:02.852903+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
@@ -40,8 +40,8 @@
           "publishedAt": "Mon, 28 Sep 2026 00:34:27 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "福本莉子",
@@ -61,12 +61,12 @@
         {
           "title": "西畑大吾×福本莉子「時給三〇〇円の死神」物語の神髄に迫る予告編完全版が公開",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00OXhPRWV6Q2ItNXhVcDd0VFdQNm95dTRXeXhLa3hHQ1VCQkR2dGdlS1dzb0piTDBQN2J2MUthczNYUVk3ZjMxeldQQQ?oc=5",
-          "name": "ナタリー",
+          "name": "natalie.mu",
           "publishedAt": "Mon, 28 Sep 2026 23:00:00 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "ナオキマン",
@@ -88,14 +88,14 @@
           "publishedAt": "Mon, 28 Sep 2026 21:30:56 GMT"
         },
         {
-          "title": "【ヤクルト】青柳晃洋、来季構想外 昨年７月に加入、今季は１軍昇格なし 現役続行の意向か（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40Z3VyYjhjR1VMNHNiUXFWV0F5UzVjd21Gb1hGOG52U3dWMWNDcHgzc2JZVEMwa3RrYW9rOUZ2bjBDc1QyZ1BObXNHZlNfWDVpY1BmU1NjNVVTbkZqSkdxNEpUVDh5d3FwbS1ZQzFBYzNQZTRoeldkUG03QlFiak0?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 19:02:36 GMT"
+          "title": "ヤクルト青柳晃洋が来季構想外 現役続行へ移籍模索",
+          "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQSm9sZ0NRODR5eHltYmNleEkyZ29aSTNqSFEtejNWT0l2UzdDWEI1NExYNHZiSTJUcHV2TEd2eXRrS3ZLaElydldKckkyV0tzamRfUE8yMTBpMFZXMFNQbGZCODlLeVdxSDh4THJBRTdxY0g5clRBc2pFWm9BQm5DUkVTSE5fWGZ0YkNfcVJZME9TUGZMY0Z2dFQ2cFZzQWVjMEtYa3Z2cnJBQXY5NmxuLWtjUkw3RlIydFZWR3JFS2NDRlNoa1BPUVNNYy1HVWl5eUo4N1hvZzFrLTVtaDA2d1FzTXNLQUtaZWxZd0dtZ3pWTnJXMTVwU2lUWThfR3dEcU52RjY3ZmdoZzVSS1d1ZUZ2cDZFLV9ndXJxcE9rZUFybGtkMUpaTklET3lGSHB0OUhFd29WbWd4Vm5pTldvZElpYVc1UzFmai1oaU9ZQ1E3a0Z2UkF4VzUyeV9NVnZGUzZNU1FXTnBXNkttQ0JDVWJBMkdSMnBaMUlKaU93MDllbnM?oc=5",
+          "name": "SmartNews",
+          "publishedAt": "Mon, 28 Sep 2026 23:32:00 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "オーシャン",
@@ -113,14 +113,14 @@
           "publishedAt": "Mon, 28 Sep 2026 17:23:05 GMT"
         },
         {
-          "title": "金沢港に”三井オーシャンサクラ”寄港へ 今月デビューの新造船来年には輪島や七尾へも（テレビ金沢）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TZHZBZmxuYWhwV1p4UDZBR1dnMEtCd1YwdHVRYVdyekNhdFZ3VkFJemcwTVhPZ0dmX1lkaG5XVEg0Z3h1R3JjZGVFTzRKMnNwMjEwS2hGMWlHODB4SEFFZUlfb08xMVZFcFF6TEROQ0wwMUJyU3EtdGtGMmdCRWs?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 09:52:00 GMT"
+          "title": "G3の根岸S、オーシャンSなどG2へ昇格申請 27年1月に格付け審査",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUo0aU9SVFkxekhzRUZFcl9aVGVGOUVyLTlPeVhwOGhhUHNMbkVtUFozc2VzZm1aUmd4RV81NEhLQnlzSG84Rk5iMGR3REozZHNxMEllN3ZiVkYtRjEtRzF6QWVLUk56VExUUlRBa2E1ejNYQkFwOVEzU0xiNDFWVWhxemNMcUlvTzhrLQ?oc=5",
+          "name": "スポニチ Sponichi Annex",
+          "publishedAt": "Mon, 28 Sep 2026 20:30:00 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "ナスダック100指数",
@@ -138,8 +138,8 @@
           "publishedAt": "Mon, 28 Sep 2026 15:54:38 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "佐藤淑乃",
@@ -157,7 +157,7 @@
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-29T08:33:53.805743+09:00",
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
       "retained": false
     },
     {
@@ -180,8 +180,8 @@
           "publishedAt": "Sun, 27 Sep 2026 13:21:55 GMT"
         }
       ],
-      "verifiedAt": "2026-09-29T08:31:46.170682+09:00",
-      "retained": true
+      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "retained": false
     },
     {
       "topic": "pac プロレス",
