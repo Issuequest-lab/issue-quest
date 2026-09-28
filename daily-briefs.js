@@ -15,6 +15,7 @@ function renderDailyBriefs(box,payload){
       const issue=element('p',null,'daily-brief-issue');issue.append(element('strong','イシュー候補'),document.createTextNode(brief.issue));card.append(issue);
     }
     const details=element('details',null,'daily-brief-details');details.append(element('summary','なぜこの問い？・関連報道'));
+    if(brief.verifiedAt){const date=new Date(brief.verifiedAt);if(!Number.isNaN(date.getTime()))details.append(element('p','情報確認：'+date.toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',hour12:false})+' JST'+(brief.retained?'（本日取得できた内容を表示）':'')));}
     if(brief.whyItMatters)details.append(element('p',brief.whyItMatters));
     for(const source of (Array.isArray(brief.sources)?brief.sources:[]).slice(0,2)){
       try{if(new URL(source.url).protocol!=='https:')continue;}catch{continue;}
