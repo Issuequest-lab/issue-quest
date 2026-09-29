@@ -1,221 +1,260 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-09-30",
-  "fetchedAt": "2026-09-30T03:32:29.986494+09:00",
+  "fetchedAt": "2026-09-30T05:55:15.137944+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "チェコ 対 イングランド",
-    "スペイン 対 クロアチア",
-    "ブレーブス 対 フィリーズ",
-    "岡田結実",
-    "狩野英孝",
-    "スポティファイ",
-    "山本裕典",
-    "残業時間",
-    "iphone アプリ",
-    "男子 バレー アジア 大会 パキスタン"
+    "アストロズ 対 ホワイトソックス",
+    "熱帯低気圧",
+    "綾瀬はるか",
+    "犯罪",
+    "スペイン代表",
+    "スタバ",
+    "鈴木誠也",
+    "配当",
+    "河本 準 一",
+    "広島駅"
   ],
   "briefs": [
     {
-      "topic": "チェコ 対 イングランド",
+      "topic": "アストロズ 対 ホワイトソックス",
       "status": "ok",
-      "summary": "ネーションズリーグ チェコ対イングランド戦のスコア予想",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ネーションズリーグ チェコ対イングランド戦のスコア予想",
-          "url": "https://ja.laodong.vn/bong-da-quoc-te/du-doan-ti-so-cong-hoa-czech-vs-anh-tai-nations-league-1774742.ldo",
-          "name": "Laodong.vn",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
-      "retained": false
-    },
-    {
-      "topic": "スペイン 対 クロアチア",
-      "status": "ok",
-      "summary": "ネーションズリーグ、スペイン対クロアチアをLIVE配信中",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ネーションズリーグ、スペイン対クロアチアをLIVE配信中",
-          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B9%E3%82%99%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%99-%E3%82%B9%E3%83%98%E3%82%9A%E3%82%A4%E3%83%B3%E5%AF%BE%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2%E3%82%92live%E9%85%8D%E4%BF%A1%E4%B8%AD/blt0362aef75d6bdc86",
-          "name": "Goal.com",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ブレーブス 対 フィリーズ",
-      "status": "ok",
-      "summary": "【9月30日】ブレーブス対フィリーズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
+      "summary": "【9月30日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【9月30日】ブレーブス対フィリーズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVHlRdVZCQkFzZEN6NHg0U3JxbmgxSllTc3p2VnlYclRJWHJidE1YckpyZERmSmNKSG9oUGxmbDhVdGJVSFNkallZWEg0WnZUckdxNUg0cVVmeG0zMmhQZEV1bmF5Qk5ocFZ6cHF6TnlyZ2ItT05kTGFyRjVDd0tueUk0V1ZwMVFHQ3NPMS1ka09qSkRIYS1jOEY5ZVFROEJwX3ZhMndnNDgwRkJwRkE1S01RS3hXSnQyd0NFeU13?oc=5",
+          "title": "【9月30日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeTBPbHZyeDhWazYzZGt4ZTBLYXk4VUtOVnpONllOc2J3QkFvNHIwcTlYc1BNQmZNVWM2b0pVbWJsZWJqZjYzcEVCWkhNY1R1RmtCOHJDLUZDWlRSeE9fUFhTZHFncnI4V0lZV3QzRFdjNlQzUUJ5QThmXzE2UXVhN1J3c3RPTUYyNlVvNV9DTk1FU2FSXzQ2UF9DTlZiSmFfbDFjY2N0NEtHMXJuVXJDanBlc1dHblJnZ3lOUTBR?oc=5",
           "name": "Goal.com",
-          "publishedAt": "Tue, 29 Sep 2026 12:41:30 GMT"
+          "publishedAt": "Tue, 29 Sep 2026 15:03:00 GMT"
         }
       ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
       "retained": false
     },
     {
-      "topic": "岡田結実",
+      "topic": "熱帯低気圧",
       "status": "ok",
-      "summary": "岡田結実、出産後の夫婦喧嘩を告白「本当に罵り合いました」たどり着いた“完全分担”育児＜ダマってられない女たち3＞",
-      "summaryBasis": "related-headline",
-      "issue": "「岡田結実」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "■新たな【台風のたまご=熱帯低気圧】発生新たな「熱帯低気圧」が発生しました。",
+      "summaryBasis": "publisher-description",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "岡田結実、出産後の夫婦喧嘩を告白「本当に罵り合いました」たどり着いた“完全分担”育児＜ダマってられない女たち3＞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Yc0hWcmpNRDJ0ODdaamt0SXQ3X3VudnA2STlwYUE1U3F0MEpTSHVBaWhzcEcxSl81WjlTdEI3aERkNGNOMXF5c0daY3ktZWh3cXBQUHdDWnVBVjNRc1duSGNwdHZaVFZDRUl2M0d4dDBVNV9RMVl3UHc5RjlFakU?oc=5",
+          "title": "【台風のたまご】「熱帯低気圧」発生 さらに2つの「反時計回りの渦」現る【雨風シミュレーション10月10日（土）まで/全国の週間予報】「台風26号」関東の南へ（MBC南日本放送）",
+          "url": "https://news.yahoo.co.jp/articles/ccc062caddea210649da92019d4f20139c1c103a",
           "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 23:15:00 GMT"
+          "publishedAt": null
         },
         {
-          "title": "1児の母・岡田結実、出産後は夫と「本当に罵り合いました」試行錯誤の末にたどり着いた“完全分担”育児スタイル明かす",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UbWwwMVBSSEFBMk9HX2ZvQ1JaNmNiNlQ3MkVhODNRY0ZiTEZsVUZlUmh2RnROcVU0X2wyWDdfcER2d2NReTQzSFRKOFNocTZ1VTFWSV96Z2xGbEVYWl9DRThzV3E?oc=5",
-          "name": "山形新聞",
-          "publishedAt": "Tue, 29 Sep 2026 09:02:04 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
-      "retained": false
-    },
-    {
-      "topic": "狩野英孝",
-      "status": "ok",
-      "summary": "かまいたち、狩野英孝、リンダカラー∞Denら煽りOKのポーカー大会で激突",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "かまいたち、狩野英孝、リンダカラー∞Denら煽りOKのポーカー大会で激突",
-          "url": "https://natalie.mu/owarai/news/691436",
-          "name": "ナタリー",
+          "title": "【気象情報】“台風のたまご”＝熱帯低気圧 南の海上でほとんど停滞 【10月10日（土）までの雨風シミュレーション】長期シミュレーションでは10月3日頃に「気がかりな渦」北上か",
+          "url": "https://topics.smt.docomo.ne.jp/article/sbc21/region/sbc21-2975367",
+          "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
       "retained": false
     },
     {
-      "topic": "スポティファイ",
+      "topic": "綾瀬はるか",
       "status": "ok",
-      "summary": "Evercoreはスポティファイ・テクノロジー(SPOT.US)のレーティングを強気に据え置き",
-      "summaryBasis": "related-headline",
-      "issue": "「スポティファイ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "Evercoreはスポティファイ・テクノロジー(SPOT.US)のレーティングを強気に据え置き",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1M5SkZkRW40bUxPZ3NTTGFjT3MxeWt1bWVnVWY5Q3JFV09wWXVjY3JHQTV4OEhWVURMXzVJT2hNZ2FhZHJabTVfeGtIMzJmM2lOOGpqZGZacWhCNlBteVNMN2pJb3ZyQUxKbDZKbDhaQ1pVZzA0V2xJbHVjb00yN0k5OHlTWVpfekxOUzJMQVNCODVBd3EwLWV0UV9jQi1XWWNpd09ERFJlRDg?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Mon, 28 Sep 2026 21:57:31 GMT"
-        },
-        {
-          "title": "テイラー・スウィフト、スポティファイで今年の記録を2つ更新",
-          "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxNeU9QMldYMzM0RlFBVGxUNG1WeTBKZGRvRWQwaXpFNXV4TWZkMmczcVFFbHB1RXBkZzNSakVEZ09VeU5ab1RSdnNObldsQ0txUTZfVVI5TjVYTS1MNHV4TnZpc2dVR2d3MHpSWF8tTElkV2ZpXzVZbzNJTDhhSnlDOV9YQnE2bjY3UU5BbmdxNi1pcjVrTnowZ2x6YzdkdWVlcmgxelFhSFFJc2hxSURNLUo3OUxRMl9hdXdqSE4xaFZHV0UzUTI4Z1d1UEg3dHpNaEdRWnRPWUNncVZzeVctZkR5Q0h0Z19acDQzajZFa3ZETGxUcXNLYkhEeE9JZzlqOVcxYndtcVB6S2hFVGd5WGhQSEc2b0FHS1k2ZGxvUF9hQlJYbkVNMUU0UXdTeWlTUmxXampZamNsN1hTOVdfNVcycUlyQkIzT2N0dmNneHFFWHhiMUVKNE1peElZT0paM3RQOEF2b3l1NVVyaVE1eEVPenE5SVBLTEowNDgyel9QbHN1Z2RNaHRlRW54QXIyVjNqbTV4MWhmdm1rMDMyWC1QdUhwOW5RS09MTDRlVlBOa0g1cFhMcHJwNHI?oc=5",
-          "name": "SmartNews",
-          "publishedAt": "Mon, 28 Sep 2026 17:20:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
-      "retained": false
-    },
-    {
-      "topic": "山本裕典",
-      "status": "ok",
-      "summary": "ABEMA番組内の企画「山本裕典、ホストになる。」で発表 タレントで俳優の山本裕典（38）が29日放送のABEMA『愛のハイエナ season6』（火曜午後11時）で結婚したことを発表した。お相手は",
+      "summary": "9月28日、バラエティ番組『帰れマンデー見っけ隊!! 3時間SP』（テレビ朝日系）が放送された。人気企画「サンド旅」がオンエアされ、ゲストに女優の綾瀬はるかが登場した。しかし、綾瀬がVTRに映るたび",
       "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "山本裕典が結婚 相手は一般女性",
-          "url": "https://news.yahoo.co.jp/pickup/6596999",
+          "title": "綾瀬はるか『サンド旅』で見せた肌の “異変” 一部から飛び出した “美肌すぎ” の指摘（SmartFLASH）",
+          "url": "https://news.yahoo.co.jp/articles/9de957e91b5418b6adcce17c33a89a5016604b35",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "山本裕典、結婚を発表＜愛のハイエナ6＞",
-          "url": "https://thetv.jp/news/detail/1444510/",
-          "name": "WEBザテレビジョン",
+          "title": "【綾瀬はるか】が帰れマンデー初参戦！さまぁ～ず三村＆ハリセンボン春菜とグルメ自販機巡りの旅！",
+          "url": "https://tver.jp/episodes/epjdlvljaf",
+          "name": "TVer",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
       "retained": false
     },
     {
-      "topic": "残業時間",
+      "topic": "犯罪",
       "status": "ok",
-      "summary": "施工管理求人の月平均残業時間は中央値30時間、20時間以下が40.1%・40時間超が10.7%｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.16】",
-      "summaryBasis": "related-headline",
-      "issue": "「残業時間」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "浙江嘉兴公安机关打掉一个实施网络“套路贷”并进行非法催收的犯罪团伙，破获刑事案件40起。该团伙先后流窜至广东多个地市作案50余起。",
+      "summaryBasis": "publisher-description",
+      "issue": "「犯罪」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "施工管理求人の月平均残業時間は中央値30時間、20時間以下が40.1%・40時間超が10.7%｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.16】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yUVVVMjE2ZGlCdFV5SHZNR0Y4UFFOWnlKaVdZZGtmdXRULTZwaWFtMUhDXy1PekRVanlkcDJKT3VVUEJVdEdadUNGZ09hVGF1bXo4MmNuMWQ1ZFh3U2JKQ1VZbFI4eWdvNkE?oc=5",
-          "name": "PR TIMES",
-          "publishedAt": "Tue, 29 Sep 2026 05:05:12 GMT"
+          "title": "公安部公布赵某、郭某浩、李某明、韦某、彭某彬、金某顺、黄某生、宋某岩等人新型涉黑恶犯罪典型案例",
+          "url": "https://m.sohu.com/a/1082422966_203783?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+          "name": "搜狐网",
+          "publishedAt": null
         },
         {
-          "title": "固定残業代の記載がある施工管理求人は16.2%、固定残業時間の中央値は月25時間で20時間の設定が最多｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.22】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YeUoxWTg1RUtSUzcyNENHeThkemU3eXl3UTJxRy1nTE1Pc3hYdmFyTml0SlhJVUJjckZFeEZXdTZtSGF4Qnh3WTJsM29uVVBZQmxXTndKUTYxLURGTE9nbVkwY0xYUzM5b3c?oc=5",
-          "name": "PR TIMES",
-          "publishedAt": "Tue, 29 Sep 2026 06:17:38 GMT"
+          "title": "深化扫黑除恶专项斗争丨十类新型黑恶犯罪一定要认清之⑥强迫消费",
+          "url": "https://m.sohu.com/a/1082135151_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+          "name": "搜狐网",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
       "retained": false
     },
     {
-      "topic": "iphone アプリ",
+      "topic": "スペイン代表",
       "status": "ok",
-      "summary": "9月29日午前（日本時間）、一部のiPhoneアプリで起動後に突然アプリがクラッシュする症状が発生。SNS（X）などで話題となった。不具合は同日昼頃までに復旧。原因はグーグルが提供する開発基盤関係の",
-      "summaryBasis": "publisher-description",
-      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
-      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "summary": "世界王者スペイン代表、クロアチアに4発快勝で40戦無敗 世界記録をさらに更新、公式戦では41試合連続負けなし",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「iPhoneアプリが落ちる」報告相次ぐ 現在は復旧、原因は？（アスキー）",
-          "url": "https://news.yahoo.co.jp/articles/84ac125cff47d1af35949c462bf73efc51aa82d1",
+          "title": "世界王者スペイン代表、クロアチアに4発快勝で40戦無敗 世界記録をさらに更新、公式戦では41試合連続負けなし",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82cFk5U2U0QWFjeXMwb2xzUnZyZmdGRU9DSW9rSVdvak9SUGxKTXNVbW9HdFNIejdsT2dPekVuV2FxTFlGU1Z1SWRPYjhwVVdIRHllVHhVVk1Qd3pIRjlDX2tlN2VWUW5GVmRlWDVuUncyaUlsWF84UzZoYVdmeGM?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Tue, 29 Sep 2026 20:47:06 GMT"
+        },
+        {
+          "title": "W杯、EURO、UNLを制覇…スペイン代表監督が語った自信「2010年当時の精神を取り戻した」",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpQW1yc0NnNzI4QUE4RU1wME5mOTRaZ1B3czducGx3SjFuSGxSUTFlYktTNUhJaWFSdGxJaGVEZFlKbno3UXhfeHZiZ2xOYWRta1JCNnJxS1Q2VXVjY0o0bmk1QXAtLXhRM21DOThhek0?oc=5",
+          "name": "サッカーキング",
+          "publishedAt": "Tue, 29 Sep 2026 05:47:36 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
+      "retained": false
+    },
+    {
+      "topic": "スタバ",
+      "status": "ok",
+      "summary": "9/30発売【スタバ】ポケモンと初コラボ！ バリスタバトル優勝のラテやタンブラーなど全41種の限定グッズを発売",
+      "summaryBasis": "related-headline",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "9/30発売【スタバ】ポケモンと初コラボ！ バリスタバトル優勝のラテやタンブラーなど全41種の限定グッズを発売",
+          "url": "https://www.asahi.com/and/w/article/16920719/31378225",
+          "name": "朝日新聞",
+          "publishedAt": null
+        },
+        {
+          "title": "「スタバ×ポケモン」神コラボが9/30スタート！ 限定ピカチュウラテ＆描き下ろしグッズが販売（ぴあ）",
+          "url": "https://news.yahoo.co.jp/articles/c3d76a2317431c8b2e54a5965508eade7b024a64",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
       "retained": false
     },
     {
-      "topic": "男子 バレー アジア 大会 パキスタン",
-      "status": "unavailable"
+      "topic": "鈴木誠也",
+      "status": "ok",
+      "summary": "◇ナ・リーグ ワイルドカードシリーズ第1戦 カブスーパドレス（2026年9月29日 サンディエゴ） カブスの鈴木誠也外野手（32）と今永昇太投手（33）がともに29日（日本時間30日）に開幕するナ・",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "カブス 鈴木誠也、今永昇太ロースター入り ワイルドカードシリーズで対戦 パドレス松井裕樹も（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/6315c01e90767341d112d6b7fe12777af2fb997c",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
+      "retained": false
+    },
+    {
+      "topic": "配当",
+      "status": "ok",
+      "summary": "Tracers 日経平均高配当株50インデックス(奇数月分配型)【02313241】：基準価格・投資信託情報",
+      "summaryBasis": "related-headline",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "Tracers 日経平均高配当株50インデックス(奇数月分配型)【02313241】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iRWo5aHlsZk1rQWZrZmxtaS1hb2t6VlY3dFpRUHRGODJsVGdMR0tkRDh4UFFwY1h4SE9fUFRaQVo2QzItVGpySkx3Uk10NmczOElhZw?oc=5",
+          "name": "Yahoo!ファイナンス",
+          "publishedAt": "Tue, 29 Sep 2026 19:14:15 GMT"
+        },
+        {
+          "title": "オルカン高配当の取扱を開始！",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wNDJISEs5Z2hXMWZzWmllb1VrcGpNdElCckZGSnlwWnlPdV9PMFBiOVp4M0wzSDNLcW1rTnVzRG9DUXRIZXhIMl81Y3l0Vk5IQUtaSjVoUEpHdlg4T1lFSA?oc=5",
+          "name": "PayPay証券",
+          "publishedAt": "Tue, 29 Sep 2026 07:49:31 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
+      "retained": false
+    },
+    {
+      "topic": "河本 準 一",
+      "status": "ok",
+      "summary": "すい臓の不調のため一時休養を発表したお笑いコンビ「次長課長」の河本準一（51）が29日、Xを更新。近況を伝えた。",
+      "summaryBasis": "publisher-description",
+      "issue": "「河本 準 一」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "すい臓の不調で一時休養の河本準一「絶食は脱出です」",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900200761.html",
+          "name": "テレ朝NEWS",
+          "publishedAt": null
+        },
+        {
+          "title": "「次長課長」河本準一の１６歳下恋人「人生で１番幸せな誕生日」病室で２ショ！「まさかの」「ラブラブ」（スポーツ報知）",
+          "url": "https://news.yahoo.co.jp/articles/a0e63b6c6a3d9f7be9c5d409a2d0a2f829053b7b",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
+      "retained": false
+    },
+    {
+      "topic": "広島駅",
+      "status": "ok",
+      "summary": "広島駅南口では、広島市・JR西日本・広島電鉄の3者が一体となり、大規模な再整備を進めています。 2025年3月",
+      "summaryBasis": "publisher-description",
+      "issue": "「広島駅」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "JR広島駅南口再整備 2026.09（Vol.126）＜駅ビル編＞ Aペデ側エレベーター共用開始",
+          "url": "https://ab-hiroshima.com/202609hiroshimaeki126_jr",
+          "name": "AND BUILD HIROSHIMA",
+          "publishedAt": null
+        },
+        {
+          "title": "アパグループが広島駅前のホテル計画変更 「EN HOTEL」、2028年開業",
+          "url": "https://topics.smt.docomo.ne.jp/article/minkei/region/minkei-hiroshima4726",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T05:55:15.137944+09:00",
+      "retained": false
     }
   ]
 }
