@@ -1,190 +1,220 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-09-29",
-  "fetchedAt": "2026-09-29T08:37:02.852903+09:00",
+  "updatedAt": "2026-09-30",
+  "fetchedAt": "2026-09-30T03:32:29.986494+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "宇野千代",
-    "福本莉子",
-    "ナオキマン",
-    "青柳晃洋",
-    "オーシャン",
-    "ナスダック100指数",
-    "佐藤淑乃",
-    "yahoo!ニュース",
-    "日本バレーボール協会",
-    "pac プロレス"
+    "チェコ 対 イングランド",
+    "スペイン 対 クロアチア",
+    "ブレーブス 対 フィリーズ",
+    "岡田結実",
+    "狩野英孝",
+    "スポティファイ",
+    "山本裕典",
+    "残業時間",
+    "iphone アプリ",
+    "男子 バレー アジア 大会 パキスタン"
   ],
   "briefs": [
     {
-      "topic": "宇野千代",
+      "topic": "チェコ 対 イングランド",
       "status": "ok",
-      "summary": "宇野千代はニートで暴君の父を恨んでいなかった…98歳まで生きた朝ドラ｢ブラッサム｣のモデルが捧げた言葉",
+      "summary": "ネーションズリーグ チェコ対イングランド戦のスコア予想",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "宇野千代はニートで暴君の父を恨んでいなかった…98歳まで生きた朝ドラ｢ブラッサム｣のモデルが捧げた言葉",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iYXhsa196aERJUmI0SkFoQ3RLTmVrZjVfaGVnY0hpem5NdDNFSm1ya1kxRVY0WWZ6LUg1aVZBMEFiWGhhY0E0MDVhdV9MSGV3blJhZzRUQU9iM3BmY2NjSzMwNWQ5UkxJNW5EajJlTVpJYXlIMmNDSWNVWlRvOXM?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 21:15:44 GMT"
-        },
-        {
-          "title": "朝ドラ「ブラッサム」風俗考証者が語る、宇野千代の“モダン”と“和”",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LQjZLSE9MSmNCRHdJVjBtVzFmQkpodXo2ZXJDVGJmNmFOUHBkbHBWbm1oQVdheHNZdkhQcl9vX3B3eUdsR3E1NEtsWVBCMzM4bVE?oc=5",
-          "name": "NHK出版デジタルマガジン",
-          "publishedAt": "Mon, 28 Sep 2026 00:34:27 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
-      "retained": false
-    },
-    {
-      "topic": "福本莉子",
-      "status": "ok",
-      "summary": "西畑大吾＆福本莉子W主演『時給三〇〇円の死神』死神バディの感涙シーンが初公開！予告編完全版映像が完成",
-      "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "西畑大吾＆福本莉子W主演『時給三〇〇円の死神』死神バディの感涙シーンが初公開！予告編完全版映像が完成",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYWlkyZlBaQUc4YkNMOFAxLWZTTm10bkpMNzhPRXRLN0VDMTZNSGFjQThaMnEyWmZpc0xyNnZuRHBFSXktaWMzaWhfelEzaWM3c3FUREpsOU1EOElrTE5fMUxqQ0JXaV9aVFlyV05kajEyMjVjc1BkLXZnMEpWZEk?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 23:04:57 GMT"
-        },
-        {
-          "title": "西畑大吾×福本莉子「時給三〇〇円の死神」物語の神髄に迫る予告編完全版が公開",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00OXhPRWV6Q2ItNXhVcDd0VFdQNm95dTRXeXhLa3hHQ1VCQkR2dGdlS1dzb0piTDBQN2J2MUthczNYUVk3ZjMxeldQQQ?oc=5",
-          "name": "natalie.mu",
-          "publishedAt": "Mon, 28 Sep 2026 23:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ナオキマン",
-      "status": "unavailable"
-    },
-    {
-      "topic": "青柳晃洋",
-      "status": "ok",
-      "summary": "ヤクルト青柳晃洋 来季戦力構想外",
-      "summaryBasis": "related-headline",
-      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
-      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ヤクルト青柳晃洋 来季戦力構想外",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11bHZ6RTdQRXMzS3k4T3VVWWYtcW95OV9iQ0JyUDhsbldBLUM5SmZkNkQtY25oQzdLRzZkN3U5dVpHRUdfdlVoT21FZHI3QkNI?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 28 Sep 2026 21:30:56 GMT"
-        },
-        {
-          "title": "ヤクルト青柳晃洋が来季構想外 現役続行へ移籍模索",
-          "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQSm9sZ0NRODR5eHltYmNleEkyZ29aSTNqSFEtejNWT0l2UzdDWEI1NExYNHZiSTJUcHV2TEd2eXRrS3ZLaElydldKckkyV0tzamRfUE8yMTBpMFZXMFNQbGZCODlLeVdxSDh4THJBRTdxY0g5clRBc2pFWm9BQm5DUkVTSE5fWGZ0YkNfcVJZME9TUGZMY0Z2dFQ2cFZzQWVjMEtYa3Z2cnJBQXY5NmxuLWtjUkw3RlIydFZWR3JFS2NDRlNoa1BPUVNNYy1HVWl5eUo4N1hvZzFrLTVtaDA2d1FzTXNLQUtaZWxZd0dtZ3pWTnJXMTVwU2lUWThfR3dEcU52RjY3ZmdoZzVSS1d1ZUZ2cDZFLV9ndXJxcE9rZUFybGtkMUpaTklET3lGSHB0OUhFd29WbWd4Vm5pTldvZElpYVc1UzFmai1oaU9ZQ1E3a0Z2UkF4VzUyeV9NVnZGUzZNU1FXTnBXNkttQ0JDVWJBMkdSMnBaMUlKaU93MDllbnM?oc=5",
-          "name": "SmartNews",
-          "publishedAt": "Mon, 28 Sep 2026 23:32:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
-      "retained": false
-    },
-    {
-      "topic": "オーシャン",
-      "status": "ok",
-      "summary": "高田松原ににぎわいを 「海辺のマルシェ」と「オーシャンフリー」 地元事業者 らが企画 気仙の多彩な魅力発信",
-      "summaryBasis": "related-headline",
-      "issue": "企画は地域のどんな課題に応え、住民や事業者にどのような効果があるか？",
-      "whyItMatters": "開催自体を目的にせず、参加・消費・継続性などの成果で評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "高田松原ににぎわいを 「海辺のマルシェ」と「オーシャンフリー」 地元事業者 らが企画 気仙の多彩な魅力発信",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZVHc2a1ZuT3NzZXIwa3h0T3ZSWVJWenpDQ1BfT3dvSTIzR0tjVE9Gd1Z0YVNVOEdrRkptZnB6d0oxdVg0ZUpmdG5MZTZJWlk0Z3hHdGNR?oc=5",
-          "name": "東海新報",
-          "publishedAt": "Mon, 28 Sep 2026 17:23:05 GMT"
-        },
-        {
-          "title": "G3の根岸S、オーシャンSなどG2へ昇格申請 27年1月に格付け審査",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUo0aU9SVFkxekhzRUZFcl9aVGVGOUVyLTlPeVhwOGhhUHNMbkVtUFozc2VzZm1aUmd4RV81NEhLQnlzSG84Rk5iMGR3REozZHNxMEllN3ZiVkYtRjEtRzF6QWVLUk56VExUUlRBa2E1ejNYQkFwOVEzU0xiNDFWVWhxemNMcUlvTzhrLQ?oc=5",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": "Mon, 28 Sep 2026 20:30:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ナスダック100指数",
-      "status": "ok",
-      "summary": "3つの逆風が重なり、ナスダック100指数が下落",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "3つの逆風が重なり、ナスダック100指数が下落",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jTTl2S2xsN2FkeVV6dnhNcHFUeW9OZ2xBdk03VFo1ZUNDWTJnQ2ZDaWlPRmxtbm9nYmJ0ajk2el9IRHFsdkgySHJBdTlpTk1qZmRNeWhrTVJmdw?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Mon, 28 Sep 2026 15:54:38 GMT"
-        }
-      ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
-      "retained": false
-    },
-    {
-      "topic": "佐藤淑乃",
-      "status": "ok",
-      "summary": "バレー女子日本代表・佐藤淑乃が２７日、インスタグラムを更新。ファンミーティングの様子が投稿された。",
-      "summaryBasis": "publisher-description",
-      "issue": "どのような交流や今後の活動が公表され、参加者に何が伝えられたか？",
-      "whyItMatters": "本人の発信と周囲の解釈を分け、活動や参加の判断につながる情報を押さえるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "バレー女子 佐藤淑乃が「衣装・ヘアメイクともにガラッとチェンジ」雰囲気一変の姿に反響「似合ってる」「笑顔でホッとしました」",
-          "url": "https://www.daily.co.jp/general/2026/09/28/0020870253.shtml",
-          "name": "デイリースポーツ",
+          "title": "ネーションズリーグ チェコ対イングランド戦のスコア予想",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/du-doan-ti-so-cong-hoa-czech-vs-anh-tai-nations-league-1774742.ldo",
+          "name": "Laodong.vn",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
       "retained": false
     },
     {
-      "topic": "yahoo!ニュース",
-      "status": "unavailable"
-    },
-    {
-      "topic": "日本バレーボール協会",
+      "topic": "スペイン 対 クロアチア",
       "status": "ok",
-      "summary": "日本バレーボール協会がSNS中傷に声明発表。世界のスポーツ団体の対応は、より強硬に #エキスパートトピ",
+      "summary": "ネーションズリーグ、スペイン対クロアチアをLIVE配信中",
       "summaryBasis": "related-headline",
-      "issue": "被害を防ぐために、どの行為を問題とし、どんな対応が必要か？",
-      "whyItMatters": "正当な批判と攻撃を分け、被害者保護と表現の自由を両立する対応を考えるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "日本バレーボール協会がSNS中傷に声明発表。世界のスポーツ団体の対応は、より強硬に #エキスパートトピ",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXBxbkF0c1hzUEtXZkdxM1NLa3N1YmJ2SV9tVjgtZVB1bkdhQ09ReXRVTDFvYXRPQ0E3YWhFcTZjSmRxb0tDYnFpSk9NTC1IZEZ1THRXOVFTN0VDVHVlSFRveWZKYWcyTVdWSTZidE82cUplVWtBQ2daTE51MWJSY0EtY2RPTzdr?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 27 Sep 2026 13:21:55 GMT"
+          "title": "ネーションズリーグ、スペイン対クロアチアをLIVE配信中",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B9%E3%82%99%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%99-%E3%82%B9%E3%83%98%E3%82%9A%E3%82%A4%E3%83%B3%E5%AF%BE%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2%E3%82%92live%E9%85%8D%E4%BF%A1%E4%B8%AD/blt0362aef75d6bdc86",
+          "name": "Goal.com",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-09-29T08:37:02.852903+09:00",
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
       "retained": false
     },
     {
-      "topic": "pac プロレス",
+      "topic": "ブレーブス 対 フィリーズ",
+      "status": "ok",
+      "summary": "【9月30日】ブレーブス対フィリーズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【9月30日】ブレーブス対フィリーズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVHlRdVZCQkFzZEN6NHg0U3JxbmgxSllTc3p2VnlYclRJWHJidE1YckpyZERmSmNKSG9oUGxmbDhVdGJVSFNkallZWEg0WnZUckdxNUg0cVVmeG0zMmhQZEV1bmF5Qk5ocFZ6cHF6TnlyZ2ItT05kTGFyRjVDd0tueUk0V1ZwMVFHQ3NPMS1ka09qSkRIYS1jOEY5ZVFROEJwX3ZhMndnNDgwRkJwRkE1S01RS3hXSnQyd0NFeU13?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Tue, 29 Sep 2026 12:41:30 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "岡田結実",
+      "status": "ok",
+      "summary": "岡田結実、出産後の夫婦喧嘩を告白「本当に罵り合いました」たどり着いた“完全分担”育児＜ダマってられない女たち3＞",
+      "summaryBasis": "related-headline",
+      "issue": "「岡田結実」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "岡田結実、出産後の夫婦喧嘩を告白「本当に罵り合いました」たどり着いた“完全分担”育児＜ダマってられない女たち3＞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Yc0hWcmpNRDJ0ODdaamt0SXQ3X3VudnA2STlwYUE1U3F0MEpTSHVBaWhzcEcxSl81WjlTdEI3aERkNGNOMXF5c0daY3ktZWh3cXBQUHdDWnVBVjNRc1duSGNwdHZaVFZDRUl2M0d4dDBVNV9RMVl3UHc5RjlFakU?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 28 Sep 2026 23:15:00 GMT"
+        },
+        {
+          "title": "1児の母・岡田結実、出産後は夫と「本当に罵り合いました」試行錯誤の末にたどり着いた“完全分担”育児スタイル明かす",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UbWwwMVBSSEFBMk9HX2ZvQ1JaNmNiNlQ3MkVhODNRY0ZiTEZsVUZlUmh2RnROcVU0X2wyWDdfcER2d2NReTQzSFRKOFNocTZ1VTFWSV96Z2xGbEVYWl9DRThzV3E?oc=5",
+          "name": "山形新聞",
+          "publishedAt": "Tue, 29 Sep 2026 09:02:04 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "狩野英孝",
+      "status": "ok",
+      "summary": "かまいたち、狩野英孝、リンダカラー∞Denら煽りOKのポーカー大会で激突",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "かまいたち、狩野英孝、リンダカラー∞Denら煽りOKのポーカー大会で激突",
+          "url": "https://natalie.mu/owarai/news/691436",
+          "name": "ナタリー",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "スポティファイ",
+      "status": "ok",
+      "summary": "Evercoreはスポティファイ・テクノロジー(SPOT.US)のレーティングを強気に据え置き",
+      "summaryBasis": "related-headline",
+      "issue": "「スポティファイ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "Evercoreはスポティファイ・テクノロジー(SPOT.US)のレーティングを強気に据え置き",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1M5SkZkRW40bUxPZ3NTTGFjT3MxeWt1bWVnVWY5Q3JFV09wWXVjY3JHQTV4OEhWVURMXzVJT2hNZ2FhZHJabTVfeGtIMzJmM2lOOGpqZGZacWhCNlBteVNMN2pJb3ZyQUxKbDZKbDhaQ1pVZzA0V2xJbHVjb00yN0k5OHlTWVpfekxOUzJMQVNCODVBd3EwLWV0UV9jQi1XWWNpd09ERFJlRDg?oc=5",
+          "name": "Moomoo",
+          "publishedAt": "Mon, 28 Sep 2026 21:57:31 GMT"
+        },
+        {
+          "title": "テイラー・スウィフト、スポティファイで今年の記録を2つ更新",
+          "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxNeU9QMldYMzM0RlFBVGxUNG1WeTBKZGRvRWQwaXpFNXV4TWZkMmczcVFFbHB1RXBkZzNSakVEZ09VeU5ab1RSdnNObldsQ0txUTZfVVI5TjVYTS1MNHV4TnZpc2dVR2d3MHpSWF8tTElkV2ZpXzVZbzNJTDhhSnlDOV9YQnE2bjY3UU5BbmdxNi1pcjVrTnowZ2x6YzdkdWVlcmgxelFhSFFJc2hxSURNLUo3OUxRMl9hdXdqSE4xaFZHV0UzUTI4Z1d1UEg3dHpNaEdRWnRPWUNncVZzeVctZkR5Q0h0Z19acDQzajZFa3ZETGxUcXNLYkhEeE9JZzlqOVcxYndtcVB6S2hFVGd5WGhQSEc2b0FHS1k2ZGxvUF9hQlJYbkVNMUU0UXdTeWlTUmxXampZamNsN1hTOVdfNVcycUlyQkIzT2N0dmNneHFFWHhiMUVKNE1peElZT0paM3RQOEF2b3l1NVVyaVE1eEVPenE5SVBLTEowNDgyel9QbHN1Z2RNaHRlRW54QXIyVjNqbTV4MWhmdm1rMDMyWC1QdUhwOW5RS09MTDRlVlBOa0g1cFhMcHJwNHI?oc=5",
+          "name": "SmartNews",
+          "publishedAt": "Mon, 28 Sep 2026 17:20:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "山本裕典",
+      "status": "ok",
+      "summary": "ABEMA番組内の企画「山本裕典、ホストになる。」で発表 タレントで俳優の山本裕典（38）が29日放送のABEMA『愛のハイエナ season6』（火曜午後11時）で結婚したことを発表した。お相手は",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "山本裕典が結婚 相手は一般女性",
+          "url": "https://news.yahoo.co.jp/pickup/6596999",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "山本裕典、結婚を発表＜愛のハイエナ6＞",
+          "url": "https://thetv.jp/news/detail/1444510/",
+          "name": "WEBザテレビジョン",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "残業時間",
+      "status": "ok",
+      "summary": "施工管理求人の月平均残業時間は中央値30時間、20時間以下が40.1%・40時間超が10.7%｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.16】",
+      "summaryBasis": "related-headline",
+      "issue": "「残業時間」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "施工管理求人の月平均残業時間は中央値30時間、20時間以下が40.1%・40時間超が10.7%｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.16】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yUVVVMjE2ZGlCdFV5SHZNR0Y4UFFOWnlKaVdZZGtmdXRULTZwaWFtMUhDXy1PekRVanlkcDJKT3VVUEJVdEdadUNGZ09hVGF1bXo4MmNuMWQ1ZFh3U2JKQ1VZbFI4eWdvNkE?oc=5",
+          "name": "PR TIMES",
+          "publishedAt": "Tue, 29 Sep 2026 05:05:12 GMT"
+        },
+        {
+          "title": "固定残業代の記載がある施工管理求人は16.2%、固定残業時間の中央値は月25時間で20時間の設定が最多｜施工管理の求人5,993件を分析【施工管理求人データ調査 Vol.22】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YeUoxWTg1RUtSUzcyNENHeThkemU3eXl3UTJxRy1nTE1Pc3hYdmFyTml0SlhJVUJjckZFeEZXdTZtSGF4Qnh3WTJsM29uVVBZQmxXTndKUTYxLURGTE9nbVkwY0xYUzM5b3c?oc=5",
+          "name": "PR TIMES",
+          "publishedAt": "Tue, 29 Sep 2026 06:17:38 GMT"
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "iphone アプリ",
+      "status": "ok",
+      "summary": "9月29日午前（日本時間）、一部のiPhoneアプリで起動後に突然アプリがクラッシュする症状が発生。SNS（X）などで話題となった。不具合は同日昼頃までに復旧。原因はグーグルが提供する開発基盤関係の",
+      "summaryBasis": "publisher-description",
+      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
+      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「iPhoneアプリが落ちる」報告相次ぐ 現在は復旧、原因は？（アスキー）",
+          "url": "https://news.yahoo.co.jp/articles/84ac125cff47d1af35949c462bf73efc51aa82d1",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-09-30T03:32:29.986494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "男子 バレー アジア 大会 パキスタン",
       "status": "unavailable"
     }
   ]
