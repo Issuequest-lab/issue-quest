@@ -21,7 +21,13 @@ def relevant(topic,text):
     return normalized(topic) in normalized(text)
 
 def japanese(text):
-    return bool(re.search('[ぁ-んァ-ン一-龯]',text or ''))
+    # Han characters alone are shared with Chinese, not evidence of Japanese.
+    return bool(re.search('[ぁ-ゖァ-ヺ]',text or ''))
+
+def source_language(text):
+    if re.search('[가-힣]',text):return 'ko'
+    if re.search('[一-龯]',text):return 'zh-CN'
+    return 'en'
 
 def safe_url(url):
     p=urllib.parse.urlsplit(url)
@@ -70,10 +76,10 @@ def short(text,limit=160):
 
 def translate(text):
     if japanese(text):return text
-    query=urllib.parse.urlencode({'q':text[:300],'langpair':'en|ja'})
+    query=urllib.parse.urlencode({'q':text[:300],'langpair':source_language(text)+'|ja'})
     obj=json.loads(fetch('https://api.mymemory.translated.net/get?'+query))
     result=clean(obj.get('responseData',{}).get('translatedText',''))
-    if obj.get('responseStatus')!=200 or obj.get('quotaFinished') or not japanese(result):
+    if obj.get('responseStatus')!=200 or obj.get('quotaFinished') or not japanese(result) or normalized(result)==normalized(text):
         raise ValueError('Japanese translation unavailable')
     return result
 
@@ -159,7 +165,7 @@ def build_briefs(raw,topics):
 
 
 def retain_same_day(briefs,previous,day,fetched_at):
-    old={b['topic']:b for b in previous.get('briefs',[]) if b.get('status')=='ok'} if previous.get('updatedAt')==day else {}
+    old={b['topic']:b for b in previous.get('briefs',[]) if b.get('status')=='ok' and japanese(b.get('summary','')) and all(japanese(s.get('title','')) for s in b.get('sources',[]))} if previous.get('updatedAt')==day else {}
     result=[]
     for brief in briefs:
         if brief.get('status')=='ok':
