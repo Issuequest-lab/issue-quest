@@ -1,4 +1,6 @@
 import unittest
+import json
+import urllib.parse
 from unittest.mock import patch
 import daily_briefs as b
 from update_daily import parse_feed
@@ -15,6 +17,25 @@ class FeedTests(unittest.TestCase):
             parse_feed('<html><body>Service unavailable</body></html>')
 
 class BriefTests(unittest.TestCase):
+    def test_chinese_is_translated_with_chinese_source_language(self):
+        original='浙江嘉兴公安机关打掉一个犯罪团伙。'
+        translated='浙江省嘉興市の公安当局が犯罪集団を摘発しました。'
+        self.assertFalse(b.japanese(original))
+        with patch.object(b,'fetch',return_value=json.dumps({'responseStatus':200,'responseData':{'translatedText':translated}})) as fetch:
+            self.assertEqual(b.translate(original),translated)
+        query=urllib.parse.parse_qs(urllib.parse.urlsplit(fetch.call_args.args[0]).query)
+        self.assertEqual(query['langpair'],['zh-CN|ja'])
+        with patch.object(b,'fetch',return_value=json.dumps({'responseStatus':200,'responseData':{'translatedText':original}})):
+            with self.assertRaises(ValueError):b.translate(original)
+    def test_untranslated_brief_is_not_retained(self):
+        old=dict(updatedAt='2026-09-30',briefs=[dict(topic='犯罪',status='ok',summary='浙江嘉兴公安机关打掉一个犯罪团伙。')])
+        out=b.retain_same_day([dict(topic='犯罪',status='translation-unavailable')],old,'2026-09-30','now')
+        self.assertEqual(out[0]['status'],'translation-unavailable')
+    def test_failed_translation_never_displays_foreign_summary(self):
+        row=dict(title='犯罪集団を摘発したと発表',url='https://example.com/a',source='報道',snippet='浙江嘉兴公安机关打掉一个犯罪团伙。')
+        with patch.object(b,'fetch',side_effect=TimeoutError):out=b.make_brief('犯罪',[row])
+        self.assertEqual(out['summary'],row['title'])
+        self.assertEqual(out['summaryBasis'],'related-headline')
     def test_missing_or_unrelated_reporting_is_not_invented(self):
         with patch.object(b,'search_articles',return_value=[]):
             self.assertEqual(b.make_brief('青柳晃洋',[dict(title='無関係の記事',url='https://example.com',source='報道',snippet='')])['status'],'unavailable')
@@ -51,4 +72,3 @@ class BriefTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
