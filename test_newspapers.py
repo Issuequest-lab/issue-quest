@@ -5,6 +5,14 @@ from unittest.mock import patch
 import update_newspapers as u
 
 class NewspaperTests(unittest.TestCase):
+    def test_clipped_metadata_falls_back_to_public_article_paragraphs(self):
+        text='北京では住宅環境の変化により鳩を飼う場所が減り、文化を継ぐ若い人の不足が課題となっています。'
+        raw=f'<meta name="description" content="1934年の随筆を紹介する冒頭だけの説明文で終わる…"><article><p>{text}</p></article>'
+        self.assertEqual(u.extract_description(raw),text)
+    def test_summary_does_not_append_clipped_tail(self):
+        self.assertEqual(u.complete_summary('出来事を説明します。続きは途中…'),'出来事を説明します。')
+        self.assertIsNone(u.complete_summary('紹介の冒頭しかなく途中で切れた説明…'))
+
     def test_liveblog_updates_do_not_take_another_article_slot(self):
         source=next(s for s in u.SOURCES if s['id']=='aljazeera-web')
         raw='<main><h2><a href="/news/liveblog/example">Main live news headline</a></h2><h2><a href="/news/liveblog/example?update=123">Specific update headline</a></h2><h2><a href="/news/another">Another different article</a></h2></main>'

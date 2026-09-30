@@ -1,5 +1,5 @@
 'use strict';
-// Source-backed news is read before entering the separately labelled practice quiz.
+// Read the news, then continue to other topics and world newspapers.
 function renderDailyBriefs(box,payload){
   box.replaceChildren();
   const element=(tag,text,cls)=>{const e=document.createElement(tag);if(text)e.textContent=text;if(cls)e.className=cls;return e;};
@@ -25,7 +25,7 @@ function renderDailyBriefs(box,payload){
     card.append(details);
     if(index<5)box.append(card);
     else{
-      if(!extra){extra=element('details',null,'daily-brief-more');extra.append(element('summary',`ほかの話題も読む（${briefs.length-5}件）`));box.append(extra);}
+      if(!extra){extra=element('details',null,'daily-brief-more read-more');extra.append(element('summary',`ほかの話題も読む（${briefs.length-5}件）`));box.append(extra);}
       extra.append(card);
     }
   });
@@ -38,3 +38,4 @@ function renderDailyBriefs(box,payload){
   if(briefs.length)box.append(element('p','記事の説明文・関連見出しをもとに整理。イシューは考えるための候補です。検索増加の原因や世間の総意を示すものではありません。','daily-brief-note'));
   return briefs.length;
 }
+

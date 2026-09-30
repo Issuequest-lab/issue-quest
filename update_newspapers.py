@@ -147,7 +147,7 @@ def extract_description(raw):
         el = soup.find(tag, attrs=attrs)
         value = clean(el.get('content', '')) if el else ''
         if len(value) >= 30 and not re.search(r'購読|会員登録|ログイン|subscribe|sign in|access denied|enable javascript', value, re.I):
-            return shorten(value, 180)
+            if not re.search(r'(?:…|\.\.\.)$', value):return value[:1500]
 
     def find_description(obj):
         if isinstance(obj, dict):
@@ -171,9 +171,27 @@ def extract_description(raw):
         except (json.JSONDecodeError, TypeError):
             value = None
         if value:
-            return shorten(value, 180)
+            if not re.search(r'(?:…|\.\.\.)$', value):return value[:1500]
+
+    # Public article paragraphs only; exclude navigation and subscription text.
+    body = soup.select_one('article [itemprop="articleBody"], [itemprop="articleBody"], #Content, .article-body, article')
+    if body:
+        paragraphs = [clean(p.get_text(' ', strip=True)) for p in body.select('p')]
+        paragraphs = [p for p in paragraphs if len(p)>=40 and not re.search(r'copyright|subscribe|sign in|all rights reserved|会員登録|ログイン',p,re.I)]
+        if paragraphs:return ' '.join(paragraphs[:2])[:1500]
 
     return None
+
+
+def complete_summary(text, limit=180):
+    text=clean(text or '')
+    sentences=re.findall(r'[^。！？!?]*[。！？!?]',text)
+    result=''
+    for sentence in sentences:
+        if len(result+sentence)>limit:break
+        result+=sentence
+        if len(result)>=80:break
+    return result or (text if len(text)<=limit and not re.search(r'(?:…|\.\.\.)$',text) else None)
 
 
 def derive_issue(text):
@@ -498,9 +516,9 @@ def main():
         if description:
             try:
                 if entry['lang']=='ja':
-                    summary=shorten(description,100)
+                    summary=complete_summary(description)
                 else:
-                    summary=shorten(translate(_utf8_limit(description),cache,entry['lang']),100)
+                    summary=complete_summary(translate(_utf8_limit(description),cache,entry['lang']))
             except Exception:
                 summary=None
         a['summaryBasis']='publisher-description' if summary else 'unavailable'
@@ -512,6 +530,8 @@ def main():
         a['issue']=derive_issue(title_ja)
         a['viewpoint']=derive_viewpoint(title_ja)
         a['analysisBasis']='headline-rules'
+        reviewed=read_json(ROOT/'newspaper-context.json',{}).get('articles',{}).get(a['url'])
+        if reviewed:a.update(reviewed)
 
     payload=dict(schemaVersion=4,date=day,fetchedAt=now.isoformat(),sources=entries)
     if previous.get('date') and not (ROOT / f"newspapers/{previous['date'][:7]}/{previous['date']}.json").exists():

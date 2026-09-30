@@ -1,6 +1,6 @@
 'use strict';
 const $=s=>document.querySelector(s), raw='https://raw.githubusercontent.com/Issuequest-lab/issue-quest/main/';
-let days=[],payload=null,revision=0,selected=new Map();
+let editorial={},days=[],payload=null,revision=0,selected=new Map();
 const REGION_WEIGHTS={'日本':1,'アフリカ':1,'中東':1,'ヨーロッパ':2,'アメリカ':2,'アジア（その他）':1,'韓国':1,'中国':1};
 const REGION_ORDER=Object.keys(REGION_WEIGHTS);
 const dayJst=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo'}).format(new Date());
@@ -16,6 +16,7 @@ function verificationLabel(a){if(a.verification==='paper-top')return '一面ト�
 function failureLabel(s){switch(s.errorCode){case'fetch-failed':return '取得失敗';case'date-unverified':return '発行日確認失敗';case'position-unverified':return '掲載位置確認失敗';case'no-headlines':return '見出し確認失敗';case'parse-failed':return '掲載内容確認失敗';default:return '未取得';}}
 function insightRow(label,text,cls=''){const p=node('p',undefined,`insight-row ${cls}`.trim());p.append(node('strong',label),document.createTextNode(text));return p;}
 function compactSummary(a){
+  if(a.summaryBasis==='article-reviewed'&&a.summaryJa)return {label:'何の記事？',text:a.summaryJa};
   const text=(a.summaryJa||'').normalize('NFKC').trim();
   if(!text)return null;
   // Keep complete sentences, never hide a clipped tail behind an ellipsis.
@@ -30,6 +31,7 @@ function compactSummary(a){
   return null;
 }
 function headlineInsights(a){
+  if(a.analysisBasis==='article-reviewed')return {issue:a.issue||null,viewpoint:a.viewpoint||null};
   const title=(a.titleJa||'').normalize('NFKC');
   // Questions are comparison prompts, not claims about the article's conclusions.
   const rules=[
@@ -51,8 +53,9 @@ function card(s,a,choosable=true){
   const summary=compactSummary(a);
   const inferred=headlineInsights(a);
   if(summary)insight.append(insightRow(summary.label,summary.text,'summary'));
+  if(a.backgroundJa)insight.append(insightRow('背景・用語',a.backgroundJa,'background')); 
   if(inferred.issue)insight.append(insightRow('イシュー候補',inferred.issue,'issue'));
-  if(inferred.viewpoint)insight.append(insightRow('視点（推定）',inferred.viewpoint,'viewpoint'));
+  if(inferred.viewpoint)insight.append(insightRow(a.analysisBasis==='article-reviewed'?'記事の視点':'視点（推定）',inferred.viewpoint,'viewpoint'));
   if(insight.childElementCount)el.append(insight);
   const details=node('details',undefined,'meta-details');
   details.append(node('summary','日付・出典・補足'));
@@ -62,7 +65,7 @@ function card(s,a,choosable=true){
   if(a.translation==='machine')details.append(node('p','海外見出し・説明文は自動翻訳です。'));
   if(s.kind==='paper'&&a.publicationDate&&a.publicationDate!==payload.date)details.append(node('p','取得日とは異なる発行日の紙面です。','notice'));
   if(a.comparedWith)details.append(node('p',`${a.comparedWith}の前回取得と比較：${a.change==='same'?'継続掲載':'今回の記録に追加'}`));
-  details.append(node('p',summary?.label==='要約'?'要約：記事の説明文から文単位で抜粋。問い・視点：見出しから推定。':'問い・視点：見出しから推定した比較の手がかりです。記事の結論を示すものではありません。'));
+  details.append(node('p',a.summaryBasis==='article-reviewed'?'説明：原文を確認して日本語で整理。問いは編集上の候補です。':summary?.label==='要約'?'要約：記事の説明文・冒頭から文単位で抜粋。問い・視点：見出しから推定。':'問い・視点：見出しから推定した比較の手がかりです。記事の結論を示すものではありません。'));
   if(a.summaryJa&&a.summaryJa!==summary?.text)details.append(node('p',`取得した説明文：${a.summaryJa}`));
   details.append(node('p',a.titleOriginal),link(s.sourceUrl,'掲載位置の確認元'));
   el.append(details,link(a.url,'元記事を開く ↗'));
@@ -84,8 +87,9 @@ function readingList(sources){
     if(!publishers.has(region))publishers.set(region,new Map());
     const outlets=publishers.get(region);
     if(!outlets.has(s.name))outlets.set(s.name,[]);
-    for(const a of s.articles||[]){
-      if(!a.titleJa||a.translation==='unavailable')continue;
+    for(const stored of s.articles||[]){
+      const a={...stored,...(editorial[stored.url]||{})};
+      if(!a.titleJa||a.translation==='unavailable'||!compactSummary(a))continue;
       let key;
       try{const url=new URL(a.url);if(url.protocol!=='https:')continue;url.hash='';if(url.hostname==='www.aljazeera.com'||url.hostname==='aljazeera.com')url.searchParams.delete('update');for(const k of [...url.searchParams.keys()])if(k.startsWith('utm_')||k==='iref')url.searchParams.delete(k);key=url.href;}catch{continue;}
       if(seen.has(key))continue;seen.add(key);
@@ -140,6 +144,7 @@ async function loadDay(){
 }
 function setMonth(){const month=$('#month').value;options($('#day'),days.filter(d=>d.startsWith(month)));return loadDay();}
 $('#month').onchange=setMonth;$('#day').onchange=loadDay;$('#kind').onchange=render;$('#search').oninput=render;$('#clearBtn').onclick=()=>{reset();render();};$('#compareBtn').onclick=()=>{const area=$('#comparison');area.replaceChildren(...[...selected.values()].map(({s,a})=>card(s,a,false)));$('#compareArea').hidden=false;$('#compareArea').scrollIntoView({behavior:'smooth'});};
-(async()=>{try{const idx=await read('newspaper-index.json');days=idx.days.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d));if(!days.length)throw Error('まだ取得履歴がありません。');options($('#month'),[...new Set(days.map(d=>d.slice(0,7)))]);await setMonth();}catch(e){$('#status').textContent=e.message;}})();
+(async()=>{try{try{editorial=(await read('newspaper-context.json')).articles||{};}catch{}const idx=await read('newspaper-index.json');days=idx.days.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d));if(!days.length)throw Error('まだ取得履歴がありません。');options($('#month'),[...new Set(days.map(d=>d.slice(0,7)))]);await setMonth();}catch(e){$('#status').textContent=e.message;}})();
+
 
 

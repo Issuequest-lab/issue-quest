@@ -1,10 +1,11 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const code=fs.readFileSync(__dirname+'/newspapers.js','utf8');
-const ctx={URL};vm.createContext(ctx);
+const ctx={URL,editorial:{}};vm.createContext(ctx);
 vm.runInContext(code.slice(code.indexOf('const REGION_WEIGHTS'),code.indexOf('const dayJst'))+code.slice(code.indexOf('function regionFor'),code.indexOf('function render')),ctx);
 const regions=['日本','アフリカ','中東','ヨーロッパ','アメリカ','アジア（その他）','韓国','中国'];
-const source=(r,n=5,name=r)=>({id:name,name,country:r,region:r,kind:r==='日本'?'paper':'web',status:'ok',articles:Array.from({length:n},(_,i)=>({id:name+i,titleJa:'日本語の見出し'+i,url:'https://example.test/'+encodeURIComponent(name)+'/'+i,translation:'machine'}))});
+const source=(r,n=5,name=r)=>({id:name,name,country:r,region:r,kind:r==='日本'?'paper':'web',status:'ok',articles:Array.from({length:n},(_,i)=>({id:name+i,titleJa:'日本語の見出し'+i,summaryJa:'何が起きたか説明する日本語の要約です。',url:'https://example.test/'+encodeURIComponent(name)+'/'+i,translation:'machine'}))});
+vm.runInContext(code.slice(code.indexOf('function compactSummary'),code.indexOf('function card')),ctx);
 let data=regions.map(r=>source(r));let result=ctx.readingList(data);
 assert.equal(result.rows.length,20);assert.equal(JSON.stringify(result.counts),JSON.stringify(Object.fromEntries(regions.map(r=>[r,['ヨーロッパ','アメリカ'].includes(r)?4:2]))));
 result=ctx.readingList(data.filter(s=>s.region!=='アフリカ'));
@@ -28,3 +29,9 @@ assert.match(pope.issue,/欧州の結束/);assert.match(pope.viewpoint,/発言/)
 assert.equal(ctx.headlineInsights({titleJa:'新しい詩集を発表'}).issue,null);
 assert.equal(ctx.headlineInsights({titleJa:'AIへの懸念',issue:'既存の問い'}).issue,'既存の問い');
 console.log('PASS absent insights, complete summary sentences, grounded headline prompts');
+
+const empty=source('中国',1);delete empty.articles[0].summaryJa;assert.equal(ctx.readingList([empty]).rows.length,0);
+ctx.editorial[empty.articles[0].url]={summaryJa:'原文を確認した説明です。',summaryBasis:'article-reviewed'};assert.equal(ctx.readingList([empty]).rows.length,1);
+assert.equal(ctx.headlineInsights({analysisBasis:'article-reviewed',titleJa:'英雄をたたえる政策',issue:null}).issue,null);
+console.log('PASS hide unexplained cards, reviewed context, no invented issue');
+

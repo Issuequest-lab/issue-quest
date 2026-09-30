@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-09-30T09:00:00+09:00",
+  "articles": {
+    "https://www.chinadaily.com.cn/a/202609/29/WS6abb880ae4b06d4aa0560d7f.html": {
+      "titleJa": "中国の追悼日を前に、習近平氏の「英雄をたたえる発言」を紹介",
+      "summaryJa": "中国の「烈士記念日」を前に、習近平国家主席が英雄や犠牲者をたたえた過去の発言を振り返る記事です。新しい政策の発表ではなく、功績や犠牲を記憶し、未来への励みにしようと呼びかけています。",
+      "backgroundJa": "記事中の martyrs は、ここでは中国で顕彰される「烈士」を指します。宗教上の殉教者に限定した話ではありません。",
+      "issue": null,
+      "viewpoint": "英雄の功績と犠牲を、現在を生きる人々の励みとして伝える構成",
+      "summaryBasis": "article-reviewed",
+      "summaryStatus": "ok",
+      "translation": "reviewed",
+      "analysisBasis": "article-reviewed"
+    },
+    "https://www.chinadaily.com.cn/a/202609/30/WS6abc4828e4b06d4aa0560e7f.html": {
+      "titleJa": "北京の鳩飼育文化、住環境の変化と若い担い手の不足が課題に",
+      "summaryJa": "北京で鳩を育てる人々と、式典で鳩を放つ習慣を紹介する記事です。飼育に適した住宅が減り、衛生や近隣への迷惑も課題になるなか、長年の飼育者は若い担い手の少なさを指摘しています。",
+      "backgroundJa": "見出しは鳩の鳴き声と音楽をかけた表現です。本文は音楽イベントではなく、北京の暮らしに根付いた鳩飼育を扱っています。",
+      "issue": "鳩を飼う文化を継承しながら、飼育場所・衛生・近隣への配慮をどう両立するか？",
+      "viewpoint": "長年の飼育者の経験を通じ、都市の変化と文化の継承を描く",
+      "summaryBasis": "article-reviewed",
+      "summaryStatus": "ok",
+      "translation": "reviewed",
+      "analysisBasis": "article-reviewed"
+    }
+  }
+}
