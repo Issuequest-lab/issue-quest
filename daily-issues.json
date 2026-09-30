@@ -1,211 +1,226 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-01",
-  "fetchedAt": "2026-10-01T03:30:52.509747+09:00",
+  "fetchedAt": "2026-10-01T05:54:47.432632+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "ごみ",
-    "天気台風情報",
-    "機長",
-    "竜星涼",
-    "jgc",
-    "映画 バイオハザード",
-    "びっくりドンキー",
-    "アジア大会 柔道",
-    "ふるさと納税 10月から",
-    "石渡ネルソン"
+    "アストロズ 対 ホワイトソックス",
+    "竹内涼真",
+    "マイクロン 決算",
+    "変動金利",
+    "夜ドラ",
+    "タリック・スクーバル",
+    "ios 27",
+    "吉松源昭",
+    "学長",
+    "橋下 徹"
   ],
   "briefs": [
     {
-      "topic": "ごみ",
+      "topic": "アストロズ 対 ホワイトソックス",
       "status": "ok",
-      "summary": "いわゆる「核のごみ」の最終処分地の選定をめぐり、茨城県常陸大宮市が、文献調査の受け入れを表明しました。【画像】鈴木市長「政治生命かけた判断」常陸大宮市“核のごみ”調査受け入れ 本州では初常陸大宮市",
-      "summaryBasis": "publisher-description",
-      "issue": "「ごみ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "【10月1日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【10月1日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcnhIZWZkX1VXdTlGWEdSaG5CVXlvbUxYeTh1aTA4d1FKLTIxNVZwRmF0dnNwOEVKZGtJRTVjUGc2VFFtS0w1WTJQeV80aVFTLVRjbzNJV2taYThWZUpzMDN4OUxJamxkWndYSDNiTFJ0WTVjcUx1aUNla1cxYTFxM0E5dVFGTjg5ckZxVWhXNnR1UFR1dzBLR2FUMUNjdGZYSWRZVTRhVUdOOEJTcXF6bDBkbGhFYnRCRVg2dGNB?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Wed, 30 Sep 2026 04:00:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "retained": false
+    },
+    {
+      "topic": "竹内涼真",
+      "status": "ok",
+      "summary": "竹内涼真「涙が出てくる」「カッコいい」モノクロショット！まさかの誤字にファン沸く「むしろ可愛い」「久々の」「打ち間違えてる」",
+      "summaryBasis": "related-headline",
+      "issue": "「竹内涼真」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "鈴木市長「政治生命かけた判断」常陸大宮市“核のごみ”調査受け入れ 本州では初（テレビ朝日系（ANN））",
-          "url": "https://news.yahoo.co.jp/articles/02b54703eb5447b2a24c00de04eb304200a6159d",
+          "title": "竹内涼真「涙が出てくる」「カッコいい」モノクロショット！まさかの誤字にファン沸く「むしろ可愛い」「久々の」「打ち間違えてる」",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ19ybGpvNmJyQ2xtYXR5NWgyeU5mMlRQeFhnSjJ4dTVEYmtuZTltWExfM09NQmVOMjB0V25PWEpZYUhPdE5jd0haOVYwREhkeUJjRkJTbHFzWWU0SzU4b1RiX1JrVXBsRWhyRFJjU2l0aXFZYktZc3hDdmNqQ2hRR3VscGFtVTE1MEwweWNn?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "publishedAt": "Wed, 30 Sep 2026 15:02:08 GMT"
         },
         {
-          "title": "核のごみ：茨城・常陸大宮 核ごみ調査受諾 市長表明 本州で初",
-          "url": "https://mainichi.jp/articles/20261001/ddm/001/040/148000c",
-          "name": "毎日新聞",
-          "publishedAt": null
+          "title": "画像2 / 24＞竹内涼真×町田啓太『10DANCE』がNetflix世界4位！SNSで「#お姫様になれましたか」がトレンド入り",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ja2VTendEOWo0YTFHUk1tMXBQc19OZm9vNURKNlpWYWYtb0lfYWE5enN4VGROSHE3Y3hYX2RYUzhYbzNMRHFuajFCRHdzRTRzbVJTc2pCTGZhMDZicTBSN01jcEdaLVlXYkZnVDJ3?oc=5",
+          "name": "ウォーカープラス",
+          "publishedAt": "Wed, 30 Sep 2026 02:52:59 GMT"
         }
       ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
       "retained": false
     },
     {
-      "topic": "天気台風情報",
-      "status": "unavailable"
+      "topic": "マイクロン 決算",
+      "status": "ok",
+      "summary": "明日の株式相場に向けて＝マイクロン決算通過後の世界を読む",
+      "summaryBasis": "related-headline",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "明日の株式相場に向けて＝マイクロン決算通過後の世界を読む",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUelcyNktMUGFCaWpud25NT3QwbWJ0dFNyTDNNc2RTMU5jTDZleUNjU1RrQnN3c3RRTFZxRHRtSkZHRE5jdUxIZGpzYUhFQzJQcEZFZ2ZOQmhmdkxHVHRTTQ?oc=5",
+          "name": "株探",
+          "publishedAt": "Tue, 29 Sep 2026 08:30:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "retained": false
     },
     {
-      "topic": "機長",
+      "topic": "変動金利",
       "status": "ok",
-      "summary": "イスラエルに向かっていた旅客機が緊急信号を出した後、サウジアラビアに緊急着陸しました。副操縦士が機長を刃物で刺したとの情報もありますが、乗客およそ180人は無事だということです。ロイター通信によりま",
-      "summaryBasis": "publisher-description",
-      "issue": "「機長」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "住宅ローン変動金利、大手3行が引き上げ 10月平均1.3%超に",
+      "summaryBasis": "related-headline",
+      "issue": "「変動金利」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "イスラエル行き旅客機がサウジアラビアに緊急着陸 副操縦士が機長を刃物で刺したか 客室乗務員らが機体を制御し無事着陸",
-          "url": "https://news.yahoo.co.jp/articles/38812bee993101d4105ae6f95b3bda487a2ce0b9",
-          "name": "Yahoo!ニュース",
+          "title": "住宅ローン変動金利、大手3行が引き上げ 10月平均1.3%超に",
+          "url": "https://www.nikkei.com/article/DGXZQOUB281C20Y6A920C2000000/",
+          "name": "日本経済新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
       "retained": false
     },
     {
-      "topic": "竜星涼",
+      "topic": "夜ドラ",
       "status": "ok",
-      "summary": "俳優・竜星涼が、二宮和也の個人事務所「オフィスにの」に所属したことが10月1日、同社公式サイトを通じて発表された。【写真】キュート！",
+      "summary": "俳優の奥平大兼さん主演のNHKの夜ドラ「税金で買った本」（総合、月～木曜午後10時45分）。9月30日の第23話では……。【写真特集】すてきな職場！ 美女とマッチョしかいない？ 注目の写真を公開！！",
       "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "竜星涼、「オフィスにの」所属発表「守るためではなく、攻めるための新しいスタートです」【コメント全文】（オリコン）",
-          "url": "https://news.yahoo.co.jp/articles/a004dc6eeb217456fb6aab3de0fb0d42f57355d2",
+          "title": "税金で買った本＞奥平大兼主演の夜ドラ第23話 “灰坂”新原泰佑の新事実 姿を見せないことを心配し…？（MANTANWEB）",
+          "url": "https://news.yahoo.co.jp/articles/45394faf28cc92deea26bdf4564f816ce2ee4907",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "竜星涼、「オフィスにの」所属発表「守るためではなく、攻めるための新しいスタートです」【コメント全文】",
-          "url": "https://topics.smt.docomo.ne.jp/article/oricon/entertainment/oricon-2483666",
-          "name": "ｄメニューニュース",
+          "title": "【写真・画像 1/5枚】NHKの夜ドラ「税金で買った本」第22話の一場面 （C）NHK",
+          "url": "https://mantan-web.jp/article/20260928dog00m200025000a/photopage/001.html",
+          "name": "Mantan Web",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
       "retained": false
     },
     {
-      "topic": "jgc",
-      "status": "ok",
-      "summary": "JAL、JGCプレミアの達成条件からJGC入会を撤廃、名称を「JMBプレミア」へ | AIRLINE web -月刊エアライン×航空旅行-",
-      "summaryBasis": "related-headline",
-      "issue": "「jgc」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "JAL、JGCプレミアの達成条件からJGC入会を撤廃、名称を「JMBプレミア」へ | AIRLINE web -月刊エアライン×航空旅行-",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0waWdhaU1BNEhhMmdNTmlseUExOVFwSXFkckVyODY0OF9pY2FaeEFsekhuX0RpTENpRHp5R2ZqSTJMMEozZ0M5MVpHTkd0Zw?oc=5",
-          "name": "AIRLINE web",
-          "publishedAt": "Wed, 30 Sep 2026 09:03:10 GMT"
-        },
-        {
-          "title": "JAL、「JGCプレミア」を「JMBプレミア」へ名称変更・条件緩和 特典内容の改定も発表",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zLTJZblRmalJJZmlfZ0ZNVjVRaUgwQzZ3SGItdHlQdGhsWjkwMWZlR3dvd0NteGowY09jbGt3YXJCU21QRklBVE0wZkMzV0Jnd0xLUE1zVU5VQQ?oc=5",
-          "name": "sky-budget.com",
-          "publishedAt": "Wed, 30 Sep 2026 10:32:17 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
-      "retained": false
-    },
-    {
-      "topic": "映画 バイオハザード",
+      "topic": "タリック・スクーバル",
       "status": "unavailable"
     },
     {
-      "topic": "びっくりドンキー",
+      "topic": "ios 27",
       "status": "ok",
-      "summary": "ハンバーグレストラン「びっくりドンキー」（アレフ）は、400gのハンバーグを味わえる「今年もガリバー！」フェアを10月7日から期間限定で実施する。",
+      "summary": "iOS 27.0.1が公開！iPhone 18 ProのFace ID再起動バグやカメラ不具合を修正。今すぐアップデートを。",
       "summaryBasis": "publisher-description",
-      "issue": "「びっくりドンキー」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「ios 27」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "びっくりドンキー、Wチーズ400g×2枚の“モンスターガリバー”も登場！「今年もガリバー！」を実施（グルメ Watch）",
-          "url": "https://news.yahoo.co.jp/articles/f6713abdcc7944d115432f5cbd33f1936f8f6cb5",
+          "title": "iOS 27.0.1公開。iPhone 18 Proの再起動バグが直ったよ！ (ギズモード・ジャパン)",
+          "url": "https://newspicks.com/news/17589874/?ref=technology&tabKey=C%3A3",
+          "name": "NewsPicks",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "retained": false
+    },
+    {
+      "topic": "吉松源昭",
+      "status": "ok",
+      "summary": "吉松源昭県議、第三者委員会に自民党県議団幹部に「1,000万円渡した」通帳コピーを提出",
+      "summaryBasis": "related-headline",
+      "issue": "「吉松源昭」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "吉松源昭県議、第三者委員会に自民党県議団幹部に「1,000万円渡した」通帳コピーを提出",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RSU8taWI1WFpwcjRKeHRoREtfMDAyUVREVkYxQU8zZ0VTUzZhN1pKZk5tTExRY3prUDhwVTQ4Q3ZpR2RRQ0tIdWs4RUFrLUpVaXc?oc=5",
+          "name": "data-max.co.jp",
+          "publishedAt": "Wed, 30 Sep 2026 06:50:00 GMT"
+        },
+        {
+          "title": "見つかった通帳のコピーについて説明する吉松源昭県議＝29日午後、福岡市博多区 - 福岡県議会の金銭授受疑惑、告発した県議が通帳記録を公表「授受前日に引き出した」 第三者委に提出へ - 写真・画像(2/2)",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01R2dET1U0VFVwRXFUN3hJQ1BjQUhkM3NUUkN4amQ2N3dfVnZULVpyT1h4LWpIZ0NaSzNNb2ltaTNuVUxZeUFuMWN5aXlMd3ZKQnMtWjJSWQ?oc=5",
+          "name": "西日本新聞me",
+          "publishedAt": "Tue, 29 Sep 2026 07:43:43 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "retained": false
+    },
+    {
+      "topic": "学長",
+      "status": "ok",
+      "summary": "東京大学が2026年9月28日に発表した次期学長の選出を巡り、学内外から疑問の声が上がっている。教職員による「意向投票」で過半数を獲得した染谷隆夫副学長ではなく、得票数がその半数程度だった大学院総合",
+      "summaryBasis": "publisher-description",
+      "issue": "「学長」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "東大関係者も「全く理解できない」、落合陽一氏「私たちはなんのために」 次期学長の選出巡り疑問の声（J-CASTニュース）",
+          "url": "https://news.yahoo.co.jp/articles/9b1ce5b38dd7559129f1eea852e88fcdb6b88d07",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "「旨いに決まってる」びっくりドンキーの“やみつき絶品メニュー”何度も食べたくなるおいしさ！「満足度高いからみんな食べて」 「神がかり的な食感」《実食レビュー》",
-          "url": "https://diamond.jp/articles/-/399738?page=2",
-          "name": "ダイヤモンド・オンライン",
+          "title": "東大学長選考で逆転劇 組織刷新へ白羽の矢、重み薄れる学内投票",
+          "url": "https://www.nikkei.com/article/DGXZQOUD291900Z20C26A9000000/",
+          "name": "日本経済新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
       "retained": false
     },
     {
-      "topic": "アジア大会 柔道",
+      "topic": "橋下 徹",
       "status": "ok",
-      "summary": "兄妹で金メダル 近藤隼斗と近藤美月 アジア大会柔道 [写真特集1/15]",
+      "summary": "「新任農水相がトンデモ発言」橋下徹さん、週刊誌報道に私見「権力の使い方を間違う国会議員はたくさんおるやろな」",
       "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "兄妹で金メダル 近藤隼斗と近藤美月 アジア大会柔道 [写真特集1/15]",
-          "url": "https://mainichi.jp/graphs/20260930/mpj/00m/050/328000f/20260930mpj00m050313000p",
-          "name": "毎日新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ふるさと納税 10月から",
-      "status": "ok",
-      "summary": "ふるさと納税10月から激変…返礼品130万品目の半数が「ルール厳格化」の対象に",
-      "summaryBasis": "related-headline",
-      "issue": "「ふるさと納税 10月から」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「橋下 徹」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ふるさと納税10月から激変…返礼品130万品目の半数が「ルール厳格化」の対象に",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84SjJGTlpZR2MyZ2JNYXNhYTlFM2ZETkNCRGpySF9IM1U0YVBVdUxMSlpjemVWLTBQeEE0ZUE1WTJXOXNDZmlwZjBHVVBDNzJjWVhJazZzWjlDU0MyUGc?oc=5",
-          "name": "新潟日報",
-          "publishedAt": "Wed, 30 Sep 2026 11:40:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
-      "retained": false
-    },
-    {
-      "topic": "石渡ネルソン",
-      "status": "ok",
-      "summary": "【日本代表】Ｃ大阪下部育ち石渡ネルソンが長居凱旋「セレッソのサポーターも多く来てくれる」（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「石渡ネルソン」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【日本代表】Ｃ大阪下部育ち石渡ネルソンが長居凱旋「セレッソのサポーターも多く来てくれる」（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/c9e9a1069dde96540a40a511699d504e9a4d0e59",
+          "title": "「新任農水相がトンデモ発言」橋下徹さん、週刊誌報道に私見「権力の使い方を間違う国会議員はたくさんおるやろな」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VXdzRGtibldaa3NORjl5Z3JLeDRDTi15Y0xzNFRTSmYxdmRIVzVRS3JlM2xTUVk1c0hvbG5fNElSWTgwdFNCRWtyOUxNcmxsVm01OGpFMkExS3NxZE5OSnF0UXRJSmFMdzJNWUZqWF95Qk9VeF96bTA5eHJQQkE?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "publishedAt": "Wed, 30 Sep 2026 11:56:53 GMT"
         },
         {
-          "title": "【日本代表】Ｃ大阪下部育ち石渡ネルソンが長居凱旋「セレッソのサポーターも多く来てくれる」",
-          "url": "https://www.nikkansports.com/soccer/japan/photonews/photonews_nsInc_202609300000670-1.html",
+          "title": "橋下徹氏「数が多ければ減らすしかない」野生動物対策に持論「政治は負けてはいけない」",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zVzB5YWs5UlJRbGI2T2JGYzRHb0JwZ3I2RHJJTjNfWDkyZHlTX1RZcXFhMlBJbXU3cl9MeDVwejk4TjBiaXAwdllwVVd4Sk9KQTdGRWNWcTB0UlpGN2F6d1Z4bmxudTNxY0Y1ZHBsZzJGSTRWbHo00gF_QVVfeXFMTmluZ2FTZ3BYZW5mOVpWbEN5cEhxQ2QwdGdsS1BHbm9NelBqUVZIUHgzTHBJSEdjVmtDd19CZ3ZMX0xCZlREdVZRVW1RRnVqOXEwRUx4RVI5NndnYXRzT2dVNThrcEpSOGJJak5BYjIxZE91RHpxNFRGODh1RmMwSQ?oc=5",
           "name": "日刊スポーツ",
-          "publishedAt": null
+          "publishedAt": "Wed, 30 Sep 2026 07:31:27 GMT"
         }
       ],
-      "verifiedAt": "2026-10-01T03:30:52.509747+09:00",
+      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
       "retained": false
     }
   ]
