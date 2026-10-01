@@ -1,227 +1,170 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-01",
-  "fetchedAt": "2026-10-01T05:54:47.432632+09:00",
+  "updatedAt": "2026-10-02",
+  "fetchedAt": "2026-10-02T03:33:47.358181+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "アストロズ 対 ホワイトソックス",
-    "竹内涼真",
-    "マイクロン 決算",
-    "変動金利",
-    "夜ドラ",
-    "タリック・スクーバル",
-    "ios 27",
-    "吉松源昭",
-    "学長",
-    "橋下 徹"
+    "ロト6 結果",
+    "デンマーク 対 ポルトガル",
+    "ウェールズ 対 ノルウェー",
+    "菊池 風 磨 白 塗り",
+    "ダウト ドラマ",
+    "岩屋毅 中国",
+    "伊原六花",
+    "国宝級イケメンランキング",
+    "ナガエツルノゲイトウ",
+    "阪神タイガース 速報"
   ],
   "briefs": [
     {
-      "topic": "アストロズ 対 ホワイトソックス",
+      "topic": "ロト6 結果",
       "status": "ok",
-      "summary": "【10月1日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
+      "summary": "ナンバーズ３、４予想 ロト６結果と予想",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【10月1日】アストロズ対ホワイトソックスの放送/配信・無料視聴｜村上宗隆出場予定 | Goal.com 日本",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcnhIZWZkX1VXdTlGWEdSaG5CVXlvbUxYeTh1aTA4d1FKLTIxNVZwRmF0dnNwOEVKZGtJRTVjUGc2VFFtS0w1WTJQeV80aVFTLVRjbzNJV2taYThWZUpzMDN4OUxJamxkWndYSDNiTFJ0WTVjcUx1aUNla1cxYTFxM0E5dVFGTjg5ckZxVWhXNnR1UFR1dzBLR2FUMUNjdGZYSWRZVTRhVUdOOEJTcXF6bDBkbGhFYnRCRVg2dGNB?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Wed, 30 Sep 2026 04:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
-      "retained": false
-    },
-    {
-      "topic": "竹内涼真",
-      "status": "ok",
-      "summary": "竹内涼真「涙が出てくる」「カッコいい」モノクロショット！まさかの誤字にファン沸く「むしろ可愛い」「久々の」「打ち間違えてる」",
-      "summaryBasis": "related-headline",
-      "issue": "「竹内涼真」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「ロト6 結果」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "竹内涼真「涙が出てくる」「カッコいい」モノクロショット！まさかの誤字にファン沸く「むしろ可愛い」「久々の」「打ち間違えてる」",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ19ybGpvNmJyQ2xtYXR5NWgyeU5mMlRQeFhnSjJ4dTVEYmtuZTltWExfM09NQmVOMjB0V25PWEpZYUhPdE5jd0haOVYwREhkeUJjRkJTbHFzWWU0SzU4b1RiX1JrVXBsRWhyRFJjU2l0aXFZYktZc3hDdmNqQ2hRR3VscGFtVTE1MEwweWNn?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 30 Sep 2026 15:02:08 GMT"
-        },
-        {
-          "title": "画像2 / 24＞竹内涼真×町田啓太『10DANCE』がNetflix世界4位！SNSで「#お姫様になれましたか」がトレンド入り",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ja2VTendEOWo0YTFHUk1tMXBQc19OZm9vNURKNlpWYWYtb0lfYWE5enN4VGROSHE3Y3hYX2RYUzhYbzNMRHFuajFCRHdzRTRzbVJTc2pCTGZhMDZicTBSN01jcEdaLVlXYkZnVDJ3?oc=5",
-          "name": "ウォーカープラス",
-          "publishedAt": "Wed, 30 Sep 2026 02:52:59 GMT"
+          "title": "ナンバーズ３、４予想 ロト６結果と予想",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CMUhjV2VuZEE2d0U4WkdFWThHM2JiNnlPaW81YkhXM2hHeVk2MWZMQlFDbktkbEhjRENZVU11NnFCYjRhUEdtZ29MSk5JVzZXZ190aWdlWXJaeWNI?oc=5",
+          "name": "youtu.be",
+          "publishedAt": "Wed, 30 Sep 2026 00:28:50 GMT"
         }
       ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
       "retained": false
     },
     {
-      "topic": "マイクロン 決算",
+      "topic": "デンマーク 対 ポルトガル",
       "status": "ok",
-      "summary": "明日の株式相場に向けて＝マイクロン決算通過後の世界を読む",
+      "summary": "デンマーク対ポルトガルの試合予想（10月2日午前1時45分）、UEFAネーションズリーグ2026-2027",
       "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "明日の株式相場に向けて＝マイクロン決算通過後の世界を読む",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUelcyNktMUGFCaWpud25NT3QwbWJ0dFNyTDNNc2RTMU5jTDZleUNjU1RrQnN3c3RRTFZxRHRtSkZHRE5jdUxIZGpzYUhFQzJQcEZFZ2ZOQmhmdkxHVHRTTQ?oc=5",
-          "name": "株探",
-          "publishedAt": "Tue, 29 Sep 2026 08:30:00 GMT"
+          "title": "デンマーク対ポルトガルの試合予想（10月2日午前1時45分）、UEFAネーションズリーグ2026-2027",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXVJNVZLZnZDYUViMHBkUld6VlpuQmNKcUkwMmo1cUxvWFBERFlPWW9YZWxTamg4Z0hjbVpRRzAtalRCT0hmNnI0RFB4ckJSVnk1YnFvMlVmWlVrTE0tOEcydHNoWmlaT05qLS1ialNFZjJWVXlQcHRZdTFBazVpVDFWNS0wT1c3aGVfQmRLUk44NG5kT2pLTl9tWU9VR2RKTFNWUlFR?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Thu, 01 Oct 2026 09:49:57 GMT"
+        },
+        {
+          "title": "ネーションズリーグ デンマーク対ポルトガル戦のライブ視聴リンク",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORy1RcnVQV1d3NjVnc2dMUU1FN1A3NWxwY0VUVVZBOGx2cUEwQ28zTkMtYkJNV1dQME1EV2VpZEJWSUVPbTYzQVpKVE41b3phLUFDdGc1cTVLdW5VTTVHdHVmTWFSRzI5dmFhdFNBUU5aaTlCNlRKOGd1dHdINXl2VXBqcjNZQTA5TWhFLUg5QThXejVtaUM4OF8yNVpmSTU2LVM2UFp3eC03R29wNk1WRQ?oc=5",
+          "name": "Laodong.vn",
+          "publishedAt": "Thu, 01 Oct 2026 18:00:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
       "retained": false
     },
     {
-      "topic": "変動金利",
+      "topic": "ウェールズ 対 ノルウェー",
       "status": "ok",
-      "summary": "住宅ローン変動金利、大手3行が引き上げ 10月平均1.3%超に",
+      "summary": "ウェールズ対ノルウェーのライブスコア：ハーランドがカーディフの守備陣を試す",
       "summaryBasis": "related-headline",
-      "issue": "「変動金利」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「ウェールズ 対 ノルウェー」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "住宅ローン変動金利、大手3行が引き上げ 10月平均1.3%超に",
-          "url": "https://www.nikkei.com/article/DGXZQOUB281C20Y6A920C2000000/",
-          "name": "日本経済新聞",
+          "title": "ウェールズ対ノルウェーのライブスコア：ハーランドがカーディフの守備陣を試す",
+          "url": "https://www.vietnam.vn/ja/truc-tiep-ti-so-xu-wales-vs-na-uy-haaland-thu-thach-hang-thu-cardiff",
+          "name": "Vietnam.vn",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
       "retained": false
     },
     {
-      "topic": "夜ドラ",
-      "status": "ok",
-      "summary": "俳優の奥平大兼さん主演のNHKの夜ドラ「税金で買った本」（総合、月～木曜午後10時45分）。9月30日の第23話では……。【写真特集】すてきな職場！ 美女とマッチョしかいない？ 注目の写真を公開！！",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "税金で買った本＞奥平大兼主演の夜ドラ第23話 “灰坂”新原泰佑の新事実 姿を見せないことを心配し…？（MANTANWEB）",
-          "url": "https://news.yahoo.co.jp/articles/45394faf28cc92deea26bdf4564f816ce2ee4907",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "【写真・画像 1/5枚】NHKの夜ドラ「税金で買った本」第22話の一場面 （C）NHK",
-          "url": "https://mantan-web.jp/article/20260928dog00m200025000a/photopage/001.html",
-          "name": "Mantan Web",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
-      "retained": false
-    },
-    {
-      "topic": "タリック・スクーバル",
+      "topic": "菊池 風 磨 白 塗り",
       "status": "unavailable"
     },
     {
-      "topic": "ios 27",
-      "status": "ok",
-      "summary": "iOS 27.0.1が公開！iPhone 18 ProのFace ID再起動バグやカメラ不具合を修正。今すぐアップデートを。",
-      "summaryBasis": "publisher-description",
-      "issue": "「ios 27」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "iOS 27.0.1公開。iPhone 18 Proの再起動バグが直ったよ！ (ギズモード・ジャパン)",
-          "url": "https://newspicks.com/news/17589874/?ref=technology&tabKey=C%3A3",
-          "name": "NewsPicks",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
-      "retained": false
+      "topic": "ダウト ドラマ",
+      "status": "unavailable"
     },
     {
-      "topic": "吉松源昭",
+      "topic": "岩屋毅 中国",
+      "status": "unavailable"
+    },
+    {
+      "topic": "伊原六花",
       "status": "ok",
-      "summary": "吉松源昭県議、第三者委員会に自民党県議団幹部に「1,000万円渡した」通帳コピーを提出",
+      "summary": "DAIGOさん・伊原六花さん・笑福亭鶴瓶さん出演！「GX電化住宅」の魅力をクイズで楽しく紹介！新TVCM「GX電化住宅 クイズ大会」篇 10月1日（木）より放映開始",
       "summaryBasis": "related-headline",
-      "issue": "「吉松源昭」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "吉松源昭県議、第三者委員会に自民党県議団幹部に「1,000万円渡した」通帳コピーを提出",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RSU8taWI1WFpwcjRKeHRoREtfMDAyUVREVkYxQU8zZ0VTUzZhN1pKZk5tTExRY3prUDhwVTQ4Q3ZpR2RRQ0tIdWs4RUFrLUpVaXc?oc=5",
-          "name": "data-max.co.jp",
-          "publishedAt": "Wed, 30 Sep 2026 06:50:00 GMT"
+          "title": "DAIGOさん・伊原六花さん・笑福亭鶴瓶さん出演！「GX電化住宅」の魅力をクイズで楽しく紹介！新TVCM「GX電化住宅 クイズ大会」篇 10月1日（木）より放映開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wcWVtTmE4U2dQNnUxemY4VlZyTzNDMGgybzdRb21zbmpMay1PVkJIblhSX3YzWTlaYUZpX21mTjR2Z1U4THVXbUg2cjR3MTRFci00YnJ4LWJOalk5eVVFVDhTZ05HUXoyTUE?oc=5",
+          "name": "PR TIMES",
+          "publishedAt": "Thu, 01 Oct 2026 06:00:02 GMT"
         },
         {
-          "title": "見つかった通帳のコピーについて説明する吉松源昭県議＝29日午後、福岡市博多区 - 福岡県議会の金銭授受疑惑、告発した県議が通帳記録を公表「授受前日に引き出した」 第三者委に提出へ - 写真・画像(2/2)",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01R2dET1U0VFVwRXFUN3hJQ1BjQUhkM3NUUkN4amQ2N3dfVnZULVpyT1h4LWpIZ0NaSzNNb2ltaTNuVUxZeUFuMWN5aXlMd3ZKQnMtWjJSWQ?oc=5",
-          "name": "西日本新聞me",
-          "publishedAt": "Tue, 29 Sep 2026 07:43:43 GMT"
+          "title": "伊原六花×七五三掛龍也 最新オフショット＆コメント到着！ | トピックス | 小麦とバターと復讐と",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0bmZUcGpsSFkwbG05bzkxT0xrSEpuTTlrbDJUakk5RjVDYURGRmVNWEh1Z3NHS1RMVk15amtFRFo1M1BvTUM2RlE1ZUczVEs1endldVhtNA?oc=5",
+          "name": "ktv.jp",
+          "publishedAt": "Tue, 29 Sep 2026 22:40:07 GMT"
         }
       ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
       "retained": false
     },
     {
-      "topic": "学長",
+      "topic": "国宝級イケメンランキング",
       "status": "ok",
-      "summary": "東京大学が2026年9月28日に発表した次期学長の選出を巡り、学内外から疑問の声が上がっている。教職員による「意向投票」で過半数を獲得した染谷隆夫副学長ではなく、得票数がその半数程度だった大学院総合",
-      "summaryBasis": "publisher-description",
-      "issue": "「学長」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "SixTONES松村北斗、「ViVi国宝級イケメンランキング」初の3部門殿堂入り達成「シンプルにうれしい」【一覧掲載】",
+      "summaryBasis": "related-headline",
+      "issue": "「国宝級イケメンランキング」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "東大関係者も「全く理解できない」、落合陽一氏「私たちはなんのために」 次期学長の選出巡り疑問の声（J-CASTニュース）",
-          "url": "https://news.yahoo.co.jp/articles/9b1ce5b38dd7559129f1eea852e88fcdb6b88d07",
+          "title": "SixTONES松村北斗、「ViVi国宝級イケメンランキング」初の3部門殿堂入り達成「シンプルにうれしい」【一覧掲載】",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5heU5LcXdldXFPTFBxNG1FYWJ5SG9fVl9fRWkxQWcyVFoxa0J4RVF4RUV2SGtGSDZYcVQtRlNDUkpwdzRQV0VUb3hhNkppbXZDTjMzUHJyVVNBbUNLQ1NPZXRFSmtJMlh1?oc=5",
+          "name": "山陽新聞",
+          "publishedAt": "Wed, 30 Sep 2026 17:33:53 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ナガエツルノゲイトウ",
+      "status": "ok",
+      "summary": "去年、岡山県で初めて生息が確認された特定外来生物の水草=ナガエツルノゲイトウ。その繁殖を食い止めようと、岡山県矢掛町の川で地元の高校生が防除作業を行いました。【写真を見る】“地球上で最悪の侵略的植物",
+      "summaryBasis": "publisher-description",
+      "issue": "「ナガエツルノゲイトウ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "“地球上で最悪の侵略的植物” 特定外来生物の水草=ナガエツルノゲイトウ 地元の高校生が参加して防除作業【岡山】",
+          "url": "https://news.yahoo.co.jp/articles/22291d046f1e45af585529ae1328c03eb27cb2fd",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "東大学長選考で逆転劇 組織刷新へ白羽の矢、重み薄れる学内投票",
-          "url": "https://www.nikkei.com/article/DGXZQOUD291900Z20C26A9000000/",
-          "name": "日本経済新聞",
+          "title": "侵略植物に高い光合成能力 福井などで確認 「ナガエツルノゲイトウ」 茎伸長、弱点突く防除期待",
+          "url": "https://www.fukuishimbun.co.jp/articles/-/2711087",
+          "name": "福井新聞社",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
+      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
       "retained": false
     },
     {
-      "topic": "橋下 徹",
-      "status": "ok",
-      "summary": "「新任農水相がトンデモ発言」橋下徹さん、週刊誌報道に私見「権力の使い方を間違う国会議員はたくさんおるやろな」",
-      "summaryBasis": "related-headline",
-      "issue": "「橋下 徹」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「新任農水相がトンデモ発言」橋下徹さん、週刊誌報道に私見「権力の使い方を間違う国会議員はたくさんおるやろな」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VXdzRGtibldaa3NORjl5Z3JLeDRDTi15Y0xzNFRTSmYxdmRIVzVRS3JlM2xTUVk1c0hvbG5fNElSWTgwdFNCRWtyOUxNcmxsVm01OGpFMkExS3NxZE5OSnF0UXRJSmFMdzJNWUZqWF95Qk9VeF96bTA5eHJQQkE?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 30 Sep 2026 11:56:53 GMT"
-        },
-        {
-          "title": "橋下徹氏「数が多ければ減らすしかない」野生動物対策に持論「政治は負けてはいけない」",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zVzB5YWs5UlJRbGI2T2JGYzRHb0JwZ3I2RHJJTjNfWDkyZHlTX1RZcXFhMlBJbXU3cl9MeDVwejk4TjBiaXAwdllwVVd4Sk9KQTdGRWNWcTB0UlpGN2F6d1Z4bmxudTNxY0Y1ZHBsZzJGSTRWbHo00gF_QVVfeXFMTmluZ2FTZ3BYZW5mOVpWbEN5cEhxQ2QwdGdsS1BHbm9NelBqUVZIUHgzTHBJSEdjVmtDd19CZ3ZMX0xCZlREdVZRVW1RRnVqOXEwRUx4RVI5NndnYXRzT2dVNThrcEpSOGJJak5BYjIxZE91RHpxNFRGODh1RmMwSQ?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Wed, 30 Sep 2026 07:31:27 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-01T05:54:47.432632+09:00",
-      "retained": false
+      "topic": "阪神タイガース 速報",
+      "status": "unavailable"
     }
   ]
 }
