@@ -1,170 +1,248 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-02",
-  "fetchedAt": "2026-10-02T03:33:47.358181+09:00",
+  "fetchedAt": "2026-10-02T05:56:03.094216+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "ロト6 結果",
-    "デンマーク 対 ポルトガル",
-    "ウェールズ 対 ノルウェー",
-    "菊池 風 磨 白 塗り",
-    "ダウト ドラマ",
-    "岩屋毅 中国",
-    "伊原六花",
-    "国宝級イケメンランキング",
-    "ナガエツルノゲイトウ",
-    "阪神タイガース 速報"
+    "金子恵美",
+    "paypay",
+    "iphone",
+    "習近平",
+    "壬氏",
+    "凱旋門賞",
+    "半導体",
+    "福岡 県議会",
+    "denmark vs portugal",
+    "ギリシャ 対 オランダ"
   ],
   "briefs": [
     {
-      "topic": "ロト6 結果",
+      "topic": "金子恵美",
       "status": "ok",
-      "summary": "ナンバーズ３、４予想 ロト６結果と予想",
-      "summaryBasis": "related-headline",
-      "issue": "「ロト6 結果」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "金子恵美衆議院議員が、中道改革連合を離党し、新党・民主改革の会に合流すると明らかにしました。金子議員は1日開かれた連合福島の会合に出席し、非公開の場で中道離党の経緯や、新党・民主改革の会への合流など",
+      "summaryBasis": "publisher-description",
+      "issue": "「金子恵美」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ナンバーズ３、４予想 ロト６結果と予想",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CMUhjV2VuZEE2d0U4WkdFWThHM2JiNnlPaW81YkhXM2hHeVk2MWZMQlFDbktkbEhjRENZVU11NnFCYjRhUEdtZ29MSk5JVzZXZ190aWdlWXJaeWNI?oc=5",
-          "name": "youtu.be",
-          "publishedAt": "Wed, 30 Sep 2026 00:28:50 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
-      "retained": false
-    },
-    {
-      "topic": "デンマーク 対 ポルトガル",
-      "status": "ok",
-      "summary": "デンマーク対ポルトガルの試合予想（10月2日午前1時45分）、UEFAネーションズリーグ2026-2027",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "デンマーク対ポルトガルの試合予想（10月2日午前1時45分）、UEFAネーションズリーグ2026-2027",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXVJNVZLZnZDYUViMHBkUld6VlpuQmNKcUkwMmo1cUxvWFBERFlPWW9YZWxTamg4Z0hjbVpRRzAtalRCT0hmNnI0RFB4ckJSVnk1YnFvMlVmWlVrTE0tOEcydHNoWmlaT05qLS1ialNFZjJWVXlQcHRZdTFBazVpVDFWNS0wT1c3aGVfQmRLUk44NG5kT2pLTl9tWU9VR2RKTFNWUlFR?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Thu, 01 Oct 2026 09:49:57 GMT"
-        },
-        {
-          "title": "ネーションズリーグ デンマーク対ポルトガル戦のライブ視聴リンク",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORy1RcnVQV1d3NjVnc2dMUU1FN1A3NWxwY0VUVVZBOGx2cUEwQ28zTkMtYkJNV1dQME1EV2VpZEJWSUVPbTYzQVpKVE41b3phLUFDdGc1cTVLdW5VTTVHdHVmTWFSRzI5dmFhdFNBUU5aaTlCNlRKOGd1dHdINXl2VXBqcjNZQTA5TWhFLUg5QThXejVtaUM4OF8yNVpmSTU2LVM2UFp3eC03R29wNk1WRQ?oc=5",
-          "name": "Laodong.vn",
-          "publishedAt": "Thu, 01 Oct 2026 18:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ウェールズ 対 ノルウェー",
-      "status": "ok",
-      "summary": "ウェールズ対ノルウェーのライブスコア：ハーランドがカーディフの守備陣を試す",
-      "summaryBasis": "related-headline",
-      "issue": "「ウェールズ 対 ノルウェー」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ウェールズ対ノルウェーのライブスコア：ハーランドがカーディフの守備陣を試す",
-          "url": "https://www.vietnam.vn/ja/truc-tiep-ti-so-xu-wales-vs-na-uy-haaland-thu-thach-hang-thu-cardiff",
-          "name": "Vietnam.vn",
+          "title": "金子恵美議員が離党・新党合流を報告（ふくしまNEWS -KFBデジタル-）",
+          "url": "https://news.yahoo.co.jp/articles/5987a10f41300b8e76176e1e24831b28476abb18",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
       "retained": false
     },
     {
-      "topic": "菊池 風 磨 白 塗り",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ダウト ドラマ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "岩屋毅 中国",
-      "status": "unavailable"
-    },
-    {
-      "topic": "伊原六花",
+      "topic": "paypay",
       "status": "ok",
-      "summary": "DAIGOさん・伊原六花さん・笑福亭鶴瓶さん出演！「GX電化住宅」の魅力をクイズで楽しく紹介！新TVCM「GX電化住宅 クイズ大会」篇 10月1日（木）より放映開始",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "DAIGOさん・伊原六花さん・笑福亭鶴瓶さん出演！「GX電化住宅」の魅力をクイズで楽しく紹介！新TVCM「GX電化住宅 クイズ大会」篇 10月1日（木）より放映開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wcWVtTmE4U2dQNnUxemY4VlZyTzNDMGgybzdRb21zbmpMay1PVkJIblhSX3YzWTlaYUZpX21mTjR2Z1U4THVXbUg2cjR3MTRFci00YnJ4LWJOalk5eVVFVDhTZ05HUXoyTUE?oc=5",
-          "name": "PR TIMES",
-          "publishedAt": "Thu, 01 Oct 2026 06:00:02 GMT"
-        },
-        {
-          "title": "伊原六花×七五三掛龍也 最新オフショット＆コメント到着！ | トピックス | 小麦とバターと復讐と",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0bmZUcGpsSFkwbG05bzkxT0xrSEpuTTlrbDJUakk5RjVDYURGRmVNWEh1Z3NHS1RMVk15amtFRFo1M1BvTUM2RlE1ZUczVEs1endldVhtNA?oc=5",
-          "name": "ktv.jp",
-          "publishedAt": "Tue, 29 Sep 2026 22:40:07 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
-      "retained": false
-    },
-    {
-      "topic": "国宝級イケメンランキング",
-      "status": "ok",
-      "summary": "SixTONES松村北斗、「ViVi国宝級イケメンランキング」初の3部門殿堂入り達成「シンプルにうれしい」【一覧掲載】",
-      "summaryBasis": "related-headline",
-      "issue": "「国宝級イケメンランキング」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "SixTONES松村北斗、「ViVi国宝級イケメンランキング」初の3部門殿堂入り達成「シンプルにうれしい」【一覧掲載】",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5heU5LcXdldXFPTFBxNG1FYWJ5SG9fVl9fRWkxQWcyVFoxa0J4RVF4RUV2SGtGSDZYcVQtRlNDUkpwdzRQV0VUb3hhNkppbXZDTjMzUHJyVVNBbUNLQ1NPZXRFSmtJMlh1?oc=5",
-          "name": "山陽新聞",
-          "publishedAt": "Wed, 30 Sep 2026 17:33:53 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ナガエツルノゲイトウ",
-      "status": "ok",
-      "summary": "去年、岡山県で初めて生息が確認された特定外来生物の水草=ナガエツルノゲイトウ。その繁殖を食い止めようと、岡山県矢掛町の川で地元の高校生が防除作業を行いました。【写真を見る】“地球上で最悪の侵略的植物",
+      "summary": "PayPay株式会社は、地方自治体が「PayPay商品券」を活用する取り組み（※1）について、あらたに2026年11月以降に実施（※2）が決定した施策をお知らせ",
       "summaryBasis": "publisher-description",
-      "issue": "「ナガエツルノゲイトウ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「paypay」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "“地球上で最悪の侵略的植物” 特定外来生物の水草=ナガエツルノゲイトウ 地元の高校生が参加して防除作業【岡山】",
-          "url": "https://news.yahoo.co.jp/articles/22291d046f1e45af585529ae1328c03eb27cb2fd",
+          "title": "地方自治体とPayPayが連携して取り組むキャンペーンなど、2026年11月以降に実施する施策が決定！",
+          "url": "https://paypay.ne.jp/notice/20260930/cp-jichitai/",
+          "name": "PayPay",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "iphone",
+      "status": "ok",
+      "summary": "今日から10月です！ 2026年10月はAppleファンにとって歴史に残る月となりますね。Apple初となる折りたたみスマホ、iPhone Duoがいよいよ発売されるからです。iPhone Duoの",
+      "summaryBasis": "publisher-description",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "iPhone Duo発売でiPad miniの立ち位置がビミョーに。次の一手はあるのか？（ギズモード・ジャパン）",
+          "url": "https://news.yahoo.co.jp/articles/6712b0733d241eb0cf86eb2c69605e4d362794cc",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "侵略植物に高い光合成能力 福井などで確認 「ナガエツルノゲイトウ」 茎伸長、弱点突く防除期待",
-          "url": "https://www.fukuishimbun.co.jp/articles/-/2711087",
-          "name": "福井新聞社",
+          "title": "iPhone Duo 600万台販売か アップル初の折り畳みスマホ",
+          "url": "https://txbiz.tv-tokyo.co.jp/txn/news_txn/post_349659",
+          "name": "テレ東BIZ",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-02T03:33:47.358181+09:00",
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
       "retained": false
     },
     {
-      "topic": "阪神タイガース 速報",
-      "status": "unavailable"
+      "topic": "習近平",
+      "status": "ok",
+      "summary": "【NHK】中国の習近平国家主席は9月30日夜、建国77年を祝う行事で演説し、「祖国統一の大業を推進しなければならない」と強調し、台湾統一に向けた意欲を改めて示しました。 中国で建国記念日にあたる「国慶節」を",
+      "summaryBasis": "publisher-description",
+      "issue": "「習近平」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "中国の習近平国家主席 台湾統一に意欲示す 建国祝う行事で演説",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261001de53502",
+          "name": "NHKニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "習近平氏「香港・マカオの長期的繁栄と安定を維持」 新中国77周年レセプション",
+          "url": "https://topics.smt.docomo.ne.jp/article/newscn/world/newscn-J000241_20260930_CBMFN0",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "壬氏",
+      "status": "ok",
+      "summary": "＜薬屋のひとりごと＞第3期放送開始 猫猫＆壬氏に立ちはだかる新たな試練…第49話あらすじ＆先行カット公開",
+      "summaryBasis": "related-headline",
+      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
+      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "＜薬屋のひとりごと＞第3期放送開始 猫猫＆壬氏に立ちはだかる新たな試練…第49話あらすじ＆先行カット公開",
+          "url": "https://news.yahoo.co.jp/articles/0315cf3b9b92e380e2620f0645026f98f00de5df",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "凱旋門賞",
+      "status": "ok",
+      "summary": "【平松さとし氏現地ルポ】JRAが馬券を発売する「第105回凱旋門賞」まで、あと2日。日本調教馬2頭を含め、話題満載のメンバーがそろった。パリ郊外のシャンティイで取材を続けるフリーライターの平松さとし",
+      "summaryBasis": "publisher-description",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【凱旋門賞】ダリズ連覇へ グラファール師自信あり「至って順調」（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/0d68d6287b359502b89f84ee4a4a00be99d847fc",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "【凱旋門賞】アドマイヤテラ 環境になじんだ 友道師「元気で前進気勢もあります」",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261002-0010",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "半導体",
+      "status": "ok",
+      "summary": "1日の東京株式市場で日経平均株価は続伸し、終値は前日比2203円00銭（3.30%）高の6万8956円72銭で終えた。終値ベースの6万8000円台回復は8月17日以来約1カ月半ぶり。前日の米ハイテク株高のほか、米メモリー半導体大手のマイクロン・テクノロジーが発表した決算や業績見通しが投資家心理の改善につながった。",
+      "summaryBasis": "publisher-description",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "東証大引け 日経平均は続伸 1カ月半ぶり6万8000円回復 半導体関連けん引",
+          "url": "https://www.nikkei.com/article/DGXZQOFL012RF0R01C26A0000000/",
+          "name": "日本経済新聞",
+          "publishedAt": null
+        },
+        {
+          "title": "株価指数先物【引け後】 半導体株への資金集中による+3σ到達でいったんリバランスも",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202610011175",
+          "name": "株探",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "福岡 県議会",
+      "status": "ok",
+      "summary": "SNSで不適切な投稿を繰り返していた福岡県議会の林泰輔県議。異例となる2つの問責決議案が10月1日の本会議で可決されました。【ノーカット】「今後しばらくは取材に応じない」異例の2つの問責決議が可決",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "林県議「しばらく取材に応じない」匿名アカで“攻撃” 異例の2つの問責決議が可決 福岡県議会（FBS福岡放送）",
+          "url": "https://news.yahoo.co.jp/articles/e2495ec02c0ca0a1523399c13870c62fbb6a5621?page=2",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "匿名で不適切投稿繰り返した福岡県議会の林泰輔議員、自民党県議団に「離団願」の方針",
+          "url": "https://www.yomiuri.co.jp/national/20261001-GYT1T00118/",
+          "name": "読売新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "denmark vs portugal",
+      "status": "ok",
+      "summary": "デンマーク対ポルトガル： UEFAネイションズリーグの統計と対決",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "デンマーク対ポルトガル： UEFAネイションズリーグの統計と対決",
+          "url": "https://www.bbc.com/sport/football/live/cvrl6660y8w3t",
+          "name": "BBC",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ギリシャ 対 オランダ",
+      "status": "ok",
+      "summary": "シャビ・エルナンデス、ギリシャ対オランダ戦でフース・ティルとティンバー兄弟に先発の座を与える",
+      "summaryBasis": "related-headline",
+      "issue": "「ギリシャ 対 オランダ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "シャビ・エルナンデス、ギリシャ対オランダ戦でフース・ティルとティンバー兄弟に先発の座を与える",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%82%B7%E3%83%A3%E3%83%92%E3%82%99-%E3%82%A8%E3%83%AB%E3%83%8A%E3%83%B3%E3%83%86%E3%82%99%E3%82%B9-%E3%82%AD%E3%82%99%E3%83%AA%E3%82%B7%E3%83%A3%E5%AF%BE%E3%82%AA%E3%83%A9%E3%83%B3%E3%82%BF%E3%82%99%E6%88%A6%E3%81%A6%E3%82%99%E3%83%95%E3%83%BC%E3%82%B9-%E3%83%86%E3%82%A3%E3%83%AB%E3%81%A8%E3%83%86%E3%82%A3%E3%83%B3%E3%83%8F%E3%82%99%E3%83%BC%E5%85%84%E5%BC%9F%E3%81%AB%E5%85%88%E7%99%BA%E3%81%AE%E5%BA%A7%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8B/blt8dd941dc765d03fb",
+          "name": "Goal.com",
+          "publishedAt": null
+        },
+        {
+          "title": "ネーションズリーグ ギリシャ対オランダ戦のプレビュー",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-hy-lap-vs-ha-lan-tai-nations-league-1775754.ldo",
+          "name": "Laodong.vn",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "retained": false
     }
   ]
 }
