@@ -1,63 +1,238 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-02",
-  "fetchedAt": "2026-10-02T05:56:03.094216+09:00",
+  "updatedAt": "2026-10-03",
+  "fetchedAt": "2026-10-03T03:32:39.385159+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "金子恵美",
-    "paypay",
-    "iphone",
-    "習近平",
-    "壬氏",
-    "凱旋門賞",
-    "半導体",
-    "福岡 県議会",
-    "denmark vs portugal",
-    "ギリシャ 対 オランダ"
+    "フランス 対 イタリア",
+    "狩野英孝",
+    "アイドル",
+    "鏡優翔",
+    "雇用統計",
+    "内田真礼",
+    "松本穂香",
+    "なでしこジャパン",
+    "角中勝也",
+    "iphone duo"
   ],
   "briefs": [
     {
-      "topic": "金子恵美",
+      "topic": "フランス 対 イタリア",
       "status": "ok",
-      "summary": "金子恵美衆議院議員が、中道改革連合を離党し、新党・民主改革の会に合流すると明らかにしました。金子議員は1日開かれた連合福島の会合に出席し、非公開の場で中道離党の経緯や、新党・民主改革の会への合流など",
-      "summaryBasis": "publisher-description",
-      "issue": "「金子恵美」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "試合プレビュー：フランス対イタリア（10月3日午前1時45分）、UEFAネーションズリーグ2026-2027",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "試合プレビュー：フランス対イタリア（10月3日午前1時45分）、UEFAネーションズリーグ2026-2027",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUFZZUh5SjRKazJJbDVCc1laR1VEY2VJeFIzMmZONUg2OURtakpVTEpZWDA5YVNpeEk2LUpEN3k0OGNENUpIcnR4Y1V3d0hWakpONDZBcmszVjVxeFFZYmRySzdvaDVGZHVGRG1iY2xwcVltX2hyYTlzR3o4NjdiT3lXa0ZOc1dkYXFoYUFmYTc1X2Y1dVN0RjBn?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Fri, 02 Oct 2026 10:02:20 GMT"
+        },
+        {
+          "title": "フランス対イタリア前日、マンチーニが決断 ロマーノを含むイタリア代表9人はパリへ出発せず | Goal.com 日本",
+          "url": "https://news.google.com/rss/articles/CBMi0gZBVV95cUxNa0dIZ1BNTHhpUGV6VjV2STI5bWlBd3lJNDRPZVpGaDA1OElTc0NiTVR3ZEVJSXVoYl9rQlI0ci1iS2hBN3hjWk9mc0FYUE16UkxhSmhIVTFBQ3J5b1prMk1wV0dMNkZidU1zdE1Udk1mZldOdGtUdEVOMTZoRldyLXZlcnNWWmN2c19NZVVDeFZfLXV5a3VYaWlaTWdIQ1VaUFZrLU9lZjdQelYtc1ZPZXJzbDJ5ZnY5SmZ1UGt5VnNjNWM5eWZzclpxYTVDWUplMkxOdGM1ejFtdmIxUE9UMnlQNm5XYWFoQXZMN3JCZkRiS1hvTHVIZS0ySWVGbE0yUmVSRjIzRFBmaXFVOFV1eG1aeGc0OHVvUVdwNWFVU00wWHhhSHF5Z2ZmRWFyUm91QmVjM1kwTFBRYzZaSUJYaVVsWjU3X0o2Vk5QNjZfeWtnMzdMTXFfZGdTRzE2YklvdlpUVElxRERVd253akwwTmlfMGtPMDFMclpNaVZzZVp2RXlYWm85X2pEZnlLV3l6eE0tVkZRaTlhLWNfZDhNN05NSDFqWl9sX3VOMEw1dmpDOVpBNGZiX0tNYWJnelBLTlhJMlc0SzVvTHF5MVlLQ1k0MzhJMHljWkNpOXZvZWxzcGg1U0RUbFFGR0ExV0RqZ0g3b3BFQmQtbmRDdktINFpCRkJRQ1dmUE5qWi1GNHpjRThwd0VOSHVlNFgxeS1TR2kxc1JRYUFnR0FsMk1EeVExVWU0Y0tjQnFHZFA5QjBTUXpOODFMUlRsQmJHUk9fU1djUHgxMExkVGVpQ3lYRlZIQmdoSkdEUVRnYnl0YWl5ZzZOUHhtbXctaE44ajRJeE1zd1FwYlY5NWVLQWt2Qi1mUXdUZEJzWmtYTlpGOExlZEVjbnZXaGpJbXg0dkJ1ckN5amlWaFpTSXlTVk9JNmMxbUk4Y1NGbFBEVTVzcjFaOEFJN1lKTTZTT1JQWjNIUVY3SXpad1E1WUtDQXR6MW53c2trWlg3MWNfSW0wYlJKd2J4RzVOY09XSTFSLXNWa2JBRFF2ZEw4ODk1TExwQlhjaDVldGVzdTYzSk03Y29GZ3NENnBfN0pzeXpYejZjaG5rTWI5MkZ4RnRwX0RpLV9R?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Thu, 01 Oct 2026 09:18:49 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "狩野英孝",
+      "status": "ok",
+      "summary": "狩野英孝 HYDEからのメッセージに大興奮！",
+      "summaryBasis": "related-headline",
+      "issue": "「狩野英孝」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "金子恵美議員が離党・新党合流を報告（ふくしまNEWS -KFBデジタル-）",
-          "url": "https://news.yahoo.co.jp/articles/5987a10f41300b8e76176e1e24831b28476abb18",
+          "title": "狩野英孝 HYDEからのメッセージに大興奮！",
+          "url": "https://tver.jp/episodes/epjuxuny6g",
+          "name": "TVer",
+          "publishedAt": null
+        },
+        {
+          "title": "狩野英孝、ナルシストキャラ秘話",
+          "url": "https://www.asahi.com/and/entertainment/16934393",
+          "name": "朝日新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "アイドル",
+      "status": "ok",
+      "summary": "アイドルグループの練習生・平田琉七(8)さんの急逝に悲しみの声が寄せられている。【写真あり】インフル→心筋炎で急逝〝5日前のアイドル姿〟",
+      "summaryBasis": "publisher-description",
+      "issue": "「アイドル」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "インフル→心筋炎で急逝…8歳のアイドル練習生〝5日前のアイドル姿〟に「切ない」「こんな元気そうなのに」「嘘でしょ、嘘だよね?」と悲しみの声（西スポWEB OTTO!）",
+          "url": "https://news.yahoo.co.jp/articles/9e98633539bf6a055cfab43dbd82aa224ce040c4",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "8歳のアイドル練習生が死去…インフルエンザ罹患に伴う心筋炎で",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900200737.html",
+          "name": "テレ朝NEWS",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "鏡優翔",
+      "status": "ok",
+      "summary": "【レスリング】金メダルの鏡優翔、衝撃の事実告白「前十字（靱帯）が完全断裂していて…」 痛みこらえながら逆転Ｖ「『アジア大会は何が何でも出る』と言い張った」（スポーツ報知）",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【レスリング】金メダルの鏡優翔、衝撃の事実告白「前十字（靱帯）が完全断裂していて…」 痛みこらえながら逆転Ｖ「『アジア大会は何が何でも出る』と言い張った」（スポーツ報知）",
+          "url": "https://news.yahoo.co.jp/articles/7aaec98b5180d8d4e694b9f952ea8b8e00807f34",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
       "retained": false
     },
     {
-      "topic": "paypay",
+      "topic": "雇用統計",
       "status": "ok",
-      "summary": "PayPay株式会社は、地方自治体が「PayPay商品券」を活用する取り組み（※1）について、あらたに2026年11月以降に実施（※2）が決定した施策をお知らせ",
-      "summaryBasis": "publisher-description",
-      "issue": "「paypay」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "〔米雇用統計反響〕10月は据え置き、12月の判断は紙一重＝PMのトゥムズ氏(時事通信)",
+      "summaryBasis": "related-headline",
+      "issue": "「雇用統計」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "地方自治体とPayPayが連携して取り組むキャンペーンなど、2026年11月以降に実施する施策が決定！",
-          "url": "https://paypay.ne.jp/notice/20260930/cp-jichitai/",
-          "name": "PayPay",
+          "title": "〔米雇用統計反響〕10月は据え置き、12月の判断は紙一重＝PMのトゥムズ氏(時事通信)",
+          "url": "https://finance.yahoo.co.jp/news/detail/2b2099b15ba7a4eec0d4cee9abadaf0a71417b15",
+          "name": "Yahoo!ファイナンス",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
       "retained": false
     },
     {
-      "topic": "iphone",
+      "topic": "内田真礼",
+      "status": "ok",
+      "summary": "声優事務所アイムエンタープライズは2日、公式サイトに文書を発表。所属の内田真礼に関する事実無根の情報と、それに基づく臆測、誹謗（ひぼう）中傷がインターネット、SNS上で投稿、拡散されているとし、法的",
+      "summaryBasis": "publisher-description",
+      "issue": "被害を防ぐために、どの行為を問題とし、どんな対応が必要か？",
+      "whyItMatters": "正当な批判と攻撃を分け、被害者保護と表現の自由を両立する対応を考えるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "内田真礼の所属事務所、事実無根の情報と臆測、誹謗中傷に法的措置を含む厳正な対応と警告（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/5f0119c887ec6607770b724c2fd8fc97ab1b686c",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "声優・内田真礼の所属事務所が声明「全くの事実無根」SNS上の誹謗中傷やデマに「厳正な対応を行います」",
+          "url": "https://topics.smt.docomo.ne.jp/article/sanspo/entertainment/sanspo-_entertainment_geino_T5DL7IKEMZDXJJNPRCJBYLNL2I",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "松本穂香",
+      "status": "ok",
+      "summary": "松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」（テレビ朝日系（ANN））",
+      "summaryBasis": "related-headline",
+      "issue": "「松本穂香」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hdXRLZU5IQkF0eDJkdXFNSFUwY2Z5ckh3RHpRa1A2TEhfVkNBTlZxZ285dnlFT1dvSFRNdnJZakVtMnV4SlZoM3p1T3R0cUl0LUlSamlmTnI4bkgzNk80a0xkcnRmTUllZDFscFBhbm8xbTZHU3JpZkF0aGI1bnc?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Fri, 02 Oct 2026 08:27:16 GMT"
+        },
+        {
+          "title": "【画像まとめ】松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbGZjVEV5cjllNEdLN0RXdEc5ZXJ1TTlRbzZmdEg3SjlnZ3h2a2hYdW4yOUJpRTg1RWdzSzduWGVhSi1RX056Zk01S3VJUUFHYWZ6NGNyQkxEWEw1TktUX0NrTEZLbkNKbGkzeGRoSWFyV0lhbUZBQ2ZQTllvZ1pfaDdmSklzc1ZmVmsxQkdKTUwxQUZVM1pGTGp6WXN6cFZsMExuWm9TTVhib0tGamE0elN0RktGQUtJSnBfck5lVUEyT2FGT3g3UDY3eDA4ZmJZcVdJRXcyZmFia2d4LWlRcXJ6OVJzTzM2OHpHMEx0Z2hnN3Jfd09SbDhFR0YwUVJhNEhBTndJZmVwYUQ1WkRR?oc=5",
+          "name": "テレ朝NEWS",
+          "publishedAt": "Fri, 02 Oct 2026 08:24:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "なでしこジャパン",
+      "status": "ok",
+      "summary": "なでしこジャパン、北朝鮮を下し大会3連覇の金メダル！PK戦の死闘を制し史上最多4度目Vの快挙【アジア大会】",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "なでしこジャパン、北朝鮮を下し大会3連覇の金メダル！PK戦の死闘を制し史上最多4度目Vの快挙【アジア大会】",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rMmYyZzdXVFRfQzdKa01XQkstbEFOZmpYUDh2X1BrQ05HdVY4a2FNeldKUnFLUXVNRFB6QXI2Yjh6SFVWUFZPM0VLbjFpaGZWWFlzYUdTNEcyb1J5azV1clh1aTlvTTRPdzZTaGdOX3pKc2d0T2FlMUlueC1MM1k?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Fri, 02 Oct 2026 13:12:55 GMT"
+        },
+        {
+          "title": "なでしこジャパンがアジア競技大会3連覇達成！ 後半土壇場に同点弾、PK戦で北朝鮮を下し通算4度目の優勝",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKUHk1QTBzeGc4MDRGVHYwRmJBSFEwZFRiNmZoWlBUTUdtaVBfSkN5MXRwQ1RGNGNvaGxwdHhOQmlTMi1yb2prSC0xZWRpdUdZUjNLLWpjTFNYNVNEZE5iVi13cXQ4cnJaZ0o4b3hrNXNOZTdPaEFGYQ?oc=5",
+          "name": "サッカーキング",
+          "publishedAt": "Fri, 02 Oct 2026 13:14:35 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "角中勝也",
+      "status": "ok",
+      "summary": "千葉ロッテマリーンズ・角中勝也選手 ©パーソル パ・リーグTV 10月2日、ZOZOマリンスタジアムで角中勝也選手の引退セレモニーが行われた。「6番・左翼手」でスタメン出場した角中選手。",
+      "summaryBasis": "publisher-description",
+      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
+      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「今からInstagramで投稿します」最後まで “らしさ” 全開の角中勝也引退セレモニー全文",
+          "url": "https://pacificleague.com/news/2026/10/86718",
+          "name": "パ・リーグ.com",
+          "publishedAt": null
+        },
+        {
+          "title": "【ロッテ】角中勝也 ロッテとは…「奥さんより付き合い長い。家族」20年間のプロ野球人生に幕",
+          "url": "https://www.nikkansports.com/baseball/photonews/photonews_nsInc_202610020001714-1.html",
+          "name": "日刊スポーツ",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "retained": false
+    },
+    {
+      "topic": "iphone duo",
       "status": "ok",
       "summary": "今日から10月です！ 2026年10月はAppleファンにとって歴史に残る月となりますね。Apple初となる折りたたみスマホ、iPhone Duoがいよいよ発売されるからです。iPhone Duoの",
       "summaryBasis": "publisher-description",
@@ -72,176 +247,13 @@
           "publishedAt": null
         },
         {
-          "title": "iPhone Duo 600万台販売か アップル初の折り畳みスマホ",
-          "url": "https://txbiz.tv-tokyo.co.jp/txn/news_txn/post_349659",
-          "name": "テレ東BIZ",
+          "title": "アップルの「iPhone Duo」は、従来の折り畳みスマートフォンと何が違う？ 使って見えた進化のポイント",
+          "url": "https://wired.jp/article/iphone-duo-hands-on-foldable-evolution/",
+          "name": "WIRED.jp",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "習近平",
-      "status": "ok",
-      "summary": "【NHK】中国の習近平国家主席は9月30日夜、建国77年を祝う行事で演説し、「祖国統一の大業を推進しなければならない」と強調し、台湾統一に向けた意欲を改めて示しました。 中国で建国記念日にあたる「国慶節」を",
-      "summaryBasis": "publisher-description",
-      "issue": "「習近平」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "中国の習近平国家主席 台湾統一に意欲示す 建国祝う行事で演説",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261001de53502",
-          "name": "NHKニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "習近平氏「香港・マカオの長期的繁栄と安定を維持」 新中国77周年レセプション",
-          "url": "https://topics.smt.docomo.ne.jp/article/newscn/world/newscn-J000241_20260930_CBMFN0",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "壬氏",
-      "status": "ok",
-      "summary": "＜薬屋のひとりごと＞第3期放送開始 猫猫＆壬氏に立ちはだかる新たな試練…第49話あらすじ＆先行カット公開",
-      "summaryBasis": "related-headline",
-      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
-      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "＜薬屋のひとりごと＞第3期放送開始 猫猫＆壬氏に立ちはだかる新たな試練…第49話あらすじ＆先行カット公開",
-          "url": "https://news.yahoo.co.jp/articles/0315cf3b9b92e380e2620f0645026f98f00de5df",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "凱旋門賞",
-      "status": "ok",
-      "summary": "【平松さとし氏現地ルポ】JRAが馬券を発売する「第105回凱旋門賞」まで、あと2日。日本調教馬2頭を含め、話題満載のメンバーがそろった。パリ郊外のシャンティイで取材を続けるフリーライターの平松さとし",
-      "summaryBasis": "publisher-description",
-      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
-      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【凱旋門賞】ダリズ連覇へ グラファール師自信あり「至って順調」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/0d68d6287b359502b89f84ee4a4a00be99d847fc",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "【凱旋門賞】アドマイヤテラ 環境になじんだ 友道師「元気で前進気勢もあります」",
-          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261002-0010",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "半導体",
-      "status": "ok",
-      "summary": "1日の東京株式市場で日経平均株価は続伸し、終値は前日比2203円00銭（3.30%）高の6万8956円72銭で終えた。終値ベースの6万8000円台回復は8月17日以来約1カ月半ぶり。前日の米ハイテク株高のほか、米メモリー半導体大手のマイクロン・テクノロジーが発表した決算や業績見通しが投資家心理の改善につながった。",
-      "summaryBasis": "publisher-description",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "東証大引け 日経平均は続伸 1カ月半ぶり6万8000円回復 半導体関連けん引",
-          "url": "https://www.nikkei.com/article/DGXZQOFL012RF0R01C26A0000000/",
-          "name": "日本経済新聞",
-          "publishedAt": null
-        },
-        {
-          "title": "株価指数先物【引け後】 半導体株への資金集中による+3σ到達でいったんリバランスも",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202610011175",
-          "name": "株探",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "福岡 県議会",
-      "status": "ok",
-      "summary": "SNSで不適切な投稿を繰り返していた福岡県議会の林泰輔県議。異例となる2つの問責決議案が10月1日の本会議で可決されました。【ノーカット】「今後しばらくは取材に応じない」異例の2つの問責決議が可決",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "林県議「しばらく取材に応じない」匿名アカで“攻撃” 異例の2つの問責決議が可決 福岡県議会（FBS福岡放送）",
-          "url": "https://news.yahoo.co.jp/articles/e2495ec02c0ca0a1523399c13870c62fbb6a5621?page=2",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "匿名で不適切投稿繰り返した福岡県議会の林泰輔議員、自民党県議団に「離団願」の方針",
-          "url": "https://www.yomiuri.co.jp/national/20261001-GYT1T00118/",
-          "name": "読売新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "denmark vs portugal",
-      "status": "ok",
-      "summary": "デンマーク対ポルトガル： UEFAネイションズリーグの統計と対決",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "デンマーク対ポルトガル： UEFAネイションズリーグの統計と対決",
-          "url": "https://www.bbc.com/sport/football/live/cvrl6660y8w3t",
-          "name": "BBC",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ギリシャ 対 オランダ",
-      "status": "ok",
-      "summary": "シャビ・エルナンデス、ギリシャ対オランダ戦でフース・ティルとティンバー兄弟に先発の座を与える",
-      "summaryBasis": "related-headline",
-      "issue": "「ギリシャ 対 オランダ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "シャビ・エルナンデス、ギリシャ対オランダ戦でフース・ティルとティンバー兄弟に先発の座を与える",
-          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%82%B7%E3%83%A3%E3%83%92%E3%82%99-%E3%82%A8%E3%83%AB%E3%83%8A%E3%83%B3%E3%83%86%E3%82%99%E3%82%B9-%E3%82%AD%E3%82%99%E3%83%AA%E3%82%B7%E3%83%A3%E5%AF%BE%E3%82%AA%E3%83%A9%E3%83%B3%E3%82%BF%E3%82%99%E6%88%A6%E3%81%A6%E3%82%99%E3%83%95%E3%83%BC%E3%82%B9-%E3%83%86%E3%82%A3%E3%83%AB%E3%81%A8%E3%83%86%E3%82%A3%E3%83%B3%E3%83%8F%E3%82%99%E3%83%BC%E5%85%84%E5%BC%9F%E3%81%AB%E5%85%88%E7%99%BA%E3%81%AE%E5%BA%A7%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8B/blt8dd941dc765d03fb",
-          "name": "Goal.com",
-          "publishedAt": null
-        },
-        {
-          "title": "ネーションズリーグ ギリシャ対オランダ戦のプレビュー",
-          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-hy-lap-vs-ha-lan-tai-nations-league-1775754.ldo",
-          "name": "Laodong.vn",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-02T05:56:03.094216+09:00",
+      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
       "retained": false
     }
   ]
