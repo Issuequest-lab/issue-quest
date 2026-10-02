@@ -1,71 +1,177 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-03",
-  "fetchedAt": "2026-10-03T03:32:39.385159+09:00",
+  "fetchedAt": "2026-10-03T05:56:54.069392+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
+    "熱帯低気圧",
+    "介護",
+    "佐久間宣行",
+    "アジア大会 女子サッカー 北朝鮮",
+    "吉岡里帆",
+    "sugizo",
+    "とらぶるダークネス",
+    "あおぎり高校 こまる",
     "フランス 対 イタリア",
-    "狩野英孝",
-    "アイドル",
-    "鏡優翔",
-    "雇用統計",
-    "内田真礼",
-    "松本穂香",
-    "なでしこジャパン",
-    "角中勝也",
-    "iphone duo"
+    "アイドル"
   ],
   "briefs": [
     {
-      "topic": "フランス 対 イタリア",
+      "topic": "熱帯低気圧",
       "status": "ok",
-      "summary": "試合プレビュー：フランス対イタリア（10月3日午前1時45分）、UEFAネーションズリーグ2026-2027",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "【台風のたまご】新たな「熱帯低気圧」発生か さらに「ハリケーン」も 気象庁予想天気図 に出現【雨風シミュレーション／３連休まで天気予報１２日（月祝）まで】「台風２７号」情報 | TBS NEWS DIGのフォトギャラリーです。",
+      "summaryBasis": "publisher-description",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
+        {
+          "title": "【台風のたまご】新たな「熱帯低気圧」発生か さらに「ハリケーン」も 気象庁予想天気図 に出現【雨風シミュレーション／３連休まで天気予報１２日（月祝）まで】「台風２７号」情報",
+          "url": "https://newsdig.tbs.co.jp/articles/gallery/2986870",
+          "name": "TBS NEWS DIG",
+          "publishedAt": null
+        },
+        {
+          "title": "また台風発生へ 南鳥島近海の熱帯低気圧が発達し北上か 5日には小笠原近海",
+          "url": "https://www.nishinippon.co.jp/item/1543867/",
+          "name": "西日本新聞me",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "retained": false
+    },
+    {
+      "topic": "介護",
+      "status": "ok",
+      "summary": "訪問介護のサ責業務を極限まで減らす！指示出し・モニタリング・支援経過をAI活用で大幅に効率化できる「AIアシスト」を実演展示いたします。 この度、訪問介護ソフト「Care-wing（ケアウイング）」を展開する株式会社ロジック（本社：石川県金沢市、代表取締役社長：山添 勢矢、以下「当社」）は、東",
+      "summaryBasis": "publisher-description",
+      "issue": "「介護」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "プレスリリース：訪問介護のさらなる業務効率化を実現する『Care-wing』AI新機能を国際福祉機器展（H.C.R.）2026＆CareTEX大阪'26にて実演展示（PR TIMES）",
+          "url": "https://mainichi.jp/articles/20261002/pr2/00m/020/344000c",
+          "name": "毎日新聞",
+          "publishedAt": null
+        },
+        {
+          "title": "介護業界日本最大級の商談型展示会「大阪ケアウィークʼ26 Careテクノロジー大阪 介護テクノロジー展」に出展します!! - 写真・画像(1/1)",
+          "url": "https://www.nishinippon.co.jp/image/1088227/",
+          "name": "西日本新聞me",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "retained": false
+    },
+    {
+      "topic": "佐久間宣行",
+      "status": "ok",
+      "summary": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」",
+      "summaryBasis": "related-headline",
+      "issue": "「佐久間宣行」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」",
+          "url": "https://www.nikkansports.com/entertainment/news/202610020000957.html",
+          "name": "日刊スポーツ",
+          "publishedAt": null
+        },
+        {
+          "title": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」 (2026年10月2日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32473613/",
+          "name": "ライブドアニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "retained": false
+    },
+    {
+      "topic": "アジア大会 女子サッカー 北朝鮮",
+      "status": "unavailable"
+    },
+    {
+      "topic": "吉岡里帆",
+      "status": "ok",
+      "summary": "【モデルプレス＝2026/09/30】芸能事務所・フラームの公式Instagramが9月26日に更新された。",
+      "summaryBasis": "publisher-description",
+      "issue": "「吉岡里帆」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "吉岡里帆、美ボディ透けるノースリ衣装姿披露「清楚なのに色っぽい」「デコルテ綺麗で憧れる」と反響",
+          "url": "https://topics.smt.docomo.ne.jp/amp/article/mdpr/entertainment/mdpr-4850360",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "吉岡里帆、吸い込まれそうな瞳が際立つドアップショットに「ずっと綺麗」「演技すごい」の声",
+          "url": "https://news.nicovideo.jp/watch/nw19814178",
+          "name": "ニコニコニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "retained": false
+    },
+    {
+      "topic": "sugizo",
+      "status": "ok",
+      "summary": "ロックバンド、LUNA SEAのギタリスト・SUGIZO（57）が1日、Xで状結腸がん（大腸がん）のため、手術を受けることを公表したBRAHMANのボーカル・TOSHI-LOWにエールを送った。",
+      "summaryBasis": "publisher-description",
+      "issue": "「sugizo」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "SUGIZO「絶対に完治すると祈っている」…大腸がん公表のTOSHI-LOWにエール",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900201031.html",
+          "name": "テレ朝NEWS",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "retained": false
+    },
+    {
+      "topic": "とらぶるダークネス",
+      "status": "unavailable"
+    },
+    {
+      "topic": "あおぎり高校 こまる",
+      "status": "unavailable"
+    },
+    {
+      "topic": "フランス 対 イタリア",
+      "status": "ok",
+      "summary": "フランス対イタリア、CM採点：ドンナルンマはナンバー1、バストーニは復活。オリーセは怪物級、ピオ・エスポシトとデンベレは期待外れ",
+      "summaryBasis": "related-headline",
+      "issue": "「フランス 対 イタリア」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "フランス対イタリア、CM採点：ドンナルンマはナンバー1、バストーニは復活。オリーセは怪物級、ピオ・エスポシトとデンベレは期待外れ",
+          "url": "https://news.google.com/rss/articles/CBMi8AZBVV95cUxOcFRMVGRweHpMUUlWd2RUNmJzZF9sRHI1dHZXakpiTktJUlROem1uanFROXU0cmxEQTBNekxBclpQN3hoT0JMd0o5ZWVHb1ctSlFnU0IxcG1CSXMyOVhRWXZMelhsY2stdWlqQ3F1M3F0QllxMm1kOVBLcWViRTVCbjVzXzQ1SzlxOFhuYnRpbmR1bTlZbzRfZzJ4eXlMRkhHQXdJU3dpY3lsQ0VoeDZrb1g2YS1XckRJNlJwU1hXR2JoWDVFWDNQdEZkWTFVeTVTdG14ZEQzS2hPODh1U1ZaWk1WbjY4V3VIcWpSMExJYWJMSXUwOTRwNEtWSWZ4U0lNOTk5SHdEb1FVaks0ZzhNdWFLa1hQeF9YRFNMOE9lYjFNWHJ0cnVvdlVWNXRKNGQ1QkN1M01kSEpDVjVCMjEyNWd1V1E4c2R2N1VDMVdZakhlbXdtaHBFbXk4ZGtkRDUxRmdwZ09SQkg4WXlkWmlrMXRmU1BpUUJzYWdjMk1BM1FRVDBHQUY3bjRtMHpBRFN4VWdFUlk2bndXY0ZJMFU1SkV1Q2JrdTJNNkxkSk5zZFEwcWdRa3QxM2k0eFM3RW5rMzVLaThERXVlLXJJRkpjSUczOWtlVDBwLUpBc0t0VVZHSlpMaGZOU2E3ZFYzenJyZ1h5SUxLb1EzRWpDM1ppVnZ3c3FkUzhiTFRKTFFPS3ZOX25kZHVIeEpLU0pBZ3dGVWNaaWpGcFA5UGdXNnY1NlFnOVdaT2R0VXp3c0VIbDFzVmVrbHlsbXhZeTJVazNXcFRaWUdNZnp5VkJ4Z09KMTNuVlpiVWdtNkNnVlE0VldRZXI0Q1gtNDBvbEI4YUNIM3A5cFRZMTJWVlBhdkZ2cVQyX2xnSWtoSG12X2J5azYzWDJOTlB5aUQtUkVsY0JHUTF1OVdST00tVktRWE1zNldEV0x4NG1YdFRmRUo0UFZzSEh0akFmUENpVjJLelJoTXVDQ29vUGFaT0Zod0hQTVU0VU5IbENHUTVhME9wTkpqLWE3Qjc3N0VvSXh5X0ItTzQ1NHVVWUxuaExfSFlTeklsbml1RV8yQ1RIcXpIVFZ0UjhZS2NrR3lBaUFaM1UwQVlGdVFwUjVwWUdzSG5IY1g2eUNFb3BhQVByMHpfc1dpNmFoNGowQlUtdTRUS1ZF?oc=5",
+          "name": "goal.com",
+          "publishedAt": "Fri, 02 Oct 2026 20:42:00 GMT"
+        },
         {
           "title": "試合プレビュー：フランス対イタリア（10月3日午前1時45分）、UEFAネーションズリーグ2026-2027",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUFZZUh5SjRKazJJbDVCc1laR1VEY2VJeFIzMmZONUg2OURtakpVTEpZWDA5YVNpeEk2LUpEN3k0OGNENUpIcnR4Y1V3d0hWakpONDZBcmszVjVxeFFZYmRySzdvaDVGZHVGRG1iY2xwcVltX2hyYTlzR3o4NjdiT3lXa0ZOc1dkYXFoYUFmYTc1X2Y1dVN0RjBn?oc=5",
           "name": "Vietnam.vn",
           "publishedAt": "Fri, 02 Oct 2026 10:02:20 GMT"
-        },
-        {
-          "title": "フランス対イタリア前日、マンチーニが決断 ロマーノを含むイタリア代表9人はパリへ出発せず | Goal.com 日本",
-          "url": "https://news.google.com/rss/articles/CBMi0gZBVV95cUxNa0dIZ1BNTHhpUGV6VjV2STI5bWlBd3lJNDRPZVpGaDA1OElTc0NiTVR3ZEVJSXVoYl9rQlI0ci1iS2hBN3hjWk9mc0FYUE16UkxhSmhIVTFBQ3J5b1prMk1wV0dMNkZidU1zdE1Udk1mZldOdGtUdEVOMTZoRldyLXZlcnNWWmN2c19NZVVDeFZfLXV5a3VYaWlaTWdIQ1VaUFZrLU9lZjdQelYtc1ZPZXJzbDJ5ZnY5SmZ1UGt5VnNjNWM5eWZzclpxYTVDWUplMkxOdGM1ejFtdmIxUE9UMnlQNm5XYWFoQXZMN3JCZkRiS1hvTHVIZS0ySWVGbE0yUmVSRjIzRFBmaXFVOFV1eG1aeGc0OHVvUVdwNWFVU00wWHhhSHF5Z2ZmRWFyUm91QmVjM1kwTFBRYzZaSUJYaVVsWjU3X0o2Vk5QNjZfeWtnMzdMTXFfZGdTRzE2YklvdlpUVElxRERVd253akwwTmlfMGtPMDFMclpNaVZzZVp2RXlYWm85X2pEZnlLV3l6eE0tVkZRaTlhLWNfZDhNN05NSDFqWl9sX3VOMEw1dmpDOVpBNGZiX0tNYWJnelBLTlhJMlc0SzVvTHF5MVlLQ1k0MzhJMHljWkNpOXZvZWxzcGg1U0RUbFFGR0ExV0RqZ0g3b3BFQmQtbmRDdktINFpCRkJRQ1dmUE5qWi1GNHpjRThwd0VOSHVlNFgxeS1TR2kxc1JRYUFnR0FsMk1EeVExVWU0Y0tjQnFHZFA5QjBTUXpOODFMUlRsQmJHUk9fU1djUHgxMExkVGVpQ3lYRlZIQmdoSkdEUVRnYnl0YWl5ZzZOUHhtbXctaE44ajRJeE1zd1FwYlY5NWVLQWt2Qi1mUXdUZEJzWmtYTlpGOExlZEVjbnZXaGpJbXg0dkJ1ckN5amlWaFpTSXlTVk9JNmMxbUk4Y1NGbFBEVTVzcjFaOEFJN1lKTTZTT1JQWjNIUVY3SXpad1E1WUtDQXR6MW53c2trWlg3MWNfSW0wYlJKd2J4RzVOY09XSTFSLXNWa2JBRFF2ZEw4ODk1TExwQlhjaDVldGVzdTYzSk03Y29GZ3NENnBfN0pzeXpYejZjaG5rTWI5MkZ4RnRwX0RpLV9R?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Thu, 01 Oct 2026 09:18:49 GMT"
         }
       ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "狩野英孝",
-      "status": "ok",
-      "summary": "狩野英孝 HYDEからのメッセージに大興奮！",
-      "summaryBasis": "related-headline",
-      "issue": "「狩野英孝」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "狩野英孝 HYDEからのメッセージに大興奮！",
-          "url": "https://tver.jp/episodes/epjuxuny6g",
-          "name": "TVer",
-          "publishedAt": null
-        },
-        {
-          "title": "狩野英孝、ナルシストキャラ秘話",
-          "url": "https://www.asahi.com/and/entertainment/16934393",
-          "name": "朝日新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
       "retained": false
     },
     {
@@ -90,170 +196,7 @@
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "鏡優翔",
-      "status": "ok",
-      "summary": "【レスリング】金メダルの鏡優翔、衝撃の事実告白「前十字（靱帯）が完全断裂していて…」 痛みこらえながら逆転Ｖ「『アジア大会は何が何でも出る』と言い張った」（スポーツ報知）",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【レスリング】金メダルの鏡優翔、衝撃の事実告白「前十字（靱帯）が完全断裂していて…」 痛みこらえながら逆転Ｖ「『アジア大会は何が何でも出る』と言い張った」（スポーツ報知）",
-          "url": "https://news.yahoo.co.jp/articles/7aaec98b5180d8d4e694b9f952ea8b8e00807f34",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "雇用統計",
-      "status": "ok",
-      "summary": "〔米雇用統計反響〕10月は据え置き、12月の判断は紙一重＝PMのトゥムズ氏(時事通信)",
-      "summaryBasis": "related-headline",
-      "issue": "「雇用統計」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "〔米雇用統計反響〕10月は据え置き、12月の判断は紙一重＝PMのトゥムズ氏(時事通信)",
-          "url": "https://finance.yahoo.co.jp/news/detail/2b2099b15ba7a4eec0d4cee9abadaf0a71417b15",
-          "name": "Yahoo!ファイナンス",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "内田真礼",
-      "status": "ok",
-      "summary": "声優事務所アイムエンタープライズは2日、公式サイトに文書を発表。所属の内田真礼に関する事実無根の情報と、それに基づく臆測、誹謗（ひぼう）中傷がインターネット、SNS上で投稿、拡散されているとし、法的",
-      "summaryBasis": "publisher-description",
-      "issue": "被害を防ぐために、どの行為を問題とし、どんな対応が必要か？",
-      "whyItMatters": "正当な批判と攻撃を分け、被害者保護と表現の自由を両立する対応を考えるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "内田真礼の所属事務所、事実無根の情報と臆測、誹謗中傷に法的措置を含む厳正な対応と警告（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/5f0119c887ec6607770b724c2fd8fc97ab1b686c",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "声優・内田真礼の所属事務所が声明「全くの事実無根」SNS上の誹謗中傷やデマに「厳正な対応を行います」",
-          "url": "https://topics.smt.docomo.ne.jp/article/sanspo/entertainment/sanspo-_entertainment_geino_T5DL7IKEMZDXJJNPRCJBYLNL2I",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "松本穂香",
-      "status": "ok",
-      "summary": "松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」（テレビ朝日系（ANN））",
-      "summaryBasis": "related-headline",
-      "issue": "「松本穂香」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hdXRLZU5IQkF0eDJkdXFNSFUwY2Z5ckh3RHpRa1A2TEhfVkNBTlZxZ285dnlFT1dvSFRNdnJZakVtMnV4SlZoM3p1T3R0cUl0LUlSamlmTnI4bkgzNk80a0xkcnRmTUllZDFscFBhbm8xbTZHU3JpZkF0aGI1bnc?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Fri, 02 Oct 2026 08:27:16 GMT"
-        },
-        {
-          "title": "【画像まとめ】松本穂香の“手放す”決断のきっかけは！？ファーストサマーウイカは「結構良い値段がした」",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbGZjVEV5cjllNEdLN0RXdEc5ZXJ1TTlRbzZmdEg3SjlnZ3h2a2hYdW4yOUJpRTg1RWdzSzduWGVhSi1RX056Zk01S3VJUUFHYWZ6NGNyQkxEWEw1TktUX0NrTEZLbkNKbGkzeGRoSWFyV0lhbUZBQ2ZQTllvZ1pfaDdmSklzc1ZmVmsxQkdKTUwxQUZVM1pGTGp6WXN6cFZsMExuWm9TTVhib0tGamE0elN0RktGQUtJSnBfck5lVUEyT2FGT3g3UDY3eDA4ZmJZcVdJRXcyZmFia2d4LWlRcXJ6OVJzTzM2OHpHMEx0Z2hnN3Jfd09SbDhFR0YwUVJhNEhBTndJZmVwYUQ1WkRR?oc=5",
-          "name": "テレ朝NEWS",
-          "publishedAt": "Fri, 02 Oct 2026 08:24:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "なでしこジャパン",
-      "status": "ok",
-      "summary": "なでしこジャパン、北朝鮮を下し大会3連覇の金メダル！PK戦の死闘を制し史上最多4度目Vの快挙【アジア大会】",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "なでしこジャパン、北朝鮮を下し大会3連覇の金メダル！PK戦の死闘を制し史上最多4度目Vの快挙【アジア大会】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rMmYyZzdXVFRfQzdKa01XQkstbEFOZmpYUDh2X1BrQ05HdVY4a2FNeldKUnFLUXVNRFB6QXI2Yjh6SFVWUFZPM0VLbjFpaGZWWFlzYUdTNEcyb1J5azV1clh1aTlvTTRPdzZTaGdOX3pKc2d0T2FlMUlueC1MM1k?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Fri, 02 Oct 2026 13:12:55 GMT"
-        },
-        {
-          "title": "なでしこジャパンがアジア競技大会3連覇達成！ 後半土壇場に同点弾、PK戦で北朝鮮を下し通算4度目の優勝",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKUHk1QTBzeGc4MDRGVHYwRmJBSFEwZFRiNmZoWlBUTUdtaVBfSkN5MXRwQ1RGNGNvaGxwdHhOQmlTMi1yb2prSC0xZWRpdUdZUjNLLWpjTFNYNVNEZE5iVi13cXQ4cnJaZ0o4b3hrNXNOZTdPaEFGYQ?oc=5",
-          "name": "サッカーキング",
-          "publishedAt": "Fri, 02 Oct 2026 13:14:35 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "角中勝也",
-      "status": "ok",
-      "summary": "千葉ロッテマリーンズ・角中勝也選手 ©パーソル パ・リーグTV 10月2日、ZOZOマリンスタジアムで角中勝也選手の引退セレモニーが行われた。「6番・左翼手」でスタメン出場した角中選手。",
-      "summaryBasis": "publisher-description",
-      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
-      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「今からInstagramで投稿します」最後まで “らしさ” 全開の角中勝也引退セレモニー全文",
-          "url": "https://pacificleague.com/news/2026/10/86718",
-          "name": "パ・リーグ.com",
-          "publishedAt": null
-        },
-        {
-          "title": "【ロッテ】角中勝也 ロッテとは…「奥さんより付き合い長い。家族」20年間のプロ野球人生に幕",
-          "url": "https://www.nikkansports.com/baseball/photonews/photonews_nsInc_202610020001714-1.html",
-          "name": "日刊スポーツ",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
-      "retained": false
-    },
-    {
-      "topic": "iphone duo",
-      "status": "ok",
-      "summary": "今日から10月です！ 2026年10月はAppleファンにとって歴史に残る月となりますね。Apple初となる折りたたみスマホ、iPhone Duoがいよいよ発売されるからです。iPhone Duoの",
-      "summaryBasis": "publisher-description",
-      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
-      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "iPhone Duo発売でiPad miniの立ち位置がビミョーに。次の一手はあるのか？（ギズモード・ジャパン）",
-          "url": "https://news.yahoo.co.jp/articles/6712b0733d241eb0cf86eb2c69605e4d362794cc",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "アップルの「iPhone Duo」は、従来の折り畳みスマートフォンと何が違う？ 使って見えた進化のポイント",
-          "url": "https://wired.jp/article/iphone-duo-hands-on-foldable-evolution/",
-          "name": "WIRED.jp",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T03:32:39.385159+09:00",
+      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
       "retained": false
     }
   ]
