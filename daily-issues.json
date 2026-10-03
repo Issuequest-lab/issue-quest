@@ -1,202 +1,190 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-03",
-  "fetchedAt": "2026-10-03T05:56:54.069392+09:00",
+  "updatedAt": "2026-10-04",
+  "fetchedAt": "2026-10-04T07:22:21.295685+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "熱帯低気圧",
-    "介護",
-    "佐久間宣行",
-    "アジア大会 女子サッカー 北朝鮮",
-    "吉岡里帆",
-    "sugizo",
-    "とらぶるダークネス",
-    "あおぎり高校 こまる",
-    "フランス 対 イタリア",
-    "アイドル"
+    "金河成",
+    "火災",
+    "テオスカー・ヘルナンデス",
+    "渋野日向子",
+    "晴海タワーマンション転落",
+    "全般台風情報、台風第27号",
+    "中川翔子",
+    "メジャーリーグ",
+    "サンドウィッチマン",
+    "ガーディアンズ"
   ],
   "briefs": [
     {
-      "topic": "熱帯低気圧",
+      "topic": "金河成",
       "status": "ok",
-      "summary": "【台風のたまご】新たな「熱帯低気圧」発生か さらに「ハリケーン」も 気象庁予想天気図 に出現【雨風シミュレーション／３連休まで天気予報１２日（月祝）まで】「台風２７号」情報 | TBS NEWS DIGのフォトギャラリーです。",
-      "summaryBasis": "publisher-description",
-      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
-      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【台風のたまご】新たな「熱帯低気圧」発生か さらに「ハリケーン」も 気象庁予想天気図 に出現【雨風シミュレーション／３連休まで天気予報１２日（月祝）まで】「台風２７号」情報",
-          "url": "https://newsdig.tbs.co.jp/articles/gallery/2986870",
-          "name": "TBS NEWS DIG",
-          "publishedAt": null
-        },
-        {
-          "title": "また台風発生へ 南鳥島近海の熱帯低気圧が発達し北上か 5日には小笠原近海",
-          "url": "https://www.nishinippon.co.jp/item/1543867/",
-          "name": "西日本新聞me",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
-      "retained": false
-    },
-    {
-      "topic": "介護",
-      "status": "ok",
-      "summary": "訪問介護のサ責業務を極限まで減らす！指示出し・モニタリング・支援経過をAI活用で大幅に効率化できる「AIアシスト」を実演展示いたします。 この度、訪問介護ソフト「Care-wing（ケアウイング）」を展開する株式会社ロジック（本社：石川県金沢市、代表取締役社長：山添 勢矢、以下「当社」）は、東",
-      "summaryBasis": "publisher-description",
-      "issue": "「介護」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "プレスリリース：訪問介護のさらなる業務効率化を実現する『Care-wing』AI新機能を国際福祉機器展（H.C.R.）2026＆CareTEX大阪'26にて実演展示（PR TIMES）",
-          "url": "https://mainichi.jp/articles/20261002/pr2/00m/020/344000c",
-          "name": "毎日新聞",
-          "publishedAt": null
-        },
-        {
-          "title": "介護業界日本最大級の商談型展示会「大阪ケアウィークʼ26 Careテクノロジー大阪 介護テクノロジー展」に出展します!! - 写真・画像(1/1)",
-          "url": "https://www.nishinippon.co.jp/image/1088227/",
-          "name": "西日本新聞me",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
-      "retained": false
-    },
-    {
-      "topic": "佐久間宣行",
-      "status": "ok",
-      "summary": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」",
+      "summary": "大きな勝利です！「コンビニ・シネマが→プレーオフで優秀な投球で260万ウォンの契約を→結んだ」ジン・ヘシェンさん32歳の左投手がアメリカで「人生の勝利」の話題になっている",
       "summaryBasis": "related-headline",
-      "issue": "「佐久間宣行」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「金河成」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」",
-          "url": "https://www.nikkansports.com/entertainment/news/202610020000957.html",
-          "name": "日刊スポーツ",
-          "publishedAt": null
-        },
-        {
-          "title": "佐久間宣行氏プロデュース21歳アイドル活動休止「本人の健康を最優先に考え…」 (2026年10月2日掲載)",
-          "url": "https://news.livedoor.com/topics/detail/32473613/",
-          "name": "ライブドアニュース",
+          "title": "大きな勝利です！「コンビニ・シネマが→プレーオフで優秀な投球で260万ウォンの契約を→結んだ」ジン・ヘシェンさん32歳の左投手がアメリカで「人生の勝利」の話題になっている",
+          "url": "https://www.starnewskorea.com/zh/sports/2026/10/03/2026100309341882072",
+          "name": "스타뉴스",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
       "retained": false
     },
     {
-      "topic": "アジア大会 女子サッカー 北朝鮮",
-      "status": "unavailable"
-    },
-    {
-      "topic": "吉岡里帆",
+      "topic": "火災",
       "status": "ok",
-      "summary": "【モデルプレス＝2026/09/30】芸能事務所・フラームの公式Instagramが9月26日に更新された。",
-      "summaryBasis": "publisher-description",
-      "issue": "「吉岡里帆」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "吉岡里帆、美ボディ透けるノースリ衣装姿披露「清楚なのに色っぽい」「デコルテ綺麗で憧れる」と反響",
-          "url": "https://topics.smt.docomo.ne.jp/amp/article/mdpr/entertainment/mdpr-4850360",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "吉岡里帆、吸い込まれそうな瞳が際立つドアップショットに「ずっと綺麗」「演技すごい」の声",
-          "url": "https://news.nicovideo.jp/watch/nw19814178",
-          "name": "ニコニコニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
-      "retained": false
-    },
-    {
-      "topic": "sugizo",
-      "status": "ok",
-      "summary": "ロックバンド、LUNA SEAのギタリスト・SUGIZO（57）が1日、Xで状結腸がん（大腸がん）のため、手術を受けることを公表したBRAHMANのボーカル・TOSHI-LOWにエールを送った。",
-      "summaryBasis": "publisher-description",
-      "issue": "「sugizo」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "SUGIZO「絶対に完治すると祈っている」…大腸がん公表のTOSHI-LOWにエール",
-          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900201031.html",
-          "name": "テレ朝NEWS",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
-      "retained": false
-    },
-    {
-      "topic": "とらぶるダークネス",
-      "status": "unavailable"
-    },
-    {
-      "topic": "あおぎり高校 こまる",
-      "status": "unavailable"
-    },
-    {
-      "topic": "フランス 対 イタリア",
-      "status": "ok",
-      "summary": "フランス対イタリア、CM採点：ドンナルンマはナンバー1、バストーニは復活。オリーセは怪物級、ピオ・エスポシトとデンベレは期待外れ",
+      "summary": "4人死亡の火災 玄関付近が火元か",
       "summaryBasis": "related-headline",
-      "issue": "「フランス 対 イタリア」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "フランス対イタリア、CM採点：ドンナルンマはナンバー1、バストーニは復活。オリーセは怪物級、ピオ・エスポシトとデンベレは期待外れ",
-          "url": "https://news.google.com/rss/articles/CBMi8AZBVV95cUxOcFRMVGRweHpMUUlWd2RUNmJzZF9sRHI1dHZXakpiTktJUlROem1uanFROXU0cmxEQTBNekxBclpQN3hoT0JMd0o5ZWVHb1ctSlFnU0IxcG1CSXMyOVhRWXZMelhsY2stdWlqQ3F1M3F0QllxMm1kOVBLcWViRTVCbjVzXzQ1SzlxOFhuYnRpbmR1bTlZbzRfZzJ4eXlMRkhHQXdJU3dpY3lsQ0VoeDZrb1g2YS1XckRJNlJwU1hXR2JoWDVFWDNQdEZkWTFVeTVTdG14ZEQzS2hPODh1U1ZaWk1WbjY4V3VIcWpSMExJYWJMSXUwOTRwNEtWSWZ4U0lNOTk5SHdEb1FVaks0ZzhNdWFLa1hQeF9YRFNMOE9lYjFNWHJ0cnVvdlVWNXRKNGQ1QkN1M01kSEpDVjVCMjEyNWd1V1E4c2R2N1VDMVdZakhlbXdtaHBFbXk4ZGtkRDUxRmdwZ09SQkg4WXlkWmlrMXRmU1BpUUJzYWdjMk1BM1FRVDBHQUY3bjRtMHpBRFN4VWdFUlk2bndXY0ZJMFU1SkV1Q2JrdTJNNkxkSk5zZFEwcWdRa3QxM2k0eFM3RW5rMzVLaThERXVlLXJJRkpjSUczOWtlVDBwLUpBc0t0VVZHSlpMaGZOU2E3ZFYzenJyZ1h5SUxLb1EzRWpDM1ppVnZ3c3FkUzhiTFRKTFFPS3ZOX25kZHVIeEpLU0pBZ3dGVWNaaWpGcFA5UGdXNnY1NlFnOVdaT2R0VXp3c0VIbDFzVmVrbHlsbXhZeTJVazNXcFRaWUdNZnp5VkJ4Z09KMTNuVlpiVWdtNkNnVlE0VldRZXI0Q1gtNDBvbEI4YUNIM3A5cFRZMTJWVlBhdkZ2cVQyX2xnSWtoSG12X2J5azYzWDJOTlB5aUQtUkVsY0JHUTF1OVdST00tVktRWE1zNldEV0x4NG1YdFRmRUo0UFZzSEh0akFmUENpVjJLelJoTXVDQ29vUGFaT0Zod0hQTVU0VU5IbENHUTVhME9wTkpqLWE3Qjc3N0VvSXh5X0ItTzQ1NHVVWUxuaExfSFlTeklsbml1RV8yQ1RIcXpIVFZ0UjhZS2NrR3lBaUFaM1UwQVlGdVFwUjVwWUdzSG5IY1g2eUNFb3BhQVByMHpfc1dpNmFoNGowQlUtdTRUS1ZF?oc=5",
-          "name": "goal.com",
-          "publishedAt": "Fri, 02 Oct 2026 20:42:00 GMT"
-        },
-        {
-          "title": "試合プレビュー：フランス対イタリア（10月3日午前1時45分）、UEFAネーションズリーグ2026-2027",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUFZZUh5SjRKazJJbDVCc1laR1VEY2VJeFIzMmZONUg2OURtakpVTEpZWDA5YVNpeEk2LUpEN3k0OGNENUpIcnR4Y1V3d0hWakpONDZBcmszVjVxeFFZYmRySzdvaDVGZHVGRG1iY2xwcVltX2hyYTlzR3o4NjdiT3lXa0ZOc1dkYXFoYUFmYTc1X2Y1dVN0RjBn?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Fri, 02 Oct 2026 10:02:20 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
-      "retained": false
-    },
-    {
-      "topic": "アイドル",
-      "status": "ok",
-      "summary": "アイドルグループの練習生・平田琉七(8)さんの急逝に悲しみの声が寄せられている。【写真あり】インフル→心筋炎で急逝〝5日前のアイドル姿〟",
-      "summaryBasis": "publisher-description",
-      "issue": "「アイドル」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "インフル→心筋炎で急逝…8歳のアイドル練習生〝5日前のアイドル姿〟に「切ない」「こんな元気そうなのに」「嘘でしょ、嘘だよね?」と悲しみの声（西スポWEB OTTO!）",
-          "url": "https://news.yahoo.co.jp/articles/9e98633539bf6a055cfab43dbd82aa224ce040c4",
+          "title": "4人死亡の火災 玄関付近が火元か",
+          "url": "https://news.yahoo.co.jp/pickup/6597434",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "8歳のアイドル練習生が死去…インフルエンザ罹患に伴う心筋炎で",
-          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900200737.html",
-          "name": "テレ朝NEWS",
+          "title": "玄関近くのガスボンベ破裂か 住宅火災で4人死亡 三重・津市",
+          "url": "https://www.fnn.jp/articles/-/1126264",
+          "name": "FNNプライムオンライン",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-03T05:56:54.069392+09:00",
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "retained": false
+    },
+    {
+      "topic": "テオスカー・ヘルナンデス",
+      "status": "ok",
+      "summary": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声（中日スポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "「テオスカー・ヘルナンデス」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声（中日スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkb1o5Y1RSWWpQbHZzQS1jc2dfbFN5MkxsMDl6b2dtRmFYMzRhTU9tMnBZQXVpTzVTaW5URzhLN25WZmlDVEVLUklNdGxpZHhSbEdRVzRkUUYzM0N0MGVRbkZNNUhfMzBYRUpSNlFZWDNOenIwTC02RkxBVjlLNlk?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 03 Oct 2026 21:36:37 GMT"
+        },
+        {
+          "title": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BaWptTWFJS0x6d09tOEtkbEtmUDNkOXV6c3llTF9HbkdhSmJZTWNKczAxOG83OGFySjA0YXp2X3FmU2x0VXVReFVvdUk0d25tdWs0eA?oc=5",
+          "name": "中日新聞Web",
+          "publishedAt": "Sat, 03 Oct 2026 21:33:52 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "retained": false
+    },
+    {
+      "topic": "渋野日向子",
+      "status": "ok",
+      "summary": "【速報】渋野日向子はトリプルボギーで後退 西村優菜も予選通過圏外で後半プレー中",
+      "summaryBasis": "related-headline",
+      "issue": "「渋野日向子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【速報】渋野日向子はトリプルボギーで後退 西村優菜も予選通過圏外で後半プレー中",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DcTJCNjRRcUhJVGV1a1Y0bFNXVGdmYXdHQ1ZKc0dWTWIyb2hUdVhtbmMwYkdUUHZMNVdaeEJOcVpLQnZRQ0RQRTNCb2pLRVd4bm1zbU05U2NUZG5pZUZRcUZZN09VNmhM0gF8QVVfeXFMTURhLXdFNEk1dGpsNWNFZEUyNmlVMFlrTjRnVkVoRjZETEE1WVJmRVVUeVlzbWQ0NGc3V0M2YThGdDY3QWwySTZtLWJjVnBqMnEyM2IzR2xkYTBvQUlmb0Y2ei1Ddnp2VVhyYnNBR3ZwYzdQdWZXcGp1Q3RQVw?oc=5",
+          "name": "GDOゴルフニュース",
+          "publishedAt": "Sat, 03 Oct 2026 01:33:00 GMT"
+        },
+        {
+          "title": "渋野日向子は痛恨トリで予選落ち「TOTOに向けて準備をするだけ」",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CalZjbnVwODMwT0ZpdFMxWVFScVI1VnozWnluSXBpbkZISHl4NGVwSjRIYk5XQ0k3VFZlbEhEOERWRXNVcGVtaGdlZ1pQNHp5WFM4cUFIQUJSeVR2Zy04dXVsQ0xUOWdIQ0VLQ2VIVGtwQW1pN21F?oc=5",
+          "name": "ALBA Net",
+          "publishedAt": "Sat, 03 Oct 2026 05:36:57 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "retained": false
+    },
+    {
+      "topic": "晴海タワーマンション転落",
+      "status": "unavailable"
+    },
+    {
+      "topic": "全般台風情報、台風第27号",
+      "status": "unavailable"
+    },
+    {
+      "topic": "中川翔子",
+      "status": "ok",
+      "summary": "双子1歳の誕生日【 中川翔子 】「本当に双子に出会えて良かった」「なんか悟天とトランクスみたい！」祝福の声続々",
+      "summaryBasis": "related-headline",
+      "issue": "「中川翔子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "双子1歳の誕生日【 中川翔子 】「本当に双子に出会えて良かった」「なんか悟天とトランクスみたい！」祝福の声続々",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CYjZGZS12Rk1aVmdoSWZIWHZEZkthTGs0Zy01RTRZZDZuNWx3WGNOclJOSkNycjNIZHZ5WG5BUUVlMFNTeUNWUkZ1M0dWRHgtVnJVN2hjSkZlNEFsSXVR?oc=5",
+          "name": "TBS NEWS DIG",
+          "publishedAt": "Sat, 03 Oct 2026 12:35:29 GMT"
+        },
+        {
+          "title": "中川翔子、双子の1歳誕生日を報告「大親友みたいになかよし」「なんか悟天とトランクスみたい！」",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oRlI1eXBUYl8tQTJma1F3RlQ1ZXBBWHhzYTN6eXJpQXFhZ0QwMEtuWGk0Wl9wUHdwdnJsOWtZbnBFWF9UTndqZjhPSGVFMHJ2c25wN3JiMHdUV2Y4a0dGNGVGQnRucjVsOWZhWXRkM1E5eWs?oc=5",
+          "name": "sanyonews.jp",
+          "publishedAt": "Sat, 03 Oct 2026 15:04:28 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "retained": false
+    },
+    {
+      "topic": "メジャーリーグ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "サンドウィッチマン",
+      "status": "ok",
+      "summary": "サンドウィッチマン富澤たけし、休養中の伊達みきおの近況に「痩せてました」 伊達は生放送にメッセージ「僕はもう少し充電します！」",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "サンドウィッチマン富澤たけし、休養中の伊達みきおの近況に「痩せてました」 伊達は生放送にメッセージ「僕はもう少し充電します！」",
+          "url": "https://www.sankei.com/article/20261003-YQYTVPGBZBI2RJFPZMMCPRYOHI/?outputType=theme_oriconnews",
+          "name": "産経ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ガーディアンズ",
+      "status": "ok",
+      "summary": "2026年10月4日（日） MLB ガーディアンズ vs Wソックス 試合結果",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "2026年10月4日（日） MLB ガーディアンズ vs Wソックス 試合結果",
+          "url": "https://www.47news.jp/15032982.html",
+          "name": "47NEWS",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
       "retained": false
     }
   ]
