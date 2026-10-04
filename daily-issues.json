@@ -1,223 +1,244 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-04",
-  "fetchedAt": "2026-10-04T11:44:53.896050+09:00",
+  "updatedAt": "2026-10-05",
+  "fetchedAt": "2026-10-05T06:14:32.538070+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "サンジャポ アナウンサー",
-    "doge",
-    "狩野英孝",
-    "福士蒼汰",
-    "ウルフアロン",
-    "タワーマンション 転落",
-    "ブルワーズ 対 パドレス",
-    "argentina vs burkina faso",
-    "吉田沙保里",
-    "山本昌"
+    "クマ",
+    "パドレス",
+    "藤川 球児",
+    "安住 紳一郎",
+    "ウラジーミル・プーチン",
+    "藤岡弘",
+    "全般台風情報、台風第27号",
+    "本田望結",
+    "柔道",
+    "株式"
   ],
   "briefs": [
     {
-      "topic": "サンジャポ アナウンサー",
-      "status": "unavailable"
-    },
-    {
-      "topic": "doge",
+      "topic": "クマ",
       "status": "ok",
-      "summary": "「イーロンは私の予言者」：マスクのドージェチームがワシントンに難破ボールを持って行った方法",
-      "summaryBasis": "related-headline",
-      "issue": "「doge」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「イーロンは私の予言者」：マスクのドージェチームがワシントンに難破ボールを持って行った方法",
-          "url": "https://www.theguardian.com/us-news/2026/oct/03/elon-is-my-prophet-how-musks-doge-team-took-a-wrecking-ball-to-washington",
-          "name": "The Guardian",
-          "publishedAt": null
-        },
-        {
-          "title": "ドージェ戦争：イーロン・マスクがどのようにしてチェーンソーを政府の廃棄物にし、失ったか",
-          "url": "https://www.thetimes.com/us/american-politics/article/inside-doge-elon-musk-trump-sjlgtqnc2",
-          "name": "The Times",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
-      "retained": false
-    },
-    {
-      "topic": "狩野英孝",
-      "status": "ok",
-      "summary": "お笑い芸人の狩野英孝（44）が2日放送のTBS「A-Studio+」（金曜後11・00）にゲスト出演。",
+      "summary": "（CNN） ソファさん（28）は、以前住んでいたロシア・シベリア中部の自宅の庭にクマがいる動画が送られてきたとき、思わず身を乗り出した。クマの脅威は遠いものに思えていたからだ。",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【記事全文】狩野英孝 かつては「めちゃくちゃ嫌いだった」 今では旅行にも一緒に行くほど仲良くなった先輩芸人",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/03/articles/20261003s00041000254000c.html",
-          "name": "スポニチ Sponichi Annex",
+          "title": "クマに襲われ1カ月で16人死亡 露",
+          "url": "https://news.yahoo.co.jp/pickup/6597489",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "狩野英孝、ブレイク時のナルシストキャラは『ちびまる子ちゃん』人気キャラがルーツだった 原作者・さくらももこさんとの秘話も「もう、一生の宝物なんです」",
-          "url": "https://www.sankei.com/article/20261003-2BTG6Z6F6RON7E6D34QCUXRZYI/?outputType=theme_oriconnews",
-          "name": "産経ニュース",
+          "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
+          "name": "NHKニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     },
     {
-      "topic": "福士蒼汰",
+      "topic": "パドレス",
       "status": "ok",
-      "summary": "福士蒼汰主演「ハイド＆シーク」志田彩良・田中樹らの最新カット公開 SPゲストも解禁（モデルプレス）",
+      "summary": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "福士蒼汰主演「ハイド＆シーク」志田彩良・田中樹らの最新カット公開 SPゲストも解禁（モデルプレス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aNi1EMXRKU2F4MG1ZS2ZBeFY1SlBBcUNoSHlfbi1XSUxKSUtXb25TVG1tcEE1U0VPQTRGUEtsSktmU1B5SWRUNE5wc3J6WXhadzNqYXdSRFQ1N0RVSlAzcm8yNTZlblFfNDAtLWpnOXlkRVJrT0tHVFJRaHpMalU?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 03 Oct 2026 21:00:04 GMT"
+          "title": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
+          "url": "https://www.dazn.com/ja-JP/news/%E9%87%8E%E7%90%83/brewers-padres-mlb2026-division-series-20261005/1abk7my0ctmfd1qnca2j26uixf",
+          "name": "DAZN",
+          "publishedAt": null
         },
         {
-          "title": "『ハイド&シーク』福士蒼汰、極限チェイスのラブミステリー開幕 『あまちゃん』共演・杉本哲太が叔父役として登場",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3STJfQlZVQVdVcjNUdVNwM0lVMjlpQ21IdXlIRG04NDd3MjY1TFFKTV9ZZXNnUmczczVmNXhzWDdrTTJPT2RITXZGSnNEWFAzNEtyaTVQR0ExN0taT3RNYmtTQm4?oc=5",
-          "name": "oricon.co.jp",
-          "publishedAt": "Sun, 04 Oct 2026 00:00:02 GMT"
+          "title": "パドレス４番フランスが先制タイムリー…前日は逆転２ランのはずが天井当たって幻に（スポーツ報知）",
+          "url": "https://news.yahoo.co.jp/articles/b933b94550527a1b9f1d50a585d4cc16eb252867",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     },
     {
-      "topic": "ウルフアロン",
+      "topic": "藤川 球児",
       "status": "ok",
-      "summary": "柔道の五輪金メダリストでプロレスラーのウルフアロンが3日、TBSラジオ「土曜ワイドラジオTOKYO ナイツのちゃきちゃき大放送」にゲスト出演した。 昨年6月に新日本プロレスに入団したウルフは今年1月",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "【虎番総力取材 連覇裏ファイル3】藤川球児監督が死球に怒りの指令「広島としゃべるな」（スポニチアネックス）",
+      "summaryBasis": "related-headline",
+      "issue": "「藤川 球児」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ウルフアロン 柔道とプロレスの違いを説明「試合時間が長い時だと３０分を超えてくる中で…」（東スポWEB）",
-          "url": "https://news.yahoo.co.jp/articles/69331dda3f03b0ed9cb5fd0ca34748f1e94cc5ab",
+          "title": "【虎番総力取材 連覇裏ファイル3】藤川球児監督が死球に怒りの指令「広島としゃべるな」（スポニチアネックス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EY2ZKaVg5M0FJR0IyV0gtWGVPbTlVMEdhTmVTU0NsXzJHZFY5YmxmWU1UUXFaNFMwLWtHdEFaZmxaOUpzbGpGdkpVZUU5d01RVVdSZWVWM012QkUzSVhFUnlvRjY3enVqTXZmVnp0V2V1S0N2ekhleWRCa25MUms?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 03 Oct 2026 22:00:00 GMT"
+        },
+        {
+          "title": "【阪神】藤川球児監督、ファンの前で初めて優勝報告果たす あいさつの際には“胴上げコールも”「ちょっと恥ずかしいと言いますか」",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04S2U0SHJUNTRiS2EtdUd4bURMdzFiT1NlODBQVlN3UXM1YmsyZ3J5RWxvdktCN2ZGTC14XzdGemhXSWQ1U1dwUGplZ0RVaHVvSjJQUnJNU0F6ZjdQVmpsRTRR?oc=5",
+          "name": "スポーツ報知",
+          "publishedAt": "Sun, 04 Oct 2026 14:04:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "retained": false
+    },
+    {
+      "topic": "安住 紳一郎",
+      "status": "ok",
+      "summary": "TBS安住紳一郎アナウンサー（53）が3日、総合司会を務めるTBS系「情報7daysニュースキャスター」（土曜午後10時）に生出演。次週10日の放送が休みとなり、次回放送が17日となることを伝えた。",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "TBS安住紳一郎アナ「Ｎキャス」次週10日の放送休止を報告 理由も説明（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/9ec50012fb7294f755f47c5c4df91f159b3d00f7",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "ウルフアロン 柔道とプロレスの違いを説明「試合時間が長い時だと３０分を超えてくる中で…」",
-          "url": "https://www.tokyo-sports.co.jp/articles/-/405352",
-          "name": "東スポWEB",
+          "title": "三谷幸喜氏が「Ｎキャス」生放送を“欠席” 安住紳一郎アナ「東京に戻ってこられず…」事情説明",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261003-202610030002486",
+          "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     },
     {
-      "topic": "タワーマンション 転落",
+      "topic": "ウラジーミル・プーチン",
+      "status": "ok",
+      "summary": "ロシアのウラジーミル・プーチン大統領は、300点以上の最新軍事装備品を視察した。",
+      "summaryBasis": "related-headline",
+      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
+      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ロシアのウラジーミル・プーチン大統領は、300点以上の最新軍事装備品を視察した。",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQzh6Qk5va3RudWRqMk4yQWV5MDdsaUNhZE9WeXRvTkxKUGVTdDREMVByNFZDVzIxQkJMTFM2aks2YzFvOUh5dGEtUm93cTMzd3FhOWpaQkdNNVhPcURJWkNOTWZmekxWVEEyYzhpZ3huQXJ3S0pueTJXTURYd1l4Nm80Q3ljUTNTMGhtNnZ5Zkx0RmJibDNYc0habW96ZkpkZ3c0?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Sat, 03 Oct 2026 10:19:40 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "retained": false
+    },
+    {
+      "topic": "藤岡弘",
+      "status": "ok",
+      "summary": "80歳藤岡弘、長男真威人がバイク免許取得も自身の愛車「乗せろ」希望に慎重",
+      "summaryBasis": "related-headline",
+      "issue": "「藤岡弘」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "80歳藤岡弘、長男真威人がバイク免許取得も自身の愛車「乗せろ」希望に慎重",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0w4YTkwRlBNSjRNallxbjFCVTVxRkdvMWdUbXVRRFlRVWdQZkJ2OHFUVmQzOTBPSkpINE9XYXllcEMtRXRQdzNBaE92OXhjM0VTN0Y0aWVIZldtWEdHZ3BsOEFXSTdYaWd4N2RMRDNuVEtYc2t4TFdsZmM5TkJ4S1pHMzhuaG42STMwOHVwZHdYVzNGUmc?oc=5",
+          "name": "日刊スポーツ",
+          "publishedAt": "Sun, 04 Oct 2026 18:33:45 GMT"
+        },
+        {
+          "title": "藤岡弘、「心臓が止まるまで挑み続ける」80歳ファンミで子ども４人と「仮面ライダー」熱唱 (日刊スポーツ)",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSDJ4Q09velZub2VRbDJTOGp2bHMwd2FGcW5aU0pnZWFYM1ZqTzl5MjNsalUtdHJmZm42WXNEN3VfMWJYeGROUzE1eThnRFhuS3JmM1p5ZWs4UXJIWWVCVi1HbTc0SDNXNDM0cThIbVZ0NzFQd2liaF8zLTZkaTFpdFNqa3pKWDBKRHN1OVRn?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 13:38:41 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "retained": false
+    },
+    {
+      "topic": "全般台風情報、台風第27号",
       "status": "unavailable"
     },
     {
-      "topic": "ブルワーズ 対 パドレス",
+      "topic": "本田望結",
       "status": "ok",
-      "summary": "ブルワーズ対 パドレス ドジャース対 ブレーブス上位シードがそろって苦手と対戦する ナ・リーグ ディビジョンシリーズのみどころ。今季の（NLDS）は、いずれも上位シードのチームが先へと駒を進めた",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "「夏、またね」と投稿 俳優の本田望結が4日、自身のインスタグラムを更新。",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ブルワーズ対 パドレス ドジャース対 ブレーブス上位シードがそろって苦手と対戦する ナ・リーグ ディビジョンシリーズのみどころ。今季の（NLDS）は、いずれも上位シードのチームが先へと駒を進めた",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wTVJVRkU1bHFvVWpZeTcwVnJwZkZwTFdsXzlzUE05VGl6enVjYWo0ekc3bWx5TWlHakhxQmpuS1lyOXpoMzhQRXFzdUIwODFkZmJIUXUwQ2pSWWRJ?oc=5",
-          "name": "YouTube",
-          "publishedAt": "Fri, 02 Oct 2026 15:40:22 GMT"
+          "title": "10kg減話題の本田望結が「素晴らしいスタイル」 のぞく背中に「後ろ姿も美しい」とファンくぎ付け",
+          "url": "https://topics.smt.docomo.ne.jp/article/encount/entertainment/encount-1076915",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
         },
         {
-          "title": "米10月2日金曜、日本10月3日土曜,ブルワーズ対パドレスドジャース対ブレーブス,鈴木誠也、FAマーケット,予行演習大谷vs山本,山本敵地第3戦先発有力8月好投,専門家がDSで勝つチームは？",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80ZGlYR2J4cE1adlVWSW9CeDlGRWRUeDFidU9UODZBeEp0UkJhbWxtYTRPc2dmeTR3bmNYcm1mc0YtQ3NVbjVPTDMtT1B2MmdsdHczS3gyR09hUTdw?oc=5",
-          "name": "YouTube",
-          "publishedAt": "Sat, 03 Oct 2026 06:50:03 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
-      "retained": false
-    },
-    {
-      "topic": "argentina vs burkina faso",
-      "status": "ok",
-      "summary": "友好国では、アルゼンチン対ブルキナファソのライブテキストコメンタリー、スコアアップデート、試合統計をフォロー",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "アルゼンチンvsブルキナファソ：フレンドリー統計＆直接対決",
-          "url": "https://www.bbc.com/sport/football/live/cxnvl4g8jnq0t",
-          "name": "BBC",
+          "title": "“1年前に10kg減報告”本田望結（22）、美脚をのぞかせた最新ショットに反響「大人の魅力」「なかなか奇抜」（ABEMA TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/113d51c3ea66a45406d88e7b485f878166337ce9",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     },
     {
-      "topic": "吉田沙保里",
+      "topic": "柔道",
       "status": "ok",
-      "summary": "吉田沙保里さん、柔道“かみつき”に喝！「しかも顔」レスリング界でもあった驚きのケース（日刊スポーツ）",
+      "summary": "世界柔道選手権2026バクー丨日程・日本時間・放送予定・ライブ配信・阿部一二三・阿部詩・日本代表・選手一覧・見どころ",
       "summaryBasis": "related-headline",
-      "issue": "「吉田沙保里」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "吉田沙保里さん、柔道“かみつき”に喝！「しかも顔」レスリング界でもあった驚きのケース（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQk15Vk91azE0ZkFiZnZMWWFwSjk0X1dPSDFoWGRiV0Z4T3MxMUMtWHVhSEtxWDlObVFyUzhVRzQwbzlYdUlpSkZXWTR5d3RLckRObThjUGx1NVF5c2RxUjV0WHBtcV9PREhKTDJFSHh3NjlsQnFzT3hiUGNiSlE?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 01:15:28 GMT"
+          "title": "世界柔道選手権2026バクー丨日程・日本時間・放送予定・ライブ配信・阿部一二三・阿部詩・日本代表・選手一覧・見どころ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXFuaXBxMURueUsxSC00VDVXSy02LXA3NmpKczhjWGRJNUtaUTByV0o1bGJTd0pqWkU1Wkt3Qk5HeDlPQU51Q0dWV044ME1zaTlkak1XcG5zejcxUXJuUHBRajNXRGFLSVZVRjJUUWlmcDNuSllUeV9mZWJtbFhqR0p0bXdoakpZTlFmdWtXYVdXZw?oc=5",
+          "name": "olympics.com",
+          "publishedAt": "Sun, 04 Oct 2026 18:25:23 GMT"
         },
         {
-          "title": "吉田沙保里さん、藤波朱理の敗戦に「もうちょっと泣きそう」自身は連勝ストップ後に五輪２連覇",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTDdlb3JqX09Mdkx0LVFYWGlUbFpEZjJicmlMVUhRRWY0dExKNHdDNm5xdU9SazR1UFMxU1BDeC0zMTVxNzRCTWFfMTZoYjhXb201dF9uNXg2TE5sMkdRMHJUOWVpLWJHaElWWVhxUTZKcHhraEdYaVhCcE1KbU9SLW5uRzByNnRsRmVYNw?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Sun, 04 Oct 2026 01:42:36 GMT"
+          "title": "中国柔道女子の“噛みつき”騒動、中国メディアが異論？ “故意性”を疑問視「偶発的な可能性を排除できない」【アジア大会】",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80S2VBWDNCY3dzWHdCQmYyWEhWYUxIRnV5a1JXcWNZc3dkekFVd1FmTjFyNEZNeDJ6NWoxaExqSU9lY3l6aGxZVlFWeU9YTl8zV1YzaGFENmlMc3pYc2wwdGNfX1FTcEYyWDBtTWVHYndaa2JneXZBWDdySGlkLU0?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 08:11:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     },
     {
-      "topic": "山本昌",
+      "topic": "株式",
       "status": "ok",
-      "summary": "山本昌氏「大谷君、山本君、佐々木君ならやっちゃいそうで…」ドジャースのWS３連覇期待（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「山本昌」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "キオクシアが株式3分割を実施。株価が3分の1になっても、割安になったとは限りません。東証の要請や新NISAを背景に株式分割が相次ぐ理由とは？AI需要と半導体サイクルも踏まえ、投資判断のポイントを解説します。",
+      "summaryBasis": "publisher-description",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "山本昌氏「大谷君、山本君、佐々木君ならやっちゃいそうで…」ドジャースのWS３連覇期待（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUHJrYkV1WDRzYXVZOS1hUVRSeFpjVE9vbHBWTmhjZ3Q3UUQwLUV4SjhhRzNjVFdCcjIyWUZGNVd2MUtsZm9BN2k0R0JqR3V2SnpzaWxfdHRzaFBzSjZueXhhdWp4YThrSjlVaFpqclhNa2NWSVlSOHJMT3pnUnM?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 01:37:50 GMT"
+          "title": "キオクシアの株式3分割で何が変わる？株式分割が相次ぐ背景と新NISA時代の個別株投資判断の視点",
+          "url": "https://media.moneyforward.com/articles/10992?page=2",
+          "name": "マネーフォワード",
+          "publishedAt": null
         },
         {
-          "title": "山本昌氏が選ぶ阪神のMVPは？「これだけ低めにボール集められる人少ない。本当に頑張ったな」",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxbTJJMXNqc0tIbWxEelFmT0VrdjBwS2FXaE40WlhuMEkwX1JNeWFRZkNEel8ydDh3ZFZzT1NmcDY5UGVEUE8zS25GTmJ0WExhMWJmNkd5aFEtamktNml4bVFjTkEya3IwMHNZQ3dlQmTSAXhBVV95cUxPU0RfM1F6a19zLVF2Uy1jN0lJUmFMOGNVWVgxQkRJbXJNekc3N3NtelI5RFVSR1NLYi1xQ09jaU1ULTNITFRQZmdpZkRNaGgxUGRMdE9EcG1FZ0ZuSzg3Q2Y5VjNfT1hqRXMwNWcxLXp1TDZNcUhUT1g?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Sun, 04 Oct 2026 00:42:38 GMT"
+          "title": "なぜ？大手企業の株価が“変化” 株式分割の狙いとメリットは？",
+          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000536612.html",
+          "name": "テレ朝NEWS",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
       "retained": false
     }
   ]
