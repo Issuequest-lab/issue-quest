@@ -1,190 +1,223 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-04",
-  "fetchedAt": "2026-10-04T07:22:21.295685+09:00",
+  "fetchedAt": "2026-10-04T11:44:53.896050+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "金河成",
-    "火災",
-    "テオスカー・ヘルナンデス",
-    "渋野日向子",
-    "晴海タワーマンション転落",
-    "全般台風情報、台風第27号",
-    "中川翔子",
-    "メジャーリーグ",
-    "サンドウィッチマン",
-    "ガーディアンズ"
+    "サンジャポ アナウンサー",
+    "doge",
+    "狩野英孝",
+    "福士蒼汰",
+    "ウルフアロン",
+    "タワーマンション 転落",
+    "ブルワーズ 対 パドレス",
+    "argentina vs burkina faso",
+    "吉田沙保里",
+    "山本昌"
   ],
   "briefs": [
     {
-      "topic": "金河成",
-      "status": "ok",
-      "summary": "大きな勝利です！「コンビニ・シネマが→プレーオフで優秀な投球で260万ウォンの契約を→結んだ」ジン・ヘシェンさん32歳の左投手がアメリカで「人生の勝利」の話題になっている",
-      "summaryBasis": "related-headline",
-      "issue": "「金河成」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "大きな勝利です！「コンビニ・シネマが→プレーオフで優秀な投球で260万ウォンの契約を→結んだ」ジン・ヘシェンさん32歳の左投手がアメリカで「人生の勝利」の話題になっている",
-          "url": "https://www.starnewskorea.com/zh/sports/2026/10/03/2026100309341882072",
-          "name": "스타뉴스",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
-      "retained": false
-    },
-    {
-      "topic": "火災",
-      "status": "ok",
-      "summary": "4人死亡の火災 玄関付近が火元か",
-      "summaryBasis": "related-headline",
-      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
-      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "4人死亡の火災 玄関付近が火元か",
-          "url": "https://news.yahoo.co.jp/pickup/6597434",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "玄関近くのガスボンベ破裂か 住宅火災で4人死亡 三重・津市",
-          "url": "https://www.fnn.jp/articles/-/1126264",
-          "name": "FNNプライムオンライン",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
-      "retained": false
-    },
-    {
-      "topic": "テオスカー・ヘルナンデス",
-      "status": "ok",
-      "summary": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声（中日スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「テオスカー・ヘルナンデス」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声（中日スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkb1o5Y1RSWWpQbHZzQS1jc2dfbFN5MkxsMDl6b2dtRmFYMzRhTU9tMnBZQXVpTzVTaW5URzhLN25WZmlDVEVLUklNdGxpZHhSbEdRVzRkUUYzM0N0MGVRbkZNNUhfMzBYRUpSNlFZWDNOenIwTC02RkxBVjlLNlk?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 03 Oct 2026 21:36:37 GMT"
-        },
-        {
-          "title": "「痺れる」テオスカー・ヘルナンデス、確信の先制2ラン…大谷翔平はフェンスから身を乗り出して大喜び「テンションあがる」ファン歓声",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BaWptTWFJS0x6d09tOEtkbEtmUDNkOXV6c3llTF9HbkdhSmJZTWNKczAxOG83OGFySjA0YXp2X3FmU2x0VXVReFVvdUk0d25tdWs0eA?oc=5",
-          "name": "中日新聞Web",
-          "publishedAt": "Sat, 03 Oct 2026 21:33:52 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
-      "retained": false
-    },
-    {
-      "topic": "渋野日向子",
-      "status": "ok",
-      "summary": "【速報】渋野日向子はトリプルボギーで後退 西村優菜も予選通過圏外で後半プレー中",
-      "summaryBasis": "related-headline",
-      "issue": "「渋野日向子」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【速報】渋野日向子はトリプルボギーで後退 西村優菜も予選通過圏外で後半プレー中",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DcTJCNjRRcUhJVGV1a1Y0bFNXVGdmYXdHQ1ZKc0dWTWIyb2hUdVhtbmMwYkdUUHZMNVdaeEJOcVpLQnZRQ0RQRTNCb2pLRVd4bm1zbU05U2NUZG5pZUZRcUZZN09VNmhM0gF8QVVfeXFMTURhLXdFNEk1dGpsNWNFZEUyNmlVMFlrTjRnVkVoRjZETEE1WVJmRVVUeVlzbWQ0NGc3V0M2YThGdDY3QWwySTZtLWJjVnBqMnEyM2IzR2xkYTBvQUlmb0Y2ei1Ddnp2VVhyYnNBR3ZwYzdQdWZXcGp1Q3RQVw?oc=5",
-          "name": "GDOゴルフニュース",
-          "publishedAt": "Sat, 03 Oct 2026 01:33:00 GMT"
-        },
-        {
-          "title": "渋野日向子は痛恨トリで予選落ち「TOTOに向けて準備をするだけ」",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CalZjbnVwODMwT0ZpdFMxWVFScVI1VnozWnluSXBpbkZISHl4NGVwSjRIYk5XQ0k3VFZlbEhEOERWRXNVcGVtaGdlZ1pQNHp5WFM4cUFIQUJSeVR2Zy04dXVsQ0xUOWdIQ0VLQ2VIVGtwQW1pN21F?oc=5",
-          "name": "ALBA Net",
-          "publishedAt": "Sat, 03 Oct 2026 05:36:57 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
-      "retained": false
-    },
-    {
-      "topic": "晴海タワーマンション転落",
+      "topic": "サンジャポ アナウンサー",
       "status": "unavailable"
     },
     {
-      "topic": "全般台風情報、台風第27号",
-      "status": "unavailable"
-    },
-    {
-      "topic": "中川翔子",
+      "topic": "doge",
       "status": "ok",
-      "summary": "双子1歳の誕生日【 中川翔子 】「本当に双子に出会えて良かった」「なんか悟天とトランクスみたい！」祝福の声続々",
+      "summary": "「イーロンは私の予言者」：マスクのドージェチームがワシントンに難破ボールを持って行った方法",
       "summaryBasis": "related-headline",
-      "issue": "「中川翔子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「doge」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "双子1歳の誕生日【 中川翔子 】「本当に双子に出会えて良かった」「なんか悟天とトランクスみたい！」祝福の声続々",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CYjZGZS12Rk1aVmdoSWZIWHZEZkthTGs0Zy01RTRZZDZuNWx3WGNOclJOSkNycjNIZHZ5WG5BUUVlMFNTeUNWUkZ1M0dWRHgtVnJVN2hjSkZlNEFsSXVR?oc=5",
-          "name": "TBS NEWS DIG",
-          "publishedAt": "Sat, 03 Oct 2026 12:35:29 GMT"
+          "title": "「イーロンは私の予言者」：マスクのドージェチームがワシントンに難破ボールを持って行った方法",
+          "url": "https://www.theguardian.com/us-news/2026/oct/03/elon-is-my-prophet-how-musks-doge-team-took-a-wrecking-ball-to-washington",
+          "name": "The Guardian",
+          "publishedAt": null
         },
         {
-          "title": "中川翔子、双子の1歳誕生日を報告「大親友みたいになかよし」「なんか悟天とトランクスみたい！」",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oRlI1eXBUYl8tQTJma1F3RlQ1ZXBBWHhzYTN6eXJpQXFhZ0QwMEtuWGk0Wl9wUHdwdnJsOWtZbnBFWF9UTndqZjhPSGVFMHJ2c25wN3JiMHdUV2Y4a0dGNGVGQnRucjVsOWZhWXRkM1E5eWs?oc=5",
-          "name": "sanyonews.jp",
-          "publishedAt": "Sat, 03 Oct 2026 15:04:28 GMT"
+          "title": "ドージェ戦争：イーロン・マスクがどのようにしてチェーンソーを政府の廃棄物にし、失ったか",
+          "url": "https://www.thetimes.com/us/american-politics/article/inside-doge-elon-musk-trump-sjlgtqnc2",
+          "name": "The Times",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
       "retained": false
     },
     {
-      "topic": "メジャーリーグ",
-      "status": "unavailable"
+      "topic": "狩野英孝",
+      "status": "ok",
+      "summary": "お笑い芸人の狩野英孝（44）が2日放送のTBS「A-Studio+」（金曜後11・00）にゲスト出演。",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【記事全文】狩野英孝 かつては「めちゃくちゃ嫌いだった」 今では旅行にも一緒に行くほど仲良くなった先輩芸人",
+          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/03/articles/20261003s00041000254000c.html",
+          "name": "スポニチ Sponichi Annex",
+          "publishedAt": null
+        },
+        {
+          "title": "狩野英孝、ブレイク時のナルシストキャラは『ちびまる子ちゃん』人気キャラがルーツだった 原作者・さくらももこさんとの秘話も「もう、一生の宝物なんです」",
+          "url": "https://www.sankei.com/article/20261003-2BTG6Z6F6RON7E6D34QCUXRZYI/?outputType=theme_oriconnews",
+          "name": "産経ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "retained": false
     },
     {
-      "topic": "サンドウィッチマン",
+      "topic": "福士蒼汰",
       "status": "ok",
-      "summary": "サンドウィッチマン富澤たけし、休養中の伊達みきおの近況に「痩せてました」 伊達は生放送にメッセージ「僕はもう少し充電します！」",
+      "summary": "福士蒼汰主演「ハイド＆シーク」志田彩良・田中樹らの最新カット公開 SPゲストも解禁（モデルプレス）",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "サンドウィッチマン富澤たけし、休養中の伊達みきおの近況に「痩せてました」 伊達は生放送にメッセージ「僕はもう少し充電します！」",
-          "url": "https://www.sankei.com/article/20261003-YQYTVPGBZBI2RJFPZMMCPRYOHI/?outputType=theme_oriconnews",
-          "name": "産経ニュース",
-          "publishedAt": null
+          "title": "福士蒼汰主演「ハイド＆シーク」志田彩良・田中樹らの最新カット公開 SPゲストも解禁（モデルプレス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aNi1EMXRKU2F4MG1ZS2ZBeFY1SlBBcUNoSHlfbi1XSUxKSUtXb25TVG1tcEE1U0VPQTRGUEtsSktmU1B5SWRUNE5wc3J6WXhadzNqYXdSRFQ1N0RVSlAzcm8yNTZlblFfNDAtLWpnOXlkRVJrT0tHVFJRaHpMalU?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 03 Oct 2026 21:00:04 GMT"
+        },
+        {
+          "title": "『ハイド&シーク』福士蒼汰、極限チェイスのラブミステリー開幕 『あまちゃん』共演・杉本哲太が叔父役として登場",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3STJfQlZVQVdVcjNUdVNwM0lVMjlpQ21IdXlIRG04NDd3MjY1TFFKTV9ZZXNnUmczczVmNXhzWDdrTTJPT2RITXZGSnNEWFAzNEtyaTVQR0ExN0taT3RNYmtTQm4?oc=5",
+          "name": "oricon.co.jp",
+          "publishedAt": "Sun, 04 Oct 2026 00:00:02 GMT"
         }
       ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
       "retained": false
     },
     {
-      "topic": "ガーディアンズ",
+      "topic": "ウルフアロン",
       "status": "ok",
-      "summary": "2026年10月4日（日） MLB ガーディアンズ vs Wソックス 試合結果",
+      "summary": "柔道の五輪金メダリストでプロレスラーのウルフアロンが3日、TBSラジオ「土曜ワイドラジオTOKYO ナイツのちゃきちゃき大放送」にゲスト出演した。 昨年6月に新日本プロレスに入団したウルフは今年1月",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ウルフアロン 柔道とプロレスの違いを説明「試合時間が長い時だと３０分を超えてくる中で…」（東スポWEB）",
+          "url": "https://news.yahoo.co.jp/articles/69331dda3f03b0ed9cb5fd0ca34748f1e94cc5ab",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "ウルフアロン 柔道とプロレスの違いを説明「試合時間が長い時だと３０分を超えてくる中で…」",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/405352",
+          "name": "東スポWEB",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "retained": false
+    },
+    {
+      "topic": "タワーマンション 転落",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ブルワーズ 対 パドレス",
+      "status": "ok",
+      "summary": "ブルワーズ対 パドレス ドジャース対 ブレーブス上位シードがそろって苦手と対戦する ナ・リーグ ディビジョンシリーズのみどころ。今季の（NLDS）は、いずれも上位シードのチームが先へと駒を進めた",
       "summaryBasis": "related-headline",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "2026年10月4日（日） MLB ガーディアンズ vs Wソックス 試合結果",
-          "url": "https://www.47news.jp/15032982.html",
-          "name": "47NEWS",
+          "title": "ブルワーズ対 パドレス ドジャース対 ブレーブス上位シードがそろって苦手と対戦する ナ・リーグ ディビジョンシリーズのみどころ。今季の（NLDS）は、いずれも上位シードのチームが先へと駒を進めた",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wTVJVRkU1bHFvVWpZeTcwVnJwZkZwTFdsXzlzUE05VGl6enVjYWo0ekc3bWx5TWlHakhxQmpuS1lyOXpoMzhQRXFzdUIwODFkZmJIUXUwQ2pSWWRJ?oc=5",
+          "name": "YouTube",
+          "publishedAt": "Fri, 02 Oct 2026 15:40:22 GMT"
+        },
+        {
+          "title": "米10月2日金曜、日本10月3日土曜,ブルワーズ対パドレスドジャース対ブレーブス,鈴木誠也、FAマーケット,予行演習大谷vs山本,山本敵地第3戦先発有力8月好投,専門家がDSで勝つチームは？",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80ZGlYR2J4cE1adlVWSW9CeDlGRWRUeDFidU9UODZBeEp0UkJhbWxtYTRPc2dmeTR3bmNYcm1mc0YtQ3NVbjVPTDMtT1B2MmdsdHczS3gyR09hUTdw?oc=5",
+          "name": "YouTube",
+          "publishedAt": "Sat, 03 Oct 2026 06:50:03 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "retained": false
+    },
+    {
+      "topic": "argentina vs burkina faso",
+      "status": "ok",
+      "summary": "友好国では、アルゼンチン対ブルキナファソのライブテキストコメンタリー、スコアアップデート、試合統計をフォロー",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "アルゼンチンvsブルキナファソ：フレンドリー統計＆直接対決",
+          "url": "https://www.bbc.com/sport/football/live/cxnvl4g8jnq0t",
+          "name": "BBC",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-04T07:22:21.295685+09:00",
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "retained": false
+    },
+    {
+      "topic": "吉田沙保里",
+      "status": "ok",
+      "summary": "吉田沙保里さん、柔道“かみつき”に喝！「しかも顔」レスリング界でもあった驚きのケース（日刊スポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "「吉田沙保里」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "吉田沙保里さん、柔道“かみつき”に喝！「しかも顔」レスリング界でもあった驚きのケース（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQk15Vk91azE0ZkFiZnZMWWFwSjk0X1dPSDFoWGRiV0Z4T3MxMUMtWHVhSEtxWDlObVFyUzhVRzQwbzlYdUlpSkZXWTR5d3RLckRObThjUGx1NVF5c2RxUjV0WHBtcV9PREhKTDJFSHh3NjlsQnFzT3hiUGNiSlE?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 01:15:28 GMT"
+        },
+        {
+          "title": "吉田沙保里さん、藤波朱理の敗戦に「もうちょっと泣きそう」自身は連勝ストップ後に五輪２連覇",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTDdlb3JqX09Mdkx0LVFYWGlUbFpEZjJicmlMVUhRRWY0dExKNHdDNm5xdU9SazR1UFMxU1BDeC0zMTVxNzRCTWFfMTZoYjhXb201dF9uNXg2TE5sMkdRMHJUOWVpLWJHaElWWVhxUTZKcHhraEdYaVhCcE1KbU9SLW5uRzByNnRsRmVYNw?oc=5",
+          "name": "日刊スポーツ",
+          "publishedAt": "Sun, 04 Oct 2026 01:42:36 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
+      "retained": false
+    },
+    {
+      "topic": "山本昌",
+      "status": "ok",
+      "summary": "山本昌氏「大谷君、山本君、佐々木君ならやっちゃいそうで…」ドジャースのWS３連覇期待（日刊スポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "「山本昌」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "山本昌氏「大谷君、山本君、佐々木君ならやっちゃいそうで…」ドジャースのWS３連覇期待（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUHJrYkV1WDRzYXVZOS1hUVRSeFpjVE9vbHBWTmhjZ3Q3UUQwLUV4SjhhRzNjVFdCcjIyWUZGNVd2MUtsZm9BN2k0R0JqR3V2SnpzaWxfdHRzaFBzSjZueXhhdWp4YThrSjlVaFpqclhNa2NWSVlSOHJMT3pnUnM?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 01:37:50 GMT"
+        },
+        {
+          "title": "山本昌氏が選ぶ阪神のMVPは？「これだけ低めにボール集められる人少ない。本当に頑張ったな」",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxbTJJMXNqc0tIbWxEelFmT0VrdjBwS2FXaE40WlhuMEkwX1JNeWFRZkNEel8ydDh3ZFZzT1NmcDY5UGVEUE8zS25GTmJ0WExhMWJmNkd5aFEtamktNml4bVFjTkEya3IwMHNZQ3dlQmTSAXhBVV95cUxPU0RfM1F6a19zLVF2Uy1jN0lJUmFMOGNVWVgxQkRJbXJNekc3N3NtelI5RFVSR1NLYi1xQ09jaU1ULTNITFRQZmdpZkRNaGgxUGRMdE9EcG1FZ0ZuSzg3Q2Y5VjNfT1hqRXMwNWcxLXp1TDZNcUhUT1g?oc=5",
+          "name": "日刊スポーツ",
+          "publishedAt": "Sun, 04 Oct 2026 00:42:38 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-04T11:44:53.896050+09:00",
       "retained": false
     }
   ]
