@@ -1,23 +1,106 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-05",
-  "fetchedAt": "2026-10-05T06:14:32.538070+09:00",
+  "fetchedAt": "2026-10-05T06:29:53.765457+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
+    "サッカーパレスチナ代表",
+    "モトクロス",
+    "portugal national football team vs norway national football team standings",
+    "西野七瀬",
+    "中村美律子",
     "クマ",
-    "パドレス",
+    "工藤公康",
     "藤川 球児",
-    "安住 紳一郎",
-    "ウラジーミル・プーチン",
-    "藤岡弘",
-    "全般台風情報、台風第27号",
-    "本田望結",
-    "柔道",
-    "株式"
+    "パドレス",
+    "安住 紳一郎"
   ],
   "briefs": [
+    {
+      "topic": "サッカーパレスチナ代表",
+      "status": "unavailable"
+    },
+    {
+      "topic": "モトクロス",
+      "status": "ok",
+      "summary": "10月4日、静岡県浜松市のモトクロスコース内でオートバイが転倒し、運転していた男性が死亡する事故がありました。",
+      "summaryBasis": "publisher-description",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "モトクロスでバイク転倒 男性死亡",
+          "url": "https://news.yahoo.co.jp/pickup/6597528",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "モトクロスコースでオフロードタイプのバイクを運転していた６０代男性が転倒 搬送先の病院で死亡 浜松市中央区",
+          "url": "https://topics.smt.docomo.ne.jp/article/look/region/look-99597?fm=latestnews",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "retained": false
+    },
+    {
+      "topic": "portugal national football team vs norway national football team standings",
+      "status": "unavailable"
+    },
+    {
+      "topic": "西野七瀬",
+      "status": "ok",
+      "summary": "菅野美穂＆西野七瀬がハリウッドへ、「90メートル」上映「親が子を思う気持ちは世界共通」（映画ナタリー）",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "菅野美穂＆西野七瀬がハリウッドへ、「90メートル」上映「親が子を思う気持ちは世界共通」（映画ナタリー）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84VFVqUmcxZWxJcndaVVRyY2F5Z05UVndIN0JCNmRWc3dXSWZwcUtwQzVFUGNCU19aSFdMQmNGcDdFM0tUbWZNNS1rNlhkeFZ4VllJQldKWTVmVmpacmlVX1pZVmFKd1VxR2NpRV91ZHRqbkJPempHd1hpOEZhdjg?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 20:03:57 GMT"
+        },
+        {
+          "title": "小栗旬、歌舞伎町に降臨「愛を劇場で受け取って」 間宮祥太朗、西野七瀬ら豪華キャスト集結",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZZFEzREZJdkhCQkpHUGRUSGpDRGdiOFFKVEJmRjByMGx1UmNoYTExRzZ3WnVpc0YxUFFWV1U5Q3dtSE5XTFBYN0pzVi1BRWU0Unc?oc=5",
+          "name": "山陽新聞",
+          "publishedAt": "Sun, 04 Oct 2026 20:12:21 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "retained": false
+    },
+    {
+      "topic": "中村美律子",
+      "status": "ok",
+      "summary": "中村美律子、76歳の現在も難病と向き合いながらステージに立つ。ジムに通う健康法も紹介",
+      "summaryBasis": "related-headline",
+      "issue": "「中村美律子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "中村美律子、76歳の現在も難病と向き合いながらステージに立つ。ジムに通う健康法も紹介",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vUl9kMEFqdHU0S1hxYzZ6NGVFY09MZ3ZvNlprWmk2NENrUnVGZEluUkRTSW8zVUFvMkd3blRWY0V6NGZNMy01N3Y1UlRHblJfbmfSAVdBVV95cUxNZDIta2VySzRpYmZyOEtBeUlaajNMTndaMXI5U3g4dU80RzRaOF9qRnFaSTV6WlZSeWVCYWd1ZFVvUDJfajU4bmhXZThPdC12Ti1laFBWYnc?oc=5",
+          "name": "テレ朝POST",
+          "publishedAt": "Sun, 04 Oct 2026 19:23:36 GMT"
+        },
+        {
+          "title": "中村美律子：デビュー40周年の76歳 近所に住む5人の孫たちとの私生活 9年前に難病で入院、健康法も明かす 「徹子の部屋」で",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Lc2RvR3BLRGR0YkFudnAxR3lpOWVILXVJOWEtT2w1V3RZaDNfMndISDRRU3hqdVlzYm4xVWJKUkZ4Q0dKT084aW12RWozbkVsMXNBa0lwcVNjTjVlQ3ZJNFdXR182eWc2VjNVT0RZSQ?oc=5",
+          "name": "毎日キレイ",
+          "publishedAt": "Sun, 04 Oct 2026 21:00:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "retained": false
+    },
     {
       "topic": "クマ",
       "status": "ok",
@@ -40,32 +123,32 @@
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
       "retained": false
     },
     {
-      "topic": "パドレス",
+      "topic": "工藤公康",
       "status": "ok",
-      "summary": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
+      "summary": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人”（日刊スポーツ）",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
-          "url": "https://www.dazn.com/ja-JP/news/%E9%87%8E%E7%90%83/brewers-padres-mlb2026-division-series-20261005/1abk7my0ctmfd1qnca2j26uixf",
-          "name": "DAZN",
-          "publishedAt": null
+          "title": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人”（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxb2dJcVVna0dLSENXZ3oxTU1WZDF6YmM3cUpad0lNU3ZuT1dmYzJoeDJKSEM0V0RYaUNkZjlUWE1ocFNmUkoxUUhGSmNhODV5WVBpTWJyWkYwVVhyNmRYS1Z5YjVSeDZ2a0tZeTg2bm9id2xMeE9acUhrREpWZlk?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 04 Oct 2026 19:04:25 GMT"
         },
         {
-          "title": "パドレス４番フランスが先制タイムリー…前日は逆転２ランのはずが天井当たって幻に（スポーツ報知）",
-          "url": "https://news.yahoo.co.jp/articles/b933b94550527a1b9f1d50a585d4cc16eb252867",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "title": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人” - プロ野球写真ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjBQT0M4X2pZbGN5NncxMjFCSWROcm00NW9pNmVxeGl3dFI0Yl84VVNtX1VaVWJUSkJESTdPd0Vkd244WmxLWUxxRnU3SDQ1ZlJMbldPbG5HV2d4bEM2UkRaSEtBdFgtN1YyQ1NIeXE0ZXJVbndPcmRMOXFJUUMyNlc4Xy0xRmc4bDFSMjhmdw?oc=5",
+          "name": "日刊スポーツ",
+          "publishedAt": "Sun, 04 Oct 2026 20:15:09 GMT"
         }
       ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
       "retained": false
     },
     {
@@ -90,7 +173,32 @@
           "publishedAt": "Sun, 04 Oct 2026 14:04:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "retained": false
+    },
+    {
+      "topic": "パドレス",
+      "status": "ok",
+      "summary": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
+          "url": "https://www.dazn.com/ja-JP/news/%E9%87%8E%E7%90%83/brewers-padres-mlb2026-division-series-20261005/1abk7my0ctmfd1qnca2j26uixf",
+          "name": "DAZN",
+          "publishedAt": null
+        },
+        {
+          "title": "パドレス４番フランスが先制タイムリー…前日は逆転２ランのはずが天井当たって幻に（スポーツ報知）",
+          "url": "https://news.yahoo.co.jp/articles/b933b94550527a1b9f1d50a585d4cc16eb252867",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
       "retained": false
     },
     {
@@ -115,130 +223,7 @@
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ウラジーミル・プーチン",
-      "status": "ok",
-      "summary": "ロシアのウラジーミル・プーチン大統領は、300点以上の最新軍事装備品を視察した。",
-      "summaryBasis": "related-headline",
-      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
-      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ロシアのウラジーミル・プーチン大統領は、300点以上の最新軍事装備品を視察した。",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQzh6Qk5va3RudWRqMk4yQWV5MDdsaUNhZE9WeXRvTkxKUGVTdDREMVByNFZDVzIxQkJMTFM2aks2YzFvOUh5dGEtUm93cTMzd3FhOWpaQkdNNVhPcURJWkNOTWZmekxWVEEyYzhpZ3huQXJ3S0pueTJXTURYd1l4Nm80Q3ljUTNTMGhtNnZ5Zkx0RmJibDNYc0habW96ZkpkZ3c0?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Sat, 03 Oct 2026 10:19:40 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
-      "retained": false
-    },
-    {
-      "topic": "藤岡弘",
-      "status": "ok",
-      "summary": "80歳藤岡弘、長男真威人がバイク免許取得も自身の愛車「乗せろ」希望に慎重",
-      "summaryBasis": "related-headline",
-      "issue": "「藤岡弘」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "80歳藤岡弘、長男真威人がバイク免許取得も自身の愛車「乗せろ」希望に慎重",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0w4YTkwRlBNSjRNallxbjFCVTVxRkdvMWdUbXVRRFlRVWdQZkJ2OHFUVmQzOTBPSkpINE9XYXllcEMtRXRQdzNBaE92OXhjM0VTN0Y0aWVIZldtWEdHZ3BsOEFXSTdYaWd4N2RMRDNuVEtYc2t4TFdsZmM5TkJ4S1pHMzhuaG42STMwOHVwZHdYVzNGUmc?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Sun, 04 Oct 2026 18:33:45 GMT"
-        },
-        {
-          "title": "藤岡弘、「心臓が止まるまで挑み続ける」80歳ファンミで子ども４人と「仮面ライダー」熱唱 (日刊スポーツ)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSDJ4Q09velZub2VRbDJTOGp2bHMwd2FGcW5aU0pnZWFYM1ZqTzl5MjNsalUtdHJmZm42WXNEN3VfMWJYeGROUzE1eThnRFhuS3JmM1p5ZWs4UXJIWWVCVi1HbTc0SDNXNDM0cThIbVZ0NzFQd2liaF8zLTZkaTFpdFNqa3pKWDBKRHN1OVRn?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 13:38:41 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
-      "retained": false
-    },
-    {
-      "topic": "全般台風情報、台風第27号",
-      "status": "unavailable"
-    },
-    {
-      "topic": "本田望結",
-      "status": "ok",
-      "summary": "「夏、またね」と投稿 俳優の本田望結が4日、自身のインスタグラムを更新。",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "10kg減話題の本田望結が「素晴らしいスタイル」 のぞく背中に「後ろ姿も美しい」とファンくぎ付け",
-          "url": "https://topics.smt.docomo.ne.jp/article/encount/entertainment/encount-1076915",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "“1年前に10kg減報告”本田望結（22）、美脚をのぞかせた最新ショットに反響「大人の魅力」「なかなか奇抜」（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/113d51c3ea66a45406d88e7b485f878166337ce9",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
-      "retained": false
-    },
-    {
-      "topic": "柔道",
-      "status": "ok",
-      "summary": "世界柔道選手権2026バクー丨日程・日本時間・放送予定・ライブ配信・阿部一二三・阿部詩・日本代表・選手一覧・見どころ",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "世界柔道選手権2026バクー丨日程・日本時間・放送予定・ライブ配信・阿部一二三・阿部詩・日本代表・選手一覧・見どころ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXFuaXBxMURueUsxSC00VDVXSy02LXA3NmpKczhjWGRJNUtaUTByV0o1bGJTd0pqWkU1Wkt3Qk5HeDlPQU51Q0dWV044ME1zaTlkak1XcG5zejcxUXJuUHBRajNXRGFLSVZVRjJUUWlmcDNuSllUeV9mZWJtbFhqR0p0bXdoakpZTlFmdWtXYVdXZw?oc=5",
-          "name": "olympics.com",
-          "publishedAt": "Sun, 04 Oct 2026 18:25:23 GMT"
-        },
-        {
-          "title": "中国柔道女子の“噛みつき”騒動、中国メディアが異論？ “故意性”を疑問視「偶発的な可能性を排除できない」【アジア大会】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80S2VBWDNCY3dzWHdCQmYyWEhWYUxIRnV5a1JXcWNZc3dkekFVd1FmTjFyNEZNeDJ6NWoxaExqSU9lY3l6aGxZVlFWeU9YTl8zV1YzaGFENmlMc3pYc2wwdGNfX1FTcEYyWDBtTWVHYndaa2JneXZBWDdySGlkLU0?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 08:11:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
-      "retained": false
-    },
-    {
-      "topic": "株式",
-      "status": "ok",
-      "summary": "キオクシアが株式3分割を実施。株価が3分の1になっても、割安になったとは限りません。東証の要請や新NISAを背景に株式分割が相次ぐ理由とは？AI需要と半導体サイクルも踏まえ、投資判断のポイントを解説します。",
-      "summaryBasis": "publisher-description",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "キオクシアの株式3分割で何が変わる？株式分割が相次ぐ背景と新NISA時代の個別株投資判断の視点",
-          "url": "https://media.moneyforward.com/articles/10992?page=2",
-          "name": "マネーフォワード",
-          "publishedAt": null
-        },
-        {
-          "title": "なぜ？大手企業の株価が“変化” 株式分割の狙いとメリットは？",
-          "url": "https://news.tv-asahi.co.jp/news_economy/articles/000536612.html",
-          "name": "テレ朝NEWS",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:14:32.538070+09:00",
+      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
       "retained": false
     }
   ]
