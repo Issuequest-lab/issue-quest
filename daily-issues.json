@@ -1,139 +1,235 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-06",
-  "fetchedAt": "2026-10-06T03:34:52.492762+09:00",
+  "fetchedAt": "2026-10-06T08:46:19.175912+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "フランス 対 ベルギー",
-    "アイドル",
-    "indonesia vs thailand",
-    "カルディ エコバッグ 新作",
-    "ノーベル賞 生理学医学賞",
-    "丸亀製麺 メニュー",
-    "ロバーツ監督",
-    "g7 欠席",
-    "せっかく グルメ 割り込み",
-    "コミケ"
+    "木竜麻生",
+    "ホワイトソックス",
+    "仲野太賀",
+    "大阪公立大学",
+    "topix",
+    "トピックス",
+    "ハリー・ケイン",
+    "nvda",
+    "s&p 500",
+    "spcx"
   ],
   "briefs": [
     {
-      "topic": "フランス 対 ベルギー",
+      "topic": "木竜麻生",
       "status": "ok",
-      "summary": "フランス対ベルギーの予想、10月6日午前1時45分：ジダンはホーム初勝利を目指す。",
-      "summaryBasis": "related-headline",
-      "issue": "「フランス 対 ベルギー」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "フランス対ベルギーの予想、10月6日午前1時45分：ジダンはホーム初勝利を目指す。",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLTh6R0hMWnhVZnlYOVdYUi1PNnJfZUYyMTh2Uy1jamhKTnpGTHBienlaMlB3bHBYVERYM1Boa1A0eU05V1hDeUM2WHlHaEk5VjdVZ3hCd2FMZXV5bjZ3cTRVa3BxUjg3d0drUkR6am9PZzhjVzVHSWtVVkpLSEJtVEtXenBhYWljVllvNzNfMElzWEw1ekoxMTdXS3Y4cEl4c0dNckRWaFdnTnM?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Mon, 05 Oct 2026 07:01:31 GMT"
-        },
-        {
-          "title": "ネーションズリーグ フランス対ベルギー戦のライブ視聴リンク",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd1pLV2E2bGRwQ3hnSE9DdElUOEVkRXBkcjc5YjZReWVYa1ZuQm1xUzRwOGFlUDlwOXhkTnNMdjZlTnJTZE1YU2RWQXc5OXVUbkdNM21Pc1ZQUGc5cUZRZnM3YW1LSVl2S0J0azcxN0VLaXJEXzBpWjY1Y2pqOXAwX0lTalZhQ3cxazB1QlI2ZUJTci00QjlyVUxQQnR6VXc?oc=5",
-          "name": "Laodong.vn",
-          "publishedAt": "Mon, 05 Oct 2026 18:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
-      "retained": false
-    },
-    {
-      "topic": "アイドル",
-      "status": "ok",
-      "summary": "グラビアアイドルの藍野りな(25)が5日、自身のX(旧ツイッター)を更新。",
-      "summaryBasis": "publisher-description",
-      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
-      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "25歳グラビアアイドル 人気絶頂のまま112日後の引退を宣言｢芸能活動から離れ、少し違う日常を」",
-          "url": "https://topics.smt.docomo.ne.jp/article/yorozoonews/entertainment/yorozoonews-16941973",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
-      "retained": false
-    },
-    {
-      "topic": "indonesia vs thailand",
-      "status": "unavailable"
-    },
-    {
-      "topic": "カルディ エコバッグ 新作",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ノーベル賞 生理学医学賞",
-      "status": "unavailable"
-    },
-    {
-      "topic": "丸亀製麺 メニュー",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ロバーツ監督",
-      "status": "ok",
-      "summary": "ドジャース敗戦にロバーツ監督「必要な時に一本が出なかった」好機生かせずシリーズ1勝1敗｜テレ東スポーツ：テレ東",
-      "summaryBasis": "related-headline",
-      "issue": "「ロバーツ監督」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ドジャース敗戦にロバーツ監督「必要な時に一本が出なかった」好機生かせずシリーズ1勝1敗｜テレ東スポーツ：テレ東",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yYlNtSzh6cC1RZnkydUNiblJKRllReWxCTjJOZnptS0d0XzdhU21nUzRyUDJEa2d1UjgyREVGbUgxSXNYMkwxaVpyQTlXcm9ibXhFTGxBV0NMV3RMSDBRX2JKaERWSER0U29ScENZRGN6aDBnRXp3c1pn0gF6QVVfeXFMTXJiU21LOHpwLVFmeTJ1Q2JuUkpGWVF5bEJOMk5mem1LR3RfN2FTbWdTNHJQMkRrZ3VSODJERUZtSDFJc1gyTDFpWnJBOVdyb2JteEVMbEFXQ0xXdExIMFFfYkpoRFZIRHRTb1JwQ1lEY3poMGdFendzWmc?oc=5",
-          "name": "tv-tokyo.co.jp",
-          "publishedAt": "Mon, 05 Oct 2026 15:29:29 GMT"
-        },
-        {
-          "title": "ロバーツ監督、大谷翔平の悪癖を指摘「ボール球を追いかけては良いスイングできない」 惜敗シリーズ1勝1敗 第3戦に向けて注文も（デイリースポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9razYtcWdwWjRpSFVKZkgzSF9BSWFLd2FWbTBKeHEzUG51WFR1SFhZOHRiLWptUlotSDhsNkthWV9NX1JpRmh1TkdjV2pGcVo5ZUNzaWF5WFJoNVYxM0JMSkVuZ0ZDbkZhX0E3MkNRZzlaMndRM2MtN1Y0bkhicXc?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 05 Oct 2026 04:36:35 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
-      "retained": false
-    },
-    {
-      "topic": "g7 欠席",
-      "status": "unavailable"
-    },
-    {
-      "topic": "せっかく グルメ 割り込み",
-      "status": "unavailable"
-    },
-    {
-      "topic": "コミケ",
-      "status": "ok",
-      "summary": "日テレ河出奈都美アナ、番組終わりにコミケへ直行 『ドラクエV』ビアンカ姿で「今が一番若いよ」 (エンタメNEXT)",
+      "summary": "ブラッサム：木竜麻生が朝ドラデビュー！ “珠の同級生”忍役に「凛としていてステキ」「見入ってしまう」と反響続々",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "日テレ河出奈都美アナ、番組終わりにコミケへ直行 『ドラクエV』ビアンカ姿で「今が一番若いよ」 (エンタメNEXT)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmFCaFJ2YVhyQ2JsYzlCSzBmY0xTU0pqT1FNdEJkdVVJVnJJSmgzWUZkYXZJNEI2NnpFaWVoZ3VodG9YdXBPbUhjT2VpR25UQUFkRTNZVmNvTURaUU1Ka25ibEhQaXZ6THh2SXZwNjh3RFJyQzFwS21qSzFsb1pMNHR5d1V1M3ZfWURjVkd3?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 05 Oct 2026 10:32:08 GMT"
+          "title": "ブラッサム：木竜麻生が朝ドラデビュー！ “珠の同級生”忍役に「凛としていてステキ」「見入ってしまう」と反響続々",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rcUJrRzN1Qi1RMkZ0VnJQcW5pVVFCSDZIWmJLNjZ2bnZHcTZFREVacExGNE96a3EyV056ZGVSVXZrQkZaNHZfYlRiejh5OWVlVWpVVUZfMllxNklCVENKUnh4Qmg1d3dQU3Vj?oc=5",
+          "name": "MANTANWEB",
+          "publishedAt": "Mon, 05 Oct 2026 21:44:23 GMT"
         },
         {
-          "title": "＜画像3 / 5＞大盛況のコミケ初日！企業ブースに潜入",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yQXhvbFc4cGxYZzk0WmlvT2c3YVowWGM4M1F6N29IZWt3TVg1NzBOQXRDR0l2ZEdwN1hMTjNETnRQVWM2cUNCM3ZFeHBqQ284cTE0N19SVnBvbXFJbXRQOF9hQ2o3d3NW?oc=5",
-          "name": "ウォーカープラス",
-          "publishedAt": "Mon, 05 Oct 2026 14:16:57 GMT"
+          "title": "木竜麻生、初の朝ドラでさらなる転機へ 『ブラッサム』“珠”石橋静河の人生の重要人物に（リアルサウンド）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BNXM0RXJKc01GZnU3bDZrTkpoUHVDdUdmem9ZbEtjQWwtbzhicEY3Sm9Tc2w1U1BIR3pqY3pTbTlZek9kZ0VEcDdzZlNxMEViSS1iV3pVR0xnY2RzZE5pcHAzb0lSYTM2aTZ5UU9ERnJoNm9HbjAxY3drTWpKdnc?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 05 Oct 2026 21:31:54 GMT"
         }
       ],
-      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ホワイトソックス",
+      "status": "ok",
+      "summary": "ホワイトソックス村上宗隆内野手は「4番一塁」で先発出場。シリーズ突破王手を狙う。村上は4日の地区シリーズ第1戦で今ポストシーズン初アーチとなる2ランを放ってい… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）",
+      "summaryBasis": "publisher-description",
+      "issue": "「ホワイトソックス」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ホワイトソックス村上宗隆、痛烈タイムリー！なるか２戦連発 地区Ｓ突破王手を狙う／速報中",
+          "url": "https://www.nikkansports.com/baseball/mlb/news/202610050000531.html",
+          "name": "日刊スポーツ",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "仲野太賀",
+      "status": "ok",
+      "summary": "寅子の前夫、仲野太賀に猪爪家の石田ゆり子、岡部たかし、上川周作らが帰ってくる！『劇場版「虎に翼」』第2弾キャスト",
+      "summaryBasis": "related-headline",
+      "issue": "「仲野太賀」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "寅子の前夫、仲野太賀に猪爪家の石田ゆり子、岡部たかし、上川周作らが帰ってくる！『劇場版「虎に翼」』第2弾キャスト",
+          "url": "https://topics.smt.docomo.ne.jp/article/moviewalker/entertainment/moviewalker-1445641?page=4",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "大阪公立大学",
+      "status": "ok",
+      "summary": "大阪公立大学にランサム攻撃 個人情報、13万人流出恐れ",
+      "summaryBasis": "related-headline",
+      "issue": "「大阪公立大学」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "大阪公立大学にランサム攻撃 個人情報、13万人流出恐れ",
+          "url": "https://www.nikkei.com/article/DGXZQOUF057NR0V01C26A0000000/",
+          "name": "日本経済新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "topix",
+      "status": "ok",
+      "summary": "10月から新TOPIXがスタートする。競争が活発になることは、日本株全体にとってポジティブだが、個人投資家はどこに注目すべきか。",
+      "summaryBasis": "publisher-description",
+      "issue": "「topix」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "新TOPIXが10月スタート、「新規採用＆脱落650社」の注目銘柄＆投資戦略は？セリア・フェローテック・マクドナルド…東証改革総仕上げの“詳細”を徹底解説！",
+          "url": "https://diamond.jp/articles/-/399938",
+          "name": "ダイヤモンド・オンライン",
+          "publishedAt": null
+        },
+        {
+          "title": "TOPIX残留に向けたスターゼンの挑戦 個人株主向けの施策を強化",
+          "url": "https://www.nikkei.com/article/DGXZQOUB0547B0V01C26A0000000/",
+          "name": "日本経済新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "トピックス",
+      "status": "ok",
+      "summary": "J-REITトピックス",
+      "summaryBasis": "related-headline",
+      "issue": "「トピックス」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "J-REITトピックス",
+          "url": "https://www.jutaku-s.com/newsp/id/105978",
+          "name": "住宅新報",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ハリー・ケイン",
+      "status": "ok",
+      "summary": "ハリー・ケインがバイエルン・ミュンヘンとの契約延長に迫っていると、フロリアン・プレッテンベルクやファブリツィオ・ロマーノらが伝えている。両者は交渉で打開策を見いだしたという。",
+      "summaryBasis": "publisher-description",
+      "issue": "「ハリー・ケイン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ハリー・ケイン（33）は正式に除外され、来季どこでプレーしたいのかを把握している",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%83%8F%E3%83%AA%E3%83%BC-%E3%82%B1%E3%82%A4%E3%83%B3-33-%E3%81%AF%E6%AD%A3%E5%BC%8F%E3%81%AB%E9%99%A4%E5%A4%96%E3%81%95%E3%82%8C-%E6%9D%A5%E5%AD%A3%E3%81%A8%E3%82%99%E3%81%93%E3%81%A6%E3%82%99%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%8B%E3%82%92%E6%8A%8A%E6%8F%A1%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/blt78b4aa0af121a07f",
+          "name": "Goal.com",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "nvda",
+      "status": "ok",
+      "summary": "エヌビディア【NVDA】株価掲示板｜投資家のコメント",
+      "summaryBasis": "related-headline",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "エヌビディア【NVDA】株価掲示板｜投資家のコメント",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9acjBNZkVtMkhrR0NSckoxa3d3ZDZvZklpVzZOdV9yTDZWQ09zVFpOSnFWN3R5dFRsNW1GTll0cVRZV2R1cERzcnBLNkxIQXh0ZExTSDRwbUI5Qk5OT2c?oc=5",
+          "name": "Moomoo",
+          "publishedAt": "Mon, 05 Oct 2026 22:59:36 GMT"
+        },
+        {
+          "title": "Nvidia（NVDA）、Tesla（TSLA）、Apple（APPL）がオンチェーン化へ。OKXとICEの新しい市場の仕組みとは",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN2dvMlQ2VlFpOGhfVzFFbThWUXJyUGt0MUV3YmdCeHVYQkNsZ0JmVkM3TmVZck9rX1h5SWZpVmxXMzRlX01pN0RLSE5TNDVDbkRfbE4yUFYzMWJhTnFPN3RkTVNlOTRWc2JQT2VHZWxJTEVjYWpsM2swS0Z6TWplYjJUNGk3eE4zcnV4Z3l6Q2dJbVdObWtLQU1nWG43Q2xPNVhwYjJXSkNtV2hOVlc3TFFlQmx3UXMzaUhxV2RaSTUwWXRZa1lvZ2pMSU1ibDVSYmc?oc=5",
+          "name": "CoinDesk",
+          "publishedAt": "Mon, 05 Oct 2026 17:49:18 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "s&p 500",
+      "status": "ok",
+      "summary": "S&P 500 CAPEは、ドットコムのような集中力と弱い幅で41倍に達しました。クリックして最新の市場見通しをご覧ください。",
+      "summaryBasis": "publisher-description",
+      "issue": "「s&p 500」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "現在のS&P 500対ドットコムバブル：広がりの欠如が最も心配（ SP 500 ）",
+          "url": "https://seekingalpha.com/article/4952066-current-sp500-vs-dot-com-bubble-lack-of-breadth-worries-me-most",
+          "name": "Seeking Alpha",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "retained": false
+    },
+    {
+      "topic": "spcx",
+      "status": "ok",
+      "summary": "$スペースX (SPCX.US)$ リポストをチェックしてください",
+      "summaryBasis": "related-headline",
+      "issue": "「spcx」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "$スペースX (SPCX.US)$ リポストをチェックしてください",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wYnNuRGtSaUV2WmlXWTM2MHdBS09WZzB6NjFMbFZnZzJ2RWxoNkZZUWJNbnd6QVZYRTI3VGhVUzZfb3lYQm5KNXZUTUtFc3VMNUo1cFdUb25lMjN0a0ZjMGQwZnZXdVJ2OXgxZXBDVzlDdllQQUZxeXR6UQ?oc=5",
+          "name": "Moomoo",
+          "publishedAt": "Mon, 05 Oct 2026 14:19:00 GMT"
+        },
+        {
+          "title": "10月5日のSpaceX (SPCX) 始値は3.37%上昇：どのようなシグナルを示しているのか？",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONHhSaDhRdEJWV1ZKX1NyeEZlNUZHaDI4Vl8xZHhqeEpaa1FaMUZiSkREYmlBaFpfd05CMHlKTFBaaVMyXzJxdm5zX2tzaDRhTHRHZXhHUVVWZlZyZHAwZnBPSUxESHdYdmY3SnRiYVBqS0RRZ0QxQ09CbUEtNmVGZmJWVk1ORzB5SkJPVTROQQ?oc=5",
+          "name": "TradingKey",
+          "publishedAt": "Mon, 05 Oct 2026 13:48:11 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
       "retained": false
     }
   ]
