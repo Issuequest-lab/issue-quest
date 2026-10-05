@@ -1,229 +1,139 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-05",
-  "fetchedAt": "2026-10-05T06:29:53.765457+09:00",
+  "updatedAt": "2026-10-06",
+  "fetchedAt": "2026-10-06T03:34:52.492762+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "サッカーパレスチナ代表",
-    "モトクロス",
-    "portugal national football team vs norway national football team standings",
-    "西野七瀬",
-    "中村美律子",
-    "クマ",
-    "工藤公康",
-    "藤川 球児",
-    "パドレス",
-    "安住 紳一郎"
+    "フランス 対 ベルギー",
+    "アイドル",
+    "indonesia vs thailand",
+    "カルディ エコバッグ 新作",
+    "ノーベル賞 生理学医学賞",
+    "丸亀製麺 メニュー",
+    "ロバーツ監督",
+    "g7 欠席",
+    "せっかく グルメ 割り込み",
+    "コミケ"
   ],
   "briefs": [
     {
-      "topic": "サッカーパレスチナ代表",
-      "status": "unavailable"
-    },
-    {
-      "topic": "モトクロス",
+      "topic": "フランス 対 ベルギー",
       "status": "ok",
-      "summary": "10月4日、静岡県浜松市のモトクロスコース内でオートバイが転倒し、運転していた男性が死亡する事故がありました。",
-      "summaryBasis": "publisher-description",
-      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
-      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "モトクロスでバイク転倒 男性死亡",
-          "url": "https://news.yahoo.co.jp/pickup/6597528",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "モトクロスコースでオフロードタイプのバイクを運転していた６０代男性が転倒 搬送先の病院で死亡 浜松市中央区",
-          "url": "https://topics.smt.docomo.ne.jp/article/look/region/look-99597?fm=latestnews",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "portugal national football team vs norway national football team standings",
-      "status": "unavailable"
-    },
-    {
-      "topic": "西野七瀬",
-      "status": "ok",
-      "summary": "菅野美穂＆西野七瀬がハリウッドへ、「90メートル」上映「親が子を思う気持ちは世界共通」（映画ナタリー）",
+      "summary": "フランス対ベルギーの予想、10月6日午前1時45分：ジダンはホーム初勝利を目指す。",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "菅野美穂＆西野七瀬がハリウッドへ、「90メートル」上映「親が子を思う気持ちは世界共通」（映画ナタリー）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84VFVqUmcxZWxJcndaVVRyY2F5Z05UVndIN0JCNmRWc3dXSWZwcUtwQzVFUGNCU19aSFdMQmNGcDdFM0tUbWZNNS1rNlhkeFZ4VllJQldKWTVmVmpacmlVX1pZVmFKd1VxR2NpRV91ZHRqbkJPempHd1hpOEZhdjg?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 20:03:57 GMT"
-        },
-        {
-          "title": "小栗旬、歌舞伎町に降臨「愛を劇場で受け取って」 間宮祥太朗、西野七瀬ら豪華キャスト集結",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZZFEzREZJdkhCQkpHUGRUSGpDRGdiOFFKVEJmRjByMGx1UmNoYTExRzZ3WnVpc0YxUFFWV1U5Q3dtSE5XTFBYN0pzVi1BRWU0Unc?oc=5",
-          "name": "山陽新聞",
-          "publishedAt": "Sun, 04 Oct 2026 20:12:21 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "中村美律子",
-      "status": "ok",
-      "summary": "中村美律子、76歳の現在も難病と向き合いながらステージに立つ。ジムに通う健康法も紹介",
-      "summaryBasis": "related-headline",
-      "issue": "「中村美律子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「フランス 対 ベルギー」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "中村美律子、76歳の現在も難病と向き合いながらステージに立つ。ジムに通う健康法も紹介",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vUl9kMEFqdHU0S1hxYzZ6NGVFY09MZ3ZvNlprWmk2NENrUnVGZEluUkRTSW8zVUFvMkd3blRWY0V6NGZNMy01N3Y1UlRHblJfbmfSAVdBVV95cUxNZDIta2VySzRpYmZyOEtBeUlaajNMTndaMXI5U3g4dU80RzRaOF9qRnFaSTV6WlZSeWVCYWd1ZFVvUDJfajU4bmhXZThPdC12Ti1laFBWYnc?oc=5",
-          "name": "テレ朝POST",
-          "publishedAt": "Sun, 04 Oct 2026 19:23:36 GMT"
+          "title": "フランス対ベルギーの予想、10月6日午前1時45分：ジダンはホーム初勝利を目指す。",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLTh6R0hMWnhVZnlYOVdYUi1PNnJfZUYyMTh2Uy1jamhKTnpGTHBienlaMlB3bHBYVERYM1Boa1A0eU05V1hDeUM2WHlHaEk5VjdVZ3hCd2FMZXV5bjZ3cTRVa3BxUjg3d0drUkR6am9PZzhjVzVHSWtVVkpLSEJtVEtXenBhYWljVllvNzNfMElzWEw1ekoxMTdXS3Y4cEl4c0dNckRWaFdnTnM?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Mon, 05 Oct 2026 07:01:31 GMT"
         },
         {
-          "title": "中村美律子：デビュー40周年の76歳 近所に住む5人の孫たちとの私生活 9年前に難病で入院、健康法も明かす 「徹子の部屋」で",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Lc2RvR3BLRGR0YkFudnAxR3lpOWVILXVJOWEtT2w1V3RZaDNfMndISDRRU3hqdVlzYm4xVWJKUkZ4Q0dKT084aW12RWozbkVsMXNBa0lwcVNjTjVlQ3ZJNFdXR182eWc2VjNVT0RZSQ?oc=5",
-          "name": "毎日キレイ",
-          "publishedAt": "Sun, 04 Oct 2026 21:00:00 GMT"
+          "title": "ネーションズリーグ フランス対ベルギー戦のライブ視聴リンク",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd1pLV2E2bGRwQ3hnSE9DdElUOEVkRXBkcjc5YjZReWVYa1ZuQm1xUzRwOGFlUDlwOXhkTnNMdjZlTnJTZE1YU2RWQXc5OXVUbkdNM21Pc1ZQUGc5cUZRZnM3YW1LSVl2S0J0azcxN0VLaXJEXzBpWjY1Y2pqOXAwX0lTalZhQ3cxazB1QlI2ZUJTci00QjlyVUxQQnR6VXc?oc=5",
+          "name": "Laodong.vn",
+          "publishedAt": "Mon, 05 Oct 2026 18:00:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
       "retained": false
     },
     {
-      "topic": "クマ",
+      "topic": "アイドル",
       "status": "ok",
-      "summary": "（CNN） ソファさん（28）は、以前住んでいたロシア・シベリア中部の自宅の庭にクマがいる動画が送られてきたとき、思わず身を乗り出した。クマの脅威は遠いものに思えていたからだ。",
+      "summary": "グラビアアイドルの藍野りな(25)が5日、自身のX(旧ツイッター)を更新。",
       "summaryBasis": "publisher-description",
-      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
-      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
+      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
+      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "クマに襲われ1カ月で16人死亡 露",
-          "url": "https://news.yahoo.co.jp/pickup/6597489",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261003de54083",
-          "name": "NHKニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "工藤公康",
-      "status": "ok",
-      "summary": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人”（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人”（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxb2dJcVVna0dLSENXZ3oxTU1WZDF6YmM3cUpad0lNU3ZuT1dmYzJoeDJKSEM0V0RYaUNkZjlUWE1ocFNmUkoxUUhGSmNhODV5WVBpTWJyWkYwVVhyNmRYS1Z5YjVSeDZ2a0tZeTg2bm9id2xMeE9acUhrREpWZlk?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 04 Oct 2026 19:04:25 GMT"
-        },
-        {
-          "title": "【中日】新監督有力候補に工藤公康氏浮上 地元出身、ソフトバンクで日本一５度の“優勝請負人” - プロ野球写真ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjBQT0M4X2pZbGN5NncxMjFCSWROcm00NW9pNmVxeGl3dFI0Yl84VVNtX1VaVWJUSkJESTdPd0Vkd244WmxLWUxxRnU3SDQ1ZlJMbldPbG5HV2d4bEM2UkRaSEtBdFgtN1YyQ1NIeXE0ZXJVbndPcmRMOXFJUUMyNlc4Xy0xRmc4bDFSMjhmdw?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Sun, 04 Oct 2026 20:15:09 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "藤川 球児",
-      "status": "ok",
-      "summary": "【虎番総力取材 連覇裏ファイル3】藤川球児監督が死球に怒りの指令「広島としゃべるな」（スポニチアネックス）",
-      "summaryBasis": "related-headline",
-      "issue": "「藤川 球児」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【虎番総力取材 連覇裏ファイル3】藤川球児監督が死球に怒りの指令「広島としゃべるな」（スポニチアネックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EY2ZKaVg5M0FJR0IyV0gtWGVPbTlVMEdhTmVTU0NsXzJHZFY5YmxmWU1UUXFaNFMwLWtHdEFaZmxaOUpzbGpGdkpVZUU5d01RVVdSZWVWM012QkUzSVhFUnlvRjY3enVqTXZmVnp0V2V1S0N2ekhleWRCa25MUms?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 03 Oct 2026 22:00:00 GMT"
-        },
-        {
-          "title": "【阪神】藤川球児監督、ファンの前で初めて優勝報告果たす あいさつの際には“胴上げコールも”「ちょっと恥ずかしいと言いますか」",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04S2U0SHJUNTRiS2EtdUd4bURMdzFiT1NlODBQVlN3UXM1YmsyZ3J5RWxvdktCN2ZGTC14XzdGemhXSWQ1U1dwUGplZ0RVaHVvSjJQUnJNU0F6ZjdQVmpsRTRR?oc=5",
-          "name": "スポーツ報知",
-          "publishedAt": "Sun, 04 Oct 2026 14:04:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "パドレス",
-      "status": "ok",
-      "summary": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
-      "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【10月5日】ミルウォーキー・ブリュワーズvsサンディエゴ・パドレスのテレビ放送/ネット配信予定・視聴方法｜MLB2026 NL地区シリーズ第2戦",
-          "url": "https://www.dazn.com/ja-JP/news/%E9%87%8E%E7%90%83/brewers-padres-mlb2026-division-series-20261005/1abk7my0ctmfd1qnca2j26uixf",
-          "name": "DAZN",
-          "publishedAt": null
-        },
-        {
-          "title": "パドレス４番フランスが先制タイムリー…前日は逆転２ランのはずが天井当たって幻に（スポーツ報知）",
-          "url": "https://news.yahoo.co.jp/articles/b933b94550527a1b9f1d50a585d4cc16eb252867",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
-      "retained": false
-    },
-    {
-      "topic": "安住 紳一郎",
-      "status": "ok",
-      "summary": "TBS安住紳一郎アナウンサー（53）が3日、総合司会を務めるTBS系「情報7daysニュースキャスター」（土曜午後10時）に生出演。次週10日の放送が休みとなり、次回放送が17日となることを伝えた。",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "TBS安住紳一郎アナ「Ｎキャス」次週10日の放送休止を報告 理由も説明（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/9ec50012fb7294f755f47c5c4df91f159b3d00f7",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "三谷幸喜氏が「Ｎキャス」生放送を“欠席” 安住紳一郎アナ「東京に戻ってこられず…」事情説明",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261003-202610030002486",
+          "title": "25歳グラビアアイドル 人気絶頂のまま112日後の引退を宣言｢芸能活動から離れ、少し違う日常を」",
+          "url": "https://topics.smt.docomo.ne.jp/article/yorozoonews/entertainment/yorozoonews-16941973",
           "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-05T06:29:53.765457+09:00",
+      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
+      "retained": false
+    },
+    {
+      "topic": "indonesia vs thailand",
+      "status": "unavailable"
+    },
+    {
+      "topic": "カルディ エコバッグ 新作",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ノーベル賞 生理学医学賞",
+      "status": "unavailable"
+    },
+    {
+      "topic": "丸亀製麺 メニュー",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ロバーツ監督",
+      "status": "ok",
+      "summary": "ドジャース敗戦にロバーツ監督「必要な時に一本が出なかった」好機生かせずシリーズ1勝1敗｜テレ東スポーツ：テレ東",
+      "summaryBasis": "related-headline",
+      "issue": "「ロバーツ監督」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ドジャース敗戦にロバーツ監督「必要な時に一本が出なかった」好機生かせずシリーズ1勝1敗｜テレ東スポーツ：テレ東",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yYlNtSzh6cC1RZnkydUNiblJKRllReWxCTjJOZnptS0d0XzdhU21nUzRyUDJEa2d1UjgyREVGbUgxSXNYMkwxaVpyQTlXcm9ibXhFTGxBV0NMV3RMSDBRX2JKaERWSER0U29ScENZRGN6aDBnRXp3c1pn0gF6QVVfeXFMTXJiU21LOHpwLVFmeTJ1Q2JuUkpGWVF5bEJOMk5mem1LR3RfN2FTbWdTNHJQMkRrZ3VSODJERUZtSDFJc1gyTDFpWnJBOVdyb2JteEVMbEFXQ0xXdExIMFFfYkpoRFZIRHRTb1JwQ1lEY3poMGdFendzWmc?oc=5",
+          "name": "tv-tokyo.co.jp",
+          "publishedAt": "Mon, 05 Oct 2026 15:29:29 GMT"
+        },
+        {
+          "title": "ロバーツ監督、大谷翔平の悪癖を指摘「ボール球を追いかけては良いスイングできない」 惜敗シリーズ1勝1敗 第3戦に向けて注文も（デイリースポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9razYtcWdwWjRpSFVKZkgzSF9BSWFLd2FWbTBKeHEzUG51WFR1SFhZOHRiLWptUlotSDhsNkthWV9NX1JpRmh1TkdjV2pGcVo5ZUNzaWF5WFJoNVYxM0JMSkVuZ0ZDbkZhX0E3MkNRZzlaMndRM2MtN1Y0bkhicXc?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 05 Oct 2026 04:36:35 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
+      "retained": false
+    },
+    {
+      "topic": "g7 欠席",
+      "status": "unavailable"
+    },
+    {
+      "topic": "せっかく グルメ 割り込み",
+      "status": "unavailable"
+    },
+    {
+      "topic": "コミケ",
+      "status": "ok",
+      "summary": "日テレ河出奈都美アナ、番組終わりにコミケへ直行 『ドラクエV』ビアンカ姿で「今が一番若いよ」 (エンタメNEXT)",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "日テレ河出奈都美アナ、番組終わりにコミケへ直行 『ドラクエV』ビアンカ姿で「今が一番若いよ」 (エンタメNEXT)",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmFCaFJ2YVhyQ2JsYzlCSzBmY0xTU0pqT1FNdEJkdVVJVnJJSmgzWUZkYXZJNEI2NnpFaWVoZ3VodG9YdXBPbUhjT2VpR25UQUFkRTNZVmNvTURaUU1Ka25ibEhQaXZ6THh2SXZwNjh3RFJyQzFwS21qSzFsb1pMNHR5d1V1M3ZfWURjVkd3?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 05 Oct 2026 10:32:08 GMT"
+        },
+        {
+          "title": "＜画像3 / 5＞大盛況のコミケ初日！企業ブースに潜入",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yQXhvbFc4cGxYZzk0WmlvT2c3YVowWGM4M1F6N29IZWt3TVg1NzBOQXRDR0l2ZEdwN1hMTjNETnRQVWM2cUNCM3ZFeHBqQ284cTE0N19SVnBvbXFJbXRQOF9hQ2o3d3NW?oc=5",
+          "name": "ウォーカープラス",
+          "publishedAt": "Mon, 05 Oct 2026 14:16:57 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-06T03:34:52.492762+09:00",
       "retained": false
     }
   ]
