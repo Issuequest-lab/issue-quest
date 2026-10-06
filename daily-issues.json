@@ -1,217 +1,238 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-07",
-  "fetchedAt": "2026-10-07T03:32:02.815504+09:00",
+  "fetchedAt": "2026-10-07T05:56:14.304160+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "西湘バイパス",
-    "クロアチア 対 スペイン",
-    "イギリス王室",
-    "読売新聞",
-    "生徒会にもアナはある 規制解除",
-    "和田アキ子",
-    "旭化成",
-    "dbd",
-    "夜の音",
-    "アメトーーク"
+    "starto entertainment",
+    "沢尻エリカ",
+    "川島明",
+    "は",
+    "詐欺",
+    "kroasia vs spanyol",
+    "海天気",
+    "ラウール",
+    "金",
+    "久保 建英"
   ],
   "briefs": [
     {
-      "topic": "西湘バイパス",
+      "topic": "starto entertainment",
       "status": "ok",
-      "summary": "日本の東にある台風27号による高波の影響で、西湘バイパスが通行止めになっています。7日明け方にかけて高波に注意が必要です。",
-      "summaryBasis": "publisher-description",
-      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
-      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "summary": "STARTO ENTERTAINMENT、「SNS等での情報発信」に声明",
+      "summaryBasis": "related-headline",
+      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
+      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "台風で高波 西湘バイパス通行止め",
-          "url": "https://news.yahoo.co.jp/pickup/6597805",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "西湘バイパス下りの大磯東ＩＣ─早川ＩＣ間 通行止め 台風２７号の高波で車通行に影響出る恐れ",
-          "url": "https://topics.smt.docomo.ne.jp/article/kanagawa/region/kanagawa-20261006102000",
+          "title": "STARTO ENTERTAINMENT、「SNS等での情報発信」に声明",
+          "url": "https://topics.smt.docomo.ne.jp/article/oricon/entertainment/oricon-2484876",
           "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
       "retained": false
     },
     {
-      "topic": "クロアチア 対 スペイン",
+      "topic": "沢尻エリカ",
       "status": "ok",
-      "summary": "クロアチア対スペインの試合予想（10月7日午前1時45分）、UEFAネーションズリーグ2026-2027",
+      "summary": "映画「薔薇の鎖」（佐藤佐吉監督、12月11日公開）にW主演したSUPER EIGHT丸山隆平（42）と女優の沢尻エリカ（40）が6日、第31回釜山国際映画祭の… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "沢尻エリカ総額6000万ジュエリー着用、丸山隆平と釜山国際映画祭「華やかな雰囲気が最高」",
+          "url": "https://www.nikkansports.com/entertainment/news/202610060001553.html",
+          "name": "日刊スポーツ",
+          "publishedAt": null
+        },
+        {
+          "title": "丸山隆平＆沢尻エリカ、釜山国際映画祭に降臨、沢尻は金髪に総額6000万円のジュエリーで魅了（写真・画像 1/1）",
+          "url": "https://www.sanspo.com/article/20261006-ZVH6UEWACFI43OY35SI6REXCRQ/photo/Q6KGJSRNJFNGRJHSVQP26ZAJKM/",
+          "name": "サンスポ",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "川島明",
+      "status": "ok",
+      "summary": "川島明、大病を患う寸前だった 医師全員から告げられた“あと半年”に戦慄「全く笑ってなくて」",
       "summaryBasis": "related-headline",
+      "issue": "「川島明」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "川島明、大病を患う寸前だった 医師全員から告げられた“あと半年”に戦慄「全く笑ってなくて」",
+          "url": "https://topics.smt.docomo.ne.jp/article/encount/entertainment/encount-1077764?page=2",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "麒麟・川島明「医者がまったく笑ってなかった」朝の番組ＭＣ決定で命拾いした出来事とは「あと半年ですよって...」（スポーツ報知）",
+          "url": "https://news.yahoo.co.jp/articles/548aacc41181f7b264e184583245749a422128a5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "は",
+      "status": "ok",
+      "summary": "【アトランタ共同】米大リーグのポストシーズン（PS）は6日、各地でナ・リーグの地区シリーズ（5回戦制）第3戦が行われ、1勝1敗のドジャースは大谷がアトランタでのブレーブス戦に「5番・指名打者」でメン",
+      "summaryBasis": "publisher-description",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "クロアチア対スペインの試合予想（10月7日午前1時45分）、UEFAネーションズリーグ2026-2027",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcmR2TVd2eVVDWDJ4LUhCQ0pqUVRpV0pQcUFuLS1uSDlMQUNNVk9RV3FfQ0g5bDBJaHFIQ2dUdFhhQU1kejZuWVFiUzRfd1dHMVlkTEc4SGd0dUVvTldsbk1hZmV1NXdFUEhyQ1hSaGZuajBDaWVJalNadk9KVTdPSFc5cDdiSlJSWTROTl9LSHBfek4wSkFDVHNoQmRNLVp4QmtCb2h3?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Tue, 06 Oct 2026 09:46:53 GMT"
-        },
-        {
-          "title": "クロアチア対スペインの予想、10月7日午前1時45分：ブルズは強さを見せる。",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbXQweHJzaGJfMGp3X3hvWlg3WERKYmJrM0NBdzluU21qd01xX2VwUEFMUHVSSmJEUDFYZWxjcWtsMjFuMVRmVE1JcmlXbHZiZjh0NnZkWjczOS1weUJKa0U4SE9sZ3Bnb3U3U2sxa1h6eEZJSDVTM2pqNFZVcWJXYWVKamNxdDVsczFncV9DOFJQbXNzYVB1Q2oza004dw?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Tue, 06 Oct 2026 04:49:32 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
-      "retained": false
-    },
-    {
-      "topic": "イギリス王室",
-      "status": "unavailable"
-    },
-    {
-      "topic": "読売新聞",
-      "status": "ok",
-      "summary": "読売３３３終値、４３９円高の５万３２６０円…２日連続で上昇（読売新聞オンライン）",
-      "summaryBasis": "related-headline",
-      "issue": "「読売新聞」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "読売３３３終値、４３９円高の５万３２６０円…２日連続で上昇（読売新聞オンライン）",
-          "url": "https://news.yahoo.co.jp/articles/75a31ced39e46f1131f002b288571b2ec975b9c5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
-      "retained": false
-    },
-    {
-      "topic": "生徒会にもアナはある 規制解除",
-      "status": "unavailable"
-    },
-    {
-      "topic": "和田アキ子",
-      "status": "ok",
-      "summary": "歌手の和田アキ子（76）が3日、パーソナリティーを務めるニッポン放送「ゴッドアフタヌーン アッコのいいかげんに1000回」（土曜前11・00）に出演。自身に見舞われたトラブルを明かす場面があった。【",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "和田アキ子 「ご飯が食べられなくなっちゃって」最近診断された疾患告白「安静にしてください、って」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/60af9d602dd94247947ddd13ca28a58b2539b7db",
+          "title": "大谷は「5番・指名打者」 地区S第3戦、山本先発（共同通信）",
+          "url": "https://news.yahoo.co.jp/articles/2792d5bc76bfe21697da9e94901545203dd16960",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "和田アキ子「顎関節症」と診断されたことを告白…「あごというか口が開かなくなっちゃって」",
-          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900201108.html",
-          "name": "テレ朝NEWS",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
-      "retained": false
-    },
-    {
-      "topic": "旭化成",
-      "status": "ok",
-      "summary": "旭化成子会社 55万人分情報流出か",
-      "summaryBasis": "related-headline",
-      "issue": "「旭化成」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "旭化成子会社 55万人分情報流出か",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsdHNKbEpzOGhLaU84WG5mYlNna0Y5bG5jcVJodGU3Qnk5VGtjMnBVdmJuTE96MXo4T0EzTHpxWGFCOUI1Z2c3cEZaTXh3R0ZT?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Tue, 06 Oct 2026 14:36:26 GMT"
-        },
-        {
-          "title": "旭化成系、医療従事者向けサイトで情報漏洩か 最大約56万人",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tVXhMYWxuZ2QtYi1oYXAwWElUWGpIa2toamZFUy1oVW8wSFd1WHQ1Um1FNlAzeVZBRjE1S0VvOXNJNkJSUW1MYVVUeUhHUVozSEtBYjFlVGF6SHppRlpTRU9oN1JoNUpyUVotdw?oc=5",
-          "name": "日本経済新聞",
-          "publishedAt": "Tue, 06 Oct 2026 10:27:32 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
-      "retained": false
-    },
-    {
-      "topic": "dbd",
-      "status": "ok",
-      "summary": "【DbD】『ニーア オートマタ』コラボでは2B、A2、エミールが登場。『NieR:Automata』コレクションは明日（10/7）リリース",
-      "summaryBasis": "related-headline",
-      "issue": "「dbd」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【DbD】『ニーア オートマタ』コラボでは2B、A2、エミールが登場。『NieR:Automata』コレクションは明日（10/7）リリース",
-          "url": "https://www.famitsu.com/article/202610/90120",
-          "name": "ファミ通",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
-      "retained": false
-    },
-    {
-      "topic": "夜の音",
-      "status": "ok",
-      "summary": "10月6日（火）放送の『夜の音－TOKYO MIDNIGHT MUSIC－』（日本テレビ系 深夜0時24分～0時54分）は、亀梨和也をゲストに迎える。【写真】大先輩・亀梨和也を前に座り方がかわいくな",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "亀梨和也が『夜の音』に登場 KAT-TUNラストライブから1年、ソロになって芽生えた覚悟と信念に迫る（TV LIFE web）",
-          "url": "https://news.yahoo.co.jp/articles/a0c560a0dc653b6a12b60139efdd7ab4506f5afb",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "亀梨和也「夜の音」登場 timelesz菊池風磨に熱いメッセージ・KAT-TUN解散後の意外な苦悩",
-          "url": "https://topics.smt.docomo.ne.jp/article/mdpr/entertainment/mdpr-4854717?page=2",
+          "title": "ドジャース・大谷 打順変更をロバーツ監督示唆「全部考えている。変更する可能性はある」",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261007-0034",
           "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
       "retained": false
     },
     {
-      "topic": "アメトーーク",
+      "topic": "詐欺",
       "status": "ok",
-      "summary": "アメトーーク！「芸人矢印トーーク」",
-      "summaryBasis": "related-headline",
-      "issue": "「アメトーーク」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "埼玉県警寄居署は5日、寄居町の無職女性（77）が特殊詐欺で現金4240万円をだまし取られたと発表した。女性会社員、2億1785万円を失う 友人に現金を借りて54回送金「利益が大きすぎ」…友人に相談し",
+      "summaryBasis": "publisher-description",
+      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
+      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ショック…無職の女性、4240万円を失う 「睡眠薬が多量に処方」と電話あり、8回も送金 その後、相手の言動に不信感…警察に相談し詐欺発覚（埼玉新聞）",
+          "url": "https://news.yahoo.co.jp/articles/620a9179878e92b3a93e68431d9dc4cf0e76f653",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "寄居で4240万円詐欺被害 埼玉県",
+          "url": "https://www.bouhan-nippon.jp/topics/topics-11675/",
+          "name": "ぼうはん日本",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "kroasia vs spanyol",
+      "status": "ok",
+      "summary": "Analisis pertandingan Kroasia vs Spanyol di babak ke -4 UEFAネイションズリーグ2026 -2027 （ pukul 01.45 pagi、7 Oktober ）。",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "Prediksi Kroasia vs Spanyol （ 01:45、7 Oktober ）、UEFAネイションズリーグ2026 -2027",
+          "url": "https://www.vietnam.vn/id/nhan-dinh-croatia-vs-tay-ban-nha-1h45-ngay-7-10-uefa-nations-league-2026-2027",
+          "name": "Vietnam.vn",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "海天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ラウール",
+      "status": "ok",
+      "summary": "Snow Manのラウールが自身のInstagramのストーリーズを更新。10月7日リリースのアルバム『AMENITY』を楽しみにする思いをつづり、メンバーが次々と反応した。【写真＆動画】赤×黒の“",
+      "summaryBasis": "publisher-description",
+      "issue": "「ラウール」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "アメトーーク！「芸人矢印トーーク」",
-          "url": "https://thetv.jp/program/0000805575/1007/",
-          "name": "WEBザテレビジョン",
+          "title": "ラウールの投稿にSnow Manメンバーが次々反応！「かわいいスノ連鎖」「最初に引用したのが舘様なの胸熱」「仲良すぎ」「兄ズに愛されてるな」とファン歓喜、向井康二は「たぎるってなんや！笑」とツッコミ（THE FIRST TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/af7624c01a289cb3c634f4c88cf184dd7a7643ec",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "「視聴者をなめてる」と物議…『アメトーーク！』の“人気シリーズ”に「限界」の声 それでも「もう終わり」と言い切れない理由",
-          "url": "https://shueisha.online/articles/-/258812",
-          "name": "集英社オンライン",
+          "title": "ラウールが金髪をかき上げ目をしぱしぱさせながら起こされた姿に「寝起きでこのビジュ!?」「ガチ寝起きかわいい」「天使すぎる」の声集まる",
+          "url": "https://www.thefirsttimes.jp/news/0000894247/",
+          "name": "THE FIRST TIMES",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "金",
+      "status": "ok",
+      "summary": "中央銀行の金の統計：中央銀行は8月に夏の金購入ブームを継続",
+      "summaryBasis": "related-headline",
+      "issue": "「金」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "中央銀行の金の統計：中央銀行は8月に夏の金購入ブームを継続",
+          "url": "https://www.moomoo.com/hans/news/post/1000657151/central-bank-gold-statistics-central-banks-continue-summer-gold-buying",
+          "name": "Moomoo",
+          "publishedAt": null
+        },
+        {
+          "title": "中央銀行は8月の買いペースを維持-ニュースと統計",
+          "url": "https://www.indexbox.io/zh-hans/blog/central-banks-keep-up-strong-gold-buying-pace-in-august/",
+          "name": "IndexBox",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
+      "retained": false
+    },
+    {
+      "topic": "久保 建英",
+      "status": "ok",
+      "summary": "「素敵やん！」久保建英ユニだけじゃない…目撃された妻・福原遥の観戦スタイルに好感「ここまで揃えて…」（THE ANSWER）",
+      "summaryBasis": "related-headline",
+      "issue": "「久保 建英」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「素敵やん！」久保建英ユニだけじゃない…目撃された妻・福原遥の観戦スタイルに好感「ここまで揃えて…」（THE ANSWER）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91dXNESE45ekM3QjgzYkN3XzFCdlZfZUNBWDlFOHoxNEpjZGR5Y1pRRDdiQXAtaVhYeUtjaktQVUJlR3VPZzJBRTA0WFdDZGJYS2MxMGRmN3NpT1I0Y1ZhZUVQc2RfUkRIWjNTNjRBTllZMTByTXZVejQ2WkNGcDA?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Tue, 06 Oct 2026 20:06:46 GMT"
+        },
+        {
+          "title": "福原遥がきた！夫・久保建英の“新婚”初戦に駆けつける 結婚発表から３日、背番号「２０」ユニ着て声援、左手薬指に指輪もキラリ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yV0UyellGcWxSZldOT21PblRCV0dXSjlMSkpHN0czSDVrc0xUcHluUTZxbXM1ay0tbzJELVdrbl94M2M0N2k3T2ZraWhCWEF3enRYRDVUR3p4R0YtOTJpT3hGaUhxVElfUUE?oc=5",
+          "name": "デイリースポーツ",
+          "publishedAt": "Tue, 06 Oct 2026 05:11:40 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-07T05:56:14.304160+09:00",
       "retained": false
     }
   ]
