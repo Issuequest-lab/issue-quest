@@ -1,235 +1,217 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-06",
-  "fetchedAt": "2026-10-06T08:46:19.175912+09:00",
+  "updatedAt": "2026-10-07",
+  "fetchedAt": "2026-10-07T03:32:02.815504+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "木竜麻生",
-    "ホワイトソックス",
-    "仲野太賀",
-    "大阪公立大学",
-    "topix",
-    "トピックス",
-    "ハリー・ケイン",
-    "nvda",
-    "s&p 500",
-    "spcx"
+    "西湘バイパス",
+    "クロアチア 対 スペイン",
+    "イギリス王室",
+    "読売新聞",
+    "生徒会にもアナはある 規制解除",
+    "和田アキ子",
+    "旭化成",
+    "dbd",
+    "夜の音",
+    "アメトーーク"
   ],
   "briefs": [
     {
-      "topic": "木竜麻生",
+      "topic": "西湘バイパス",
       "status": "ok",
-      "summary": "ブラッサム：木竜麻生が朝ドラデビュー！ “珠の同級生”忍役に「凛としていてステキ」「見入ってしまう」と反響続々",
+      "summary": "日本の東にある台風27号による高波の影響で、西湘バイパスが通行止めになっています。7日明け方にかけて高波に注意が必要です。",
+      "summaryBasis": "publisher-description",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "台風で高波 西湘バイパス通行止め",
+          "url": "https://news.yahoo.co.jp/pickup/6597805",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "西湘バイパス下りの大磯東ＩＣ─早川ＩＣ間 通行止め 台風２７号の高波で車通行に影響出る恐れ",
+          "url": "https://topics.smt.docomo.ne.jp/article/kanagawa/region/kanagawa-20261006102000",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "retained": false
+    },
+    {
+      "topic": "クロアチア 対 スペイン",
+      "status": "ok",
+      "summary": "クロアチア対スペインの試合予想（10月7日午前1時45分）、UEFAネーションズリーグ2026-2027",
       "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "クロアチア対スペインの試合予想（10月7日午前1時45分）、UEFAネーションズリーグ2026-2027",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcmR2TVd2eVVDWDJ4LUhCQ0pqUVRpV0pQcUFuLS1uSDlMQUNNVk9RV3FfQ0g5bDBJaHFIQ2dUdFhhQU1kejZuWVFiUzRfd1dHMVlkTEc4SGd0dUVvTldsbk1hZmV1NXdFUEhyQ1hSaGZuajBDaWVJalNadk9KVTdPSFc5cDdiSlJSWTROTl9LSHBfek4wSkFDVHNoQmRNLVp4QmtCb2h3?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Tue, 06 Oct 2026 09:46:53 GMT"
+        },
+        {
+          "title": "クロアチア対スペインの予想、10月7日午前1時45分：ブルズは強さを見せる。",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbXQweHJzaGJfMGp3X3hvWlg3WERKYmJrM0NBdzluU21qd01xX2VwUEFMUHVSSmJEUDFYZWxjcWtsMjFuMVRmVE1JcmlXbHZiZjh0NnZkWjczOS1weUJKa0U4SE9sZ3Bnb3U3U2sxa1h6eEZJSDVTM2pqNFZVcWJXYWVKamNxdDVsczFncV9DOFJQbXNzYVB1Q2oza004dw?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Tue, 06 Oct 2026 04:49:32 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "retained": false
+    },
+    {
+      "topic": "イギリス王室",
+      "status": "unavailable"
+    },
+    {
+      "topic": "読売新聞",
+      "status": "ok",
+      "summary": "読売３３３終値、４３９円高の５万３２６０円…２日連続で上昇（読売新聞オンライン）",
+      "summaryBasis": "related-headline",
+      "issue": "「読売新聞」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "読売３３３終値、４３９円高の５万３２６０円…２日連続で上昇（読売新聞オンライン）",
+          "url": "https://news.yahoo.co.jp/articles/75a31ced39e46f1131f002b288571b2ec975b9c5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "retained": false
+    },
+    {
+      "topic": "生徒会にもアナはある 規制解除",
+      "status": "unavailable"
+    },
+    {
+      "topic": "和田アキ子",
+      "status": "ok",
+      "summary": "歌手の和田アキ子（76）が3日、パーソナリティーを務めるニッポン放送「ゴッドアフタヌーン アッコのいいかげんに1000回」（土曜前11・00）に出演。自身に見舞われたトラブルを明かす場面があった。【",
+      "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ブラッサム：木竜麻生が朝ドラデビュー！ “珠の同級生”忍役に「凛としていてステキ」「見入ってしまう」と反響続々",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rcUJrRzN1Qi1RMkZ0VnJQcW5pVVFCSDZIWmJLNjZ2bnZHcTZFREVacExGNE96a3EyV056ZGVSVXZrQkZaNHZfYlRiejh5OWVlVWpVVUZfMllxNklCVENKUnh4Qmg1d3dQU3Vj?oc=5",
-          "name": "MANTANWEB",
-          "publishedAt": "Mon, 05 Oct 2026 21:44:23 GMT"
+          "title": "和田アキ子 「ご飯が食べられなくなっちゃって」最近診断された疾患告白「安静にしてください、って」（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/60af9d602dd94247947ddd13ca28a58b2539b7db",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         },
         {
-          "title": "木竜麻生、初の朝ドラでさらなる転機へ 『ブラッサム』“珠”石橋静河の人生の重要人物に（リアルサウンド）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BNXM0RXJKc01GZnU3bDZrTkpoUHVDdUdmem9ZbEtjQWwtbzhicEY3Sm9Tc2w1U1BIR3pqY3pTbTlZek9kZ0VEcDdzZlNxMEViSS1iV3pVR0xnY2RzZE5pcHAzb0lSYTM2aTZ5UU9ERnJoNm9HbjAxY3drTWpKdnc?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 05 Oct 2026 21:31:54 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ホワイトソックス",
-      "status": "ok",
-      "summary": "ホワイトソックス村上宗隆内野手は「4番一塁」で先発出場。シリーズ突破王手を狙う。村上は4日の地区シリーズ第1戦で今ポストシーズン初アーチとなる2ランを放ってい… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）",
-      "summaryBasis": "publisher-description",
-      "issue": "「ホワイトソックス」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ホワイトソックス村上宗隆、痛烈タイムリー！なるか２戦連発 地区Ｓ突破王手を狙う／速報中",
-          "url": "https://www.nikkansports.com/baseball/mlb/news/202610050000531.html",
-          "name": "日刊スポーツ",
+          "title": "和田アキ子「顎関節症」と診断されたことを告白…「あごというか口が開かなくなっちゃって」",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900201108.html",
+          "name": "テレ朝NEWS",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
       "retained": false
     },
     {
-      "topic": "仲野太賀",
+      "topic": "旭化成",
       "status": "ok",
-      "summary": "寅子の前夫、仲野太賀に猪爪家の石田ゆり子、岡部たかし、上川周作らが帰ってくる！『劇場版「虎に翼」』第2弾キャスト",
+      "summary": "旭化成子会社 55万人分情報流出か",
       "summaryBasis": "related-headline",
-      "issue": "「仲野太賀」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「旭化成」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "寅子の前夫、仲野太賀に猪爪家の石田ゆり子、岡部たかし、上川周作らが帰ってくる！『劇場版「虎に翼」』第2弾キャスト",
-          "url": "https://topics.smt.docomo.ne.jp/article/moviewalker/entertainment/moviewalker-1445641?page=4",
+          "title": "旭化成子会社 55万人分情報流出か",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsdHNKbEpzOGhLaU84WG5mYlNna0Y5bG5jcVJodGU3Qnk5VGtjMnBVdmJuTE96MXo4T0EzTHpxWGFCOUI1Z2c3cEZaTXh3R0ZT?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Tue, 06 Oct 2026 14:36:26 GMT"
+        },
+        {
+          "title": "旭化成系、医療従事者向けサイトで情報漏洩か 最大約56万人",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tVXhMYWxuZ2QtYi1oYXAwWElUWGpIa2toamZFUy1oVW8wSFd1WHQ1Um1FNlAzeVZBRjE1S0VvOXNJNkJSUW1MYVVUeUhHUVozSEtBYjFlVGF6SHppRlpTRU9oN1JoNUpyUVotdw?oc=5",
+          "name": "日本経済新聞",
+          "publishedAt": "Tue, 06 Oct 2026 10:27:32 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "retained": false
+    },
+    {
+      "topic": "dbd",
+      "status": "ok",
+      "summary": "【DbD】『ニーア オートマタ』コラボでは2B、A2、エミールが登場。『NieR:Automata』コレクションは明日（10/7）リリース",
+      "summaryBasis": "related-headline",
+      "issue": "「dbd」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【DbD】『ニーア オートマタ』コラボでは2B、A2、エミールが登場。『NieR:Automata』コレクションは明日（10/7）リリース",
+          "url": "https://www.famitsu.com/article/202610/90120",
+          "name": "ファミ通",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
+      "retained": false
+    },
+    {
+      "topic": "夜の音",
+      "status": "ok",
+      "summary": "10月6日（火）放送の『夜の音－TOKYO MIDNIGHT MUSIC－』（日本テレビ系 深夜0時24分～0時54分）は、亀梨和也をゲストに迎える。【写真】大先輩・亀梨和也を前に座り方がかわいくな",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "亀梨和也が『夜の音』に登場 KAT-TUNラストライブから1年、ソロになって芽生えた覚悟と信念に迫る（TV LIFE web）",
+          "url": "https://news.yahoo.co.jp/articles/a0c560a0dc653b6a12b60139efdd7ab4506f5afb",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "亀梨和也「夜の音」登場 timelesz菊池風磨に熱いメッセージ・KAT-TUN解散後の意外な苦悩",
+          "url": "https://topics.smt.docomo.ne.jp/article/mdpr/entertainment/mdpr-4854717?page=2",
           "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
       "retained": false
     },
     {
-      "topic": "大阪公立大学",
+      "topic": "アメトーーク",
       "status": "ok",
-      "summary": "大阪公立大学にランサム攻撃 個人情報、13万人流出恐れ",
+      "summary": "アメトーーク！「芸人矢印トーーク」",
       "summaryBasis": "related-headline",
-      "issue": "「大阪公立大学」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「アメトーーク」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "大阪公立大学にランサム攻撃 個人情報、13万人流出恐れ",
-          "url": "https://www.nikkei.com/article/DGXZQOUF057NR0V01C26A0000000/",
-          "name": "日本経済新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "topix",
-      "status": "ok",
-      "summary": "10月から新TOPIXがスタートする。競争が活発になることは、日本株全体にとってポジティブだが、個人投資家はどこに注目すべきか。",
-      "summaryBasis": "publisher-description",
-      "issue": "「topix」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "新TOPIXが10月スタート、「新規採用＆脱落650社」の注目銘柄＆投資戦略は？セリア・フェローテック・マクドナルド…東証改革総仕上げの“詳細”を徹底解説！",
-          "url": "https://diamond.jp/articles/-/399938",
-          "name": "ダイヤモンド・オンライン",
+          "title": "アメトーーク！「芸人矢印トーーク」",
+          "url": "https://thetv.jp/program/0000805575/1007/",
+          "name": "WEBザテレビジョン",
           "publishedAt": null
         },
         {
-          "title": "TOPIX残留に向けたスターゼンの挑戦 個人株主向けの施策を強化",
-          "url": "https://www.nikkei.com/article/DGXZQOUB0547B0V01C26A0000000/",
-          "name": "日本経済新聞",
+          "title": "「視聴者をなめてる」と物議…『アメトーーク！』の“人気シリーズ”に「限界」の声 それでも「もう終わり」と言い切れない理由",
+          "url": "https://shueisha.online/articles/-/258812",
+          "name": "集英社オンライン",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "トピックス",
-      "status": "ok",
-      "summary": "J-REITトピックス",
-      "summaryBasis": "related-headline",
-      "issue": "「トピックス」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "J-REITトピックス",
-          "url": "https://www.jutaku-s.com/newsp/id/105978",
-          "name": "住宅新報",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ハリー・ケイン",
-      "status": "ok",
-      "summary": "ハリー・ケインがバイエルン・ミュンヘンとの契約延長に迫っていると、フロリアン・プレッテンベルクやファブリツィオ・ロマーノらが伝えている。両者は交渉で打開策を見いだしたという。",
-      "summaryBasis": "publisher-description",
-      "issue": "「ハリー・ケイン」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ハリー・ケイン（33）は正式に除外され、来季どこでプレーしたいのかを把握している",
-          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%83%8F%E3%83%AA%E3%83%BC-%E3%82%B1%E3%82%A4%E3%83%B3-33-%E3%81%AF%E6%AD%A3%E5%BC%8F%E3%81%AB%E9%99%A4%E5%A4%96%E3%81%95%E3%82%8C-%E6%9D%A5%E5%AD%A3%E3%81%A8%E3%82%99%E3%81%93%E3%81%A6%E3%82%99%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%8B%E3%82%92%E6%8A%8A%E6%8F%A1%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B/blt78b4aa0af121a07f",
-          "name": "Goal.com",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "nvda",
-      "status": "ok",
-      "summary": "エヌビディア【NVDA】株価掲示板｜投資家のコメント",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "エヌビディア【NVDA】株価掲示板｜投資家のコメント",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9acjBNZkVtMkhrR0NSckoxa3d3ZDZvZklpVzZOdV9yTDZWQ09zVFpOSnFWN3R5dFRsNW1GTll0cVRZV2R1cERzcnBLNkxIQXh0ZExTSDRwbUI5Qk5OT2c?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Mon, 05 Oct 2026 22:59:36 GMT"
-        },
-        {
-          "title": "Nvidia（NVDA）、Tesla（TSLA）、Apple（APPL）がオンチェーン化へ。OKXとICEの新しい市場の仕組みとは",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN2dvMlQ2VlFpOGhfVzFFbThWUXJyUGt0MUV3YmdCeHVYQkNsZ0JmVkM3TmVZck9rX1h5SWZpVmxXMzRlX01pN0RLSE5TNDVDbkRfbE4yUFYzMWJhTnFPN3RkTVNlOTRWc2JQT2VHZWxJTEVjYWpsM2swS0Z6TWplYjJUNGk3eE4zcnV4Z3l6Q2dJbVdObWtLQU1nWG43Q2xPNVhwYjJXSkNtV2hOVlc3TFFlQmx3UXMzaUhxV2RaSTUwWXRZa1lvZ2pMSU1ibDVSYmc?oc=5",
-          "name": "CoinDesk",
-          "publishedAt": "Mon, 05 Oct 2026 17:49:18 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "s&p 500",
-      "status": "ok",
-      "summary": "S&P 500 CAPEは、ドットコムのような集中力と弱い幅で41倍に達しました。クリックして最新の市場見通しをご覧ください。",
-      "summaryBasis": "publisher-description",
-      "issue": "「s&p 500」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "現在のS&P 500対ドットコムバブル：広がりの欠如が最も心配（ SP 500 ）",
-          "url": "https://seekingalpha.com/article/4952066-current-sp500-vs-dot-com-bubble-lack-of-breadth-worries-me-most",
-          "name": "Seeking Alpha",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
-      "retained": false
-    },
-    {
-      "topic": "spcx",
-      "status": "ok",
-      "summary": "$スペースX (SPCX.US)$ リポストをチェックしてください",
-      "summaryBasis": "related-headline",
-      "issue": "「spcx」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "$スペースX (SPCX.US)$ リポストをチェックしてください",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wYnNuRGtSaUV2WmlXWTM2MHdBS09WZzB6NjFMbFZnZzJ2RWxoNkZZUWJNbnd6QVZYRTI3VGhVUzZfb3lYQm5KNXZUTUtFc3VMNUo1cFdUb25lMjN0a0ZjMGQwZnZXdVJ2OXgxZXBDVzlDdllQQUZxeXR6UQ?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Mon, 05 Oct 2026 14:19:00 GMT"
-        },
-        {
-          "title": "10月5日のSpaceX (SPCX) 始値は3.37%上昇：どのようなシグナルを示しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONHhSaDhRdEJWV1ZKX1NyeEZlNUZHaDI4Vl8xZHhqeEpaa1FaMUZiSkREYmlBaFpfd05CMHlKTFBaaVMyXzJxdm5zX2tzaDRhTHRHZXhHUVVWZlZyZHAwZnBPSUxESHdYdmY3SnRiYVBqS0RRZ0QxQ09CbUEtNmVGZmJWVk1ORzB5SkJPVTROQQ?oc=5",
-          "name": "TradingKey",
-          "publishedAt": "Mon, 05 Oct 2026 13:48:11 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-06T08:46:19.175912+09:00",
+      "verifiedAt": "2026-10-07T03:32:02.815504+09:00",
       "retained": false
     }
   ]
