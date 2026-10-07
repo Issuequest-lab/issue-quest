@@ -1,238 +1,196 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-08",
-  "fetchedAt": "2026-10-08T03:34:07.296839+09:00",
+  "fetchedAt": "2026-10-08T05:57:36.925885+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "工藤公康",
-    "zeta",
-    "world space week 2026",
-    "lol",
-    "川崎 映画",
-    "蒼井優",
-    "仮面教師",
-    "桐谷健太",
-    "若井滉斗",
-    "tohoシネマズ新宿"
+    "バレーボール女子",
+    "森下翔太",
+    "踊る大捜査線 n.e.w. メトロポリスを駆け抜けろ!",
+    "尖閣諸島",
+    "読売ジャイアンツ",
+    "サザンオールスターズ",
+    "秋季近畿地区高等学校野球大会",
+    "書類送検",
+    "トレイ・ウィンゲンター",
+    "エコバッグ"
   ],
   "briefs": [
     {
-      "topic": "工藤公康",
+      "topic": "バレーボール女子",
+      "status": "unavailable"
+    },
+    {
+      "topic": "森下翔太",
       "status": "ok",
-      "summary": "【中日】工藤公康氏の新監督就任が決定的に リーグＶ３度、日本一５度の“優勝請負人”（日刊スポーツ）",
+      "summary": "広島・床田寛樹、森下翔太、坂倉将吾 FA権取得3選手はいずれも熟考の構え（スポニチアネックス）",
       "summaryBasis": "related-headline",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【中日】工藤公康氏の新監督就任が決定的に リーグＶ３度、日本一５度の“優勝請負人”（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zT0FsMGJmRVRnUWxhRnljcDRQRkJpMkhSUFhxUmg2dHRSTTUxcWVIekxXM0pacFNLXzhmR1hCNHRaNEVvRE1fM3IxN3hQSkF2V2s3UHNtb2VNMGhfdzRIcHlLRk1ReVpHTkw3Q3VkcFBad0phRlRadG5tZWtDV1U?oc=5",
+          "title": "広島・床田寛樹、森下翔太、坂倉将吾 FA権取得3選手はいずれも熟考の構え（スポニチアネックス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lWklUeVhfM0VPNWlkQThtdUZzaHNEcXpOWkh2VHJlV1ZvX0s5dFV6VHZKbzJtMU9CTTMxSGRQSVd6UkZQQlhKSFdGczJLSDhGallYNUROV3JVS2ZWeW1KQ2hRaWt2bE5VSVZXMDhnejQxQUlUQ3M0a3ZIZUU3Y3M?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 07 Oct 2026 17:45:14 GMT"
+          "publishedAt": "Wed, 07 Oct 2026 20:08:15 GMT"
         },
         {
-          "title": "【中日】工藤公康氏の新監督就任が決定的に リーグＶ３度、日本一５度の“優勝請負人”",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeVJsSXZVYTZXUWY5aHoxTGtkQlRnUndtUU5JUkQ0QVNacmktY1hXMWJ1ZlFMVHhpSzlyREw1UWtaOGx1Ty1ZNFQzWkk3MVUwUy1GQlllTjBSRDNZM21zcEc1RG12cEF0N3BvYnl5elBuY3pDdEZORVVSWUtuOFNFZ09JQWNWT0hLOEZ1T1gzSQ?oc=5",
+          "title": "【阪神】森下翔太が初タイトル、最高出塁へマルチ出塁「明日１日やって最終的にとれれば」",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMU1VTU1iZjQxTkwwYTZSWTdiVHpqWDFTUXlMdHJ0N1paenlrNERQaVAyNm1aRFpKRTY2QWJ4a2hZclpBMTA5LUxnU3B0dERjb3BwNk8tTlRLdkdHOXhTRW1wNjZoUXRFOWNSMm8xTmtJN0s0MVdQZWlPZ0JOaVpnemFCNk1OT2szQWlMc2NBcw?oc=5",
           "name": "日刊スポーツ",
-          "publishedAt": "Wed, 07 Oct 2026 17:43:00 GMT"
+          "publishedAt": "Wed, 07 Oct 2026 14:28:21 GMT"
         }
       ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
       "retained": false
     },
     {
-      "topic": "zeta",
+      "topic": "踊る大捜査線 n.e.w. メトロポリスを駆け抜けろ!",
       "status": "ok",
-      "summary": "キャサリン・ゼタ・ジョーンズが一夫一婦制を求めた後、マイケル・ダグラスは5つの関係を終了しました",
-      "summaryBasis": "related-headline",
-      "issue": "「zeta」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！。〓〓〓さんの映画レビュー（感想・評価）。評価2.0。みんなの映画を見た感想・評価を投稿",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "キャサリン・ゼタ・ジョーンズが一夫一婦制を求めた後、マイケル・ダグラスは5つの関係を終了しました",
-          "url": "https://people.com/michael-douglas-ended-5-relationships-after-catherine-zeta-jones-sought-monogamy-12161715",
-          "name": "People.com",
+          "title": "「どうしてこうなった」踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！ 〓〓〓さんの映画レビュー（感想・評価）",
+          "url": "https://eiga.com/movie/103045/review/07068314/",
+          "name": "映画.com",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
+      "retained": false
+    },
+    {
+      "topic": "尖閣諸島",
+      "status": "ok",
+      "summary": "尖閣諸島は、いつから「日中間の領土問題」になったのか。",
+      "summaryBasis": "publisher-description",
+      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
+      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\"",
+          "url": "https://news.yahoo.co.jp/articles/47a8d0e1929a2aa7a82db7a2145cef241206d059",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "マイケル・ダグラスは、キャサリン・ゼタ・ジョーンズを選んだ日に5人の女性に5回電話をかけたことを明らかにする",
-          "url": "https://www.foxnews.com/entertainment/michael-douglas-reveals-made-five-phone-calls-five-women-day-chose-catherine-zeta-jones",
-          "name": "Fox News",
+          "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" (PRESIDENT Online)",
+          "url": "https://newspicks.com/news/17646441/?ref=education&tabKey=C%3A5",
+          "name": "NewsPicks",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
       "retained": false
     },
     {
-      "topic": "world space week 2026",
+      "topic": "読売ジャイアンツ",
       "status": "ok",
-      "summary": "「World Space Week 2026」が10月4日に開幕 テーマは「ロケット革命」、ケネディ宇宙センターの展示会やポケモン×ESAなど世界各地で企画",
+      "summary": "【みやざきPL】10月7日 北海道日本ハムファイターズ 対 読売ジャイアンツ ハイライト",
       "summaryBasis": "related-headline",
-      "issue": "「world space week 2026」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「読売ジャイアンツ」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「World Space Week 2026」が10月4日に開幕 テーマは「ロケット革命」、ケネディ宇宙センターの展示会やポケモン×ESAなど世界各地で企画",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UV1FoMlV5X1l3VTVhSzZmUUpQbTlOOC1qVHFVZTdTeXowQ21JcGtHMTl5SlQtdE5WSC1HYVNOb0FZLWotMmx4dEcyRjlNaFlkU3JYWnFKZUZJZ2F5WkVOLVZHbWdzZmFlT2tSNm83blpzLVRMWWhyRWdma0dMdw?oc=5",
-          "name": "株式会社MICE研究所",
-          "publishedAt": "Tue, 06 Oct 2026 14:33:09 GMT"
+          "title": "【みやざきPL】10月7日 北海道日本ハムファイターズ 対 読売ジャイアンツ ハイライト",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtTlRBNWprM1A5aGZLWFlPUzVLN09SN1FOZXZJZ2lwbUFuYnNCNTY2VUhXMkp1bmhOTU9UclQtYnFmTEZPdENESlhjTFZkaWRSdU5N?oc=5",
+          "name": "パ・リーグ.com",
+          "publishedAt": "Wed, 07 Oct 2026 18:48:28 GMT"
+        },
+        {
+          "title": "New EraとBASICKSと読売ジャイアンツによるトリプルコラボコレクションが登場",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYUEFqZE13RmU3N2pQQTVtQTdYY0QwODllYzRfQkx4dE55WERyQzdLTk9QSDZMSkxoWTJwcTBlaW9SNWpNREM2N21GLUlta0pMTHRrVjN3?oc=5",
+          "name": "https://qui.tokyo/",
+          "publishedAt": "Wed, 07 Oct 2026 00:47:29 GMT"
         }
       ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
       "retained": false
     },
     {
-      "topic": "lol",
+      "topic": "サザンオールスターズ",
       "status": "ok",
-      "summary": "LoLパッチ26.20プレビュー：さらなるリリアバフ、ロケットベルトは別の調整を受ける",
-      "summaryBasis": "related-headline",
-      "issue": "「lol」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "サザンオールスターズのメンバー・関口和之さんが10月5日、グループの公式サイトで謝罪しました。",
+      "summaryBasis": "publisher-description",
+      "issue": "「サザンオールスターズ」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "LoLパッチ26.20プレビュー：さらなるリリアバフ、ロケットベルトは別の調整を受ける",
-          "url": "https://www.sheepesports.com/fr/articles/lol-patch-26-20-preview-more-lillia-buffs-rocketbelt-receives-another-adjustment/en",
-          "name": "Sheep Esports",
+          "title": "【サザン・関口和之】「桑田佳祐君をはじめサザンオールスターズのメンバーには、ご心配とご迷惑」さらにファンにも謝罪 経営の音楽関連会社 約5億8000万円の申告漏れ指摘",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2993264",
+          "name": "TBS NEWS DIG",
+          "publishedAt": null
+        },
+        {
+          "title": "サザンオールスターズ・関口和之、報道について謝罪「サザンオールスターズとしての活動とはまったく関係ございません」【全文】",
+          "url": "https://www.oricon.co.jp/news/2484643/full/",
+          "name": "オリコンニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
       "retained": false
     },
     {
-      "topic": "川崎 映画",
+      "topic": "秋季近畿地区高等学校野球大会",
       "status": "unavailable"
     },
     {
-      "topic": "蒼井優",
+      "topic": "書類送検",
       "status": "ok",
-      "summary": "今年で第27回目を迎える国際映画祭「第27回東京フィルメックス（TOKYO FILMeX 2026）」のオープニング作品が、蒼井優主演、原田マハ監督の『無用の人』に決定。クロージング作品がシンガポー",
+      "summary": "水上バイクで「 驚かせようとして 近づいた 」。そんな“出来心”が 女性を死なせることになった。21歳の男子大学生を「業務上過失致死容疑」などで書類送検（ワールドジェットスポーツマガジン）",
+      "summaryBasis": "related-headline",
+      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
+      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "水上バイクで「 驚かせようとして 近づいた 」。そんな“出来心”が 女性を死なせることになった。21歳の男子大学生を「業務上過失致死容疑」などで書類送検（ワールドジェットスポーツマガジン）",
+          "url": "https://news.yahoo.co.jp/articles/e3bb6eed3bbf026c24c33e68ccc9638b994379ad",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "【速報】「驚かせようとして近づいた」男子大学生を業務上過失致死容疑などで書類送検 水上バイクを知人女性に誤ってぶつけ死亡させた疑い 兵庫・赤穂市恋ヶ浜",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2995849",
+          "name": "TBS NEWS DIG",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
+      "retained": false
+    },
+    {
+      "topic": "トレイ・ウィンゲンター",
+      "status": "unavailable"
+    },
+    {
+      "topic": "エコバッグ",
+      "status": "ok",
+      "summary": "ANAがBall & Chainとコラボした、特別なバッグが人気となっています。エコバッグとしても、旅行のメインバッグにも合う、気分を高めてくれそうなデザインです。【画像：ANA×Ball ＆ Ch",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "蒼井優×原田マハ監督の注目作『無用の人』、2026年「東京フィルメックス」オープニング作品に決定（cinemacafe.net）",
-          "url": "https://news.yahoo.co.jp/articles/8c91f7622abbca170dfd11458d00d6dbe5406e6d",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "第27回東京フィルメックス、オープニングは蒼井優主演×原田マハ監督「無用の人」、クロージングはアンソニー・チェン監督「みんな他人じゃない」に決定！",
-          "url": "https://eiga.com/news/20261007/32/",
-          "name": "映画.com",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
-      "retained": false
-    },
-    {
-      "topic": "仮面教師",
-      "status": "ok",
-      "summary": "「生徒を使い復讐する仮面教師」",
-      "summaryBasis": "related-headline",
-      "issue": "「仮面教師」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「エコバッグ」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「生徒を使い復讐する仮面教師」",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rVVN0U005TlRwVlhfMldYdHNZY2N2dUk1QjVrNGRXbjd4Z2podUM3UnRkTWQ1WmxFMzFScXlaenI5SGF4bmN4bFIwaVVjRElnUUNNRHpuWGJORXM?oc=5",
-          "name": "中京テレビ",
-          "publishedAt": "Wed, 07 Oct 2026 16:57:41 GMT"
-        },
-        {
-          "title": "仮面教師～妻を亡くしたその日から | ドラマ情報・キャスト・あらすじ・配信・放送日",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9IS3V4R3c4cU5sVjNZZjZRR0hHTTVfZXZKMWM2U3NMWHJGLTR2N19rb1JhTFdoWTN2VHVfZWdwejd3R2Ffb0NCOA?oc=5",
-          "name": "ナタリー",
-          "publishedAt": "Wed, 07 Oct 2026 04:20:59 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
-      "retained": false
-    },
-    {
-      "topic": "桐谷健太",
-      "status": "ok",
-      "summary": "俳優の桐谷健太（46）が7日、大阪市内で舞台「PARCO PRODUCE 2026『聖地X』」（12月5～7日、COOL JAPAN OSAKA WWホール）の取材会を開いた。【写真あり】共演者にツ",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "桐谷健太 「まんまの自分に戻れる」聖地は家と近所の公園 異色キャストと創る舞台「聖地X」で新境地（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/e6a0c846ae5a2a888a9da326767737b27057f89a",
+          "title": "「前回は即完売でした」 ANA×Ball ＆ Chainの“40周年記念エコバッグ”が大人気 「一目惚れ」「40周年にふさわしい刺繍」「旅行にも普段使いにも便利」の声（ねとらぼ）",
+          "url": "https://news.yahoo.co.jp/articles/30b0d3e461451431e266c8d9b1f65bed885e0151",
           "name": "Yahoo!ニュース",
           "publishedAt": null
-        },
-        {
-          "title": "桐谷健太、ドッペルゲンガーの謎を追う主演舞台に「人によって感覚や感情は違う、それでいい」",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261007-202610070000980",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
-      "retained": false
-    },
-    {
-      "topic": "若井滉斗",
-      "status": "ok",
-      "summary": "大森元貴は細フチめがね若井滉斗はイエローヘア藤澤涼架はリボンタイを結い優しくほほ笑む！Mrs. GREEN APPLEが秋コーデで並んだオフショット公開 - 画像一覧",
-      "summaryBasis": "related-headline",
-      "issue": "「若井滉斗」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "大森元貴は細フチめがね若井滉斗はイエローヘア藤澤涼架はリボンタイを結い優しくほほ笑む！Mrs. GREEN APPLEが秋コーデで並んだオフショット公開 - 画像一覧",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRGxsbXdrYmk3bjZSalZWY3g3UXlrVldXLWMySDc5djlNSk1uSm1fQXNuVXMzMHN0ZVNhTE51TEhzQTAxVTlMRGYwLS1IV1NncHhFbVdZV2I2TU53Vk9mWU4tZklYZFpPbzRPaXRhOXNtMUNTaEtRLS1UbnctcV82djBIQQ?oc=5",
-          "name": "THE FIRST TIMES",
-          "publishedAt": "Wed, 07 Oct 2026 10:12:17 GMT"
-        },
-        {
-          "title": "大森元貴は細フチめがね若井滉斗はイエローヘア藤澤涼架はリボンタイを結い優しくほほ笑む！Mrs. GREEN APPLEが秋コーデで並んだオフショット公開 (THE FIRST TIMES)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVV9YSjFPNlFHOW1WWmRmWTUxNW1Najlpc0gwbTU2dnpMblNpU2J0RVF1OFJiOU05Nm5GdE1Ncnk1bGJ5SnF0XzNOdm1ZT09hQTE5QXVwMHdmT1RQMURUNlBlZF80WmpWdXd5NG5fbDZNclJJbV9HanhnSnVsUmt3QVptWEYzeVU2RHNHTnBR?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 07 Oct 2026 04:18:19 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
-      "retained": false
-    },
-    {
-      "topic": "tohoシネマズ新宿",
-      "status": "ok",
-      "summary": "TOHOシネマズ 新宿「バイオハザード」の上映時間（新宿）",
-      "summaryBasis": "related-headline",
-      "issue": "「tohoシネマズ新宿」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "TOHOシネマズ 新宿「バイオハザード」の上映時間（新宿）",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52WHZ0NHdPcjE2SElaQXVVQnQ2cEx6ejV3YzN3T1hrV1ZYRHcyVWhveHQyUHN0Z2pUb2NCUjNMMTVoZENnWHl0V2IydXZMTnZKYk9POUNUc1BEYXlyM3ljYThQSQ?oc=5",
-          "name": "映画.com",
-          "publishedAt": "Tue, 06 Oct 2026 15:46:46 GMT"
-        },
-        {
-          "title": "ガールズ＆パンツァー 最終章 第5話 TOHOシネマズ 新宿(新宿) の上映時間・上映スケジュール",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sNkQySDA0UElSMm4wOWQwNUtQSEllX1RjRnRkakxJRXA5cGlYWkVBU3BCSlNyaWlXbDA2Y0dYLVRseTNlZHd0X3lQRTJZNTg0Q0NLY1oyZTYydnl2YWZEWVVB?oc=5",
-          "name": "MOVIE WALKER PRESS",
-          "publishedAt": "Tue, 06 Oct 2026 11:08:11 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-08T03:34:07.296839+09:00",
+      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
       "retained": false
     }
   ]
