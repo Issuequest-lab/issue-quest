@@ -2,24 +2,25 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const code=fs.readFileSync(__dirname+'/newspapers.js','utf8');
 const ctx={URL,editorial:{}};vm.createContext(ctx);
-vm.runInContext(code.slice(code.indexOf('const REGION_WEIGHTS'),code.indexOf('const dayJst'))+code.slice(code.indexOf('function regionFor'),code.indexOf('function render')),ctx);
-const regions=['日本','アフリカ','中東','ヨーロッパ','アメリカ','アジア（その他）','韓国','中国'];
-const source=(r,n=5,name=r)=>({id:name,name,country:r,region:r,kind:r==='日本'?'paper':'web',status:'ok',articles:Array.from({length:n},(_,i)=>({id:name+i,titleJa:'日本語の見出し'+i,summaryJa:'何が起きたか説明する日本語の要約です。',url:'https://example.test/'+encodeURIComponent(name)+'/'+i,translation:'machine'}))});
-vm.runInContext(code.slice(code.indexOf('function compactSummary'),code.indexOf('function card')),ctx);
-let data=regions.map(r=>source(r));let result=ctx.readingList(data);
-assert.equal(result.rows.length,20);assert.equal(JSON.stringify(result.counts),JSON.stringify(Object.fromEntries(regions.map(r=>[r,['ヨーロッパ','アメリカ'].includes(r)?4:2]))));
-result=ctx.readingList(data.filter(s=>s.region!=='アフリカ'));
-assert.equal(result.rows.length,20);assert.equal(result.counts['アフリカ'],0);assert.equal(result.counts['日本'],2);
-assert.equal(ctx.readingList([]).rows.length,0);
-const invalid=source('韓国');invalid.status='unavailable';const jp=source('日本');jp.kind='web';const untranslated=source('中国');untranslated.articles.forEach(a=>a.translation='unavailable');assert.equal(ctx.readingList([invalid,jp,untranslated]).rows.length,0);
-const a=source('アフリカ',3,'one'),b=source('アフリカ',3,'two');result=ctx.readingList([a,b]);assert.equal(result.rows[0].s.name,'one');assert.equal(result.rows[1].s.name,'two');
-b.articles[0].url=a.articles[0].url+'?utm_source=test';result=ctx.readingList([a,b]);assert.equal(result.rows.length,5);
-assert.equal(ctx.regionFor({country:'英国'}),'ヨーロッパ');assert.equal(ctx.regionFor({country:'タイ'}),'アジア（その他）');assert.equal(ctx.regionFor({country:'香港'}),'中国');
-assert.equal(ctx.readingList([source('アフリカ',1)]).rows.length,1);
-console.log('PASS regional targets, redistribution, Japan Web exclusion, failures, translation, outlet diversity, deduplication, legacy regions');
-
-const live=source('中東',2);live.articles[0].url='https://www.aljazeera.com/news/liveblog/2026/9/28/example';live.articles[1].url=live.articles[0].url+'?update=123';assert.equal(ctx.readingList([live]).rows.length,1);
-
+vm.runInContext(code.slice(code.indexOf('const REGION_ORDER'),code.indexOf('const dayJst'))+code.slice(code.indexOf('function verificationLabel'),code.indexOf('function failureLabel'))+code.slice(code.indexOf('function compactSummary'),code.indexOf('function card'))+code.slice(code.indexOf('function regionFor'),code.indexOf('function render')),ctx);
+const source=(id='guardian-paper',n=3)=>({id,name:id,country:'英国',region:'ヨーロッパ',kind:'paper',status:'ok',articles:Array.from({length:n},(_,i)=>({id:id+i,titleJa:'日本語の見出し'+i,summaryJa:'出来事を説明する日本語の要約です。',url:'https://example.test/'+id+'/'+i,translation:'machine',publicationDate:'2026-10-08',verification:'paper-listed'}))});
+const paper=source();assert.equal(ctx.readingList([paper]).rows.length,3);
+const rss=source('bangkokpost-web');rss.kind='web';rss.country='タイ';rss.articles.forEach(a=>a.verification='feed-featured');
+assert.equal(ctx.readingList([rss]).rows.length,0);
+const web=source('china-web');web.kind='web';web.articles.forEach(a=>a.verification='web-featured');
+assert.equal(ctx.readingList([web]).rows.length,0);
+assert.equal(ctx.readingList([paper,rss,web]).rows.length,3); // Never fill a regional quota.
+assert.equal(ctx.readingList([source('guardian-paper',25)]).rows.length,25); // No 20-item target.
+web.articles[0].verification='web-top';assert.equal(ctx.readingList([web]).rows.length,0);
+web.articles[0].positionEvidence={type:'web-top',selector:'.lead'};assert.equal(ctx.readingList([web]).rows.length,1);
+const mainichi=source('mainichi-paper');mainichi.country='日本';mainichi.articles[0].url='https://mainichi.jp/articles/20261008/ddm/001/040/123000c';mainichi.articles[1].url='https://mainichi.jp/articles/20261008/ddm/013/040/123000c';
+assert.equal(ctx.readingList([mainichi]).rows.length,1);
+const unavailable=source();unavailable.status='unavailable';assert.equal(ctx.readingList([unavailable]).rows.length,0);
+const empty=source();empty.articles.forEach(a=>delete a.summaryJa);assert.equal(ctx.readingList([empty]).rows.length,0);
+ctx.editorial[rss.articles[0].url]={verification:'web-top',positionEvidence:{type:'web-top',selector:'.fake'},summaryJa:'説明です。'};assert.equal(ctx.readingList([rss]).rows.length,0);
+assert.match(ctx.verificationLabel(paper.articles[0]),/トップ順位は未確認/);
+assert.match(ctx.verificationLabel(web.articles[0]),/紙面とは別/);
+console.log('PASS verified placements only, historical RSS excluded, no quotas, page boundaries, missing summaries');
 vm.runInContext(code.slice(code.indexOf('function compactSummary'),code.indexOf('function card')),ctx);
 assert.equal(ctx.compactSummary({}),null);
 assert.equal(ctx.compactSummary({summaryJa:'途中で終わった説明…'}),null);
@@ -29,9 +30,4 @@ assert.match(pope.issue,/欧州の結束/);assert.match(pope.viewpoint,/発言/)
 assert.equal(ctx.headlineInsights({titleJa:'新しい詩集を発表'}).issue,null);
 assert.equal(ctx.headlineInsights({titleJa:'AIへの懸念',issue:'既存の問い'}).issue,'既存の問い');
 console.log('PASS absent insights, complete summary sentences, grounded headline prompts');
-
-const empty=source('中国',1);delete empty.articles[0].summaryJa;assert.equal(ctx.readingList([empty]).rows.length,0);
-ctx.editorial[empty.articles[0].url]={summaryJa:'原文を確認した説明です。',summaryBasis:'article-reviewed'};assert.equal(ctx.readingList([empty]).rows.length,1);
-assert.equal(ctx.headlineInsights({analysisBasis:'article-reviewed',titleJa:'英雄をたたえる政策',issue:null}).issue,null);
-console.log('PASS hide unexplained cards, reviewed context, no invented issue');
 

@@ -30,7 +30,7 @@ SOURCES = [
 
     dict(id='asahi-web', name='朝日新聞', country='日本', region='日本', kind='web', lang='ja',
          url='https://www.asahi.com/', edition='日本向けWeb', domain='asahi.com', max_articles=1,
-         selectors='.p-topNews__firstNews a.c-articleModule__link[data-realizer-area="TopNews:1"]'),
+         lead_selector='.p-topNews__firstNews a.c-articleModule__link[data-realizer-area="TopNews:1"]'),
     dict(id='mainichi-web', name='毎日新聞', country='日本', region='日本', kind='web', lang='ja',
          url='https://mainichi.jp/', edition='日本向けWeb', domain='mainichi.jp', max_articles=1,
          selectors='.toppickup > a, .toppickuplist li > a, main article h2 a, main article h3 a'),
@@ -328,7 +328,9 @@ def parse(source, raw, day):
         paper_date = detected
 
     else:
-        selectors = source.get('selectors') or 'main article h2 a, main article h3 a, main h1 a, main h2 a, main h3 a, main a:has(h1), main a:has(h2), main a:has(h3)'
+        selectors = source.get('lead_selector')
+        if not selectors:
+            raise SourceError('position-unverified', 'Webトップの掲載位置を確認する専用条件がありません')
         anchors = soup.select(selectors)
         if not anchors:
             raise SourceError('position-unverified', '主要見出しの掲載位置を確認できません')
@@ -338,11 +340,18 @@ def parse(source, raw, day):
     for a in anchors:
         article = _article_from_anchor(
             source, a, publication_date=paper_date,
-            verification='paper-listed' if source['kind'] == 'paper' else 'web-featured',
+            verification='paper-listed' if source['kind'] == 'paper' else 'web-top',
             date_basis=date_basis,
         )
         if not article or article['url'] in seen:
             continue
+        if sid == 'mainichi-paper' and not urllib.parse.urlparse(article['url']).path.startswith(f"/articles/{day.replace('-', '')}/ddm/001/"):
+            continue
+        article['positionEvidence'] = dict(
+            type='paper-front-page' if source['kind']=='paper' else 'web-top',
+            sourceUrl=source['url'].format(compact=day.replace('-','')),
+            selector={'asahi-paper':'#shimen-page1','guardian-paper':'#front-page','mainichi-paper':'1面 heading + /ddm/001/ article URL'}.get(sid,source.get('lead_selector')),
+        )
         if article['titleOriginal'].startswith(('（天声人語）', '（しつもん！')):
             continue
         seen.add(article['url'])
@@ -454,23 +463,15 @@ def main():
 
     def collect(source):
         entry=dict(source, sourceUrl=source['url'].format(compact=day.replace('-','')), fetchedAt=now.isoformat(),articles=[])
-        for key in ('url','selectors','domain','fallback_url','max_articles'):
+        for key in ('url','selectors','lead_selector','domain','fallback_url','max_articles'):
             entry.pop(key, None)
         try:
-            try:
-                raw=fetch(source['url'].format(compact=day.replace('-','')))
-                date, articles=parse_feed(source,raw,day) if source.get('format')=='rss' else parse(source,raw,day)
-            except Exception as primary:
-                fallback=source.get('fallback_url')
-                if not fallback:
-                    raise
-                try:
-                    raw=fetch(fallback)
-                    date,articles=parse_feed(source,raw,day)
-                    entry['fallbackUsed']=True
-                    entry['sourceUrl']=fallback
-                except Exception:
-                    raise primary
+            if source.get('format')=='rss' or (source['kind']=='web' and not source.get('lead_selector')):
+                raise SourceError('position-unverified', '一面・Webトップの掲載位置が未確認のため対象外です')
+            raw=fetch(source['url'].format(compact=day.replace('-','')))
+            date,articles=parse(source,raw,day)
+            for article in articles:
+                article['positionEvidence']['verifiedAt']=now.isoformat()
             entry.update(status='ok',paperDate=date,articles=articles)
         except SourceError as e:
             entry.update(status='unavailable',errorCode=e.code,error=str(e))
@@ -533,7 +534,7 @@ def main():
         reviewed=read_json(ROOT/'newspaper-context.json',{}).get('articles',{}).get(a['url'])
         if reviewed:a.update(reviewed)
 
-    payload=dict(schemaVersion=4,date=day,fetchedAt=now.isoformat(),sources=entries)
+    payload=dict(schemaVersion=5,date=day,fetchedAt=now.isoformat(),sources=entries)
     if previous.get('date') and not (ROOT / f"newspapers/{previous['date'][:7]}/{previous['date']}.json").exists():
         archive(ROOT,previous)
     archive(ROOT,payload)
@@ -541,3 +542,4 @@ def main():
     print('Saved',day,sum(len(s['articles']) for s in entries),'headlines from',sum(s['status']=='ok' for s in entries),'sources')
 
 if __name__=='__main__': main()
+

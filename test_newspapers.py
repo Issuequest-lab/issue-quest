@@ -13,12 +13,11 @@ class NewspaperTests(unittest.TestCase):
         self.assertEqual(u.complete_summary('出来事を説明します。続きは途中…'),'出来事を説明します。')
         self.assertIsNone(u.complete_summary('紹介の冒頭しかなく途中で切れた説明…'))
 
-    def test_liveblog_updates_do_not_take_another_article_slot(self):
+    def test_generic_homepage_headings_are_not_top_position_evidence(self):
         source=next(s for s in u.SOURCES if s['id']=='aljazeera-web')
-        raw='<main><h2><a href="/news/liveblog/example">Main live news headline</a></h2><h2><a href="/news/liveblog/example?update=123">Specific update headline</a></h2><h2><a href="/news/another">Another different article</a></h2></main>'
-        _, articles=u.parse(source,raw,'2026-09-28')
-        self.assertEqual(len(articles),2)
-        self.assertTrue(articles[1]['url'].endswith('/news/another'))
+        raw='<main><h2><a href="/news/recipe">A food story in a general list</a></h2></main>'
+        with self.assertRaises(u.SourceError) as cm:u.parse(source,raw,'2026-10-08')
+        self.assertEqual(cm.exception.code,'position-unverified')
 
     def test_description_prefers_article_metadata_and_rejects_login(self):
         text='地域の開発計画について、規模と住民への影響を専門家と現地の取材から説明する記事です。'
@@ -50,6 +49,8 @@ class NewspaperTests(unittest.TestCase):
         raw='<a href="/articles/latest.html">これは速報の記事です</a><div class="p-topNews__firstNews"><a class="c-articleModule__link" data-realizer-area="TopNews:1" href="/articles/lead.html"><span>こちらがトップに配置された記事です</span></a></div>'
         _,articles=u.parse(source,raw,'2026-09-23')
         self.assertEqual(articles[0]['url'],'https://www.asahi.com/articles/lead.html')
+        self.assertEqual(articles[0]['verification'],'web-top')
+        self.assertEqual(articles[0]['positionEvidence']['type'],'web-top')
 
     def test_asahi_rejects_missing_publication_date(self):
         source=next(s for s in u.SOURCES if s['id']=='asahi-paper')
@@ -94,12 +95,24 @@ class NewspaperTests(unittest.TestCase):
         self.assertIn('publisher',rows[0]['feedDescription'])
         with self.assertRaises(u.SourceError):u.parse_feed(src,raw,'2026-10-01')
 
-    def test_web_parser_keeps_source_region_and_single_featured_story(self):
+    def test_unconfigured_web_source_is_not_promoted_to_top(self):
         s=next(s for s in u.SOURCES if s['id']=='nyt-web')
-        raw='<main><article><h2><a href="https://www.nytimes.com/2026/09/23/world/test.html">A sufficiently long example headline for testing</a></h2></article></main>'
-        _,articles=u.parse(s,raw,'2026-09-23')
-        self.assertEqual(len(articles),1)
-        self.assertEqual(articles[0]['verification'],'web-featured')
+        raw='<main><article><h2><a href="https://www.nytimes.com/world/test.html">A sufficiently long example headline</a></h2></article></main>'
+        with self.assertRaises(u.SourceError):u.parse(s,raw,'2026-10-08')
+
+    def test_missing_lead_never_falls_back_to_regular_headings(self):
+        s=next(s for s in u.SOURCES if s['id']=='asahi-web')
+        with self.assertRaises(u.SourceError):
+            u.parse(s,'<main><h2><a href="/articles/recipe">普通の見出しで一面ではありません</a></h2></main>','2026-10-08')
+
+    def test_mainichi_rejects_other_pages_even_when_container_spans_sections(self):
+        s=next(s for s in u.SOURCES if s['id']=='mainichi-paper')
+        raw='<select name="soat"><option selected>2026/10/08</option></select><main><div><h2>1面</h2></div><article><h3><a href="/articles/20261008/ddm/001/010/001000c">こちらは一面の掲載記事です</a></h3></article><h2>料理</h2><article><h3><a href="/articles/20261008/ddm/013/010/002000c">こちらは生活面の料理記事です</a></h3></article></main>'
+        _,rows=u.parse(s,raw,'2026-10-08')
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['positionEvidence']['type'],'paper-front-page')
+        self.assertIn('/ddm/001/',rows[0]['url'])
 
 if __name__=='__main__':unittest.main()
+
 
