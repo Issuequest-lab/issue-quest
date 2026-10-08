@@ -1,197 +1,224 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-08",
-  "fetchedAt": "2026-10-08T05:57:36.925885+09:00",
+  "updatedAt": "2026-10-09",
+  "fetchedAt": "2026-10-09T03:33:53.337631+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "バレーボール女子",
-    "森下翔太",
-    "踊る大捜査線 n.e.w. メトロポリスを駆け抜けろ!",
-    "尖閣諸島",
-    "読売ジャイアンツ",
-    "サザンオールスターズ",
-    "秋季近畿地区高等学校野球大会",
-    "書類送検",
-    "トレイ・ウィンゲンター",
-    "エコバッグ"
+    "openai",
+    "進撃の巨人",
+    "ジェミニ",
+    "h&m",
+    "山口 もえ",
+    "浜口京子",
+    "田中真美子",
+    "ライフトレード",
+    "紺野ぶるま",
+    "池袋 映画館"
   ],
   "briefs": [
     {
-      "topic": "バレーボール女子",
-      "status": "unavailable"
-    },
-    {
-      "topic": "森下翔太",
+      "topic": "openai",
       "status": "ok",
-      "summary": "広島・床田寛樹、森下翔太、坂倉将吾 FA権取得3選手はいずれも熟考の構え（スポニチアネックス）",
+      "summary": "OpenAIの年率化された収益は、以前に示されたよりも200億$少ない",
       "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "issue": "「openai」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "広島・床田寛樹、森下翔太、坂倉将吾 FA権取得3選手はいずれも熟考の構え（スポニチアネックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lWklUeVhfM0VPNWlkQThtdUZzaHNEcXpOWkh2VHJlV1ZvX0s5dFV6VHZKbzJtMU9CTTMxSGRQSVd6UkZQQlhKSFdGczJLSDhGallYNUROV3JVS2ZWeW1KQ2hRaWt2bE5VSVZXMDhnejQxQUlUQ3M0a3ZIZUU3Y3M?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 07 Oct 2026 20:08:15 GMT"
+          "title": "OpenAIの年率化された収益は、以前に示されたよりも200億$少ない",
+          "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
+          "name": "Financial Times",
+          "publishedAt": null
         },
         {
-          "title": "【阪神】森下翔太が初タイトル、最高出塁へマルチ出塁「明日１日やって最終的にとれれば」",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMU1VTU1iZjQxTkwwYTZSWTdiVHpqWDFTUXlMdHJ0N1paenlrNERQaVAyNm1aRFpKRTY2QWJ4a2hZclpBMTA5LUxnU3B0dERjb3BwNk8tTlRLdkdHOXhTRW1wNjZoUXRFOWNSMm8xTmtJN0s0MVdQZWlPZ0JOaVpnemFCNk1OT2szQWlMc2NBcw?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Wed, 07 Oct 2026 14:28:21 GMT"
+          "title": "NVIDIA、Oracle、CoreWeaveなどのAI株がOpenAIの収益レポートに反映",
+          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+          "name": "CNBC",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
       "retained": false
     },
     {
-      "topic": "踊る大捜査線 n.e.w. メトロポリスを駆け抜けろ!",
+      "topic": "進撃の巨人",
       "status": "ok",
-      "summary": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！。〓〓〓さんの映画レビュー（感想・評価）。評価2.0。みんなの映画を見た感想・評価を投稿",
+      "summary": "劇場版「進撃の巨人」完結編 THE LAST ATTACK 2024年11月8日(金)公開！",
+      "summaryBasis": "publisher-description",
+      "issue": "「進撃の巨人」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "SCREENX & 4DX & ULTRA 4DX劇場用ポスタービジュアルを公開！ | TVアニメ「進撃の巨人」公式サイト",
+          "url": "https://shingeki.tv/news/archives/9552",
+          "name": "「進撃の巨人」The Final Season",
+          "publishedAt": null
+        },
+        {
+          "title": "＜進撃の巨人＞劇場版アニメ前編「紅蓮の弓矢」 新ポスタービジュアル公開 4DX上映で“立体機動装置強化ver.”も",
+          "url": "https://news.yahoo.co.jp/articles/997a784bec033870ba76083612dbcd0930453967",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ジェミニ",
+      "status": "ok",
+      "summary": "アルファベット株が上昇、グーグルがジェミニの企業AI展開を加速 執筆",
+      "summaryBasis": "related-headline",
+      "issue": "「ジェミニ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "アルファベット株が上昇、グーグルがジェミニの企業AI展開を加速 執筆",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JMUo2SjM2QklzRVNoSU1QTzJNbFhHUkc0YmxNQy1pMmIyRWZSdFBneVQwMTRDRmNuNUNVR0tpSzB0OGF2eEp6NVhfWnJiQzVGQjBlLTA2ZHp6ZHhNdUtFQkF4NEhmVExHOWJVVnViVkw?oc=5",
+          "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "publishedAt": "Thu, 08 Oct 2026 12:41:00 GMT"
+        },
+        {
+          "title": "宇宙の花火!? 1181年に観測された超新星の残骸と見られる天体を詳細観測 ジェミニ北望遠鏡",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbEh6OHJYdXhoTnp6RkdiVmdsMTR0OFNWaUFxVWVKQWVnUExDQUpGTmVGQWhoZXM1UC0xNmNlaWZ2dDJkckp1OE1OTE0wTHpnTy1UOWJ3Zlk1dVpjSEN0bVJXNUhkTXMwNmg1a0pPaVVHXzMxZ3FKWkFhZ041OXd1MmQ1NXF3dmVodnZ2QmdGV3N2ZmNYUmVnbEhn0gGaAUFVX3lxTE1sSHo4clh1eGhOenpGR2JWZ2wxNHQ4U1ZpQXFVZUpBZWdQTENBSkZOZUZBaGhlczVQLTE2Y2VpZnZ0MmRySnU4TU5MTTBMemdPLVQ5YndmWTV1WmNIQ3RtUlc1SGRNczA2aDVrSk9pVUdfMzFncUpaQWFnTjU5d3UyZDU1cXd2ZWh2dnZCZ0ZXc3ZmY1hSZWdsSGc?oc=5",
+          "name": "ｄメニューニュース",
+          "publishedAt": "Thu, 08 Oct 2026 10:05:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "retained": false
+    },
+    {
+      "topic": "h&m",
+      "status": "ok",
+      "summary": "ファーストリテイリング売上高、過去最高３兆９６３３億円…Ｈ＆Ｍ抜き世界２位の見通し",
+      "summaryBasis": "related-headline",
+      "issue": "「h&m」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ファーストリテイリング売上高、過去最高３兆９６３３億円…Ｈ＆Ｍ抜き世界２位の見通し",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80S2pRVzRHQVJjVHpYV2JpZTZxa3B6QWM0QkhUdmhJLTR6djFwNTZfWW5vNERFeUJaalhobjU4ZDkyVFZHeEZWcjBLd2txYzBLUTJQcjhDY2JOcGhIWlRPQTRlcWI?oc=5",
+          "name": "読売新聞",
+          "publishedAt": "Thu, 08 Oct 2026 13:25:00 GMT"
+        },
+        {
+          "title": "ファストリ好決算 世界2位へ スウェーデンH＆M上回る見通し",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9heVpWdGl0Y0NXYmdxVFVReW81bEZkWTVia1BxM3k1X2tEYTdvVlBEY0IyMXY0NEVvZEg1bWgtc0FKcmpzMC02MjlOeS1wRktqaUZEQWJXSlZ1cHE4THBkWjJCMERSRGkxbGMwbGIyMms1dw?oc=5",
+          "name": "テレ朝NEWS",
+          "publishedAt": "Thu, 08 Oct 2026 11:05:56 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "retained": false
+    },
+    {
+      "topic": "山口 もえ",
+      "status": "ok",
+      "summary": "＜画像1 / 11＞山口もえ、佐藤隆太の結婚を祝福｢困ったら相談して｣",
+      "summaryBasis": "related-headline",
+      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
+      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "＜画像1 / 11＞山口もえ、佐藤隆太の結婚を祝福｢困ったら相談して｣",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xU2pLWDI2eW1aVHBZejdoV004MTR2M2lRQ3NpMThWNWhzNlhmcnhQNWh1T0hJVmFyX2ZJRmNCTm5Cem5rcDg0NVZ5QzBLSTVZQUIzLTN2ekJKMDRxN0M5dXVta0FLZw?oc=5",
+          "name": "ウォーカープラス",
+          "publishedAt": "Thu, 08 Oct 2026 14:11:53 GMT"
+        },
+        {
+          "title": "[画像・写真]（3枚目） | 小中高生3人の母・山口もえが語る、夫・爆笑問題田中裕二の子育て「“ラスボス感”ゼロ。子どもに甘すぎるくらい」〈あさイチ「家族で行きたい戦争ミュージアム」きょう〉 | AERA with Kids＋",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONnVfYWxEYVBtUGo0VUZNaVRNLVk2XzRreTl4RG9Ra1RKS1RCWDRVTzhybFJCOTZvQTVxRmhVN1ctVFlWQVhmZGU1NGU5dEZ6aDBLRjY4ZW9Ua2Y4ek1HNU9UMkttYXNpVnlabnJJcjh6bWUtaVBFQWpldXlIOW9ubzFxVHRWd2VBYmJkeU1vSGhjVWlhTXJQLUh1OA?oc=5",
+          "name": "AERA DIGITAL",
+          "publishedAt": "Wed, 07 Oct 2026 09:08:38 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "retained": false
+    },
+    {
+      "topic": "浜口京子",
+      "status": "ok",
+      "summary": "[3/3]レスリング五輪メダリストで、現在はタレントとして活躍する浜口京子さん（48）。父・アニマル浜口さんとの親子共演や、現役時代のパワフルなイメージが強いが、最近SNSで注目を集めているのが、その「私服」だ。",
+      "summaryBasis": "publisher-description",
+      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
+      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「こんなにオシャレだったとは」浜口京子の私服に驚きの声…デニム、ベレー帽、ビッグリボンまで“自分の好き”を貫く48歳のファッション",
+          "url": "https://shueisha.online/articles/-/258823?page=3",
+          "name": "集英社オンライン",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "retained": false
+    },
+    {
+      "topic": "田中真美子",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ライフトレード",
+      "status": "ok",
+      "summary": "馬場ふみかが主演するドラマ「ライフトレード」（木曜深夜0：30、初回は深夜0：45）が、テレ東ほかで10月8日にスタート。それに先駆け、記者会見を開催し、馬場のほか、真木よう子、鈴木大河（IMP.）",
       "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「どうしてこうなった」踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！ 〓〓〓さんの映画レビュー（感想・評価）",
-          "url": "https://eiga.com/movie/103045/review/07068314/",
-          "name": "映画.com",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
-      "retained": false
-    },
-    {
-      "topic": "尖閣諸島",
-      "status": "ok",
-      "summary": "尖閣諸島は、いつから「日中間の領土問題」になったのか。",
-      "summaryBasis": "publisher-description",
-      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
-      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\"",
-          "url": "https://news.yahoo.co.jp/articles/47a8d0e1929a2aa7a82db7a2145cef241206d059",
+          "title": "「自由に生きたい！」馬場ふみかが人生観を告白「ライフトレード」会見で真木よう子らと本音トーク（TVガイドWeb）",
+          "url": "https://news.yahoo.co.jp/articles/fe23a8c46f2e64f166642a4f77dd0a4efa06522b",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" (PRESIDENT Online)",
-          "url": "https://newspicks.com/news/17646441/?ref=education&tabKey=C%3A5",
-          "name": "NewsPicks",
+          "title": "キャバ嬢と専業主婦、人格が入れ替わる 8日放送『ライフトレード』第1話【あらすじ】",
+          "url": "https://www.sankei.com/article/20261008-PTPVQFESEBPKZJ3HAVD6GU7OA4/?outputType=theme_oriconnews",
+          "name": "産経ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
       "retained": false
     },
     {
-      "topic": "読売ジャイアンツ",
+      "topic": "紺野ぶるま",
       "status": "ok",
-      "summary": "【みやざきPL】10月7日 北海道日本ハムファイターズ 対 読売ジャイアンツ ハイライト",
-      "summaryBasis": "related-headline",
-      "issue": "「読売ジャイアンツ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【みやざきPL】10月7日 北海道日本ハムファイターズ 対 読売ジャイアンツ ハイライト",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtTlRBNWprM1A5aGZLWFlPUzVLN09SN1FOZXZJZ2lwbUFuYnNCNTY2VUhXMkp1bmhOTU9UclQtYnFmTEZPdENESlhjTFZkaWRSdU5N?oc=5",
-          "name": "パ・リーグ.com",
-          "publishedAt": "Wed, 07 Oct 2026 18:48:28 GMT"
-        },
-        {
-          "title": "New EraとBASICKSと読売ジャイアンツによるトリプルコラボコレクションが登場",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYUEFqZE13RmU3N2pQQTVtQTdYY0QwODllYzRfQkx4dE55WERyQzdLTk9QSDZMSkxoWTJwcTBlaW9SNWpNREM2N21GLUlta0pMTHRrVjN3?oc=5",
-          "name": "https://qui.tokyo/",
-          "publishedAt": "Wed, 07 Oct 2026 00:47:29 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
-      "retained": false
-    },
-    {
-      "topic": "サザンオールスターズ",
-      "status": "ok",
-      "summary": "サザンオールスターズのメンバー・関口和之さんが10月5日、グループの公式サイトで謝罪しました。",
+      "summary": "お笑い芸人の紺野ぶるまが、5日までに更新されたYouTubeチャンネル「動画、はじめてみました【テレビ朝日公式】」に出演。夫との出会いを語った。 紺野は、2019年に一般男性と結婚。",
       "summaryBasis": "publisher-description",
-      "issue": "「サザンオールスターズ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【サザン・関口和之】「桑田佳祐君をはじめサザンオールスターズのメンバーには、ご心配とご迷惑」さらにファンにも謝罪 経営の音楽関連会社 約5億8000万円の申告漏れ指摘",
-          "url": "https://newsdig.tbs.co.jp/articles/-/2993264",
-          "name": "TBS NEWS DIG",
+          "title": "紺野ぶるま 夫との出会いはナンパでも「週に５回ネクタイ締めてるんだと思ったら…」（東スポWEB）",
+          "url": "https://news.yahoo.co.jp/articles/be3a1960514ad901b447f8e3f0c451f954e8194b",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "サザンオールスターズ・関口和之、報道について謝罪「サザンオールスターズとしての活動とはまったく関係ございません」【全文】",
-          "url": "https://www.oricon.co.jp/news/2484643/full/",
-          "name": "オリコンニュース",
+          "title": "紺野ぶるま、夫はお笑いに一切興味なし 炎上しても「今、君を叩いている人ですらどうでもいい」",
+          "url": "https://topics.smt.docomo.ne.jp/article/dailysports/entertainment/20260930101",
+          "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
+      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
       "retained": false
     },
     {
-      "topic": "秋季近畿地区高等学校野球大会",
+      "topic": "池袋 映画館",
       "status": "unavailable"
-    },
-    {
-      "topic": "書類送検",
-      "status": "ok",
-      "summary": "水上バイクで「 驚かせようとして 近づいた 」。そんな“出来心”が 女性を死なせることになった。21歳の男子大学生を「業務上過失致死容疑」などで書類送検（ワールドジェットスポーツマガジン）",
-      "summaryBasis": "related-headline",
-      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
-      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "水上バイクで「 驚かせようとして 近づいた 」。そんな“出来心”が 女性を死なせることになった。21歳の男子大学生を「業務上過失致死容疑」などで書類送検（ワールドジェットスポーツマガジン）",
-          "url": "https://news.yahoo.co.jp/articles/e3bb6eed3bbf026c24c33e68ccc9638b994379ad",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "【速報】「驚かせようとして近づいた」男子大学生を業務上過失致死容疑などで書類送検 水上バイクを知人女性に誤ってぶつけ死亡させた疑い 兵庫・赤穂市恋ヶ浜",
-          "url": "https://newsdig.tbs.co.jp/articles/-/2995849",
-          "name": "TBS NEWS DIG",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
-      "retained": false
-    },
-    {
-      "topic": "トレイ・ウィンゲンター",
-      "status": "unavailable"
-    },
-    {
-      "topic": "エコバッグ",
-      "status": "ok",
-      "summary": "ANAがBall & Chainとコラボした、特別なバッグが人気となっています。エコバッグとしても、旅行のメインバッグにも合う、気分を高めてくれそうなデザインです。【画像：ANA×Ball ＆ Ch",
-      "summaryBasis": "publisher-description",
-      "issue": "「エコバッグ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「前回は即完売でした」 ANA×Ball ＆ Chainの“40周年記念エコバッグ”が大人気 「一目惚れ」「40周年にふさわしい刺繍」「旅行にも普段使いにも便利」の声（ねとらぼ）",
-          "url": "https://news.yahoo.co.jp/articles/30b0d3e461451431e266c8d9b1f65bed885e0151",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-08T05:57:36.925885+09:00",
-      "retained": false
     }
   ]
 }
