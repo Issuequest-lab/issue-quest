@@ -1,224 +1,227 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-09",
-  "fetchedAt": "2026-10-09T03:33:53.337631+09:00",
+  "fetchedAt": "2026-10-09T05:59:14.137702+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "openai",
-    "進撃の巨人",
-    "ジェミニ",
-    "h&m",
-    "山口 もえ",
-    "浜口京子",
-    "田中真美子",
-    "ライフトレード",
-    "紺野ぶるま",
-    "池袋 映画館"
+    "村尾三四郎",
+    "ドラフト2026",
+    "河本結",
+    "競艇",
+    "サムスン",
+    "早期天候情報",
+    "実写",
+    "ロト6 速報",
+    "reit",
+    "警察"
   ],
   "briefs": [
     {
-      "topic": "openai",
+      "topic": "村尾三四郎",
       "status": "ok",
-      "summary": "OpenAIの年率化された収益は、以前に示されたよりも200億$少ない",
-      "summaryBasis": "related-headline",
-      "issue": "「openai」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "OpenAIの年率化された収益は、以前に示されたよりも200億$少ない",
-          "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
-          "name": "Financial Times",
-          "publishedAt": null
-        },
-        {
-          "title": "NVIDIA、Oracle、CoreWeaveなどのAI株がOpenAIの収益レポートに反映",
-          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-          "name": "CNBC",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
-      "retained": false
-    },
-    {
-      "topic": "進撃の巨人",
-      "status": "ok",
-      "summary": "劇場版「進撃の巨人」完結編 THE LAST ATTACK 2024年11月8日(金)公開！",
+      "summary": "【バクー（アゼルバイジャン）＝工藤圭太、福井浩介】柔道の世界選手権バクー大会第５日の８日、男子９０キロ級決勝は昨年と同じ顔合わせの日本勢対決となり、村尾三四郎（ＪＥＳエレベーター）が２０２４年大会覇",
       "summaryBasis": "publisher-description",
-      "issue": "「進撃の巨人」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "SCREENX & 4DX & ULTRA 4DX劇場用ポスタービジュアルを公開！ | TVアニメ「進撃の巨人」公式サイト",
-          "url": "https://shingeki.tv/news/archives/9552",
-          "name": "「進撃の巨人」The Final Season",
-          "publishedAt": null
-        },
-        {
-          "title": "＜進撃の巨人＞劇場版アニメ前編「紅蓮の弓矢」 新ポスタービジュアル公開 4DX上映で“立体機動装置強化ver.”も",
-          "url": "https://news.yahoo.co.jp/articles/997a784bec033870ba76083612dbcd0930453967",
+          "title": "村尾三四郎、田嶋剛希との日本人対決制し９０キロ級連覇「強いなと思ってもらえるような試合ができた」（読売新聞オンライン）",
+          "url": "https://news.yahoo.co.jp/articles/6f82be4744adbf5d0a71eea13a3c839313ee385d",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
       "retained": false
     },
     {
-      "topic": "ジェミニ",
+      "topic": "ドラフト2026",
       "status": "ok",
-      "summary": "アルファベット株が上昇、グーグルがジェミニの企業AI展開を加速 執筆",
+      "summary": "【ドラフト2026】広島はどう生まれ変わるべきか 得点力不足とFA流出危機を救う\"即戦力\"と\"超高校級スラッガー\"",
       "summaryBasis": "related-headline",
-      "issue": "「ジェミニ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【ドラフト2026】広島はどう生まれ変わるべきか 得点力不足とFA流出危機を救う\"即戦力\"と\"超高校級スラッガー\"",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXLS10cEo0RUNqTUpzcjN0bzlLblQ0Sjc0Q3B5XzVzRzVNZ1NxM1lpcTlDSVNSa3hqZjdlLWRneFp6eXFSVjAwR182UWhicHMtdWd4Nk8xQzJiVVBnWTd1YWQ3NGRtMGd4YnhWcTN5MTMxSWVRSjF3?oc=5",
+          "name": "webスポルティーバ",
+          "publishedAt": "Thu, 08 Oct 2026 00:45:55 GMT"
+        },
+        {
+          "title": "【ドラフト2026】ソフトバンクは選手層に厚みを加える「先発投手」「内野手」「高校生外野手」で決まり : 限界突パ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qVjhyX3VxZFVKd0JYUEkxY1REb2dibjVLS0ZMM1ZnZVgxejlJNUlSS3laUzlQTWFTLUNkbXBDelVjaDZSVktWdUNtRUpUS21lV214VU1tMldCSFdENUxtaw?oc=5",
+          "name": "タグマ！",
+          "publishedAt": "Thu, 08 Oct 2026 09:00:34 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "retained": false
+    },
+    {
+      "topic": "河本結",
+      "status": "ok",
+      "summary": "河本結が「日本のゴルフの歴史に残るプレー」「かっこよかった」と感動した選手は？（日刊スポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "河本結が「日本のゴルフの歴史に残るプレー」「かっこよかった」と感動した選手は？（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZVFMNE5URjI0RVlXbVNXR01CaTNyaTluQWYxWElELTB1bFNQQl81NHlvdmloWlozdC1ZOWxwRTdlb3hBQk9Ib1JLZm45VGFneUJYLWxtbDFIOG9VUS1zMTVOd1ZleDljaUdSdU4xbVJ2SXZxLUVHMW1nangtSHM?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Wed, 07 Oct 2026 23:58:08 GMT"
+        },
+        {
+          "title": "前年覇者・河本結 申ジエＶから刺激「自分も若手を引っ張る存在に」 スタンレー・レディース９日開幕",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oZXF4N2FaNzM2MnBqMEJ0SDdwb1RuWlBQc1BXNzdKdXBYOFVJTEZmWDA2Wm84OVlmdGVWNUhZV3MtcUU1MTdWcUlvVGM2US1kS0RzUHRPSzQ5T3d6MGhjQ2RnVGFIdEE?oc=5",
+          "name": "デイリースポーツ",
+          "publishedAt": "Thu, 08 Oct 2026 20:00:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "retained": false
+    },
+    {
+      "topic": "競艇",
+      "status": "ok",
+      "summary": "＜画像1 / 7＞楽しい！おいしい！くつろげる！次の休日の行き先は蒲郡の競艇場で決まり！",
+      "summaryBasis": "related-headline",
+      "issue": "「競艇」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "アルファベット株が上昇、グーグルがジェミニの企業AI展開を加速 執筆",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JMUo2SjM2QklzRVNoSU1QTzJNbFhHUkc0YmxNQy1pMmIyRWZSdFBneVQwMTRDRmNuNUNVR0tpSzB0OGF2eEp6NVhfWnJiQzVGQjBlLTA2ZHp6ZHhNdUtFQkF4NEhmVExHOWJVVnViVkw?oc=5",
-          "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-          "publishedAt": "Thu, 08 Oct 2026 12:41:00 GMT"
-        },
-        {
-          "title": "宇宙の花火!? 1181年に観測された超新星の残骸と見られる天体を詳細観測 ジェミニ北望遠鏡",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbEh6OHJYdXhoTnp6RkdiVmdsMTR0OFNWaUFxVWVKQWVnUExDQUpGTmVGQWhoZXM1UC0xNmNlaWZ2dDJkckp1OE1OTE0wTHpnTy1UOWJ3Zlk1dVpjSEN0bVJXNUhkTXMwNmg1a0pPaVVHXzMxZ3FKWkFhZ041OXd1MmQ1NXF3dmVodnZ2QmdGV3N2ZmNYUmVnbEhn0gGaAUFVX3lxTE1sSHo4clh1eGhOenpGR2JWZ2wxNHQ4U1ZpQXFVZUpBZWdQTENBSkZOZUZBaGhlczVQLTE2Y2VpZnZ0MmRySnU4TU5MTTBMemdPLVQ5YndmWTV1WmNIQ3RtUlc1SGRNczA2aDVrSk9pVUdfMzFncUpaQWFnTjU5d3UyZDU1cXd2ZWh2dnZCZ0ZXc3ZmY1hSZWdsSGc?oc=5",
-          "name": "ｄメニューニュース",
-          "publishedAt": "Thu, 08 Oct 2026 10:05:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
-      "retained": false
-    },
-    {
-      "topic": "h&m",
-      "status": "ok",
-      "summary": "ファーストリテイリング売上高、過去最高３兆９６３３億円…Ｈ＆Ｍ抜き世界２位の見通し",
-      "summaryBasis": "related-headline",
-      "issue": "「h&m」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ファーストリテイリング売上高、過去最高３兆９６３３億円…Ｈ＆Ｍ抜き世界２位の見通し",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80S2pRVzRHQVJjVHpYV2JpZTZxa3B6QWM0QkhUdmhJLTR6djFwNTZfWW5vNERFeUJaalhobjU4ZDkyVFZHeEZWcjBLd2txYzBLUTJQcjhDY2JOcGhIWlRPQTRlcWI?oc=5",
-          "name": "読売新聞",
-          "publishedAt": "Thu, 08 Oct 2026 13:25:00 GMT"
-        },
-        {
-          "title": "ファストリ好決算 世界2位へ スウェーデンH＆M上回る見通し",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9heVpWdGl0Y0NXYmdxVFVReW81bEZkWTVia1BxM3k1X2tEYTdvVlBEY0IyMXY0NEVvZEg1bWgtc0FKcmpzMC02MjlOeS1wRktqaUZEQWJXSlZ1cHE4THBkWjJCMERSRGkxbGMwbGIyMms1dw?oc=5",
-          "name": "テレ朝NEWS",
-          "publishedAt": "Thu, 08 Oct 2026 11:05:56 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
-      "retained": false
-    },
-    {
-      "topic": "山口 もえ",
-      "status": "ok",
-      "summary": "＜画像1 / 11＞山口もえ、佐藤隆太の結婚を祝福｢困ったら相談して｣",
-      "summaryBasis": "related-headline",
-      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
-      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "＜画像1 / 11＞山口もえ、佐藤隆太の結婚を祝福｢困ったら相談して｣",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xU2pLWDI2eW1aVHBZejdoV004MTR2M2lRQ3NpMThWNWhzNlhmcnhQNWh1T0hJVmFyX2ZJRmNCTm5Cem5rcDg0NVZ5QzBLSTVZQUIzLTN2ekJKMDRxN0M5dXVta0FLZw?oc=5",
+          "title": "＜画像1 / 7＞楽しい！おいしい！くつろげる！次の休日の行き先は蒲郡の競艇場で決まり！",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jVXEta1FsU0Y2cVBKNVFiWXE3cl9lYmpuX3V2ZmFaSmdlWW0tbW9scXV1ZnJIbl80NTJ3dFh1RDZweHNVUVBpS3E5V0FJaV83ZU9hcURVUlVqajNHaWgtd0lQdUVua3ZUaTdkb0hldVhXc3VBcmh4QXp3Q0o?oc=5",
           "name": "ウォーカープラス",
-          "publishedAt": "Thu, 08 Oct 2026 14:11:53 GMT"
-        },
-        {
-          "title": "[画像・写真]（3枚目） | 小中高生3人の母・山口もえが語る、夫・爆笑問題田中裕二の子育て「“ラスボス感”ゼロ。子どもに甘すぎるくらい」〈あさイチ「家族で行きたい戦争ミュージアム」きょう〉 | AERA with Kids＋",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONnVfYWxEYVBtUGo0VUZNaVRNLVk2XzRreTl4RG9Ra1RKS1RCWDRVTzhybFJCOTZvQTVxRmhVN1ctVFlWQVhmZGU1NGU5dEZ6aDBLRjY4ZW9Ua2Y4ek1HNU9UMkttYXNpVnlabnJJcjh6bWUtaVBFQWpldXlIOW9ubzFxVHRWd2VBYmJkeU1vSGhjVWlhTXJQLUh1OA?oc=5",
-          "name": "AERA DIGITAL",
-          "publishedAt": "Wed, 07 Oct 2026 09:08:38 GMT"
+          "publishedAt": "Thu, 08 Oct 2026 13:18:52 GMT"
         }
       ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
       "retained": false
     },
     {
-      "topic": "浜口京子",
+      "topic": "サムスン",
       "status": "ok",
-      "summary": "[3/3]レスリング五輪メダリストで、現在はタレントとして活躍する浜口京子さん（48）。父・アニマル浜口さんとの親子共演や、現役時代のパワフルなイメージが強いが、最近SNSで注目を集めているのが、その「私服」だ。",
+      "summary": "【ソウル=松浦奈美】韓国サムスン電子が8日発表した2026年7〜9月期の連結決算速報値は営業利益が前年同期比8.8倍の107兆4000億ウォン（約12兆6500億円）だった。人工知能（AI）データセンター向け需要で主力の半導体メモリー価格の上昇が続いている。営業利益が過去最高を更新するのは4四半期連続だ。",
       "summaryBasis": "publisher-description",
-      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
-      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「こんなにオシャレだったとは」浜口京子の私服に驚きの声…デニム、ベレー帽、ビッグリボンまで“自分の好き”を貫く48歳のファッション",
-          "url": "https://shueisha.online/articles/-/258823?page=3",
-          "name": "集英社オンライン",
+          "title": "サムスン7〜9月期、営業益8.8倍 半導体価格上昇続き初の100兆ウォン超",
+          "url": "https://www.nikkei.com/article/DGXZQOGM066ND0W6A001C2000000/",
+          "name": "日本経済新聞",
+          "publishedAt": null
+        },
+        {
+          "title": "サムスン電子のロゴ（ロイター＝共同） - サムスン営業利益13兆円 7～9月期、ITで世界初 - 写真・画像(1/1)",
+          "url": "https://www.nishinippon.co.jp/image/1090052/",
+          "name": "西日本新聞me",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
       "retained": false
     },
     {
-      "topic": "田中真美子",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ライフトレード",
+      "topic": "早期天候情報",
       "status": "ok",
-      "summary": "馬場ふみかが主演するドラマ「ライフトレード」（木曜深夜0：30、初回は深夜0：45）が、テレ東ほかで10月8日にスタート。それに先駆け、記者会見を開催し、馬場のほか、真木よう子、鈴木大河（IMP.）",
+      "summary": "気象庁は10月8日（木）午後2時30分に、「高温に関する早期天候情報」を北海道・東北・関東甲信・北陸・東海・近畿・中国・四国・九州北部・九州南部・奄美・沖縄の全国に発表。【各地の気温の予想/雨・風の",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "「早期天候情報」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「自由に生きたい！」馬場ふみかが人生観を告白「ライフトレード」会見で真木よう子らと本音トーク（TVガイドWeb）",
-          "url": "https://news.yahoo.co.jp/articles/fe23a8c46f2e64f166642a4f77dd0a4efa06522b",
+          "title": "日本列島が“真っ赤”に… 10月14日（水）頃からこの時期としては“10年に1度レベル”の「かなりの高温」に 気象庁が「早期天候情報」を発表 三連休明けは暑い!?【雨・風シミュレーションなどあり】（ＡＴＶ青森テレビ）",
+          "url": "https://news.yahoo.co.jp/articles/b12b9ed03c3af9ff2802b62e459c3f5c433fcede",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "キャバ嬢と専業主婦、人格が入れ替わる 8日放送『ライフトレード』第1話【あらすじ】",
-          "url": "https://www.sankei.com/article/20261008-PTPVQFESEBPKZJ3HAVD6GU7OA4/?outputType=theme_oriconnews",
-          "name": "産経ニュース",
+          "title": "日本全国で10月14日頃から「この時期としては10年に一度程度しか起きないような著しい高温」 気象庁が「早期天候情報」発表【北海道・東北・北陸・関東甲信・近畿・東海･中国･四国･九州･奄美･沖縄】（8日午後） | TBS NEWS DIG (9ページ)",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2998640?page=9",
+          "name": "TBS NEWS DIG",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
       "retained": false
     },
     {
-      "topic": "紺野ぶるま",
+      "topic": "実写",
       "status": "ok",
-      "summary": "お笑い芸人の紺野ぶるまが、5日までに更新されたYouTubeチャンネル「動画、はじめてみました【テレビ朝日公式】」に出演。夫との出会いを語った。 紺野は、2019年に一般男性と結婚。",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "summary": "Netflix「俺だけレベルアップな件」実写シリーズ、ハン・ソヒが韓国唯一の女性S級ハンターに",
+      "summaryBasis": "related-headline",
+      "issue": "「実写」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "紺野ぶるま 夫との出会いはナンパでも「週に５回ネクタイ締めてるんだと思ったら…」（東スポWEB）",
-          "url": "https://news.yahoo.co.jp/articles/be3a1960514ad901b447f8e3f0c451f954e8194b",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "紺野ぶるま、夫はお笑いに一切興味なし 炎上しても「今、君を叩いている人ですらどうでもいい」",
-          "url": "https://topics.smt.docomo.ne.jp/article/dailysports/entertainment/20260930101",
-          "name": "ｄメニューニュース",
+          "title": "Netflix「俺だけレベルアップな件」実写シリーズ、ハン・ソヒが韓国唯一の女性S級ハンターに",
+          "url": "https://natalie.mu/eiga/news/692684",
+          "name": "ナタリー",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T03:33:53.337631+09:00",
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
       "retained": false
     },
     {
-      "topic": "池袋 映画館",
+      "topic": "ロト6 速報",
       "status": "unavailable"
+    },
+    {
+      "topic": "reit",
+      "status": "ok",
+      "summary": "OUE REITは、IOI PropertiesとCapitaLandがシンガポールのOne Raffles Placeを購入するための独占的なデューデリジェンスを行っていることを認めました。",
+      "summaryBasis": "publisher-description",
+      "issue": "「reit」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "OUE REIT、IOI、キャピタランドが$ 19億One Raffles Placeの独占交渉を確定",
+          "url": "https://www.mingtiandi.com/real-estate/finance/oue-reit-says-ioi-capitaland-in-exclusivity-for-one-raffles-place/",
+          "name": "Mingtiandi",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "retained": false
+    },
+    {
+      "topic": "警察",
+      "status": "ok",
+      "summary": "「安定を維持する」という名目で、中国共産党は多額の資金を投入しており、地方自治体、セキュリティ企業、インタビュアーはすでに黒い利益連鎖を形成しています。メンテナンスコストが軍事コストを上回っています。",
+      "summaryBasis": "publisher-description",
+      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
+      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "訪問者は、北京警察が利益のために訪問者を「売る」と言います",
+          "url": "https://test.qycz.org/a/202610/n38991615/web/",
+          "name": "亲友传真",
+          "publishedAt": null
+        },
+        {
+          "title": "日本の警察署長は、サイバー攻撃を調査したいと言っています",
+          "url": "https://china.kyodonews.net/articles/-/16643",
+          "name": "共同网",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "retained": false
     }
   ]
 }
