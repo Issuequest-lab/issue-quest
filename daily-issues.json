@@ -1,191 +1,191 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-10",
-  "fetchedAt": "2026-10-10T03:31:58.531726+09:00",
+  "fetchedAt": "2026-10-10T05:58:26.015186+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "abema",
-    "オールナイトニッポン",
-    "リフレ",
-    "フィットネス",
-    "india vs west indies",
-    "sri lanka vs pakistan",
-    "波うららかにめおと日和ドラマ",
-    "紺野ぶるま",
-    "緊急地震速報",
-    "コアキーパー"
+    "石川遼",
+    "大滝雅良",
+    "伊達 みきお",
+    "渋滞情報",
+    "ニューヨークダウ",
+    "列車",
+    "近鉄奈良線",
+    "無料",
+    "ドルトムント 対 ヴェルダー",
+    "al-nassr vs diriyah"
   ],
   "briefs": [
     {
-      "topic": "abema",
+      "topic": "石川遼",
       "status": "ok",
-      "summary": "株式会社AbemaTVのプレスリリース（2026年10月9日 13時00分）「ABEMA de J SPORTS」年間プランがお得になる期間限定キャンペーンを10月9日（金）13時より実施！年間月々払いプランが月額2,380円→1,980円、学割は月額1,440円→980円に",
-      "summaryBasis": "publisher-description",
-      "issue": "「abema」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「ABEMA de J SPORTS」年間プランがお得になる期間限定キャンペーンを10月9日（金）13時より実施！年間月々払いプランが月額2,380円→1,980円、学割は月額1,440円→980円に",
-          "url": "https://prtimes.jp/main/html/rd/p/000004091.000064643.html",
-          "name": "PR TIMES",
-          "publishedAt": null
-        },
-        {
-          "title": "木村拓哉と工藤静香の次女・Kōki,「なんか顔似てる???」 家族の写真を公開（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/09730ec3dd1abd55d9c403ac8f25910e93087fc7",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
-      "retained": false
-    },
-    {
-      "topic": "オールナイトニッポン",
-      "status": "ok",
-      "summary": "10/23（金）は「内村光良のオールナイトニッポンGOLD」生放送！",
+      "summary": "石川遼あるぞ初優勝で来季の逆転ツアー昇格、トップと３打差８位好発進 米男子下部ツアー第１日（日刊スポーツ）",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "10/23（金）は「内村光良のオールナイトニッポンGOLD」生放送！",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hajYxQkVaZFFYclVGY21Qa0NNVkFtdjFFRDFINWQtOHk5NFBudFcwTjRVbDZaUkVmT3ZCWk5jN0p6azByWkhfTk55VlJOVjBsS25BWXVpTUQzdXl4RmtrNDJZTEF0TTJlVVBjWTZqSQ?oc=5",
-          "name": "www.allnightnippon.com",
-          "publishedAt": "Fri, 09 Oct 2026 12:38:24 GMT"
-        },
-        {
-          "title": "齊藤京子が『オールナイトニッポン』初登場！「私らしく、飾らずにお届けできたら」",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BWGZQYlVTVFo0SERNNVNoV1U1RjVlZFpibjJSN0tTNEtuZVp2MDR0VkNwMFZHcjZVczl0ak95NXRkYmIydVNnUF9xcWs?oc=5",
-          "name": "ニッポン放送 NEWS ONLINE",
-          "publishedAt": "Fri, 09 Oct 2026 15:10:48 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
-      "retained": false
-    },
-    {
-      "topic": "リフレ",
-      "status": "ok",
-      "summary": "リフレ不要発言、賃金・物価の現状など踏まえたもの＝城内経財相（ロイター）",
-      "summaryBasis": "related-headline",
-      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
-      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "リフレ不要発言、賃金・物価の現状など踏まえたもの＝城内経財相（ロイター）",
-          "url": "https://news.yahoo.co.jp/articles/1081895817fddda4f603db8c0eb5c7b0ce7162db",
+          "title": "石川遼あるぞ初優勝で来季の逆転ツアー昇格、トップと３打差８位好発進 米男子下部ツアー第１日（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/9b8338f1800655987a56ca1da5bcb1481495c2cf",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "円安・インフレ政策について－リフレ政策の検討－",
-          "url": "https://www.nli-research.co.jp/report/detail/id=86983?site=nli",
-          "name": "ニッセイ基礎研究所",
+          "title": "逆転昇格なるか 石川遼が8位発進、杉浦悠太は36位／米下部",
+          "url": "https://news.golfdigest.co.jp/news/results/pga/article/195852/1/",
+          "name": "GDOゴルフニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
       "retained": false
     },
     {
-      "topic": "フィットネス",
+      "topic": "大滝雅良",
       "status": "ok",
-      "summary": "株式会社サーティフィットのプレスリリース（2026年10月9日 14時05分）「秋の夜長」は、快眠のチャンス。オンラインフィットネス「サーティフィット」が、自律神経を整える『睡眠ストレッチクラス』を開催",
+      "summary": "3日に病気のため75歳で死去した高校サッカーの名門・清水商（現清水桜が丘）元監督の大滝雅良さんの通夜が9日、静岡市内の斎場で営まれ、約600人が参列した。祭壇には「大滝魂永遠に」と記された横断幕も掲",
       "summaryBasis": "publisher-description",
-      "issue": "「フィットネス」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「秋の夜長」は、快眠のチャンス。オンラインフィットネス「サーティフィット」が、自律神経を整える『睡眠ストレッチクラス』を開催",
-          "url": "https://prtimes.jp/main/html/rd/p/000000012.000052992.html",
-          "name": "PR TIMES",
+          "title": "U21大岩監督 大滝雅良さんの思い継ぐ 日本代表・名波コーチも通夜に参列「感謝しかない」（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/fb9e34fe13751bbf529f8867a982278b98f51cb8",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
       "retained": false
     },
     {
-      "topic": "india vs west indies",
-      "status": "unavailable"
-    },
-    {
-      "topic": "sri lanka vs pakistan",
-      "status": "unavailable"
-    },
-    {
-      "topic": "波うららかにめおと日和ドラマ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "紺野ぶるま",
+      "topic": "伊達 みきお",
       "status": "ok",
-      "summary": "お笑いタレント紺野ぶるま（40）が、8日深夜放送のテレビ東京系「二軒目どうする？ ～ツマミのハナシ～乾杯WEEK特別編」に出演。夫との出会いを語った。【写真】番組MCの松岡昌宏 19年4月に、一般男",
+      "summary": "お笑いコンビ「サンドウィッチマン」の伊達みきお（52）が9日放送のフジテレビ「かのサンド ゴールデン2時間SP 北海道横断！奇跡の絶景連発＆新千歳空港（秘）グルメ」（後7・00）に出演し、ナレーター",
       "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "紺野ぶるま「一目ぼれしたんで結婚してほしい」夫とは深夜３時に渋谷の居酒屋でナンパされ…（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/8b35851163910ecba19af2fa417fa5d05051e2ca",
+          "title": "療養中の伊達みきお「宮城県の至宝」と称える大物女優からメッセージ「今は何よりもお体、大事に大事に」（スポニチアネックス）",
+          "url": "https://news.yahoo.co.jp/articles/0abc598b100feaf213827093f55eb66d721edf35",
           "name": "Yahoo!ニュース",
           "publishedAt": null
-        },
-        {
-          "title": "紺野ぶるま「人生で最高の乾杯」を明かす「女芸人になった時って…」松岡昌宏感激",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261009-202610090001234",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
       "retained": false
     },
     {
-      "topic": "緊急地震速報",
-      "status": "ok",
-      "summary": "日本より先に運用開始されたメキシコ版緊急地震速報",
-      "summaryBasis": "related-headline",
-      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
-      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "日本より先に運用開始されたメキシコ版緊急地震速報",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJclRQYUUzaUVLODZIWnNMOXNnR3hzNmY5WlVRWGJlNkxOZU11bEhweFRRSFRuZXp3b0RwLUhpTmJpVW5fWk12UGtqOVZveFFQZ1JYRFhIbWZ1WEVT?oc=5",
-          "name": "YouTube",
-          "publishedAt": "Thu, 08 Oct 2026 11:37:13 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
-      "retained": false
+      "topic": "渋滞情報",
+      "status": "unavailable"
     },
     {
-      "topic": "コアキーパー",
+      "topic": "ニューヨークダウ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "列車",
       "status": "ok",
-      "summary": "『コアキーパー』Steam版が“全編無料”で遊べる。フリーウィークエンドが10月9日より期間限定開催。クリーチャーや資源に満ちた古代洞窟を探索する採掘サンドボックス",
+      "summary": "観光列車狙い？ 相次ぐ撮り鉄の線路進入 車転落の3人は書類送検（朝日新聞）",
       "summaryBasis": "related-headline",
-      "issue": "「コアキーパー」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「列車」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "『コアキーパー』Steam版が“全編無料”で遊べる。フリーウィークエンドが10月9日より期間限定開催。クリーチャーや資源に満ちた古代洞窟を探索する採掘サンドボックス",
-          "url": "https://www.famitsu.com/article/202610/90354",
-          "name": "ファミ通",
+          "title": "観光列車狙い？ 相次ぐ撮り鉄の線路進入 車転落の3人は書類送検（朝日新聞）",
+          "url": "https://news.yahoo.co.jp/articles/79bd7d15fbda5d4150fbb7a2f623aea9c3211f0e",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "「撮り鉄」観光列車の撮影目的で危険な迷惑行為か 親子3人を過失往来危険の疑いで書類送検 車が線路脇に転落、他の列車の運行に影響 同日、線路内に男性が立ち入る事案も JR東日本「悪質の場合は法的措置を」",
+          "url": "https://www.nbs-tv.co.jp/news/articles/?cid=30429",
+          "name": "NBS 長野放送",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
       "retained": false
+    },
+    {
+      "topic": "近鉄奈良線",
+      "status": "ok",
+      "summary": "【速報】近鉄奈良線 運転再開 保安装置故障のため一時「東花園駅～大和西大寺駅間」で運転見合わせ",
+      "summaryBasis": "related-headline",
+      "issue": "「近鉄奈良線」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【速報】近鉄奈良線 運転再開 保安装置故障のため一時「東花園駅～大和西大寺駅間」で運転見合わせ",
+          "url": "https://www.ktv.jp/news/articles/?id=30153",
+          "name": "ktv.jp",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "retained": false
+    },
+    {
+      "topic": "無料",
+      "status": "ok",
+      "summary": "落第賢者 #1〜12【無料ビデオ1週間】",
+      "summaryBasis": "related-headline",
+      "issue": "「無料」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "落第賢者 #1〜12【無料ビデオ1週間】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRlRtSW5pYXBVaWVQR2I0Zm51ZUZzWEFRUHhHMmNuZ1FpakdkMmxBNUhuZFdSU0pOV3QtZnpQcjVVSWJsV1FWNFRmNk1IRUx5UW8xWlM1ZmpZWldWbllmeEVJT0hQTEhEN1E?oc=5",
+          "name": "ABEMA",
+          "publishedAt": "Fri, 09 Oct 2026 15:57:47 GMT"
+        },
+        {
+          "title": "参加無料！安土城築城450年を記念した『クレヨンしんちゃんスタンプラリー』が開催／近江八幡市内 各所",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15OW5ZQWc3UTJoRHV4NmRDZDFvbUZKczlJUV9CZlJFc1ZXSHpDSlRodUR0OHlhZ3k2X1Z5d2pieWZWSWZRZ2d4UHRqalBrdUM4anlwR0p6eHlQdU1JOVAwMjF0WVk?oc=5",
+          "name": "Leaf KYOTO",
+          "publishedAt": "Fri, 09 Oct 2026 18:09:57 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ドルトムント 対 ヴェルダー",
+      "status": "ok",
+      "summary": "ボルシア・ドルトムント対ヴェルダー・ブレーメンの予想：ホームチームは連勝記録を伸ばせるか？",
+      "summaryBasis": "related-headline",
+      "issue": "「ドルトムント 対 ヴェルダー」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ボルシア・ドルトムント対ヴェルダー・ブレーメンの予想：ホームチームは連勝記録を伸ばせるか？",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdlZuNFplT3NtQkJ0bFBxV3NyRk55LUE1VF9La09uZjRKLWIxZFdDYWt5QjVMZmNDcXlhSk83WEVhRk9IR1k1czR4Yy16ZXJIOW1oeGQ3T3FtMG5qZUlJbC1vb20zOTNCQ0FnX0JDTFJ5cE0zWU5Ec1FrVmpCRGdYZEd6a1VGd0ZnT2Q5SkVqbWRzandiQkN1X3RMVUlvbDZSdWlF?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Fri, 09 Oct 2026 13:51:10 GMT"
+        },
+        {
+          "title": "ブンデスリーガ ドルトムント対ヴェルダー・ブレーメンのサッカー予想",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0lwZlJIQmdlOEZndzRpRzlfMW96eF9UaGYyVnRSNENSc3hUN3ExQXVoelFiLW5TMEhjTnFOT0d4aFNLazBWaURISnlza3ZVVV92ZUtQaXlrZVVaaDdLX2ZFOHdlejFCblhIWTJwcTFLeUVJWUxCQ1dDYjJIY2F3akhtU0dSX1pmcDZUNWd6aVlVMzV2cFFOYXpwUFdibzU1UE5aN29PZFE4Zkhz?oc=5",
+          "name": "Laodong.vn",
+          "publishedAt": "Fri, 09 Oct 2026 03:16:06 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "retained": false
+    },
+    {
+      "topic": "al-nassr vs diriyah",
+      "status": "unavailable"
     }
   ]
 }
