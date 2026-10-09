@@ -1,226 +1,190 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-09",
-  "fetchedAt": "2026-10-09T05:59:14.137702+09:00",
+  "updatedAt": "2026-10-10",
+  "fetchedAt": "2026-10-10T03:31:58.531726+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "村尾三四郎",
-    "ドラフト2026",
-    "河本結",
-    "競艇",
-    "サムスン",
-    "早期天候情報",
-    "実写",
-    "ロト6 速報",
-    "reit",
-    "警察"
+    "abema",
+    "オールナイトニッポン",
+    "リフレ",
+    "フィットネス",
+    "india vs west indies",
+    "sri lanka vs pakistan",
+    "波うららかにめおと日和ドラマ",
+    "紺野ぶるま",
+    "緊急地震速報",
+    "コアキーパー"
   ],
   "briefs": [
     {
-      "topic": "村尾三四郎",
+      "topic": "abema",
       "status": "ok",
-      "summary": "【バクー（アゼルバイジャン）＝工藤圭太、福井浩介】柔道の世界選手権バクー大会第５日の８日、男子９０キロ級決勝は昨年と同じ顔合わせの日本勢対決となり、村尾三四郎（ＪＥＳエレベーター）が２０２４年大会覇",
+      "summary": "株式会社AbemaTVのプレスリリース（2026年10月9日 13時00分）「ABEMA de J SPORTS」年間プランがお得になる期間限定キャンペーンを10月9日（金）13時より実施！年間月々払いプランが月額2,380円→1,980円、学割は月額1,440円→980円に",
       "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "村尾三四郎、田嶋剛希との日本人対決制し９０キロ級連覇「強いなと思ってもらえるような試合ができた」（読売新聞オンライン）",
-          "url": "https://news.yahoo.co.jp/articles/6f82be4744adbf5d0a71eea13a3c839313ee385d",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ドラフト2026",
-      "status": "ok",
-      "summary": "【ドラフト2026】広島はどう生まれ変わるべきか 得点力不足とFA流出危機を救う\"即戦力\"と\"超高校級スラッガー\"",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【ドラフト2026】広島はどう生まれ変わるべきか 得点力不足とFA流出危機を救う\"即戦力\"と\"超高校級スラッガー\"",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXLS10cEo0RUNqTUpzcjN0bzlLblQ0Sjc0Q3B5XzVzRzVNZ1NxM1lpcTlDSVNSa3hqZjdlLWRneFp6eXFSVjAwR182UWhicHMtdWd4Nk8xQzJiVVBnWTd1YWQ3NGRtMGd4YnhWcTN5MTMxSWVRSjF3?oc=5",
-          "name": "webスポルティーバ",
-          "publishedAt": "Thu, 08 Oct 2026 00:45:55 GMT"
-        },
-        {
-          "title": "【ドラフト2026】ソフトバンクは選手層に厚みを加える「先発投手」「内野手」「高校生外野手」で決まり : 限界突パ",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qVjhyX3VxZFVKd0JYUEkxY1REb2dibjVLS0ZMM1ZnZVgxejlJNUlSS3laUzlQTWFTLUNkbXBDelVjaDZSVktWdUNtRUpUS21lV214VU1tMldCSFdENUxtaw?oc=5",
-          "name": "タグマ！",
-          "publishedAt": "Thu, 08 Oct 2026 09:00:34 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
-      "retained": false
-    },
-    {
-      "topic": "河本結",
-      "status": "ok",
-      "summary": "河本結が「日本のゴルフの歴史に残るプレー」「かっこよかった」と感動した選手は？（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "河本結が「日本のゴルフの歴史に残るプレー」「かっこよかった」と感動した選手は？（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83ZVFMNE5URjI0RVlXbVNXR01CaTNyaTluQWYxWElELTB1bFNQQl81NHlvdmloWlozdC1ZOWxwRTdlb3hBQk9Ib1JLZm45VGFneUJYLWxtbDFIOG9VUS1zMTVOd1ZleDljaUdSdU4xbVJ2SXZxLUVHMW1nangtSHM?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 07 Oct 2026 23:58:08 GMT"
-        },
-        {
-          "title": "前年覇者・河本結 申ジエＶから刺激「自分も若手を引っ張る存在に」 スタンレー・レディース９日開幕",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oZXF4N2FaNzM2MnBqMEJ0SDdwb1RuWlBQc1BXNzdKdXBYOFVJTEZmWDA2Wm84OVlmdGVWNUhZV3MtcUU1MTdWcUlvVGM2US1kS0RzUHRPSzQ5T3d6MGhjQ2RnVGFIdEE?oc=5",
-          "name": "デイリースポーツ",
-          "publishedAt": "Thu, 08 Oct 2026 20:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
-      "retained": false
-    },
-    {
-      "topic": "競艇",
-      "status": "ok",
-      "summary": "＜画像1 / 7＞楽しい！おいしい！くつろげる！次の休日の行き先は蒲郡の競艇場で決まり！",
-      "summaryBasis": "related-headline",
-      "issue": "「競艇」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「abema」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "＜画像1 / 7＞楽しい！おいしい！くつろげる！次の休日の行き先は蒲郡の競艇場で決まり！",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jVXEta1FsU0Y2cVBKNVFiWXE3cl9lYmpuX3V2ZmFaSmdlWW0tbW9scXV1ZnJIbl80NTJ3dFh1RDZweHNVUVBpS3E5V0FJaV83ZU9hcURVUlVqajNHaWgtd0lQdUVua3ZUaTdkb0hldVhXc3VBcmh4QXp3Q0o?oc=5",
-          "name": "ウォーカープラス",
-          "publishedAt": "Thu, 08 Oct 2026 13:18:52 GMT"
+          "title": "「ABEMA de J SPORTS」年間プランがお得になる期間限定キャンペーンを10月9日（金）13時より実施！年間月々払いプランが月額2,380円→1,980円、学割は月額1,440円→980円に",
+          "url": "https://prtimes.jp/main/html/rd/p/000004091.000064643.html",
+          "name": "PR TIMES",
+          "publishedAt": null
+        },
+        {
+          "title": "木村拓哉と工藤静香の次女・Kōki,「なんか顔似てる???」 家族の写真を公開（ABEMA TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/09730ec3dd1abd55d9c403ac8f25910e93087fc7",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
       "retained": false
     },
     {
-      "topic": "サムスン",
+      "topic": "オールナイトニッポン",
       "status": "ok",
-      "summary": "【ソウル=松浦奈美】韓国サムスン電子が8日発表した2026年7〜9月期の連結決算速報値は営業利益が前年同期比8.8倍の107兆4000億ウォン（約12兆6500億円）だった。人工知能（AI）データセンター向け需要で主力の半導体メモリー価格の上昇が続いている。営業利益が過去最高を更新するのは4四半期連続だ。",
-      "summaryBasis": "publisher-description",
+      "summary": "10/23（金）は「内村光良のオールナイトニッポンGOLD」生放送！",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "10/23（金）は「内村光良のオールナイトニッポンGOLD」生放送！",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hajYxQkVaZFFYclVGY21Qa0NNVkFtdjFFRDFINWQtOHk5NFBudFcwTjRVbDZaUkVmT3ZCWk5jN0p6azByWkhfTk55VlJOVjBsS25BWXVpTUQzdXl4RmtrNDJZTEF0TTJlVVBjWTZqSQ?oc=5",
+          "name": "www.allnightnippon.com",
+          "publishedAt": "Fri, 09 Oct 2026 12:38:24 GMT"
+        },
+        {
+          "title": "齊藤京子が『オールナイトニッポン』初登場！「私らしく、飾らずにお届けできたら」",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BWGZQYlVTVFo0SERNNVNoV1U1RjVlZFpibjJSN0tTNEtuZVp2MDR0VkNwMFZHcjZVczl0ak95NXRkYmIydVNnUF9xcWs?oc=5",
+          "name": "ニッポン放送 NEWS ONLINE",
+          "publishedAt": "Fri, 09 Oct 2026 15:10:48 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "retained": false
+    },
+    {
+      "topic": "リフレ",
+      "status": "ok",
+      "summary": "リフレ不要発言、賃金・物価の現状など踏まえたもの＝城内経財相（ロイター）",
+      "summaryBasis": "related-headline",
       "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
       "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "サムスン7〜9月期、営業益8.8倍 半導体価格上昇続き初の100兆ウォン超",
-          "url": "https://www.nikkei.com/article/DGXZQOGM066ND0W6A001C2000000/",
-          "name": "日本経済新聞",
-          "publishedAt": null
-        },
-        {
-          "title": "サムスン電子のロゴ（ロイター＝共同） - サムスン営業利益13兆円 7～9月期、ITで世界初 - 写真・画像(1/1)",
-          "url": "https://www.nishinippon.co.jp/image/1090052/",
-          "name": "西日本新聞me",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
-      "retained": false
-    },
-    {
-      "topic": "早期天候情報",
-      "status": "ok",
-      "summary": "気象庁は10月8日（木）午後2時30分に、「高温に関する早期天候情報」を北海道・東北・関東甲信・北陸・東海・近畿・中国・四国・九州北部・九州南部・奄美・沖縄の全国に発表。【各地の気温の予想/雨・風の",
-      "summaryBasis": "publisher-description",
-      "issue": "「早期天候情報」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "日本列島が“真っ赤”に… 10月14日（水）頃からこの時期としては“10年に1度レベル”の「かなりの高温」に 気象庁が「早期天候情報」を発表 三連休明けは暑い!?【雨・風シミュレーションなどあり】（ＡＴＶ青森テレビ）",
-          "url": "https://news.yahoo.co.jp/articles/b12b9ed03c3af9ff2802b62e459c3f5c433fcede",
+          "title": "リフレ不要発言、賃金・物価の現状など踏まえたもの＝城内経財相（ロイター）",
+          "url": "https://news.yahoo.co.jp/articles/1081895817fddda4f603db8c0eb5c7b0ce7162db",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "日本全国で10月14日頃から「この時期としては10年に一度程度しか起きないような著しい高温」 気象庁が「早期天候情報」発表【北海道・東北・北陸・関東甲信・近畿・東海･中国･四国･九州･奄美･沖縄】（8日午後） | TBS NEWS DIG (9ページ)",
-          "url": "https://newsdig.tbs.co.jp/articles/-/2998640?page=9",
-          "name": "TBS NEWS DIG",
+          "title": "円安・インフレ政策について－リフレ政策の検討－",
+          "url": "https://www.nli-research.co.jp/report/detail/id=86983?site=nli",
+          "name": "ニッセイ基礎研究所",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
       "retained": false
     },
     {
-      "topic": "実写",
+      "topic": "フィットネス",
       "status": "ok",
-      "summary": "Netflix「俺だけレベルアップな件」実写シリーズ、ハン・ソヒが韓国唯一の女性S級ハンターに",
-      "summaryBasis": "related-headline",
-      "issue": "「実写」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "株式会社サーティフィットのプレスリリース（2026年10月9日 14時05分）「秋の夜長」は、快眠のチャンス。オンラインフィットネス「サーティフィット」が、自律神経を整える『睡眠ストレッチクラス』を開催",
+      "summaryBasis": "publisher-description",
+      "issue": "「フィットネス」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "Netflix「俺だけレベルアップな件」実写シリーズ、ハン・ソヒが韓国唯一の女性S級ハンターに",
-          "url": "https://natalie.mu/eiga/news/692684",
-          "name": "ナタリー",
+          "title": "「秋の夜長」は、快眠のチャンス。オンラインフィットネス「サーティフィット」が、自律神経を整える『睡眠ストレッチクラス』を開催",
+          "url": "https://prtimes.jp/main/html/rd/p/000000012.000052992.html",
+          "name": "PR TIMES",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
       "retained": false
     },
     {
-      "topic": "ロト6 速報",
+      "topic": "india vs west indies",
       "status": "unavailable"
     },
     {
-      "topic": "reit",
+      "topic": "sri lanka vs pakistan",
+      "status": "unavailable"
+    },
+    {
+      "topic": "波うららかにめおと日和ドラマ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "紺野ぶるま",
       "status": "ok",
-      "summary": "OUE REITは、IOI PropertiesとCapitaLandがシンガポールのOne Raffles Placeを購入するための独占的なデューデリジェンスを行っていることを認めました。",
+      "summary": "お笑いタレント紺野ぶるま（40）が、8日深夜放送のテレビ東京系「二軒目どうする？ ～ツマミのハナシ～乾杯WEEK特別編」に出演。夫との出会いを語った。【写真】番組MCの松岡昌宏 19年4月に、一般男",
       "summaryBasis": "publisher-description",
-      "issue": "「reit」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "紺野ぶるま「一目ぼれしたんで結婚してほしい」夫とは深夜３時に渋谷の居酒屋でナンパされ…（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/8b35851163910ecba19af2fa417fa5d05051e2ca",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "紺野ぶるま「人生で最高の乾杯」を明かす「女芸人になった時って…」松岡昌宏感激",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261009-202610090001234",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "retained": false
+    },
+    {
+      "topic": "緊急地震速報",
+      "status": "ok",
+      "summary": "日本より先に運用開始されたメキシコ版緊急地震速報",
+      "summaryBasis": "related-headline",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "日本より先に運用開始されたメキシコ版緊急地震速報",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJclRQYUUzaUVLODZIWnNMOXNnR3hzNmY5WlVRWGJlNkxOZU11bEhweFRRSFRuZXp3b0RwLUhpTmJpVW5fWk12UGtqOVZveFFQZ1JYRFhIbWZ1WEVT?oc=5",
+          "name": "YouTube",
+          "publishedAt": "Thu, 08 Oct 2026 11:37:13 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
+      "retained": false
+    },
+    {
+      "topic": "コアキーパー",
+      "status": "ok",
+      "summary": "『コアキーパー』Steam版が“全編無料”で遊べる。フリーウィークエンドが10月9日より期間限定開催。クリーチャーや資源に満ちた古代洞窟を探索する採掘サンドボックス",
+      "summaryBasis": "related-headline",
+      "issue": "「コアキーパー」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "OUE REIT、IOI、キャピタランドが$ 19億One Raffles Placeの独占交渉を確定",
-          "url": "https://www.mingtiandi.com/real-estate/finance/oue-reit-says-ioi-capitaland-in-exclusivity-for-one-raffles-place/",
-          "name": "Mingtiandi",
+          "title": "『コアキーパー』Steam版が“全編無料”で遊べる。フリーウィークエンドが10月9日より期間限定開催。クリーチャーや資源に満ちた古代洞窟を探索する採掘サンドボックス",
+          "url": "https://www.famitsu.com/article/202610/90354",
+          "name": "ファミ通",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
-      "retained": false
-    },
-    {
-      "topic": "警察",
-      "status": "ok",
-      "summary": "「安定を維持する」という名目で、中国共産党は多額の資金を投入しており、地方自治体、セキュリティ企業、インタビュアーはすでに黒い利益連鎖を形成しています。メンテナンスコストが軍事コストを上回っています。",
-      "summaryBasis": "publisher-description",
-      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
-      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "訪問者は、北京警察が利益のために訪問者を「売る」と言います",
-          "url": "https://test.qycz.org/a/202610/n38991615/web/",
-          "name": "亲友传真",
-          "publishedAt": null
-        },
-        {
-          "title": "日本の警察署長は、サイバー攻撃を調査したいと言っています",
-          "url": "https://china.kyodonews.net/articles/-/16643",
-          "name": "共同网",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-09T05:59:14.137702+09:00",
+      "verifiedAt": "2026-10-10T03:31:58.531726+09:00",
       "retained": false
     }
   ]
