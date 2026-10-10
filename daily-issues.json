@@ -1,160 +1,154 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-11",
-  "fetchedAt": "2026-10-11T03:31:14.127494+09:00",
+  "fetchedAt": "2026-10-11T05:55:45.818869+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "パリsg 対 ル・マンfc",
-    "evo france",
-    "la liga",
-    "フェイエノールト 対 アルクマール",
-    "man utd đấu với tottenham",
-    "卓球女子",
-    "チャンピオンシップ",
-    "井上 拓真",
-    "バルサ",
-    "rbライプツィヒ 対 フランクフルト"
+    "geforce rtx 5080 24gb",
+    "大人の休日倶楽部",
+    "大越健介",
+    "天気予報 台風情報",
+    "real madrid",
+    "リフレ",
+    "旗手怜央",
+    "real madrid vs villarreal",
+    "千葉 西 総合 病院 看護 師",
+    "パリsg 対 ル・マンfc"
   ],
   "briefs": [
     {
-      "topic": "パリsg 対 ル・マンfc",
+      "topic": "geforce rtx 5080 24gb",
       "status": "unavailable"
     },
     {
-      "topic": "evo france",
+      "topic": "大人の休日倶楽部",
       "status": "ok",
-      "summary": "2026年10月9日（金）から11日（日）まで、フランスのニースで開催される格闘ゲームフェスティバル「EVO France 2026」のメインステージスケジュールが公開されました。3日間にわたって、トップ8と8つのタイトルの決勝が同じ会場で開催される予定です。",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か のべ206万件 [不正アクセス]",
+      "summaryBasis": "related-headline",
+      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
+      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "EVO France 2026のメインステージの全スケジュールが明らかになりました！同じ会場で開催される8つのタイトルのトップ8とファイナル",
-          "url": "https://saiganak.com/event/evo-france-2026-mainstage-schedule-top8-finals-announcement/",
-          "name": "Saiga NAK",
-          "publishedAt": null
+          "title": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か のべ206万件 [不正アクセス]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95RFFzWUJJakJvLXVTZmh1RlpfYTZOai11ZEQtNnNPS1lZdThadzNieWk3aWRTZ3V0bURSNVJydzNXbGFhR2xRRERMcnVoZW1pNzMwVnZnZV9RN1lWQktWd3UzSVQwdUE?oc=5",
+          "name": "朝日新聞",
+          "publishedAt": "Fri, 09 Oct 2026 05:29:00 GMT"
         },
         {
-          "title": "EVO France 2026の早期結果、ストリーミングft. Craime、Xiaohai、SonicFox、Mulgold、Hinao、Higuchi、Hikari、Leffen、Supernoon、Kobayan、Punkなど",
-          "url": "https://www.eventhubs.com/news/2026/oct/09/evo-france-2026-results/",
-          "name": "EventHubs",
-          "publishedAt": null
+          "title": "ＪＲ東日本、２０６万件の個人情報が不正アクセスで漏えいか…「えきねっと」「大人の休日倶楽部」",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzNzQ1cFk1aW9CbW5aMTdGU1h3eWlFUjBjMFVJZnl3cFI2QjN3QlpOZXNxazdUOUkxb19TeEpkYS1sRTEwVHpnYTRBWTBYSm12M3pkd2NQeXVoeUpFem9iSnZrMVo?oc=5",
+          "name": "読売新聞",
+          "publishedAt": "Fri, 09 Oct 2026 06:46:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
+      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
       "retained": false
     },
     {
-      "topic": "la liga",
-      "status": "unavailable"
-    },
-    {
-      "topic": "フェイエノールト 対 アルクマール",
-      "status": "unavailable"
-    },
-    {
-      "topic": "man utd đấu với tottenham",
-      "status": "unavailable"
-    },
-    {
-      "topic": "卓球女子",
+      "topic": "大越健介",
       "status": "ok",
-      "summary": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」",
+      "summary": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」（日刊スポーツ）",
       "summaryBasis": "related-headline",
-      "issue": "「卓球女子」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「大越健介」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yYk1lUzAxOVNIUlN4QUZ1R3lUWmxNdUptTzI0ODE2MGM5UFFQMmpMTUZ3b0Y3RlFNcjlkR21ndFhMZHNubENVRHNVU3ZpY3BBalNZcmNfUUtzWG96bWtjcjhMMDRTNFg3WEgtcUJUbUEyVzTSAXNBVV95cUxPMmJNZVMwMTlTSFJTeEFGdUd5VFpsTXVKbU8yNDgxNjBjOVBRUDJqTE1Gd29GN0ZRTXI5ZEdtZ3RYTGRzbmxDVURzVVN2aWNwQWpTWXJjX1FLc1hvem1rY3I4TDA0UzRYN1hILXFCVG1BMlc0?oc=5",
+          "title": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43azBIeVRaOGtGcF9tYm5jV2xVUFdxSUlwX2dZYTdrVFk2UlpVU0RKeU5TOFdQUE16dFBlMllGVEVZWkRNU2pvVmpteVE3TUJkOWdta2NwVnhNQkdoQnRfVUcwMDhCOUoyVVYyQmpXaFpjZmlJLUJvZEtPcGh2Tk0?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 10 Oct 2026 05:54:26 GMT"
+        },
+        {
+          "title": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHFVYlhOUXlTWUdsZUJiUXYweDFEckVMTGM4SFNCbldJanpDRTRpMENiQlNUbXNIQkR0R0YzMHRKQTd5bGdDM0dSU2ZuWW5hYlFybHFPSmN6VkdkREhYTmRfcGpHVGppaE93SEtyc2ZVeDhpSU04OTVaTzhyWGRaOVdNZDZrR09ueWY3a21ZeTV4Vm5WMTd6T3ZISll2WFZydF9rMmtWbF_SAaQBQVVfeXFMUFFrOGhJcWNjTmI1QlVrQ3JCXzFva0JEVVctQXBfQUlWOFFuUzhjek5HV0NNVnI2cGJ3MFUtQkU2YjZPLTMwQ1pnMUJWQ2JJaGt5eG9jMXhEMnowbTlJNlplWVAtTUZxOHBzV3plLWpKZ3E3TlRfTVR1NTlSZE9vMjd3QkR4RS1rVU9CbTM3Ri1RVGd3N0F1YnpWQzQ4aHJvRVNCT0E?oc=5",
           "name": "ｄメニューニュース",
-          "publishedAt": "Sat, 10 Oct 2026 13:03:00 GMT"
-        },
-        {
-          "title": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」（THE ANSWER）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yYzktOVZoTEtfb3Nna2p5M3NpZW1teVRvZTFNVEpoSllpQUZTb1UzcTZoVFhIdl9zTzV0aUs5MVBZWWhYMkh3YjB3RUk3VWUzY1lqRHNaUkZvWEJxT3dkamlFcUUwNFJWeHlzM0l3VXF2ZEdiQkxUTW5qUjloUDQ?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 10 Oct 2026 13:03:00 GMT"
+          "publishedAt": "Sat, 10 Oct 2026 05:54:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
+      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
       "retained": false
     },
     {
-      "topic": "チャンピオンシップ",
+      "topic": "天気予報 台風情報",
+      "status": "unavailable"
+    },
+    {
+      "topic": "real madrid",
+      "status": "translation-unavailable"
+    },
+    {
+      "topic": "リフレ",
       "status": "ok",
-      "summary": "「ラグザス アジアプロ野球チャンピオンシップ2026」放送・配信について | トップ | メディア情報",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "高市早苗政権がリフレ政策は不要だというメッセージを打ち出している。高市首相や片山さつき財務相、城内実経済財政相が相次いで発言した。市場やトランプ米政権に配慮し「利上げに慎重」という印象を打ち消す狙いがある。首相は8日の衆院本会議で「リフレ政策が必要な局面ではない」と強調した。",
+      "summaryBasis": "publisher-description",
+      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
+      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「ラグザス アジアプロ野球チャンピオンシップ2026」放送・配信について | トップ | メディア情報",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BNzdzQXNtcDlOT09OT1A2VlU4Vi0yZkJ0MldSUjlLeGliZ2dwdkd0V0FTaDJEVFkzN0lWQ05iRDYyQm9ndlJpcFpfam9kdUU5bUljUnJTeUZwUl9ES1pkMDluQkVPV3hjUnU0?oc=5",
-          "name": "侍ジャパン",
-          "publishedAt": "Sat, 10 Oct 2026 03:12:34 GMT"
-        },
-        {
-          "title": "決勝 第14戦 富士スピードウェイ【フォーミュラ・リージョナル・ジャパニーズ・チャンピオンシップ 2026】",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aMHcwME1ROE1Ud25na1Q4UEgyMGttZFVzendKT0FtSnJ3UldsSnlDRHFha0VIRUE4anBUMEl1ejEtcHlqLW93dzhZYXJCS0RDejJSaEVXWnVMNlhnMVFJaEJmd1lEcU5wZmlHaGVaNm5Kdw?oc=5",
-          "name": "ABEMA",
-          "publishedAt": "Sat, 10 Oct 2026 11:15:52 GMT"
+          "title": "高市政権、一斉にリフレ否定 米国意識で「利上げ慎重」打ち消し",
+          "url": "https://www.nikkei.com/article/DGXZQOUA090WP0Z01C26A0000000/",
+          "name": "日本経済新聞",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
+      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
       "retained": false
     },
     {
-      "topic": "井上 拓真",
+      "topic": "旗手怜央",
       "status": "ok",
-      "summary": "井上拓真はバムに勝てるのか？ 元世界王者が予想「相性は良くない。かなり苦戦するイメージ」（東スポWEB）",
-      "summaryBasis": "related-headline",
-      "issue": "「井上 拓真」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "井上拓真はバムに勝てるのか？ 元世界王者が予想「相性は良くない。かなり苦戦するイメージ」（東スポWEB）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6Tm8zblJVeTNZNEZqbkZuZnNyM194TXVyb2RySUJYZXFDX1ZVMEZlVlc0WnpWUDhSNHpDN0MyZEZ4bXJSWlI3cXdyUWV2YlpxN3U3U0U0dWQ0Q2tKcmJFWkt0cFVab0VKdGZ5ZTVObEl3RDhMeWVqWHMtX291M28?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 10 Oct 2026 10:40:24 GMT"
-        },
-        {
-          "title": "大橋会長、井上尚弥、井上拓真が韓国フェ二ックスバトル・ソウル大会を視察 ファンから大歓声",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORG1KYXJUbEJfXzlDa0tPYU5NS3piaHBUWHhEaV9WMzlRNnp6Y1E3eFFNSHFYRGRwSlFFV21FM1pMRHBvVEhtMTJKbFVCWVJZeUxFUlhMNUVQZVhoUjhsODlCTE10dk9EWnB4U1RhNll3ZXNvb2o5LUtfNUlqTVBNTGZqc2HSAYcBQVVfeXFMT09XVmNjR3hVc2gxdWMxUGl0eTR6Z0ZYSkNGRmJlNTB1Y1NRWTZUWWNJTFVmZ2NOYUVtcUI3RXN6dnVFQWRnNTJKYWNhS2F4OVhiSk9VZXNaZnYzNGRfRnNVWnE2R0JBQ3RGcUxXc0hhWXltUHlmWTlNVGhSWC02Y0V2cTVVd3hn?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Sat, 10 Oct 2026 07:20:22 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
-      "retained": false
-    },
-    {
-      "topic": "バルサ",
-      "status": "ok",
-      "summary": "バルサの27歳DFが冬に移籍？ 地元メディアが報道「チェルシーとバイエルンが１月の獲得を狙う」（SOCCER DIGEST Web）",
+      "summary": "バーンリーMF旗手怜央、移籍後初ゴール含む1G1Aの大活躍 チームを今季初白星に導く立役者に、わずか12分間で2得点に関与（フットボールチャンネル）",
       "summaryBasis": "related-headline",
       "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
       "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "バルサの27歳DFが冬に移籍？ 地元メディアが報道「チェルシーとバイエルンが１月の獲得を狙う」（SOCCER DIGEST Web）",
-          "url": "https://news.yahoo.co.jp/articles/918494b58809291fa54cdaa331d42a8089baa872",
+          "title": "バーンリーMF旗手怜央、移籍後初ゴール含む1G1Aの大活躍 チームを今季初白星に導く立役者に、わずか12分間で2得点に関与（フットボールチャンネル）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DeGVhcWkzYVlsTmRpZ2hOVWJuLVpUOHBaOHcxS21NOElNbHVEUHA2V2FPazFNOEZXRjBzN1VVOFk1QXFwZW1scFVlV2k3Q0ZZNGRVMTdhUXY5blBxMkpvTjljTURIVFFJT1ctbVd5SXpGLVZJdHo4NGdkaFpWVTg?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "publishedAt": "Sat, 10 Oct 2026 19:49:45 GMT"
+        },
+        {
+          "title": "バーンリー旗手怜央 先制アシスト＆移籍初ゴール 結婚発表後の初戦で今季初勝利に大きく貢献",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaC1EWll1WDlTYm5Lc0VMTWZJTFV6OWlqMlZYNVFGWlROcVNydU01U1pQZXhsamtoekxSbnpKS2s0ZkZkMWx3VG5IaFRQbFRNblphS3hoWU4xd1VpMU5Ic2tFbVZ6c1BnS3BEQkd5SkZ5Yld0ZTFNNm1kVnEwdDktbG0yNFhIVVNVdFliSg?oc=5",
+          "name": "スポニチ Sponichi Annex",
+          "publishedAt": "Sat, 10 Oct 2026 16:35:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
+      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
       "retained": false
     },
     {
-      "topic": "rbライプツィヒ 対 フランクフルト",
+      "topic": "real madrid vs villarreal",
+      "status": "translation-unavailable"
+    },
+    {
+      "topic": "千葉 西 総合 病院 看護 師",
+      "status": "ok",
+      "summary": "千葉西総合病院 看護師が患者を無断撮影した動画がSNSで流出",
+      "summaryBasis": "related-headline",
+      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
+      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "千葉西総合病院 看護師が患者を無断撮影した動画がSNSで流出",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261009de57378",
+          "name": "NHKニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
+      "retained": false
+    },
+    {
+      "topic": "パリsg 対 ル・マンfc",
       "status": "unavailable"
     }
   ]
