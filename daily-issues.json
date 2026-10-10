@@ -1,190 +1,160 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-10",
-  "fetchedAt": "2026-10-10T05:58:26.015186+09:00",
+  "updatedAt": "2026-10-11",
+  "fetchedAt": "2026-10-11T03:31:14.127494+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "石川遼",
-    "大滝雅良",
-    "伊達 みきお",
-    "渋滞情報",
-    "ニューヨークダウ",
-    "列車",
-    "近鉄奈良線",
-    "無料",
-    "ドルトムント 対 ヴェルダー",
-    "al-nassr vs diriyah"
+    "パリsg 対 ル・マンfc",
+    "evo france",
+    "la liga",
+    "フェイエノールト 対 アルクマール",
+    "man utd đấu với tottenham",
+    "卓球女子",
+    "チャンピオンシップ",
+    "井上 拓真",
+    "バルサ",
+    "rbライプツィヒ 対 フランクフルト"
   ],
   "briefs": [
     {
-      "topic": "石川遼",
-      "status": "ok",
-      "summary": "石川遼あるぞ初優勝で来季の逆転ツアー昇格、トップと３打差８位好発進 米男子下部ツアー第１日（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "石川遼あるぞ初優勝で来季の逆転ツアー昇格、トップと３打差８位好発進 米男子下部ツアー第１日（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/9b8338f1800655987a56ca1da5bcb1481495c2cf",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "逆転昇格なるか 石川遼が8位発進、杉浦悠太は36位／米下部",
-          "url": "https://news.golfdigest.co.jp/news/results/pga/article/195852/1/",
-          "name": "GDOゴルフニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
-      "retained": false
+      "topic": "パリsg 対 ル・マンfc",
+      "status": "unavailable"
     },
     {
-      "topic": "大滝雅良",
+      "topic": "evo france",
       "status": "ok",
-      "summary": "3日に病気のため75歳で死去した高校サッカーの名門・清水商（現清水桜が丘）元監督の大滝雅良さんの通夜が9日、静岡市内の斎場で営まれ、約600人が参列した。祭壇には「大滝魂永遠に」と記された横断幕も掲",
+      "summary": "2026年10月9日（金）から11日（日）まで、フランスのニースで開催される格闘ゲームフェスティバル「EVO France 2026」のメインステージスケジュールが公開されました。3日間にわたって、トップ8と8つのタイトルの決勝が同じ会場で開催される予定です。",
       "summaryBasis": "publisher-description",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "U21大岩監督 大滝雅良さんの思い継ぐ 日本代表・名波コーチも通夜に参列「感謝しかない」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/fb9e34fe13751bbf529f8867a982278b98f51cb8",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
-      "retained": false
-    },
-    {
-      "topic": "伊達 みきお",
-      "status": "ok",
-      "summary": "お笑いコンビ「サンドウィッチマン」の伊達みきお（52）が9日放送のフジテレビ「かのサンド ゴールデン2時間SP 北海道横断！奇跡の絶景連発＆新千歳空港（秘）グルメ」（後7・00）に出演し、ナレーター",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "療養中の伊達みきお「宮城県の至宝」と称える大物女優からメッセージ「今は何よりもお体、大事に大事に」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/0abc598b100feaf213827093f55eb66d721edf35",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
-      "retained": false
-    },
-    {
-      "topic": "渋滞情報",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ニューヨークダウ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "列車",
-      "status": "ok",
-      "summary": "観光列車狙い？ 相次ぐ撮り鉄の線路進入 車転落の3人は書類送検（朝日新聞）",
-      "summaryBasis": "related-headline",
-      "issue": "「列車」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "観光列車狙い？ 相次ぐ撮り鉄の線路進入 車転落の3人は書類送検（朝日新聞）",
-          "url": "https://news.yahoo.co.jp/articles/79bd7d15fbda5d4150fbb7a2f623aea9c3211f0e",
-          "name": "Yahoo!ニュース",
+          "title": "EVO France 2026のメインステージの全スケジュールが明らかになりました！同じ会場で開催される8つのタイトルのトップ8とファイナル",
+          "url": "https://saiganak.com/event/evo-france-2026-mainstage-schedule-top8-finals-announcement/",
+          "name": "Saiga NAK",
           "publishedAt": null
         },
         {
-          "title": "「撮り鉄」観光列車の撮影目的で危険な迷惑行為か 親子3人を過失往来危険の疑いで書類送検 車が線路脇に転落、他の列車の運行に影響 同日、線路内に男性が立ち入る事案も JR東日本「悪質の場合は法的措置を」",
-          "url": "https://www.nbs-tv.co.jp/news/articles/?cid=30429",
-          "name": "NBS 長野放送",
+          "title": "EVO France 2026の早期結果、ストリーミングft. Craime、Xiaohai、SonicFox、Mulgold、Hinao、Higuchi、Hikari、Leffen、Supernoon、Kobayan、Punkなど",
+          "url": "https://www.eventhubs.com/news/2026/oct/09/evo-france-2026-results/",
+          "name": "EventHubs",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
       "retained": false
     },
     {
-      "topic": "近鉄奈良線",
+      "topic": "la liga",
+      "status": "unavailable"
+    },
+    {
+      "topic": "フェイエノールト 対 アルクマール",
+      "status": "unavailable"
+    },
+    {
+      "topic": "man utd đấu với tottenham",
+      "status": "unavailable"
+    },
+    {
+      "topic": "卓球女子",
       "status": "ok",
-      "summary": "【速報】近鉄奈良線 運転再開 保安装置故障のため一時「東花園駅～大和西大寺駅間」で運転見合わせ",
+      "summary": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」",
       "summaryBasis": "related-headline",
-      "issue": "「近鉄奈良線」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「卓球女子」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【速報】近鉄奈良線 運転再開 保安装置故障のため一時「東花園駅～大和西大寺駅間」で運転見合わせ",
-          "url": "https://www.ktv.jp/news/articles/?id=30153",
-          "name": "ktv.jp",
-          "publishedAt": null
+          "title": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yYk1lUzAxOVNIUlN4QUZ1R3lUWmxNdUptTzI0ODE2MGM5UFFQMmpMTUZ3b0Y3RlFNcjlkR21ndFhMZHNubENVRHNVU3ZpY3BBalNZcmNfUUtzWG96bWtjcjhMMDRTNFg3WEgtcUJUbUEyVzTSAXNBVV95cUxPMmJNZVMwMTlTSFJTeEFGdUd5VFpsTXVKbU8yNDgxNjBjOVBRUDJqTE1Gd29GN0ZRTXI5ZEdtZ3RYTGRzbmxDVURzVVN2aWNwQWpTWXJjX1FLc1hvem1rY3I4TDA0UzRYN1hILXFCVG1BMlc0?oc=5",
+          "name": "ｄメニューニュース",
+          "publishedAt": "Sat, 10 Oct 2026 13:03:00 GMT"
+        },
+        {
+          "title": "物議の判定に中国卓球女子「審判がどう判断しても…」 橋本帆乃香に逆転勝ち「勝てると思わなかった」（THE ANSWER）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yYzktOVZoTEtfb3Nna2p5M3NpZW1teVRvZTFNVEpoSllpQUZTb1UzcTZoVFhIdl9zTzV0aUs5MVBZWWhYMkh3YjB3RUk3VWUzY1lqRHNaUkZvWEJxT3dkamlFcUUwNFJWeHlzM0l3VXF2ZEdiQkxUTW5qUjloUDQ?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 10 Oct 2026 13:03:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
       "retained": false
     },
     {
-      "topic": "無料",
+      "topic": "チャンピオンシップ",
       "status": "ok",
-      "summary": "落第賢者 #1〜12【無料ビデオ1週間】",
+      "summary": "「ラグザス アジアプロ野球チャンピオンシップ2026」放送・配信について | トップ | メディア情報",
       "summaryBasis": "related-headline",
-      "issue": "「無料」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "落第賢者 #1〜12【無料ビデオ1週間】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRlRtSW5pYXBVaWVQR2I0Zm51ZUZzWEFRUHhHMmNuZ1FpakdkMmxBNUhuZFdSU0pOV3QtZnpQcjVVSWJsV1FWNFRmNk1IRUx5UW8xWlM1ZmpZWldWbllmeEVJT0hQTEhEN1E?oc=5",
+          "title": "「ラグザス アジアプロ野球チャンピオンシップ2026」放送・配信について | トップ | メディア情報",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BNzdzQXNtcDlOT09OT1A2VlU4Vi0yZkJ0MldSUjlLeGliZ2dwdkd0V0FTaDJEVFkzN0lWQ05iRDYyQm9ndlJpcFpfam9kdUU5bUljUnJTeUZwUl9ES1pkMDluQkVPV3hjUnU0?oc=5",
+          "name": "侍ジャパン",
+          "publishedAt": "Sat, 10 Oct 2026 03:12:34 GMT"
+        },
+        {
+          "title": "決勝 第14戦 富士スピードウェイ【フォーミュラ・リージョナル・ジャパニーズ・チャンピオンシップ 2026】",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aMHcwME1ROE1Ud25na1Q4UEgyMGttZFVzendKT0FtSnJ3UldsSnlDRHFha0VIRUE4anBUMEl1ejEtcHlqLW93dzhZYXJCS0RDejJSaEVXWnVMNlhnMVFJaEJmd1lEcU5wZmlHaGVaNm5Kdw?oc=5",
           "name": "ABEMA",
-          "publishedAt": "Fri, 09 Oct 2026 15:57:47 GMT"
-        },
-        {
-          "title": "参加無料！安土城築城450年を記念した『クレヨンしんちゃんスタンプラリー』が開催／近江八幡市内 各所",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15OW5ZQWc3UTJoRHV4NmRDZDFvbUZKczlJUV9CZlJFc1ZXSHpDSlRodUR0OHlhZ3k2X1Z5d2pieWZWSWZRZ2d4UHRqalBrdUM4anlwR0p6eHlQdU1JOVAwMjF0WVk?oc=5",
-          "name": "Leaf KYOTO",
-          "publishedAt": "Fri, 09 Oct 2026 18:09:57 GMT"
+          "publishedAt": "Sat, 10 Oct 2026 11:15:52 GMT"
         }
       ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
       "retained": false
     },
     {
-      "topic": "ドルトムント 対 ヴェルダー",
+      "topic": "井上 拓真",
       "status": "ok",
-      "summary": "ボルシア・ドルトムント対ヴェルダー・ブレーメンの予想：ホームチームは連勝記録を伸ばせるか？",
+      "summary": "井上拓真はバムに勝てるのか？ 元世界王者が予想「相性は良くない。かなり苦戦するイメージ」（東スポWEB）",
       "summaryBasis": "related-headline",
-      "issue": "「ドルトムント 対 ヴェルダー」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「井上 拓真」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ボルシア・ドルトムント対ヴェルダー・ブレーメンの予想：ホームチームは連勝記録を伸ばせるか？",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdlZuNFplT3NtQkJ0bFBxV3NyRk55LUE1VF9La09uZjRKLWIxZFdDYWt5QjVMZmNDcXlhSk83WEVhRk9IR1k1czR4Yy16ZXJIOW1oeGQ3T3FtMG5qZUlJbC1vb20zOTNCQ0FnX0JDTFJ5cE0zWU5Ec1FrVmpCRGdYZEd6a1VGd0ZnT2Q5SkVqbWRzandiQkN1X3RMVUlvbDZSdWlF?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Fri, 09 Oct 2026 13:51:10 GMT"
+          "title": "井上拓真はバムに勝てるのか？ 元世界王者が予想「相性は良くない。かなり苦戦するイメージ」（東スポWEB）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6Tm8zblJVeTNZNEZqbkZuZnNyM194TXVyb2RySUJYZXFDX1ZVMEZlVlc0WnpWUDhSNHpDN0MyZEZ4bXJSWlI3cXdyUWV2YlpxN3U3U0U0dWQ0Q2tKcmJFWkt0cFVab0VKdGZ5ZTVObEl3RDhMeWVqWHMtX291M28?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 10 Oct 2026 10:40:24 GMT"
         },
         {
-          "title": "ブンデスリーガ ドルトムント対ヴェルダー・ブレーメンのサッカー予想",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0lwZlJIQmdlOEZndzRpRzlfMW96eF9UaGYyVnRSNENSc3hUN3ExQXVoelFiLW5TMEhjTnFOT0d4aFNLazBWaURISnlza3ZVVV92ZUtQaXlrZVVaaDdLX2ZFOHdlejFCblhIWTJwcTFLeUVJWUxCQ1dDYjJIY2F3akhtU0dSX1pmcDZUNWd6aVlVMzV2cFFOYXpwUFdibzU1UE5aN29PZFE4Zkhz?oc=5",
-          "name": "Laodong.vn",
-          "publishedAt": "Fri, 09 Oct 2026 03:16:06 GMT"
+          "title": "大橋会長、井上尚弥、井上拓真が韓国フェ二ックスバトル・ソウル大会を視察 ファンから大歓声",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORG1KYXJUbEJfXzlDa0tPYU5NS3piaHBUWHhEaV9WMzlRNnp6Y1E3eFFNSHFYRGRwSlFFV21FM1pMRHBvVEhtMTJKbFVCWVJZeUxFUlhMNUVQZVhoUjhsODlCTE10dk9EWnB4U1RhNll3ZXNvb2o5LUtfNUlqTVBNTGZqc2HSAYcBQVVfeXFMT09XVmNjR3hVc2gxdWMxUGl0eTR6Z0ZYSkNGRmJlNTB1Y1NRWTZUWWNJTFVmZ2NOYUVtcUI3RXN6dnVFQWRnNTJKYWNhS2F4OVhiSk9VZXNaZnYzNGRfRnNVWnE2R0JBQ3RGcUxXc0hhWXltUHlmWTlNVGhSWC02Y0V2cTVVd3hn?oc=5",
+          "name": "日刊スポーツ",
+          "publishedAt": "Sat, 10 Oct 2026 07:20:22 GMT"
         }
       ],
-      "verifiedAt": "2026-10-10T05:58:26.015186+09:00",
+      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
       "retained": false
     },
     {
-      "topic": "al-nassr vs diriyah",
+      "topic": "バルサ",
+      "status": "ok",
+      "summary": "バルサの27歳DFが冬に移籍？ 地元メディアが報道「チェルシーとバイエルンが１月の獲得を狙う」（SOCCER DIGEST Web）",
+      "summaryBasis": "related-headline",
+      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
+      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "バルサの27歳DFが冬に移籍？ 地元メディアが報道「チェルシーとバイエルンが１月の獲得を狙う」（SOCCER DIGEST Web）",
+          "url": "https://news.yahoo.co.jp/articles/918494b58809291fa54cdaa331d42a8089baa872",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-11T03:31:14.127494+09:00",
+      "retained": false
+    },
+    {
+      "topic": "rbライプツィヒ 対 フランクフルト",
       "status": "unavailable"
     }
   ]
