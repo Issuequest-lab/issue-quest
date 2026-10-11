@@ -1,196 +1,226 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-12",
-  "fetchedAt": "2026-10-12T03:31:31.075357+09:00",
+  "fetchedAt": "2026-10-12T05:57:09.421886+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "進撃の巨人",
-    "シントトロイデン",
-    "森下暢仁",
-    "チャンピオンズリーグ",
-    "evo france 2026",
-    "日曜劇場 vivant",
-    "ngoại hạng anh",
-    "記者会見",
-    "vivant最終回",
-    "サッスオーロ 対 ミラン"
+    "エルニーニョ",
+    "メーガン",
+    "ブルワーズ 対 ドジャース",
+    "サムスン",
+    "ボビー・ダルベック",
+    "配当",
+    "ペンホルダー",
+    "今村聖奈",
+    "読売ジャイアンツ",
+    "カリアリ 対 ユヴェントス"
   ],
   "briefs": [
     {
-      "topic": "進撃の巨人",
+      "topic": "エルニーニョ",
       "status": "ok",
-      "summary": "10月23日よりSCREEN X、4DX、ULTRA 4DXにて上映される「劇場版『進撃の巨人』前編 紅蓮の弓矢」の劇場用ポスタービジュアルが公開された。「全てはここから始まる、進撃の巨人の原点」と",
+      "summary": "今年は1月～10月まで、毎月台風が発生しています。1月～10月まで毎月台風が発生するのは、1965年、2015年、そして2026年と、統計開始以来3回しかありません。なお、1月～12月まで毎月台風が発生したのは2015年のみで、この年はいわゆるスーパーエルニーニョが発生していました。",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「劇場版『進撃の巨人』前編 紅蓮の弓矢」劇場用ポスター公開 4DXは「立体機動装置強化ver.」が体験可能（映画.com）",
-          "url": "https://news.yahoo.co.jp/articles/378dd61e7b1d5657abf213dad26d3b4f143c1b5c",
-          "name": "Yahoo!ニュース",
+          "title": "今年は台風発生が多い 過去スーパーエルニーニョの年は毎月発生 南の海上の動向注意(気象予報士 福冨 里香 2026年10月11日)",
+          "url": "https://tenki.jp/forecaster/r_fukutomi/2026/10/11/40930.html",
+          "name": "tenki.jp",
           "publishedAt": null
         },
         {
-          "title": "『劇場版「進撃の巨人」前編〜紅蓮の弓矢〜』SCREENX公開記念舞台挨拶開催決定！",
-          "url": "https://shingeki.tv/news/archives/9545",
-          "name": "「進撃の巨人」The Final Season",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
-      "retained": false
-    },
-    {
-      "topic": "シントトロイデン",
-      "status": "ok",
-      "summary": "ベルギー1部第8節のメヘレン対シントトロイデンのスタメンが発表された。シントトロイデンはGK小久保玲央ブライアンや谷口彰悟、高井幸大らが先発。畑大雅、松澤海斗、荒木遼太郎も名を連ね、試合は26時15分に開始予定である",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "メヘレンvsシントトロイデン スタメン発表",
-          "url": "https://news.livedoor.com/article/detail/32544286/",
-          "name": "ライブドアニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "【シントトロイデン】 株式会社コミクス様とのスポンサー契約締結に関して",
-          "url": "https://prtimes.jp/main/html/rd/p/000000754.000042484.html",
-          "name": "PR TIMES",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
-      "retained": false
-    },
-    {
-      "topic": "森下暢仁",
-      "status": "ok",
-      "summary": "今季国内フリーエージェント（FA）権を取得した広島の床田寛樹投手（31）、森下暢仁投手（29）、坂倉将吾捕手（28）の3選手はいずれも残留も含めて熟考している… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【広島】FA取得の床田寛樹、森下暢仁、坂倉将吾はいずれも熟考 球団との残留交渉は今後予定",
-          "url": "https://www.nikkansports.com/baseball/news/202610070001431.html",
-          "name": "日刊スポーツ",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
-      "retained": false
-    },
-    {
-      "topic": "チャンピオンズリーグ",
-      "status": "ok",
-      "summary": "株式会社WOWOW Leminoが運営する映像配信サービス「Lemino®」において、欧州を代表する強豪クラブが頂点を争うサッカーの大会「UEFAチャンピオンズリーグ」2026-27シーズンを、10月より全試合ライブ配信する。",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "欧州No.1クラブを決める世界最高峰の大会「UEFAチャンピオンズリーグ」2026-27シーズ...",
-          "url": "https://lemino.docomo.ne.jp/leminonews/articles/lemino-uefa-champions-league-2026-27-livestreaming-all-matches-announcement",
-          "name": "Lemino",
-          "publishedAt": null
-        },
-        {
-          "title": "スポルティングCPvsLASK : Matchday 3 【欧州サッカー UEFAチャンピオンズリーグ】",
-          "url": "https://abema.tv/live-event/3af514ec-1f81-49da-b772-16d810ffb44d",
-          "name": "ABEMA",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
-      "retained": false
-    },
-    {
-      "topic": "evo france 2026",
-      "status": "ok",
-      "summary": "2026年10月9日（金）から11日（日）まで、フランスのニースで開催される格闘ゲームフェスティバル「EVO France 2026」のメインステージスケジュールが公開されました。3日間にわたって、トップ8と8つのタイトルの決勝が同じ会場で開催される予定です。",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "EVO France 2026のメインステージの全スケジュールが明らかになりました！同じ会場で開催される8つのタイトルのトップ8とファイナル",
-          "url": "https://saiganak.com/event/evo-france-2026-mainstage-schedule-top8-finals-announcement/",
-          "name": "Saiga NAK",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
-      "retained": false
-    },
-    {
-      "topic": "日曜劇場 vivant",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ngoại hạng anh",
-      "status": "unavailable"
-    },
-    {
-      "topic": "記者会見",
-      "status": "ok",
-      "summary": "錦織圭が引退記者会見、１９年間の現役生活回顧…「めちゃくちゃ長い青春時代をテニスに全部注げた」",
-      "summaryBasis": "related-headline",
-      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
-      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "錦織圭が引退記者会見、１９年間の現役生活回顧…「めちゃくちゃ長い青春時代をテニスに全部注げた」",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5dE1XdGJ4TGpPWVdkM1A3SjlsUnFEd2hfZG5TeXdyRUxPTXFaTUNWVGVGU2xqWDBCRi02VDA5dlM0Z21PUlhzek5fZnJFSUx4QnlvVEJwMV8wM3RyV2ZNWU96SThyc0hj?oc=5",
+          "title": "世界各地に異常気象もたらす「エルニーニョ」過去最強に、日本は暖冬の見込み…気象庁「影響注視したい」",
+          "url": "https://www.yomiuri.co.jp/science/20261010-GYT1T00216/",
           "name": "読売新聞",
-          "publishedAt": "Sun, 11 Oct 2026 12:33:00 GMT"
-        },
-        {
-          "title": "【開催発表記者会見アーカイブ】NTTドコモ presents Lemino BOXING ダブル世界タイトルマッチ 矢吹正道vsミエル・ファハルド",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmN4WmUxNGxTWXJvSjlkWDJuWk5PWW1VZW0wZk5oMVh1OXhQcGh1Qno4a1NmX3hXVDFOUXN4S0ZJU0pZM01uTXJyZzBfenhfSWQzd1ZwbU9wMG05VEVpYy04WnFMbVljYXlIT0ltSEo1RHRWczNMZlhUTkhtem5KQjJoZGwwM0oxWFJfT0xqcDh4akVZem9lVldyQlBFakFFZ0s0?oc=5",
-          "name": "Lemino",
-          "publishedAt": "Sun, 11 Oct 2026 12:59:49 GMT"
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
       "retained": false
     },
     {
-      "topic": "vivant最終回",
-      "status": "unavailable"
+      "topic": "メーガン",
+      "status": "ok",
+      "summary": "メーガン・マークルはこのほど、自身のライフスタイルブランド「As Ever」から新しいクリスマスコレクションを発表した。その中には、バッキンガム宮殿の公式ショップで販売されている商品と酷似したものも見受けられる。単なる偶然なのか、それとも真っ向からの競合なのか。",
+      "summaryBasis": "publisher-description",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "メーガン夫人が発売し始めたクリスマス商品、バッキンガム宮殿の商品にそっくりと話題に！",
+          "url": "https://madamefigaro.jp/culture/261011-meghan-markle-as-ever/",
+          "name": "madameFIGARO.jp",
+          "publishedAt": null
+        },
+        {
+          "title": "メーガン妃、料理中の写真を嘲笑される 「火が消えてる」と指摘しないスタッフにブチギレ、人材探しも難航",
+          "url": "https://www.elle.com/jp/culture/celebgossip/a74094573/meghan-cant-fing-staff-261010/",
+          "name": "ELLE",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
     },
     {
-      "topic": "サッスオーロ 対 ミラン",
+      "topic": "ブルワーズ 対 ドジャース",
       "status": "ok",
-      "summary": "サッスオーロ対ミランは見せ場のない1-1の引き分け。アモリムにとっては好機を逃し、後退する結果に",
+      "summary": "【ブルワーズ 対 ドジャース】今日の試合結果 大谷翔平・山本由伸・佐々木朗希の成績一覧｜MLBナリーグ優勝決定シリーズ2026",
       "summaryBasis": "related-headline",
-      "issue": "「サッスオーロ 対 ミラン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【ブルワーズ 対 ドジャース】今日の試合結果 大谷翔平・山本由伸・佐々木朗希の成績一覧｜MLBナリーグ優勝決定シリーズ2026",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EN0c0WEN1cm9LbllqVHdMTWxtWFhsNlBlT0ZHMWJsdERtVkV0TF93bnJNeExGeTlyYjhpdlJtR1RfcEdVWE9rb0p1TEFyMnZmbFJvcA?oc=5",
+          "name": "ベースボールチャンネル",
+          "publishedAt": "Sun, 11 Oct 2026 19:00:52 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "サムスン",
+      "status": "ok",
+      "summary": "【10月11日 KOREA WAVE】韓国のサムスン電子は10月8日、2026年7〜9月期の連結営業利益が107兆4000億ウォン（約11兆8140億円）となったとの暫定決算を発表した。前年同期比7",
+      "summaryBasis": "publisher-description",
+      "issue": "「サムスン」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "サッスオーロ対ミランは見せ場のない1-1の引き分け。アモリムにとっては好機を逃し、後退する結果に",
-          "url": "https://news.google.com/rss/articles/CBMihwVBVV95cUxNM3ZMazNrZHFPLUJadVZKQkpVbmRON2Jyb2tzWFdURHoxWTR4cjlxZ0VkRkE5Q0VscGd5UkNVTWtGSE56aDlaRzlNR19pLWlVZmdyVWs2emJQUTNHTlVReURjM2x6ZFd1UDNLQ0dMTzlhckU3MkNTWDVobnhqQ0ZjcGF0Wlp4RHROSDJZRlVOZXNyQ0NnaEVTYVJsSExmVTA0UGpPV1JvUUxBVWRzTFdUelhKTms0dVYydFdnQTFsQndhcXRveG1XaVg1cDFMaVZJSXpiTzh4ZXprNTFWRjE5dm95Sjl4RnAxZEt0Z3pJNEJfck83N3g2MHZnSHZMc2k3Z0YwVFhsa1NmMFJ4RGNpYjUxTlVoZ2ZySk90Wml2RldXWVM5c0lFczE5b2RLYUJ1MmhRS2J2blVQdndsdHVRa2ZPejdtVnVhZzZzYnB4UTdaV1R4NllXNXFEbTEyY29TZkRKXzEtRHd5Y2Y1VmFtZjVWNlk3bEF0S0lnTTJtWkVlc3hFUXBqUGFCcFUxSW1zS0piOG9XZklXVjgwV1RpRC1OYjRFNjlCOHVlcFp5SjVFN1k4WmUtTTAzLU9ZSFFVY2ptS1ZWMWpBb3gzb1dLQzhHazJjV3NUejlRTnZmamZtdjhwdnV1R09JSVU5Sm5OWHBobzFGR01qa3lPcVdfYVhxQjFQQ0ZHLXIwUVdrWW5LZnUtSHVSNlY0akxIb3NkZmdBSG56U0hXOTBBYWNMM1JGN2NNVjc1VE1TeW5EMzBkZnV0TVZYeVBDY3dadUhxaG9JNUtLd3hMbzM3aU01Ql91eVBRYnRfYWZSZDlLenB6bG92a2Qzak5fQ3libUlCSUhxc2ltaw?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Sun, 11 Oct 2026 17:59:00 GMT"
-        },
-        {
-          "title": "サッスオーロ対ミランは1-1【速報】ラビオが力強い一撃で均衡を破る。マニャンはボウイのシュートを防ぐも、オーデンタールとトルストヴェットのシュートは防げず",
-          "url": "https://news.google.com/rss/articles/CBMiughBVV95cUxQLXlSNUZpNUtaZzJFeXI4UXJhX2lfd3dlZHhlUTMwX0NVanJoUHFHLWtOTW1aTi1iLUx0cE1YSV92bDY3NmtSek83MVpJcUxYUzdRUXJBdllTbFdVVUFqQTU0VTVubkk3dWRwUzJkSXFqMXRNb1IwYmlKWFAxYjhZRTE2aW5wWDdVRDlkWkYxVHFOcFNtUW9HUVRrTF9jdmtDSExWYmVKLXhpYWpfc2ZEdHMyX2JhNmYxSFZzSVFEbU9GUlNtU0JDeUJJSkJhT1paVEJvMVY0ZlRtdGJYYk5JeURRYkxtajFkRDdpb3JLRG40WlVlYWU1djlWWDU2MHY1b1Bad3FBWWZEd01hOVBPVzE1Rm9IeVhrSE5qUHh6VlRaeUVmTFk0MGs4c2RzV00yRXh1S011aHBPRzZpQ0dZdlp4eE9udHhQR1ppY3g2YWNEOUo5WUViVkNsQ1FSSVkwa2UxcWdBRURwVGVmbHZxeHd3YTlRSUF4anJTZUh5SUJ1eHdyUTNnR2JpXzVhU2trak53Y2pfby1oRUF6NDlZYy1GWWN5TGM1ZHkzenQ4eWx1UkpuOHotZldYQXc4S2RaVzNic2xGeHFYejk2TlpzRnZhSUhKYUhsWlBSV1lPZXB3VVQ1WFBBY2gyWFpRdjBTd0lMQjBBS2N3YTY4Ty1PbGlmMEh1R0M0WEkzTG1CX3ZsdlJpSUpnRUVleGRJWC1fZzVqanVFeTZtQ3BzdS04TTM1NjRZaUpHQm42YVBIRG9rdjU2WXpFb2dwZm4xUjdUdkpqWUNQNVgzNHUxSXBTUU5BSzZLR25qT2RiRTladi1ESEF1cW1Bb2dMaGVFdEcyWUlTeWh3TlpCbzZ1blZVc1kyNFR1VGdnNVlFWHV4dHc0ZlExZElJd1hKSzVYeUJFSlNiRC0wZDRpejYxak14RWpvUDJsWjB1R3ExVnkzTG9HSkhaMXR4a2hSTU9Ud1ZsUHBNN1J1eDNBRThzUVRlTWZ6bHRNU3pNWlROWmRYWXo0MmZFSVJLMHdKR1pPMGJPNjBDZWZ0VmRFeVdCRWNKZ2JfX2l5cFBvWDhER0VTR3AxQWVwRGJXLXBpTkZnLTZSOXY0OGxkQVdnVUIzazFDM0ZQNTJIbFRXUGdjWldkaGhTZTgwd0FJaDc1N29OZDdTZ0Vra3Bic3BKV2pGOXlmZkFCdlpjdW9oUlJzUjROUWUxLTJLQnpJSmxUX1NTQlpSb3hQYXBEUGpOdWhpUEIya3VmVkxVLXUybFZVbGVXeGd4OVlEcG1MYlFvYUVRM0tQSEg5cXZnQlNYLUlpT0ZnSHdvWDZ0NGhEdlNzYkI0N1pTbE9kR1gxMjZmeHRKUGwweldLc19yQnZFNXBUNjR4QUJCR2M1N3N1M181cm5VR3VvMDRnNTVOM2JmS1lLNjVXdUhEZGE0QXZfZw?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Sun, 11 Oct 2026 17:26:00 GMT"
+          "title": "韓国サムスン電子、7～9月期営業利益107兆ウォン…メモリー事業が業績けん引（KOREA WAVE）",
+          "url": "https://news.yahoo.co.jp/articles/a668105412ff87edd10434ed1440444731b69a77",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ボビー・ダルベック",
+      "status": "unavailable"
+    },
+    {
+      "topic": "配当",
+      "status": "ok",
+      "summary": "上場インデックスファンド日経平均高配当株50【399A】：株価・株式情報（夜間PTS含む）",
+      "summaryBasis": "related-headline",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "上場インデックスファンド日経平均高配当株50【399A】：株価・株式情報（夜間PTS含む）",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jSWR3YllNeXQtbjQ5Q3dyQXF0ME40X0JXbDVqNDQwUXQ4enVVQ29GT3Z4djZ2UW01QjVUYUQ5RUNqM2NEQTlRUDE3LWVvZ1dlYUE?oc=5",
+          "name": "Yahoo!ファイナンス",
+          "publishedAt": "Sun, 11 Oct 2026 16:30:58 GMT"
+        },
+        {
+          "title": "【高配当利回り株】ベスト50 ＜割安株特集＞ (10月9日現在)",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pbklvZ1NLWW9QNkRETmtpS2V4M1RlemNZdFo3SkVoMTJhQy1wcHJzWk1QNzhuYTFxQ2lsRDVROHJuMF9xTXFyc3VDNy1LbUVhcS1CTE1RV2l4djdJay1WVg?oc=5",
+          "name": "株探",
+          "publishedAt": "Sun, 11 Oct 2026 01:10:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ペンホルダー",
+      "status": "ok",
+      "summary": "「ペンホルダーの選手はほとんどいない？」陛下が質問 天皇皇后両陛下が国民スポーツ卓球競技を観戦 皇后さま「今はどこの高校が強いですか」青森（TBS NEWS DIG Powered by JNN）",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「ペンホルダーの選手はほとんどいない？」陛下が質問 天皇皇后両陛下が国民スポーツ卓球競技を観戦 皇后さま「今はどこの高校が強いですか」青森（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtYUVhLV9kOFIwQk0wdDZ0VTFJNDhDTGQyME5uV1hjMXRJYTQwMnRyRzZZTGt1eUJxVWVGWTlta1A1ZkRwZmFOd0RFaGlfZ2tzU0J3MThKMXRWUlFlTFhUQWt4d3dyb1dVc0JLNDIzbERYT1BhM1RDNUNJa1ZfeG8?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 11 Oct 2026 03:00:18 GMT"
+        },
+        {
+          "title": "両陛下 国民スポーツ大会で卓球競技を観戦 「ペンホルダーの選手は」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zZFdrYV9tek1RQW9JdWViSnNRdDFhYkxDZWhBeGdhbElvQXBJOWFIdjluc21Eckc0ZTZXUVdxbG5uSjRYbGZxeVpJNzJGSFl2UUNXZTNZaFhwWGIzbUljV3A5aEJpWUxr?oc=5",
+          "name": "HOME広島ホームテレビ",
+          "publishedAt": "Sun, 11 Oct 2026 03:13:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "今村聖奈",
+      "status": "ok",
+      "summary": "今村聖奈が約１カ月半ぶり白星＆一日２勝 ブラックレジェンド「前回はうまく乗れなかったけど、続けて乗せてもらって感謝」 ハギノコラソン（デイリースポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "「今村聖奈」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "今村聖奈が約１カ月半ぶり白星＆一日２勝 ブラックレジェンド「前回はうまく乗れなかったけど、続けて乗せてもらって感謝」 ハギノコラソン（デイリースポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YVEZvcFVva0RaR2tuM2U5YkZEckYzcW51VGV2NmVaNEJxY0ZiYWNyM3NsUVI4dmR5SXZMVmxzSXpqRjhQZWl5NXRIV2NidWIzb3pwampWSWRPSnNxRVRaVDRCbThLVEdCX3pCWV9sYnd0MWVOMmQyWGFIRW14UGc?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sun, 11 Oct 2026 05:36:28 GMT"
+        },
+        {
+          "title": "【ジョッキーベイビーズ】唯一の小学生・笠松渚さん優勝 将来の夢は「今村聖奈さんのような…」",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MNFJGRktTeVN2cUk3NGc3a2szUHFqNERSNjIwY2hCSHNJeWs3SHhzblhDVTBMZTNNQ3hpUUxtS3BWOG1jTi05UTB3TDFMTnFJai1nUGU2TkFPTGhPYnhz?oc=5",
+          "name": "netkeiba",
+          "publishedAt": "Sun, 11 Oct 2026 08:40:44 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "読売ジャイアンツ",
+      "status": "ok",
+      "summary": "【10月10日】読売ジャイアンツvs横浜DeNAベイスターズのテレビ放送/ネット配信予定｜プロ野球セ・リーグCSファーストステージ第1戦",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【10月10日】読売ジャイアンツvs横浜DeNAベイスターズのテレビ放送/ネット配信予定｜プロ野球セ・リーグCSファーストステージ第1戦",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNieUdsNVlMOTNaUE4wRXJwb2VsOW1qQmkxYW1XQU95VlFDYlVER1h6SWNTX3pjZ1p4emFHYW5KcXQ5NFZEcDlRcWNQY1NKdEFLME9odmRmanI2M21iUjBVM1Jac1U3a2stVEVOR1hPZFpWN080SUhMcHVaYXJvZEhsbU50QUJXeWNRM1RGbDM3ajdXSlJzRDBBTi0yZHpUSkFPV2c3ZEFwU3RwQUlXTm9wS1MtcWp2MVllWUpKeE9qSkp4dlJENg?oc=5",
+          "name": "DAZN",
+          "publishedAt": "Sat, 10 Oct 2026 05:05:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "retained": false
+    },
+    {
+      "topic": "カリアリ 対 ユヴェントス",
+      "status": "ok",
+      "summary": "カリアリ対ユヴェントス、CMの採点：マルディーニが止まらない。コロ・ムアニはゴールで沈黙を破るも、その後またミス。ヴォルテマーデは存在感なし",
+      "summaryBasis": "related-headline",
+      "issue": "「カリアリ 対 ユヴェントス」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "カリアリ対ユヴェントス、CMの採点：マルディーニが止まらない。コロ・ムアニはゴールで沈黙を破るも、その後またミス。ヴォルテマーデは存在感なし",
+          "url": "https://news.google.com/rss/articles/CBMiwwdBVV95cUxNc1owNjVWTjNwNnBQWElMRlFUdzIxT0VZM3BSY3NSYUZpem9MOTVvS1V4N2FXdEJHZlBqWm5idFd6VVhsX2dzZlp1S3ZiSDc0UDZOdF9YcEprdUIxcVlaNHNLNUdUR2lINk9ObEljam1mOGNRZjk3c0pZWjR0VVdhWGJpaFpPWi1YdGxsdnRMZ2wyUmJUSEVadzlkS1pENG5RMGJiR2o1c1hzRTNYWXZqLWFnQ2o3VWpmb1B6ZU9MZXBiQ0lBNXRVWVlRc3Jjc29ibUxraE9LSlg1YXNLazBCMjh0UnB6OG0ySy1vMDZUWnlfTTNsbFZpZ0ZzYnBOSG4wQUpxemlvUHQ4VTQyYnhQc3ZYYTY0ZXZOaXdXRVpra3lqTm92Z0p5cUlRVjVOM2RlcW9Qa2hSRnFBNG41LTBHbFQ5cWJ4WWM1Ymt2M2JqRGY5VDJ2QkJ0QVVXb3hMRzEwRWthc3FXWEtiLWRwcnk5aURiOV92bi1KbUtPTjlyN1NjdnZVLU5fQWMwVUNDYjVqWGtEMlQxNDRlSWpublhzSkZLdjBoS3ppUEZheFIyeW5ORzJ4SVNXS2dXb3NhNThVX3l2dWtoZnhoTVd2Q25SOEI2aGxhb0dDUTNMQkhuZ1FlMXl1X3ZxUjJPV19nZnVlVUpkbDV3bFpnMWo2WkFxWUdPRGdYRTV1cVZIblkxcExaNDFaOVB3ZmhoS0lneEVibF9CSDNmMXNDSkZnNFVyNFZlclBiZ3EwM3NBdW04VmRfeTFiNV9ZWGVqOWEzSlJ6YllKYVlJeV9vTWV2cnFhZFVCdkc5Ym9ZVTVLMmduLVg0NDdOeXVDR3JLQVdlQnZzU1R0dzNHQnJFSDdpdTNHWUVzVUpmOUJUbWhvYW9ScVo3bVM2UTA3ZENWT3plWnhTa0c5MzVFRFJxRld3aFlJLXZBN1E3NVJldW9yb1RyQXBoZnNJMko3RUxGbm9haGlvcF9kRE5YRnFjOTRsLUgwX1k0eWUyekR3blJWV1gwa3JKUEVMV3pUQVZhXzlSbGJUT3doTGRwb21ieThyYUVodjl4WDc3SjBITGI5amNnMTJvM3o1bXJSWFc1TDI1VDdqOThscU8tQ2MyUTFrV3E0VGVUTGFiYnM0QmxBZ0pqekdOdGRtVVdTTnVzcV9HaHJySlZFZ09CWmVZWWhwQjlCNjVxcUtXR0NIT0g0dkQzTGZNeGFvX0NHMXk2aWM3bW1yRFdTcHhlN09XaW5ZZEdSNGJZM1BveVdpUHkyM3FTaXFPcEU?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Sun, 11 Oct 2026 20:48:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
       "retained": false
     }
   ]
