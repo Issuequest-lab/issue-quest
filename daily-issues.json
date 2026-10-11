@@ -1,155 +1,197 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-11",
-  "fetchedAt": "2026-10-11T05:55:45.818869+09:00",
+  "updatedAt": "2026-10-12",
+  "fetchedAt": "2026-10-12T03:31:31.075357+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "geforce rtx 5080 24gb",
-    "大人の休日倶楽部",
-    "大越健介",
-    "天気予報 台風情報",
-    "real madrid",
-    "リフレ",
-    "旗手怜央",
-    "real madrid vs villarreal",
-    "千葉 西 総合 病院 看護 師",
-    "パリsg 対 ル・マンfc"
+    "進撃の巨人",
+    "シントトロイデン",
+    "森下暢仁",
+    "チャンピオンズリーグ",
+    "evo france 2026",
+    "日曜劇場 vivant",
+    "ngoại hạng anh",
+    "記者会見",
+    "vivant最終回",
+    "サッスオーロ 対 ミラン"
   ],
   "briefs": [
     {
-      "topic": "geforce rtx 5080 24gb",
-      "status": "unavailable"
-    },
-    {
-      "topic": "大人の休日倶楽部",
+      "topic": "進撃の巨人",
       "status": "ok",
-      "summary": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か のべ206万件 [不正アクセス]",
-      "summaryBasis": "related-headline",
-      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
-      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "JR東「えきねっと」「大人の休日倶楽部」で漏洩か のべ206万件 [不正アクセス]",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95RFFzWUJJakJvLXVTZmh1RlpfYTZOai11ZEQtNnNPS1lZdThadzNieWk3aWRTZ3V0bURSNVJydzNXbGFhR2xRRERMcnVoZW1pNzMwVnZnZV9RN1lWQktWd3UzSVQwdUE?oc=5",
-          "name": "朝日新聞",
-          "publishedAt": "Fri, 09 Oct 2026 05:29:00 GMT"
-        },
-        {
-          "title": "ＪＲ東日本、２０６万件の個人情報が不正アクセスで漏えいか…「えきねっと」「大人の休日倶楽部」",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzNzQ1cFk1aW9CbW5aMTdGU1h3eWlFUjBjMFVJZnl3cFI2QjN3QlpOZXNxazdUOUkxb19TeEpkYS1sRTEwVHpnYTRBWTBYSm12M3pkd2NQeXVoeUpFem9iSnZrMVo?oc=5",
-          "name": "読売新聞",
-          "publishedAt": "Fri, 09 Oct 2026 06:46:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
-      "retained": false
-    },
-    {
-      "topic": "大越健介",
-      "status": "ok",
-      "summary": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「大越健介」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」（日刊スポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43azBIeVRaOGtGcF9tYm5jV2xVUFdxSUlwX2dZYTdrVFk2UlpVU0RKeU5TOFdQUE16dFBlMllGVEVZWkRNU2pvVmpteVE3TUJkOWdta2NwVnhNQkdoQnRfVUcwMDhCOUoyVVYyQmpXaFpjZmlJLUJvZEtPcGh2Tk0?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 10 Oct 2026 05:54:26 GMT"
-        },
-        {
-          "title": "報ステ大越健介氏が指摘「高市政権が安定しているとは、とても言える状況ではない」",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHFVYlhOUXlTWUdsZUJiUXYweDFEckVMTGM4SFNCbldJanpDRTRpMENiQlNUbXNIQkR0R0YzMHRKQTd5bGdDM0dSU2ZuWW5hYlFybHFPSmN6VkdkREhYTmRfcGpHVGppaE93SEtyc2ZVeDhpSU04OTVaTzhyWGRaOVdNZDZrR09ueWY3a21ZeTV4Vm5WMTd6T3ZISll2WFZydF9rMmtWbF_SAaQBQVVfeXFMUFFrOGhJcWNjTmI1QlVrQ3JCXzFva0JEVVctQXBfQUlWOFFuUzhjek5HV0NNVnI2cGJ3MFUtQkU2YjZPLTMwQ1pnMUJWQ2JJaGt5eG9jMXhEMnowbTlJNlplWVAtTUZxOHBzV3plLWpKZ3E3TlRfTVR1NTlSZE9vMjd3QkR4RS1rVU9CbTM3Ri1RVGd3N0F1YnpWQzQ4aHJvRVNCT0E?oc=5",
-          "name": "ｄメニューニュース",
-          "publishedAt": "Sat, 10 Oct 2026 05:54:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
-      "retained": false
-    },
-    {
-      "topic": "天気予報 台風情報",
-      "status": "unavailable"
-    },
-    {
-      "topic": "real madrid",
-      "status": "translation-unavailable"
-    },
-    {
-      "topic": "リフレ",
-      "status": "ok",
-      "summary": "高市早苗政権がリフレ政策は不要だというメッセージを打ち出している。高市首相や片山さつき財務相、城内実経済財政相が相次いで発言した。市場やトランプ米政権に配慮し「利上げに慎重」という印象を打ち消す狙いがある。首相は8日の衆院本会議で「リフレ政策が必要な局面ではない」と強調した。",
+      "summary": "10月23日よりSCREEN X、4DX、ULTRA 4DXにて上映される「劇場版『進撃の巨人』前編 紅蓮の弓矢」の劇場用ポスタービジュアルが公開された。「全てはここから始まる、進撃の巨人の原点」と",
       "summaryBasis": "publisher-description",
-      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
-      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "高市政権、一斉にリフレ否定 米国意識で「利上げ慎重」打ち消し",
-          "url": "https://www.nikkei.com/article/DGXZQOUA090WP0Z01C26A0000000/",
-          "name": "日本経済新聞",
+          "title": "「劇場版『進撃の巨人』前編 紅蓮の弓矢」劇場用ポスター公開 4DXは「立体機動装置強化ver.」が体験可能（映画.com）",
+          "url": "https://news.yahoo.co.jp/articles/378dd61e7b1d5657abf213dad26d3b4f143c1b5c",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "『劇場版「進撃の巨人」前編〜紅蓮の弓矢〜』SCREENX公開記念舞台挨拶開催決定！",
+          "url": "https://shingeki.tv/news/archives/9545",
+          "name": "「進撃の巨人」The Final Season",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
       "retained": false
     },
     {
-      "topic": "旗手怜央",
+      "topic": "シントトロイデン",
       "status": "ok",
-      "summary": "バーンリーMF旗手怜央、移籍後初ゴール含む1G1Aの大活躍 チームを今季初白星に導く立役者に、わずか12分間で2得点に関与（フットボールチャンネル）",
+      "summary": "ベルギー1部第8節のメヘレン対シントトロイデンのスタメンが発表された。シントトロイデンはGK小久保玲央ブライアンや谷口彰悟、高井幸大らが先発。畑大雅、松澤海斗、荒木遼太郎も名を連ね、試合は26時15分に開始予定である",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "メヘレンvsシントトロイデン スタメン発表",
+          "url": "https://news.livedoor.com/article/detail/32544286/",
+          "name": "ライブドアニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "【シントトロイデン】 株式会社コミクス様とのスポンサー契約締結に関して",
+          "url": "https://prtimes.jp/main/html/rd/p/000000754.000042484.html",
+          "name": "PR TIMES",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "retained": false
+    },
+    {
+      "topic": "森下暢仁",
+      "status": "ok",
+      "summary": "今季国内フリーエージェント（FA）権を取得した広島の床田寛樹投手（31）、森下暢仁投手（29）、坂倉将吾捕手（28）の3選手はいずれも残留も含めて熟考している… - 日刊スポーツ新聞社のニュースサイト、ニッカンスポーツ・コム（nikkansports.com）",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【広島】FA取得の床田寛樹、森下暢仁、坂倉将吾はいずれも熟考 球団との残留交渉は今後予定",
+          "url": "https://www.nikkansports.com/baseball/news/202610070001431.html",
+          "name": "日刊スポーツ",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "retained": false
+    },
+    {
+      "topic": "チャンピオンズリーグ",
+      "status": "ok",
+      "summary": "株式会社WOWOW Leminoが運営する映像配信サービス「Lemino®」において、欧州を代表する強豪クラブが頂点を争うサッカーの大会「UEFAチャンピオンズリーグ」2026-27シーズンを、10月より全試合ライブ配信する。",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "欧州No.1クラブを決める世界最高峰の大会「UEFAチャンピオンズリーグ」2026-27シーズ...",
+          "url": "https://lemino.docomo.ne.jp/leminonews/articles/lemino-uefa-champions-league-2026-27-livestreaming-all-matches-announcement",
+          "name": "Lemino",
+          "publishedAt": null
+        },
+        {
+          "title": "スポルティングCPvsLASK : Matchday 3 【欧州サッカー UEFAチャンピオンズリーグ】",
+          "url": "https://abema.tv/live-event/3af514ec-1f81-49da-b772-16d810ffb44d",
+          "name": "ABEMA",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "retained": false
+    },
+    {
+      "topic": "evo france 2026",
+      "status": "ok",
+      "summary": "2026年10月9日（金）から11日（日）まで、フランスのニースで開催される格闘ゲームフェスティバル「EVO France 2026」のメインステージスケジュールが公開されました。3日間にわたって、トップ8と8つのタイトルの決勝が同じ会場で開催される予定です。",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "EVO France 2026のメインステージの全スケジュールが明らかになりました！同じ会場で開催される8つのタイトルのトップ8とファイナル",
+          "url": "https://saiganak.com/event/evo-france-2026-mainstage-schedule-top8-finals-announcement/",
+          "name": "Saiga NAK",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
+      "retained": false
+    },
+    {
+      "topic": "日曜劇場 vivant",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ngoại hạng anh",
+      "status": "unavailable"
+    },
+    {
+      "topic": "記者会見",
+      "status": "ok",
+      "summary": "錦織圭が引退記者会見、１９年間の現役生活回顧…「めちゃくちゃ長い青春時代をテニスに全部注げた」",
       "summaryBasis": "related-headline",
       "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
       "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "バーンリーMF旗手怜央、移籍後初ゴール含む1G1Aの大活躍 チームを今季初白星に導く立役者に、わずか12分間で2得点に関与（フットボールチャンネル）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DeGVhcWkzYVlsTmRpZ2hOVWJuLVpUOHBaOHcxS21NOElNbHVEUHA2V2FPazFNOEZXRjBzN1VVOFk1QXFwZW1scFVlV2k3Q0ZZNGRVMTdhUXY5blBxMkpvTjljTURIVFFJT1ctbVd5SXpGLVZJdHo4NGdkaFpWVTg?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 10 Oct 2026 19:49:45 GMT"
+          "title": "錦織圭が引退記者会見、１９年間の現役生活回顧…「めちゃくちゃ長い青春時代をテニスに全部注げた」",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5dE1XdGJ4TGpPWVdkM1A3SjlsUnFEd2hfZG5TeXdyRUxPTXFaTUNWVGVGU2xqWDBCRi02VDA5dlM0Z21PUlhzek5fZnJFSUx4QnlvVEJwMV8wM3RyV2ZNWU96SThyc0hj?oc=5",
+          "name": "読売新聞",
+          "publishedAt": "Sun, 11 Oct 2026 12:33:00 GMT"
         },
         {
-          "title": "バーンリー旗手怜央 先制アシスト＆移籍初ゴール 結婚発表後の初戦で今季初勝利に大きく貢献",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaC1EWll1WDlTYm5Lc0VMTWZJTFV6OWlqMlZYNVFGWlROcVNydU01U1pQZXhsamtoekxSbnpKS2s0ZkZkMWx3VG5IaFRQbFRNblphS3hoWU4xd1VpMU5Ic2tFbVZ6c1BnS3BEQkd5SkZ5Yld0ZTFNNm1kVnEwdDktbG0yNFhIVVNVdFliSg?oc=5",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": "Sat, 10 Oct 2026 16:35:00 GMT"
+          "title": "【開催発表記者会見アーカイブ】NTTドコモ presents Lemino BOXING ダブル世界タイトルマッチ 矢吹正道vsミエル・ファハルド",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTmN4WmUxNGxTWXJvSjlkWDJuWk5PWW1VZW0wZk5oMVh1OXhQcGh1Qno4a1NmX3hXVDFOUXN4S0ZJU0pZM01uTXJyZzBfenhfSWQzd1ZwbU9wMG05VEVpYy04WnFMbVljYXlIT0ltSEo1RHRWczNMZlhUTkhtem5KQjJoZGwwM0oxWFJfT0xqcDh4akVZem9lVldyQlBFakFFZ0s0?oc=5",
+          "name": "Lemino",
+          "publishedAt": "Sun, 11 Oct 2026 12:59:49 GMT"
         }
       ],
-      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
       "retained": false
     },
     {
-      "topic": "real madrid vs villarreal",
-      "status": "translation-unavailable"
+      "topic": "vivant最終回",
+      "status": "unavailable"
     },
     {
-      "topic": "千葉 西 総合 病院 看護 師",
+      "topic": "サッスオーロ 対 ミラン",
       "status": "ok",
-      "summary": "千葉西総合病院 看護師が患者を無断撮影した動画がSNSで流出",
+      "summary": "サッスオーロ対ミランは見せ場のない1-1の引き分け。アモリムにとっては好機を逃し、後退する結果に",
       "summaryBasis": "related-headline",
-      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
-      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
+      "issue": "「サッスオーロ 対 ミラン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "千葉西総合病院 看護師が患者を無断撮影した動画がSNSで流出",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261009de57378",
-          "name": "NHKニュース",
-          "publishedAt": null
+          "title": "サッスオーロ対ミランは見せ場のない1-1の引き分け。アモリムにとっては好機を逃し、後退する結果に",
+          "url": "https://news.google.com/rss/articles/CBMihwVBVV95cUxNM3ZMazNrZHFPLUJadVZKQkpVbmRON2Jyb2tzWFdURHoxWTR4cjlxZ0VkRkE5Q0VscGd5UkNVTWtGSE56aDlaRzlNR19pLWlVZmdyVWs2emJQUTNHTlVReURjM2x6ZFd1UDNLQ0dMTzlhckU3MkNTWDVobnhqQ0ZjcGF0Wlp4RHROSDJZRlVOZXNyQ0NnaEVTYVJsSExmVTA0UGpPV1JvUUxBVWRzTFdUelhKTms0dVYydFdnQTFsQndhcXRveG1XaVg1cDFMaVZJSXpiTzh4ZXprNTFWRjE5dm95Sjl4RnAxZEt0Z3pJNEJfck83N3g2MHZnSHZMc2k3Z0YwVFhsa1NmMFJ4RGNpYjUxTlVoZ2ZySk90Wml2RldXWVM5c0lFczE5b2RLYUJ1MmhRS2J2blVQdndsdHVRa2ZPejdtVnVhZzZzYnB4UTdaV1R4NllXNXFEbTEyY29TZkRKXzEtRHd5Y2Y1VmFtZjVWNlk3bEF0S0lnTTJtWkVlc3hFUXBqUGFCcFUxSW1zS0piOG9XZklXVjgwV1RpRC1OYjRFNjlCOHVlcFp5SjVFN1k4WmUtTTAzLU9ZSFFVY2ptS1ZWMWpBb3gzb1dLQzhHazJjV3NUejlRTnZmamZtdjhwdnV1R09JSVU5Sm5OWHBobzFGR01qa3lPcVdfYVhxQjFQQ0ZHLXIwUVdrWW5LZnUtSHVSNlY0akxIb3NkZmdBSG56U0hXOTBBYWNMM1JGN2NNVjc1VE1TeW5EMzBkZnV0TVZYeVBDY3dadUhxaG9JNUtLd3hMbzM3aU01Ql91eVBRYnRfYWZSZDlLenB6bG92a2Qzak5fQ3libUlCSUhxc2ltaw?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Sun, 11 Oct 2026 17:59:00 GMT"
+        },
+        {
+          "title": "サッスオーロ対ミランは1-1【速報】ラビオが力強い一撃で均衡を破る。マニャンはボウイのシュートを防ぐも、オーデンタールとトルストヴェットのシュートは防げず",
+          "url": "https://news.google.com/rss/articles/CBMiughBVV95cUxQLXlSNUZpNUtaZzJFeXI4UXJhX2lfd3dlZHhlUTMwX0NVanJoUHFHLWtOTW1aTi1iLUx0cE1YSV92bDY3NmtSek83MVpJcUxYUzdRUXJBdllTbFdVVUFqQTU0VTVubkk3dWRwUzJkSXFqMXRNb1IwYmlKWFAxYjhZRTE2aW5wWDdVRDlkWkYxVHFOcFNtUW9HUVRrTF9jdmtDSExWYmVKLXhpYWpfc2ZEdHMyX2JhNmYxSFZzSVFEbU9GUlNtU0JDeUJJSkJhT1paVEJvMVY0ZlRtdGJYYk5JeURRYkxtajFkRDdpb3JLRG40WlVlYWU1djlWWDU2MHY1b1Bad3FBWWZEd01hOVBPVzE1Rm9IeVhrSE5qUHh6VlRaeUVmTFk0MGs4c2RzV00yRXh1S011aHBPRzZpQ0dZdlp4eE9udHhQR1ppY3g2YWNEOUo5WUViVkNsQ1FSSVkwa2UxcWdBRURwVGVmbHZxeHd3YTlRSUF4anJTZUh5SUJ1eHdyUTNnR2JpXzVhU2trak53Y2pfby1oRUF6NDlZYy1GWWN5TGM1ZHkzenQ4eWx1UkpuOHotZldYQXc4S2RaVzNic2xGeHFYejk2TlpzRnZhSUhKYUhsWlBSV1lPZXB3VVQ1WFBBY2gyWFpRdjBTd0lMQjBBS2N3YTY4Ty1PbGlmMEh1R0M0WEkzTG1CX3ZsdlJpSUpnRUVleGRJWC1fZzVqanVFeTZtQ3BzdS04TTM1NjRZaUpHQm42YVBIRG9rdjU2WXpFb2dwZm4xUjdUdkpqWUNQNVgzNHUxSXBTUU5BSzZLR25qT2RiRTladi1ESEF1cW1Bb2dMaGVFdEcyWUlTeWh3TlpCbzZ1blZVc1kyNFR1VGdnNVlFWHV4dHc0ZlExZElJd1hKSzVYeUJFSlNiRC0wZDRpejYxak14RWpvUDJsWjB1R3ExVnkzTG9HSkhaMXR4a2hSTU9Ud1ZsUHBNN1J1eDNBRThzUVRlTWZ6bHRNU3pNWlROWmRYWXo0MmZFSVJLMHdKR1pPMGJPNjBDZWZ0VmRFeVdCRWNKZ2JfX2l5cFBvWDhER0VTR3AxQWVwRGJXLXBpTkZnLTZSOXY0OGxkQVdnVUIzazFDM0ZQNTJIbFRXUGdjWldkaGhTZTgwd0FJaDc1N29OZDdTZ0Vra3Bic3BKV2pGOXlmZkFCdlpjdW9oUlJzUjROUWUxLTJLQnpJSmxUX1NTQlpSb3hQYXBEUGpOdWhpUEIya3VmVkxVLXUybFZVbGVXeGd4OVlEcG1MYlFvYUVRM0tQSEg5cXZnQlNYLUlpT0ZnSHdvWDZ0NGhEdlNzYkI0N1pTbE9kR1gxMjZmeHRKUGwweldLc19yQnZFNXBUNjR4QUJCR2M1N3N1M181cm5VR3VvMDRnNTVOM2JmS1lLNjVXdUhEZGE0QXZfZw?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Sun, 11 Oct 2026 17:26:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-11T05:55:45.818869+09:00",
+      "verifiedAt": "2026-10-12T03:31:31.075357+09:00",
       "retained": false
-    },
-    {
-      "topic": "パリsg 対 ル・マンfc",
-      "status": "unavailable"
     }
   ]
 }
