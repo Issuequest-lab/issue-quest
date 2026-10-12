@@ -1,227 +1,191 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-12",
-  "fetchedAt": "2026-10-12T05:57:09.421886+09:00",
+  "updatedAt": "2026-10-13",
+  "fetchedAt": "2026-10-13T03:34:44.213684+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "エルニーニョ",
-    "メーガン",
-    "ブルワーズ 対 ドジャース",
-    "サムスン",
-    "ボビー・ダルベック",
-    "配当",
-    "ペンホルダー",
-    "今村聖奈",
-    "読売ジャイアンツ",
-    "カリアリ 対 ユヴェントス"
+    "運転",
+    "cl",
+    "チャンピオンズリーグ",
+    "gta6",
+    "解体",
+    "ブリーチ",
+    "ionq 株価",
+    "岸和田だんじり祭り 死亡",
+    "快速 列車",
+    "妻を引退します ドラマ"
   ],
   "briefs": [
     {
-      "topic": "エルニーニョ",
+      "topic": "運転",
       "status": "ok",
-      "summary": "今年は1月～10月まで、毎月台風が発生しています。1月～10月まで毎月台風が発生するのは、1965年、2015年、そして2026年と、統計開始以来3回しかありません。なお、1月～12月まで毎月台風が発生したのは2015年のみで、この年はいわゆるスーパーエルニーニョが発生していました。",
+      "summary": "千葉市中央区の交差点で4人が乗った乗用車がトラックと正面衝突し、3人が死亡した事故で、千葉県警は12日、自動車運転処罰法違反（過失運転致死傷）容疑で、車を運転していた男（19）＝同区＝を逮捕した。【",
       "summaryBasis": "publisher-description",
-      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
-      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
+      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "今年は台風発生が多い 過去スーパーエルニーニョの年は毎月発生 南の海上の動向注意(気象予報士 福冨 里香 2026年10月11日)",
-          "url": "https://tenki.jp/forecaster/r_fukutomi/2026/10/11/40930.html",
-          "name": "tenki.jp",
+          "title": "千葉市の3人死亡事故、運転の19歳男逮捕 免許取得から1年未満、トラックと正面衝突（時事通信）",
+          "url": "https://news.yahoo.co.jp/articles/1e89eb2e19ad44c46274b7efaaba3322701674c0",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "世界各地に異常気象もたらす「エルニーニョ」過去最強に、日本は暖冬の見込み…気象庁「影響注視したい」",
-          "url": "https://www.yomiuri.co.jp/science/20261010-GYT1T00216/",
-          "name": "読売新聞",
+          "title": "千葉市の炎上3人死亡事故 運転手の19歳を逮捕",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261012de58199",
+          "name": "NHKニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
       "retained": false
     },
     {
-      "topic": "メーガン",
+      "topic": "cl",
       "status": "ok",
-      "summary": "メーガン・マークルはこのほど、自身のライフスタイルブランド「As Ever」から新しいクリスマスコレクションを発表した。その中には、バッキンガム宮殿の公式ショップで販売されている商品と酷似したものも見受けられる。単なる偶然なのか、それとも真っ向からの競合なのか。",
-      "summaryBasis": "publisher-description",
-      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
-      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "メーガン夫人が発売し始めたクリスマス商品、バッキンガム宮殿の商品にそっくりと話題に！",
-          "url": "https://madamefigaro.jp/culture/261011-meghan-markle-as-ever/",
-          "name": "madameFIGARO.jp",
-          "publishedAt": null
-        },
-        {
-          "title": "メーガン妃、料理中の写真を嘲笑される 「火が消えてる」と指摘しないスタッフにブチギレ、人材探しも難航",
-          "url": "https://www.elle.com/jp/culture/celebgossip/a74094573/meghan-cant-fing-staff-261010/",
-          "name": "ELLE",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ブルワーズ 対 ドジャース",
-      "status": "ok",
-      "summary": "【ブルワーズ 対 ドジャース】今日の試合結果 大谷翔平・山本由伸・佐々木朗希の成績一覧｜MLBナリーグ優勝決定シリーズ2026",
+      "summary": "上田綺世出場予定！CLアーセナルvsリールはいつ？試合日程・放送予定",
       "summaryBasis": "related-headline",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【ブルワーズ 対 ドジャース】今日の試合結果 大谷翔平・山本由伸・佐々木朗希の成績一覧｜MLBナリーグ優勝決定シリーズ2026",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EN0c0WEN1cm9LbllqVHdMTWxtWFhsNlBlT0ZHMWJsdERtVkV0TF93bnJNeExGeTlyYjhpdlJtR1RfcEdVWE9rb0p1TEFyMnZmbFJvcA?oc=5",
-          "name": "ベースボールチャンネル",
-          "publishedAt": "Sun, 11 Oct 2026 19:00:52 GMT"
+          "title": "上田綺世出場予定！CLアーセナルvsリールはいつ？試合日程・放送予定",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORG1UbG5KOGxabnZVVUdfVmNKeHk4bUJwQ0FkV3BGeG1VbjNYU2VVaUxvMTlYdXpxaGJZNkxxWWpYdnJwU3RUUGRwbFJBdk51Y3JoNnQweFFEUDZBbVpSSHh5ZFloOHAtbmh4cWFCY3RWUEZ3SWMzSENuWGhOMC04bVB4elFKWUg1RFJSRlg2ZlI0UEhLQm5VYVo5UnFRSUNPaVlrTlZydU83eGFPSURJ?oc=5",
+          "name": "Lemino",
+          "publishedAt": "Mon, 12 Oct 2026 03:00:00 GMT"
+        },
+        {
+          "title": "バイエルン、次節CLのGKは誰に？ ノイアーの痛恨ミスでウルビヒ起用論浮上、現地メディアの見解は…",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44a052OVpoRHF0QXdiZzBwRDU5WjRsTzV1d29xM0ZEX2hKdE9QbFVKUlFpSjdCb0hnVGNGUi11OHJSckNnX0kydkZ6MXk3a3hHa0NTS0ZoTFR1QW9rSXFJMG1iXzgybjk2ZlhuUHZWTXM?oc=5",
+          "name": "サッカーキング",
+          "publishedAt": "Mon, 12 Oct 2026 10:48:48 GMT"
         }
       ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
       "retained": false
     },
     {
-      "topic": "サムスン",
+      "topic": "チャンピオンズリーグ",
       "status": "ok",
-      "summary": "【10月11日 KOREA WAVE】韓国のサムスン電子は10月8日、2026年7〜9月期の連結営業利益が107兆4000億ウォン（約11兆8140億円）となったとの暫定決算を発表した。前年同期比7",
-      "summaryBasis": "publisher-description",
-      "issue": "「サムスン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "チャンピオンズリーグにおけるバイキング対バイエルン・ミュンヘンのサッカー解説",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "チャンピオンズリーグにおけるバイキング対バイエルン・ミュンヘンのサッカー解説",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-viking-vs-bayern-munich-tai-champions-league-1782115.ldo",
+          "name": "Laodong.vn",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
+      "retained": false
+    },
+    {
+      "topic": "gta6",
+      "status": "ok",
+      "summary": "「GTA 6」のリーク担当者がルシア、ゲームビルドサイズとリークロードマップを完全に明らかに",
+      "summaryBasis": "related-headline",
+      "issue": "「gta6」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "韓国サムスン電子、7～9月期営業利益107兆ウォン…メモリー事業が業績けん引（KOREA WAVE）",
-          "url": "https://news.yahoo.co.jp/articles/a668105412ff87edd10434ed1440444731b69a77",
-          "name": "Yahoo!ニュース",
+          "title": "「GTA 6」のリーク担当者がルシア、ゲームビルドサイズとリークロードマップを完全に明らかに",
+          "url": "https://www.forbes.com/sites/paultassi/2026/10/12/gta-6-leaker-fully-reveals-lucia-the-game-build-size-and-leak-roadmap/",
+          "name": "Forbes",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
       "retained": false
     },
     {
-      "topic": "ボビー・ダルベック",
-      "status": "unavailable"
+      "topic": "解体",
+      "status": "ok",
+      "summary": "解体現場で鋼材の下敷き 男性死亡",
+      "summaryBasis": "related-headline",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "解体現場で鋼材の下敷き 男性死亡",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wUTJRNlRtTFhYMU5sR09uUVkyZFRnV0sxWElDbGxEekU0RE5RVk40Rkk4QkhOeHRxT2lPSU5wQ0ZNTFBGQUV5OFg5OEZCRHZq?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Mon, 12 Oct 2026 10:21:28 GMT"
+        },
+        {
+          "title": "解体現場で鋼材が落下 作業中の30歳男性が死亡 大阪・豊中",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GQUhFTmVmZ0pSYUcxNDJGbUdkVU4zelBvWnZ4TDE2WnNkY2M5SEtPZHo5dnRaOHN2Ukl3V0hscTcxOUlHb3l4dGlPeFBDQkJKN1AwalJveTExd1RaRVl1VWNDSU50cmpnVS1POEc1OFdEU1EtUkE?oc=5",
+          "name": "産経ニュース",
+          "publishedAt": "Mon, 12 Oct 2026 10:33:15 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
+      "retained": false
     },
     {
-      "topic": "配当",
+      "topic": "ブリーチ",
       "status": "ok",
-      "summary": "上場インデックスファンド日経平均高配当株50【399A】：株価・株式情報（夜間PTS含む）",
+      "summary": "【国内10月12日発売開始】ナイキ ウィメンズ ストラクチャー 26 ホワイト/ブリーチドライラック/ライトマゼンタ/ブラック(HJ1101-107)",
+      "summaryBasis": "related-headline",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【国内10月12日発売開始】ナイキ ウィメンズ ストラクチャー 26 ホワイト/ブリーチドライラック/ライトマゼンタ/ブラック(HJ1101-107)",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ibDg3QWJBWlRZM0RjS2FkelFsT3lwMlF4Qi1YSDN4eERtNVJya2Z3T0VBeEN6UjVLandLVS16OFI2dk54V3hQSkRKTndXVG85?oc=5",
+          "name": "スニーカーウォーズ",
+          "publishedAt": "Mon, 12 Oct 2026 01:28:00 GMT"
+        },
+        {
+          "title": "【国内10月12日発売予定】ナイキ ウィメンズ ストラクチャー プラス ホワイト/ブラック/ブリーチドライラック/メタリックシルバー(HQ3049-102)",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2SC1zSGtoYnRnZDhrUGtJQVdUdWJIQnJraVJFbUhMaE9JOEQ0cFgxSVlUQ0JiV003UDVYWWdYQmRtMkVtVldnaS1qX1NCeGJu?oc=5",
+          "name": "スニーカーウォーズ",
+          "publishedAt": "Mon, 12 Oct 2026 01:47:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ionq 株価",
+      "status": "ok",
+      "summary": "IonQ株価、本日下落の背景とは 執筆",
       "summaryBasis": "related-headline",
       "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
       "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "上場インデックスファンド日経平均高配当株50【399A】：株価・株式情報（夜間PTS含む）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jSWR3YllNeXQtbjQ5Q3dyQXF0ME40X0JXbDVqNDQwUXQ4enVVQ29GT3Z4djZ2UW01QjVUYUQ5RUNqM2NEQTlRUDE3LWVvZ1dlYUE?oc=5",
-          "name": "Yahoo!ファイナンス",
-          "publishedAt": "Sun, 11 Oct 2026 16:30:58 GMT"
-        },
-        {
-          "title": "【高配当利回り株】ベスト50 ＜割安株特集＞ (10月9日現在)",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pbklvZ1NLWW9QNkRETmtpS2V4M1RlemNZdFo3SkVoMTJhQy1wcHJzWk1QNzhuYTFxQ2lsRDVROHJuMF9xTXFyc3VDNy1LbUVhcS1CTE1RV2l4djdJay1WVg?oc=5",
-          "name": "株探",
-          "publishedAt": "Sun, 11 Oct 2026 01:10:00 GMT"
+          "title": "IonQ株価、本日下落の背景とは 執筆",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52MEhhdEdlZlF1cXhQOTI1UWY4Q0VobTZsY3NWWGxfR0dRcThoQ0FLMVFfR0JWV1pWdUhjWWpYdmpVUnl0WVVTTi12ZnRBOHdZdmpRdWRKdWZfMHBRWkZFVnJXek1RWGNSazg2MW9WWmFVQmNRR2Zn?oc=5",
+          "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "publishedAt": "Mon, 12 Oct 2026 11:58:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
+      "verifiedAt": "2026-10-13T03:34:44.213684+09:00",
       "retained": false
     },
     {
-      "topic": "ペンホルダー",
-      "status": "ok",
-      "summary": "「ペンホルダーの選手はほとんどいない？」陛下が質問 天皇皇后両陛下が国民スポーツ卓球競技を観戦 皇后さま「今はどこの高校が強いですか」青森（TBS NEWS DIG Powered by JNN）",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「ペンホルダーの選手はほとんどいない？」陛下が質問 天皇皇后両陛下が国民スポーツ卓球競技を観戦 皇后さま「今はどこの高校が強いですか」青森（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtYUVhLV9kOFIwQk0wdDZ0VTFJNDhDTGQyME5uV1hjMXRJYTQwMnRyRzZZTGt1eUJxVWVGWTlta1A1ZkRwZmFOd0RFaGlfZ2tzU0J3MThKMXRWUlFlTFhUQWt4d3dyb1dVc0JLNDIzbERYT1BhM1RDNUNJa1ZfeG8?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 11 Oct 2026 03:00:18 GMT"
-        },
-        {
-          "title": "両陛下 国民スポーツ大会で卓球競技を観戦 「ペンホルダーの選手は」",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zZFdrYV9tek1RQW9JdWViSnNRdDFhYkxDZWhBeGdhbElvQXBJOWFIdjluc21Eckc0ZTZXUVdxbG5uSjRYbGZxeVpJNzJGSFl2UUNXZTNZaFhwWGIzbUljV3A5aEJpWUxr?oc=5",
-          "name": "HOME広島ホームテレビ",
-          "publishedAt": "Sun, 11 Oct 2026 03:13:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
-      "retained": false
+      "topic": "岸和田だんじり祭り 死亡",
+      "status": "unavailable"
     },
     {
-      "topic": "今村聖奈",
-      "status": "ok",
-      "summary": "今村聖奈が約１カ月半ぶり白星＆一日２勝 ブラックレジェンド「前回はうまく乗れなかったけど、続けて乗せてもらって感謝」 ハギノコラソン（デイリースポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「今村聖奈」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "今村聖奈が約１カ月半ぶり白星＆一日２勝 ブラックレジェンド「前回はうまく乗れなかったけど、続けて乗せてもらって感謝」 ハギノコラソン（デイリースポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YVEZvcFVva0RaR2tuM2U5YkZEckYzcW51VGV2NmVaNEJxY0ZiYWNyM3NsUVI4dmR5SXZMVmxzSXpqRjhQZWl5NXRIV2NidWIzb3pwampWSWRPSnNxRVRaVDRCbThLVEdCX3pCWV9sYnd0MWVOMmQyWGFIRW14UGc?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sun, 11 Oct 2026 05:36:28 GMT"
-        },
-        {
-          "title": "【ジョッキーベイビーズ】唯一の小学生・笠松渚さん優勝 将来の夢は「今村聖奈さんのような…」",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MNFJGRktTeVN2cUk3NGc3a2szUHFqNERSNjIwY2hCSHNJeWs3SHhzblhDVTBMZTNNQ3hpUUxtS3BWOG1jTi05UTB3TDFMTnFJai1nUGU2TkFPTGhPYnhz?oc=5",
-          "name": "netkeiba",
-          "publishedAt": "Sun, 11 Oct 2026 08:40:44 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
-      "retained": false
+      "topic": "快速 列車",
+      "status": "unavailable"
     },
     {
-      "topic": "読売ジャイアンツ",
-      "status": "ok",
-      "summary": "【10月10日】読売ジャイアンツvs横浜DeNAベイスターズのテレビ放送/ネット配信予定｜プロ野球セ・リーグCSファーストステージ第1戦",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【10月10日】読売ジャイアンツvs横浜DeNAベイスターズのテレビ放送/ネット配信予定｜プロ野球セ・リーグCSファーストステージ第1戦",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOHNieUdsNVlMOTNaUE4wRXJwb2VsOW1qQmkxYW1XQU95VlFDYlVER1h6SWNTX3pjZ1p4emFHYW5KcXQ5NFZEcDlRcWNQY1NKdEFLME9odmRmanI2M21iUjBVM1Jac1U3a2stVEVOR1hPZFpWN080SUhMcHVaYXJvZEhsbU50QUJXeWNRM1RGbDM3ajdXSlJzRDBBTi0yZHpUSkFPV2c3ZEFwU3RwQUlXTm9wS1MtcWp2MVllWUpKeE9qSkp4dlJENg?oc=5",
-          "name": "DAZN",
-          "publishedAt": "Sat, 10 Oct 2026 05:05:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
-      "retained": false
-    },
-    {
-      "topic": "カリアリ 対 ユヴェントス",
-      "status": "ok",
-      "summary": "カリアリ対ユヴェントス、CMの採点：マルディーニが止まらない。コロ・ムアニはゴールで沈黙を破るも、その後またミス。ヴォルテマーデは存在感なし",
-      "summaryBasis": "related-headline",
-      "issue": "「カリアリ 対 ユヴェントス」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "カリアリ対ユヴェントス、CMの採点：マルディーニが止まらない。コロ・ムアニはゴールで沈黙を破るも、その後またミス。ヴォルテマーデは存在感なし",
-          "url": "https://news.google.com/rss/articles/CBMiwwdBVV95cUxNc1owNjVWTjNwNnBQWElMRlFUdzIxT0VZM3BSY3NSYUZpem9MOTVvS1V4N2FXdEJHZlBqWm5idFd6VVhsX2dzZlp1S3ZiSDc0UDZOdF9YcEprdUIxcVlaNHNLNUdUR2lINk9ObEljam1mOGNRZjk3c0pZWjR0VVdhWGJpaFpPWi1YdGxsdnRMZ2wyUmJUSEVadzlkS1pENG5RMGJiR2o1c1hzRTNYWXZqLWFnQ2o3VWpmb1B6ZU9MZXBiQ0lBNXRVWVlRc3Jjc29ibUxraE9LSlg1YXNLazBCMjh0UnB6OG0ySy1vMDZUWnlfTTNsbFZpZ0ZzYnBOSG4wQUpxemlvUHQ4VTQyYnhQc3ZYYTY0ZXZOaXdXRVpra3lqTm92Z0p5cUlRVjVOM2RlcW9Qa2hSRnFBNG41LTBHbFQ5cWJ4WWM1Ymt2M2JqRGY5VDJ2QkJ0QVVXb3hMRzEwRWthc3FXWEtiLWRwcnk5aURiOV92bi1KbUtPTjlyN1NjdnZVLU5fQWMwVUNDYjVqWGtEMlQxNDRlSWpublhzSkZLdjBoS3ppUEZheFIyeW5ORzJ4SVNXS2dXb3NhNThVX3l2dWtoZnhoTVd2Q25SOEI2aGxhb0dDUTNMQkhuZ1FlMXl1X3ZxUjJPV19nZnVlVUpkbDV3bFpnMWo2WkFxWUdPRGdYRTV1cVZIblkxcExaNDFaOVB3ZmhoS0lneEVibF9CSDNmMXNDSkZnNFVyNFZlclBiZ3EwM3NBdW04VmRfeTFiNV9ZWGVqOWEzSlJ6YllKYVlJeV9vTWV2cnFhZFVCdkc5Ym9ZVTVLMmduLVg0NDdOeXVDR3JLQVdlQnZzU1R0dzNHQnJFSDdpdTNHWUVzVUpmOUJUbWhvYW9ScVo3bVM2UTA3ZENWT3plWnhTa0c5MzVFRFJxRld3aFlJLXZBN1E3NVJldW9yb1RyQXBoZnNJMko3RUxGbm9haGlvcF9kRE5YRnFjOTRsLUgwX1k0eWUyekR3blJWV1gwa3JKUEVMV3pUQVZhXzlSbGJUT3doTGRwb21ieThyYUVodjl4WDc3SjBITGI5amNnMTJvM3o1bXJSWFc1TDI1VDdqOThscU8tQ2MyUTFrV3E0VGVUTGFiYnM0QmxBZ0pqekdOdGRtVVdTTnVzcV9HaHJySlZFZ09CWmVZWWhwQjlCNjVxcUtXR0NIT0g0dkQzTGZNeGFvX0NHMXk2aWM3bW1yRFdTcHhlN09XaW5ZZEdSNGJZM1BveVdpUHkyM3FTaXFPcEU?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Sun, 11 Oct 2026 20:48:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-12T05:57:09.421886+09:00",
-      "retained": false
+      "topic": "妻を引退します ドラマ",
+      "status": "unavailable"
     }
   ]
 }
