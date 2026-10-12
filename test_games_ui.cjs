@@ -1,0 +1,14 @@
+const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('node:assert/strict'),path=require('path');
+const root=__dirname;
+const dom=new JSDOM(fs.readFileSync(path.join(root,'game-updates.html'),'utf8'),{url:'https://example.test/',runScripts:'outside-only'});
+const w=dom.window;
+w.HTMLElement.prototype.scrollIntoView=function(){};
+w.fetch=async url=>{try{return {ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url.split('?')[0]),'utf8'))};}catch{return {ok:false};}};
+w.eval(fs.readFileSync(path.join(root,'game-updates.js'),'utf8'));
+const tick=()=>new Promise(r=>setTimeout(r,20));
+(async()=>{await tick();assert.equal(w.document.querySelectorAll('#cards .card').length,3);
+const text=w.document.querySelector('#cards').textContent;assert(text.includes('1.17.1'));assert(text.includes('未確認'));
+const checks=w.document.querySelectorAll('#cards input[type=checkbox]');checks[0].click();checks[1].click();w.document.querySelector('#compareBtn').click();assert.equal(w.document.querySelectorAll('#comparison thead th').length,3);assert.equal(w.document.querySelector('#compareArea').hidden,false);
+const p=w.document.querySelector('#platform');p.value='PC';p.dispatchEvent(new w.Event('change'));assert.equal(w.document.querySelector('#compareArea').hidden,true);assert(w.document.querySelector('#cards').textContent.includes('1.09.0.5'));
+const q=w.document.querySelector('#search');q.value='no-such-game-xyz';q.dispatchEvent(new w.Event('input'));assert.equal(w.document.querySelectorAll('#cards .card').length,0);assert(w.document.querySelector('#cards').textContent.includes('ありません'));
+console.log('PASS: cards, PS5 scope, comparison, PC scope, reset, empty search');dom.window.close();})().catch(e=>{console.error(e);process.exitCode=1;});
