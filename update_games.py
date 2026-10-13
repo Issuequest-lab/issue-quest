@@ -12,10 +12,10 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 CATEGORIES = {
-    '安定性': r'クラッシュ|進行不能|進行でき|フリーズ|ハング|強制終了|セーブ|起動',
-    '性能・画質': r'フレーム|FPS|VRAM|CPU|GPU|描画|パフォーマンス|レイトレーシング|カクつ|グラフィック|解像度',
+    '安定性': r'クラッシュ|進行不能|進行でき|フリーズ|ハング|強制終了|セーブ|起動でき|起動しない',
+    '性能・画質': r'フレーム|FPS|VRAM|CPU|GPU|描画|(?<!バトル)パフォーマンス|レイトレーシング|カクつ|グラフィック|解像度|アンチエイリアシング',
     '操作性': r'操作|カメラ|キー|ボタン|ロックオン|メニュー|地図|UI|設定|利便',
-    'バランス': r'威力|攻撃力|ダメージ|上方|下方|バランス|消費|効果時間|性能調整',
+    'バランス': r'威力|攻撃力|ダメージ|上方|下方|バランス|消費|効果時間|性能調整|バトルパフォーマンス|テクニカルボーナス',
     'コンテンツ': r'追加|新たな|DLC|拡張|クエスト|ミッション',
 }
 
@@ -49,12 +49,15 @@ def make_record(game,url,title,day,scope,body,lines,now):
     version=re.search(r'(?:App\s*Ver\.?|Version|Ver\.?)\s*([0-9]+(?:\.[0-9]+)+)',body,re.I)
     changes=[];seen=set()
     for text in lines:
+        line_scope=scope
+        if isinstance(text,tuple):text,line_scope=text
         text=clean(text)
         if len(text)<8 or text in seen:continue
+        if re.fullmatch(r'[■●\s]*追加コンテンツ',text) or re.fullmatch(r'以下の不具合が修正されます[。.]?',text):continue
         if not re.search(r'修正|追加|調整|変更|改善|最適化|緩和|削減|対応',text):continue
         if re.search(r'適用.*(?:ください|必要)|よろしく|詳細.*(?:サイト|確認)|予定|今後',text):continue
         seen.add(text)
-        changes.append({'category':classify(text),'text':text if len(text)<=180 else text[:177]+'…','excerpt':True,'platforms':platforms(text) or scope})
+        changes.append({'category':classify(text),'text':text if len(text)<=180 else text[:177]+'…','excerpt':True,'platforms':platforms(text) or line_scope})
     if not changes:raise ValueError('changes-unverified')
     # A concise selection, not a mirror of the full patch note.
     chosen=[]
@@ -72,7 +75,13 @@ def parse_detail(game,url,title,day,html,now):
     if game['parser']=='elden':
         marker=article.find(string=re.compile('対象プラットフォーム'))
         if marker:scope=platforms(marker.parent.find_next_sibling().get_text(' ',strip=True))
-        lines=[x.get_text(' ',strip=True) for x in article.select('li') if not x.find('li')]
+        lines=[]
+        for x in article.select('li'):
+            if x.find('li'):continue
+            heading=x.find_previous(['h2','h3'])
+            label=heading.get_text(' ',strip=True) if heading else ''
+            if '対処方法' in label:continue
+            lines.append((x.get_text(' ',strip=True),platforms(label) or scope))
     else:
         scope=['PC'] if 'PC版' in title else ['PS5'] if day<game.get('ps5ExclusiveUntil','') else []
         lines=[x.get_text(' ',strip=True) for x in article.select('.p-news-main_area li, .p-news-main_area p') if not x.find('li')]
