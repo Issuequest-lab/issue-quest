@@ -12,6 +12,7 @@ class Tests(unittest.TestCase):
  def test_semantic_categories(self):
   self.assertEqual(g.classify('フォトモードのクイック起動機能を追加'),'コンテンツ')
   self.assertEqual(g.classify('バトルパフォーマンスを増加させるボーナスを追加'),'バランス')
+  self.assertEqual(g.classify('ロード画面のメニューに手動セーブのフィルタリング機能を追加'),'操作性')
  def test_pc_section_not_ps5(self):
   h=HTML.replace('<h2>修正</h2>','<h2>PC版のみの修正</h2>')
   r=g.parse_detail(GAME,'https://a.jp','更新','2026-10-12',h,NOW)

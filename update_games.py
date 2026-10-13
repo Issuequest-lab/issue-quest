@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 CATEGORIES = {
-    '安定性': r'クラッシュ|進行不能|進行でき|フリーズ|ハング|強制終了|セーブ|起動でき|起動しない',
+    '安定性': r'クラッシュ|進行不能|進行でき|進行しない|フリーズ|ハング|強制終了|ゲームが停止|セーブ.*(?:破損|失敗|できない)|起動でき|起動しない',
     '性能・画質': r'フレーム|FPS|VRAM|CPU|GPU|描画|(?<!バトル)パフォーマンス|レイトレーシング|カクつ|グラフィック|解像度|アンチエイリアシング',
     '操作性': r'操作|カメラ|キー|ボタン|ロックオン|メニュー|地図|UI|設定|利便',
     'バランス': r'威力|攻撃力|ダメージ|上方|下方|バランス|消費|効果時間|性能調整|バトルパフォーマンス|テクニカルボーナス',
@@ -84,7 +84,14 @@ def parse_detail(game,url,title,day,html,now):
             lines.append((x.get_text(' ',strip=True),platforms(label) or scope))
     else:
         scope=['PC'] if 'PC版' in title else ['PS5'] if day<game.get('ps5ExclusiveUntil','') else []
-        lines=[x.get_text(' ',strip=True) for x in article.select('.p-news-main_area li, .p-news-main_area p') if not x.find('li')]
+        lines=[]
+        for x in article.select('.p-news-main_area li, .p-news-main_area p'):
+            if x.find('li'):continue
+            text=x.get_text(' ',strip=True)
+            section=x.find_parent('section')
+            if section and x.select_one('[data-ind-label]') and '以下の不具合が修正されます' in section.get_text():
+                text='修正対象：'+text
+            lines.append(text)
     return make_record(game,url,title,day,scope,body,lines,now)
 
 def discover(game,html):
