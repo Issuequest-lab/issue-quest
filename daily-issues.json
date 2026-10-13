@@ -1,217 +1,190 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-13",
-  "fetchedAt": "2026-10-13T06:00:39.649606+09:00",
+  "updatedAt": "2026-10-14",
+  "fetchedAt": "2026-10-14T03:38:40.001058+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "田原萌々",
-    "節約",
-    "ナンバーズ",
-    "井上 拓真",
-    "川島如恵留",
-    "マイクロン株価",
-    "長野 久義",
-    "メジャーリーグベースボール",
-    "実写",
-    "横浜denaベイスターズ"
+    "ガラタサライ 対 バルセロナ",
+    "アーセナル 対 リール",
+    "岡山 天気",
+    "橋下 徹",
+    "a2b 攻撃",
+    "wowow",
+    "gdp",
+    "八十億分の一",
+    "abematv",
+    "令和ロマン"
   ],
   "briefs": [
     {
-      "topic": "田原萌々",
+      "topic": "ガラタサライ 対 バルセロナ",
       "status": "ok",
-      "summary": "テレ朝・田原萌々アナ、誕生日祝いショット披露「ももちんおめでとう」「すっごくステキ」と祝福の声",
+      "summary": "チャンピオンズリーグ：アトレティコ・マドリー対マンチェスター・ユナイテッド、ガラタサライ対バルセロナ。バイエルンとアーセナルも登場",
       "summaryBasis": "related-headline",
-      "issue": "「田原萌々」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "テレ朝・田原萌々アナ、誕生日祝いショット披露「ももちんおめでとう」「すっごくステキ」と祝福の声",
-          "url": "https://www.yomiuri.co.jp/culture/hochi/20261009064-OHT1T51330/",
-          "name": "読売新聞",
-          "publishedAt": null
+          "title": "チャンピオンズリーグ：アトレティコ・マドリー対マンチェスター・ユナイテッド、ガラタサライ対バルセロナ。バイエルンとアーセナルも登場",
+          "url": "https://news.google.com/rss/articles/CBMiswdBVV95cUxQLVZGakt0S3NIbUlVU3MtVnZmX2JXcTdvZW1fV2JIYnRvU3NIYXhVdmZsQmcxeTBHaHNVclFNUzFCVFNSTjZLOWJveUlyVE8tRVY2bmF3NDk5RnozTHRPLWplTkNSSl9DbTV5LS1hRWlSWklqMWJCT1RKdTlENDNCZ1VBRjdtWjctZGM0WDhLd1h3NkxXNnpFdVd6a2V2OVBCdVRlTHZSeVp1c3VzbVZUR1ZTeV8tTTBPaVVtemZIb3FlOTFEUTZUamlPTjdMY1NSbzNHb3Jka1UzSW1yc2dEWEJuRmgwTWNJeU1hZG5sRjlOY2RRS05rUVdoLWNrbHA2bl9sMUVIU1JmOHpmUGlHY1pEeDFyQkFJQXFtdzA0SHNaME9GWmx1ZlFsNHl1dG5vS0w0Q0UwLW5mdEd4d2VscDVtbFJ5Ukl5MTdSbHJlSDI3R3paeU5WUEQ1YkNKUGRBYjUzTW1WUm9DbjZDTnJVXzF6N1dISDRqLWw0SVlhX1daQ0lSRTZFUGNjbzdqVHdmWWE4c01pSEhrdE5IVEY2cllQaWZaaXpqM0FjelNVdEN4b0NtVWZlVXRRZ3JIajNRbjNXb0xRRlZ3d21QWV9iX0NWVElhZW40SU1ia21UWUhRb3VZN1UxaVRleEs1VEo4NW5uWmVobDZJeWVveVFRbVNPbjc4ckRUbzA4TEJMaVBlZEYxVG9MV0JCdk5nTF96a0FNaDU0VnRQVlVUS2UxakQySmx4QUh5clMwSjZhaF9FTmtVS19JanQzeXdndVVVbm5mYUVQUmtmUURtTFMwbXVQSDFScFo0bmlEclNmUnNFM1k1N0c5cmhGRzNWVS1fTldlanhtc0Uta1FoTkFnelFtNVhfTF9WUEFoc0VfRnVJYjcxZWZySEZMUjh0YXlDT2NpejN3a1E2RGlvVG9IRi1zam5JMm00S1NxTlVpMVo5MVh6Y3oyMFJmcVlMQnVRaV84MVpBb040MjRmM3VFbnRTeTZUWFNKa2RDSzRqcmhIcm9Qb3FKRlNGOHZhS3lCYVRpQ3Rjd2RZRXZmcGNxUVNteF9NTXRvSzh0cUxUTTVhWWZiMnZvbFE5RGFWazByNTFubXVISXo5MUFlXy1pZXZCWlJjRjZRT2d1ZjlGOS1jTV9mbjFBTk1IVHhBNENTaG5oZ19wcU93NmlTdkx6RHlYRUVUdVNDTHpRLXR3V1BWc2l1ZHF5Y1RqY1d3djlsT0RmRGU2Y0plbTBWOHNlYmNOYw?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Tue, 13 Oct 2026 15:56:00 GMT"
         },
         {
-          "title": "田原萌々アナ「ナイスなり～」スリットからスラリと美脚チラ見せ「最高～！」「惚れ惚れ」",
-          "url": "https://www.nikkansports.com/entertainment/news/202610040000936.html",
-          "name": "日刊スポーツ",
-          "publishedAt": null
+          "title": "ガラタサライ対バルセロナの予想：首位奪取のチャンス",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS2lJYkNycG84Q29WbHhkQTJKb1ZhOFNfOEJZVjFuM3hhQWlHSFN5alBqRXh4bC1KTTZJd3dxMkVRZ0pxNzE5cFQyc1QwNHhaUG1kVU1obC00N2JCUUlhQ1RmT21yeHVyZ0xMRTh3QTJXLS1uVHZWODR3bm15VkJOTmw2WjdXSHZLUktRdDd3?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Tue, 13 Oct 2026 15:09:47 GMT"
         }
       ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
       "retained": false
     },
     {
-      "topic": "節約",
+      "topic": "アーセナル 対 リール",
       "status": "ok",
-      "summary": "キャンピングカーでの“節約旅行”が人気 温泉入って車中泊 ｢ホテル代が浮いた分、おいしいものを…｣ 新婚旅行で海外から来たカップルも 早くも紅葉の岐阜･白川村 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web (1ページ)",
+      "summary": "アーセナル対リール スタメン発表！ 好調の上田綺世は？",
       "summaryBasis": "related-headline",
-      "issue": "「節約」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「アーセナル 対 リール」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "キャンピングカーでの“節約旅行”が人気 温泉入って車中泊 ｢ホテル代が浮いた分、おいしいものを…｣ 新婚旅行で海外から来たカップルも 早くも紅葉の岐阜･白川村 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web (1ページ)",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlcmZvLUxOREs2TGRjQWtqT0F4VlNIN1ZYcXBESG1iQ2xIWnBaUTB4UlhPSVJXZGVRMTBxZzE5SnlJOUFRNVJLZUhLb19LT2ZNeEEzSnZKcFlldVh0bmFoemMyT041Sk0?oc=5",
-          "name": "TBS NEWS DIG",
-          "publishedAt": "Mon, 12 Oct 2026 09:30:00 GMT"
+          "title": "アーセナル対リール スタメン発表！ 好調の上田綺世は？",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IeEd0SkFMa3l2aC1jaFpQVVRZZElfNVpqb1gwcjhwMjNFNXNkcGRBOEw1cExDVWs5b3NHVW5KdGM2cFhIeWxCb2JmZUFfMzc2T1lIa1V1UGJ1b2txNUVHT3pmM1U?oc=5",
+          "name": "フットボールチャンネル",
+          "publishedAt": "Tue, 13 Oct 2026 17:50:33 GMT"
         },
         {
-          "title": "楽しんご、電車なら500円の距離も…タクシーに6600円かけたワケ「節約することも大切だけど」（スポニチアネックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAybF9mUl96UHBUQlB5MkRlQmJ4QVYtRU90aWZYMFVYYUJZbVBNMUxCWFpzRy16ZXkzZkhGTGxrdTRBVjVPSnYyekl3THNIOGV4T1otb19zejlyV3QzMkFPdlVCc3F4VHg3OVlmV05nZnZqVTBtTTVpVXNwd21zVFU?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 12 Oct 2026 13:20:05 GMT"
+          "title": "アーセナル対リールの予想：トップ争いの注目ポイント",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmxmdEI2V3NoaWRTREpXN3VhUG9DWmJ5SENsWmllb3R4NmZXMW1OWHlJbzVhdS0za2RBdWtBRDNjY2hLcmhpbzdNOUQ0V1puTWJvb3ZMODMyeEd4SEctQUpaQnZqa3NRaDZ0ejZPbkR3bmlLRlJ4clZod2lBTWN0WGplVnMydw?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Tue, 13 Oct 2026 14:35:21 GMT"
         }
       ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
       "retained": false
     },
     {
-      "topic": "ナンバーズ",
-      "status": "ok",
-      "summary": "第7090回のナンバーズ3、ナンバーズ4の当選番号が2026年10月12日、発表された。抽選結果や当選金額は以下の通り。",
-      "summaryBasis": "publisher-description",
-      "issue": "「ナンバーズ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "第7090回ナンバーズ3,4の当選番号速報 10月12日の抽選結果",
-          "url": "https://www.fukuishimbun.co.jp/articles/-/2720441",
-          "name": "福井新聞社",
-          "publishedAt": null
-        },
-        {
-          "title": "第7090回ナンバーズ3・ナンバーズ4の当選番号、抽選結果（2026年10月12日）",
-          "url": "https://www.niigata-nippo.co.jp/articles/-/922900",
-          "name": "新潟日報",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
-      "retained": false
-    },
-    {
-      "topic": "井上 拓真",
-      "status": "ok",
-      "summary": "那須川天心は「ポイントを間違って計算している」 Ａ級レフェリーが井上拓真戦の〝落とし穴〟指摘（東スポWEB）",
-      "summaryBasis": "related-headline",
-      "issue": "「井上 拓真」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "那須川天心は「ポイントを間違って計算している」 Ａ級レフェリーが井上拓真戦の〝落とし穴〟指摘（東スポWEB）",
-          "url": "https://news.yahoo.co.jp/articles/acdcabd514b69f294fb22b66da07c937177af313",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "「試合後に写真を見返したら、ことごとく…」“天心番”カメラマンが脱帽した井上拓真の技術力「これは厳しい」那須川天心の敗北を予感した“意外な瞬間”",
-          "url": "https://number.bunshun.jp/articles/photo/872242?pn=13",
-          "name": "Number Web",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
-      "retained": false
-    },
-    {
-      "topic": "川島如恵留",
-      "status": "ok",
-      "summary": "画像・写真 | Travis Japan川島如恵留、櫻井翔に上田竜也からのメッセージ伝える「兄貴によろしくお伝えください」 3枚目",
-      "summaryBasis": "related-headline",
-      "issue": "「川島如恵留」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "画像・写真 | Travis Japan川島如恵留、櫻井翔に上田竜也からのメッセージ伝える「兄貴によろしくお伝えください」 3枚目",
-          "url": "https://www.oricon.co.jp/news/2485948/photo/3/",
-          "name": "オリコンニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
-      "retained": false
-    },
-    {
-      "topic": "マイクロン株価",
+      "topic": "岡山 天気",
       "status": "unavailable"
     },
     {
-      "topic": "長野 久義",
+      "topic": "橋下 徹",
       "status": "ok",
-      "summary": "長野久義氏 もしも興味があるのなら…石川雅規氏＆栗山巧氏に「連絡、お待ちしております」（スポニチアネックス）",
+      "summary": "坂上忍が橋下徹氏の対維新発言にバッサリ テレビ出演には「不定期レギュラー渡り歩く、特異な存在」",
       "summaryBasis": "related-headline",
-      "issue": "「長野 久義」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "坂上忍が橋下徹氏の対維新発言にバッサリ テレビ出演には「不定期レギュラー渡り歩く、特異な存在」",
+          "url": "https://www.yomiuri.co.jp/culture/hochi/20261012064-OHT1T51199/",
+          "name": "読売新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "retained": false
+    },
+    {
+      "topic": "a2b 攻撃",
+      "status": "ok",
+      "summary": "国立研究開発法人情報通信研究機構(NICT)は13日、国内で相次ぐ情報漏えい事案の原因の一つとして、公開アプリを悪用した「A2B攻撃」を特定したと発表。3種類の推奨対策をまとめて公表した。",
+      "summaryBasis": "publisher-description",
+      "issue": "「a2b 攻撃」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "長野久義氏 もしも興味があるのなら…石川雅規氏＆栗山巧氏に「連絡、お待ちしております」（スポニチアネックス）",
-          "url": "https://news.yahoo.co.jp/articles/9bea889820f3d6c72a8678b98a28556fdb288825",
+          "title": "相次ぐ情報漏えいの一因は「Androidアプリ」 NICTが「A2B攻撃」対策を公表",
+          "url": "https://news.yahoo.co.jp/pickup/6598659",
           "name": "Yahoo!ニュース",
           "publishedAt": null
-        },
+        }
+      ],
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "retained": false
+    },
+    {
+      "topic": "wowow",
+      "status": "ok",
+      "summary": "JUJU×松任谷正隆、WOWOWで2カ月連続特集決定！最新ツアーファイナル＆松任谷由実出演のスペシャルライブを放送",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
         {
-          "title": "長野久義氏 もしも興味があるのなら…石川雅規氏＆栗山巧氏に「連絡、お待ちしております」",
-          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261012-0334?page=2",
+          "title": "JUJU×松任谷正隆、WOWOWで2カ月連続特集決定！最新ツアーファイナル＆松任谷由実出演のスペシャルライブを放送",
+          "url": "https://topics.smt.docomo.ne.jp/article/wwschannel/entertainment/wwschannel-673766",
           "name": "ｄメニューニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
       "retained": false
     },
     {
-      "topic": "メジャーリーグベースボール",
-      "status": "unavailable"
-    },
-    {
-      "topic": "実写",
+      "topic": "gdp",
       "status": "ok",
-      "summary": "『バイオハザード』公開3日間で興収6.2億円 世界興収も実写シリーズ最高を更新",
-      "summaryBasis": "related-headline",
-      "issue": "「実写」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "【ワシントン＝坂本幸信、バンコク＝田畑清二】日本の名目国内総生産（ＧＤＰ）が、２０２７年にインドと英国の両方に抜かれて世界６位となる見込みとなった。国際通貨基金（ＩＭＦ）が１２日に公表した最新の世界",
+      "summaryBasis": "publisher-description",
+      "issue": "「gdp」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "『バイオハザード』公開3日間で興収6.2億円 世界興収も実写シリーズ最高を更新",
-          "url": "https://news.yahoo.co.jp/pickup/6598541",
+          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに",
+          "url": "https://news.yahoo.co.jp/pickup/6598666",
           "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "日本のGDP、来年はインドと英国に抜かれ「世界6位」の見込み (2026年10月13日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32558227/",
+          "name": "ライブドアニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
       "retained": false
     },
     {
-      "topic": "横浜denaベイスターズ",
+      "topic": "八十億分の一",
+      "status": "unavailable"
+    },
+    {
+      "topic": "abematv",
+      "status": "unavailable"
+    },
+    {
+      "topic": "令和ロマン",
       "status": "ok",
-      "summary": "横浜DeNAベイスターズ",
-      "summaryBasis": "related-headline",
-      "issue": "「横浜denaベイスターズ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "禁煙補助剤「ニコレット」の新WebCMシリーズ「ケムリは、ニコレットと。」の第1弾が本日10月13日（火）に公開され、令和ロマン・ケムリが出演している。【画像】「ニコレット」WebCMに出演する令和",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "横浜DeNAベイスターズ",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGYlJpd2taaXhVbXQzNzVuZFJUNzZNVmpwck1xSUtVRlZkVGpucUJUdjdSbjdlcXFTVGN0R0ptNHJJYzRoZkd2R2pmM0VCNFFjcWlYQURPLWRwME9ud1E?oc=5",
-          "name": "横浜DeNAベイスターズ",
-          "publishedAt": "Mon, 12 Oct 2026 12:53:10 GMT"
+          "title": "令和ロマン・ケムリ「ニコレット」新WebCMに出演 今後はいい香りのほうのケムリで（お笑いナタリー）",
+          "url": "https://news.yahoo.co.jp/articles/030bba48f148552f2cb764466b72ddd49470677e",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         },
         {
-          "title": "プロ野球・中野市出身で横浜DeNAベイスターズの牧秀悟選手が2試合連続ホームランの大活躍！なるか2年ぶりの「下剋上日本一」DeNAが巨人を破りファイナルステージに進出！ | SBC NEWS | 長野のニュース | SBC信越放送",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kdl9qai1KQUM4R0pwZGtFbzI4RFhqTmhfTWdhWTZiSTFrb1JuMmJyeThpS0FMRnVtOTRoR0pPNzg2MU5XblhsMXdjTkNNczd0SXB3eFFfcndRdw?oc=5",
-          "name": "TBS NEWS DIG",
-          "publishedAt": "Mon, 12 Oct 2026 07:59:00 GMT"
+          "title": "2万人の前での禁煙宣言から約5か月。「令和ロマン」の松井ケムリさん、「今後は、いい香りの方の“ケムリ”で」",
+          "url": "https://prtimes.jp/main/html/rd/p/000000096.000121730.html",
+          "name": "PR TIMES",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-13T06:00:39.649606+09:00",
+      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
       "retained": false
     }
   ]
