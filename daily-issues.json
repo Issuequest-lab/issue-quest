@@ -1,190 +1,139 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-14",
-  "fetchedAt": "2026-10-14T03:38:40.001058+09:00",
+  "fetchedAt": "2026-10-14T06:10:50.489818+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "ガラタサライ 対 バルセロナ",
-    "アーセナル 対 リール",
-    "岡山 天気",
-    "橋下 徹",
-    "a2b 攻撃",
-    "wowow",
-    "gdp",
-    "八十億分の一",
-    "abematv",
-    "令和ロマン"
+    "踊る大捜査線",
+    "thời tiết",
+    "天気予報 名古屋",
+    "viking vs bayern",
+    "太田梨歩",
+    "apple homepod mini",
+    "liga champions uefa",
+    "atlético madrid đấu với man utd",
+    "気象庁",
+    "孫"
   ],
   "briefs": [
     {
-      "topic": "ガラタサライ 対 バルセロナ",
+      "topic": "踊る大捜査線",
       "status": "ok",
-      "summary": "チャンピオンズリーグ：アトレティコ・マドリー対マンチェスター・ユナイテッド、ガラタサライ対バルセロナ。バイエルンとアーセナルも登場",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "チャンピオンズリーグ：アトレティコ・マドリー対マンチェスター・ユナイテッド、ガラタサライ対バルセロナ。バイエルンとアーセナルも登場",
-          "url": "https://news.google.com/rss/articles/CBMiswdBVV95cUxQLVZGakt0S3NIbUlVU3MtVnZmX2JXcTdvZW1fV2JIYnRvU3NIYXhVdmZsQmcxeTBHaHNVclFNUzFCVFNSTjZLOWJveUlyVE8tRVY2bmF3NDk5RnozTHRPLWplTkNSSl9DbTV5LS1hRWlSWklqMWJCT1RKdTlENDNCZ1VBRjdtWjctZGM0WDhLd1h3NkxXNnpFdVd6a2V2OVBCdVRlTHZSeVp1c3VzbVZUR1ZTeV8tTTBPaVVtemZIb3FlOTFEUTZUamlPTjdMY1NSbzNHb3Jka1UzSW1yc2dEWEJuRmgwTWNJeU1hZG5sRjlOY2RRS05rUVdoLWNrbHA2bl9sMUVIU1JmOHpmUGlHY1pEeDFyQkFJQXFtdzA0SHNaME9GWmx1ZlFsNHl1dG5vS0w0Q0UwLW5mdEd4d2VscDVtbFJ5Ukl5MTdSbHJlSDI3R3paeU5WUEQ1YkNKUGRBYjUzTW1WUm9DbjZDTnJVXzF6N1dISDRqLWw0SVlhX1daQ0lSRTZFUGNjbzdqVHdmWWE4c01pSEhrdE5IVEY2cllQaWZaaXpqM0FjelNVdEN4b0NtVWZlVXRRZ3JIajNRbjNXb0xRRlZ3d21QWV9iX0NWVElhZW40SU1ia21UWUhRb3VZN1UxaVRleEs1VEo4NW5uWmVobDZJeWVveVFRbVNPbjc4ckRUbzA4TEJMaVBlZEYxVG9MV0JCdk5nTF96a0FNaDU0VnRQVlVUS2UxakQySmx4QUh5clMwSjZhaF9FTmtVS19JanQzeXdndVVVbm5mYUVQUmtmUURtTFMwbXVQSDFScFo0bmlEclNmUnNFM1k1N0c5cmhGRzNWVS1fTldlanhtc0Uta1FoTkFnelFtNVhfTF9WUEFoc0VfRnVJYjcxZWZySEZMUjh0YXlDT2NpejN3a1E2RGlvVG9IRi1zam5JMm00S1NxTlVpMVo5MVh6Y3oyMFJmcVlMQnVRaV84MVpBb040MjRmM3VFbnRTeTZUWFNKa2RDSzRqcmhIcm9Qb3FKRlNGOHZhS3lCYVRpQ3Rjd2RZRXZmcGNxUVNteF9NTXRvSzh0cUxUTTVhWWZiMnZvbFE5RGFWazByNTFubXVISXo5MUFlXy1pZXZCWlJjRjZRT2d1ZjlGOS1jTV9mbjFBTk1IVHhBNENTaG5oZ19wcU93NmlTdkx6RHlYRUVUdVNDTHpRLXR3V1BWc2l1ZHF5Y1RqY1d3djlsT0RmRGU2Y0plbTBWOHNlYmNOYw?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Tue, 13 Oct 2026 15:56:00 GMT"
-        },
-        {
-          "title": "ガラタサライ対バルセロナの予想：首位奪取のチャンス",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS2lJYkNycG84Q29WbHhkQTJKb1ZhOFNfOEJZVjFuM3hhQWlHSFN5alBqRXh4bC1KTTZJd3dxMkVRZ0pxNzE5cFQyc1QwNHhaUG1kVU1obC00N2JCUUlhQ1RmT21yeHVyZ0xMRTh3QTJXLS1uVHZWODR3bm15VkJOTmw2WjdXSHZLUktRdDd3?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Tue, 13 Oct 2026 15:09:47 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
-      "retained": false
-    },
-    {
-      "topic": "アーセナル 対 リール",
-      "status": "ok",
-      "summary": "アーセナル対リール スタメン発表！ 好調の上田綺世は？",
-      "summaryBasis": "related-headline",
-      "issue": "「アーセナル 対 リール」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "『踊る大捜査線』シリーズで織田裕二が演じる主人公・青島俊作を象徴するものとして真っ先に思い浮かぶのが、モスグリーンのモッズコートだ。",
+      "summaryBasis": "publisher-description",
+      "issue": "「踊る大捜査線」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "アーセナル対リール スタメン発表！ 好調の上田綺世は？",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IeEd0SkFMa3l2aC1jaFpQVVRZZElfNVpqb1gwcjhwMjNFNXNkcGRBOEw1cExDVWs5b3NHVW5KdGM2cFhIeWxCb2JmZUFfMzc2T1lIa1V1UGJ1b2txNUVHT3pmM1U?oc=5",
-          "name": "フットボールチャンネル",
-          "publishedAt": "Tue, 13 Oct 2026 17:50:33 GMT"
+          "title": "『踊る大捜査線』30年愛される“青島コート”の秘密 続編のたびに4～5着製作、色味＆涼感加工もアップデート",
+          "url": "https://www.cinematoday.jp/news/N0157087",
+          "name": "シネマトゥデイ",
+          "publishedAt": null
         },
         {
-          "title": "アーセナル対リールの予想：トップ争いの注目ポイント",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmxmdEI2V3NoaWRTREpXN3VhUG9DWmJ5SENsWmllb3R4NmZXMW1OWHlJbzVhdS0za2RBdWtBRDNjY2hLcmhpbzdNOUQ0V1puTWJvb3ZMODMyeEd4SEctQUpaQnZqa3NRaDZ0ejZPbkR3bmlLRlJ4clZod2lBTWN0WGplVnMydw?oc=5",
-          "name": "Vietnam.vn",
-          "publishedAt": "Tue, 13 Oct 2026 14:35:21 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
-      "retained": false
-    },
-    {
-      "topic": "岡山 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "橋下 徹",
-      "status": "ok",
-      "summary": "坂上忍が橋下徹氏の対維新発言にバッサリ テレビ出演には「不定期レギュラー渡り歩く、特異な存在」",
-      "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "坂上忍が橋下徹氏の対維新発言にバッサリ テレビ出演には「不定期レギュラー渡り歩く、特異な存在」",
-          "url": "https://www.yomiuri.co.jp/culture/hochi/20261012064-OHT1T51199/",
-          "name": "読売新聞",
+          "title": "「踊る大捜査線」青島俊作は13年間、何をしていたのか「本編よりも知りたかった情報が詰まっている」赤ペン瀧川が最新スピンオフの見どころを語る（WEBザテレビジョン）",
+          "url": "https://news.yahoo.co.jp/articles/8799096b803b384f78c3d21c5623b9e181abf88d",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "verifiedAt": "2026-10-14T06:10:50.489818+09:00",
       "retained": false
     },
     {
-      "topic": "a2b 攻撃",
+      "topic": "thời tiết",
       "status": "ok",
-      "summary": "国立研究開発法人情報通信研究機構(NICT)は13日、国内で相次ぐ情報漏えい事案の原因の一つとして、公開アプリを悪用した「A2B攻撃」を特定したと発表。3種類の推奨対策をまとめて公表した。",
-      "summaryBasis": "publisher-description",
-      "issue": "「a2b 攻撃」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "[動画]ドゥー・バオ・ティ・ティ・ンガイ2026年10月14日：ブー・ブー・コー・ナン、トゥルン・ブー・ムア・ギム、ナム・ブー・チュー・トー・コー・ドン",
+      "summaryBasis": "related-headline",
+      "issue": "「thời tiết」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "相次ぐ情報漏えいの一因は「Androidアプリ」 NICTが「A2B攻撃」対策を公表",
-          "url": "https://news.yahoo.co.jp/pickup/6598659",
-          "name": "Yahoo!ニュース",
+          "title": "[動画]ドゥー・バオ・ティ・ティ・ンガイ2026年10月14日：ブー・ブー・コー・ナン、トゥルン・ブー・ムア・ギム、ナム・ブー・チュー・トー・コー・ドン",
+          "url": "https://nhandan.vn/video-du-bao-thoi-tiet-ngay-14102026-bac-bo-co-nang-trung-bo-mua-giam-nam-bo-chieu-toi-co-dong-post995038.html",
+          "name": "Báo Nhân Dân điện tử",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "verifiedAt": "2026-10-14T06:10:50.489818+09:00",
       "retained": false
     },
     {
-      "topic": "wowow",
-      "status": "ok",
-      "summary": "JUJU×松任谷正隆、WOWOWで2カ月連続特集決定！最新ツアーファイナル＆松任谷由実出演のスペシャルライブを放送",
-      "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "JUJU×松任谷正隆、WOWOWで2カ月連続特集決定！最新ツアーファイナル＆松任谷由実出演のスペシャルライブを放送",
-          "url": "https://topics.smt.docomo.ne.jp/article/wwschannel/entertainment/wwschannel-673766",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
-      "retained": false
+      "topic": "天気予報 名古屋",
+      "status": "unavailable"
     },
     {
-      "topic": "gdp",
+      "topic": "viking vs bayern",
+      "status": "unavailable"
+    },
+    {
+      "topic": "太田梨歩",
+      "status": "unavailable"
+    },
+    {
+      "topic": "apple homepod mini",
+      "status": "unavailable"
+    },
+    {
+      "topic": "liga champions uefa",
+      "status": "unavailable"
+    },
+    {
+      "topic": "atlético madrid đấu với man utd",
+      "status": "unavailable"
+    },
+    {
+      "topic": "気象庁",
       "status": "ok",
-      "summary": "【ワシントン＝坂本幸信、バンコク＝田畑清二】日本の名目国内総生産（ＧＤＰ）が、２０２７年にインドと英国の両方に抜かれて世界６位となる見込みとなった。国際通貨基金（ＩＭＦ）が１２日に公表した最新の世界",
+      "summary": "渡島・檜山地方気象防災速報（竜巻注意） 第１号 ２０２６年１０月１４日午前５時５２分 気象庁発表 檜山地方は、竜巻などの激しい突風が発生しやすい気象状況になっています。空の様子に注意してください。",
       "summaryBasis": "publisher-description",
-      "issue": "「gdp」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「気象庁」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに",
-          "url": "https://news.yahoo.co.jp/pickup/6598666",
-          "name": "Yahoo!ニュース",
+          "title": "クロスアイランド／氷山地方気象防災速報（竜巻通報）第1号＝気象庁発行",
+          "url": "https://www.okinawatimes.co.jp/articles/-/1944048",
+          "name": "沖縄タイムス社",
           "publishedAt": null
         },
         {
-          "title": "日本のGDP、来年はインドと英国に抜かれ「世界6位」の見込み (2026年10月13日掲載)",
-          "url": "https://news.livedoor.com/topics/detail/32558227/",
-          "name": "ライブドアニュース",
+          "title": "北海道太平洋側、関東甲信、東海、東北、北陸、近畿、沖縄地方で10月19日から全国で\"10年に1度程度\"の著しい高温の可能性 気象庁が発表【早期天候情報】（静岡放送（SBS））",
+          "url": "https://news.yahoo.co.jp/articles/ec77eb17740a4374f7853d238333a7375ef6bf23",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "verifiedAt": "2026-10-14T06:10:50.489818+09:00",
       "retained": false
     },
     {
-      "topic": "八十億分の一",
-      "status": "unavailable"
-    },
-    {
-      "topic": "abematv",
-      "status": "unavailable"
-    },
-    {
-      "topic": "令和ロマン",
+      "topic": "孫",
       "status": "ok",
-      "summary": "禁煙補助剤「ニコレット」の新WebCMシリーズ「ケムリは、ニコレットと。」の第1弾が本日10月13日（火）に公開され、令和ロマン・ケムリが出演している。【画像】「ニコレット」WebCMに出演する令和",
+      "summary": "子どもや孫の近くに住むことは、親子双方にとって安心につながります。しかし、近くにいるからこそ、頼み事が増えて負担になることも。親が近居を勧めた場合、どこまで協力するべきなのでしょうか。老後の時間を大",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "「孫」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "令和ロマン・ケムリ「ニコレット」新WebCMに出演 今後はいい香りのほうのケムリで（お笑いナタリー）",
-          "url": "https://news.yahoo.co.jp/articles/030bba48f148552f2cb764466b72ddd49470677e",
+          "title": "「また孫かよ…」〈年金月29万円・貯蓄2,200万円〉73歳男性、孫の来訪を素直に喜べなくなったワケ",
+          "url": "https://news.yahoo.co.jp/articles/289ad4ec9152a01bca083a201470ac11e011c7a8",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "2万人の前での禁煙宣言から約5か月。「令和ロマン」の松井ケムリさん、「今後は、いい香りの方の“ケムリ”で」",
-          "url": "https://prtimes.jp/main/html/rd/p/000000096.000121730.html",
-          "name": "PR TIMES",
+          "title": "「孫に会うのは、もうやめることにしました」年金16万円・66歳祖母、連休中の虚無で悟った“いままでの距離感の限界”",
+          "url": "https://gentosha-go.com/articles/-/82247?page=2",
+          "name": "ゴールドオンライン",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-14T03:38:40.001058+09:00",
+      "verifiedAt": "2026-10-14T06:10:50.489818+09:00",
       "retained": false
     }
   ]
