@@ -1,212 +1,146 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-15",
-  "fetchedAt": "2026-10-15T03:50:11.110393+09:00",
+  "fetchedAt": "2026-10-15T06:10:51.022846+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "吉岡里帆",
-    "アストン・ビラ 対 フェネルバフチェ",
-    "jr札幌病院 看護師",
-    "タリック・スクーバル",
-    "モンローウォーク",
-    "リヴァプール",
-    "金正恩",
-    "west indies vs india",
-    "アンゴラ",
-    "松本 潤"
+    "金曜ロードショー",
+    "出産",
+    "園遊会",
+    "ナスダック100指数",
+    "man city đấu với psg",
+    "千と千尋の神隠し 舞台",
+    "ドジャース 日程",
+    "レアルマドリード",
+    "韓国ドラマ",
+    "anaラウンジ"
   ],
   "briefs": [
     {
-      "topic": "吉岡里帆",
+      "topic": "金曜ロードショー",
       "status": "ok",
-      "summary": "【実際の投稿】「本当に唯一無二の美しさ」吉岡里帆、ミニスカ＆ロングブーツ”絶対領域”",
-      "summaryBasis": "related-headline",
-      "issue": "「吉岡里帆」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【実際の投稿】「本当に唯一無二の美しさ」吉岡里帆、ミニスカ＆ロングブーツ”絶対領域”",
-          "url": "https://www.chunichi.co.jp/article/1324573",
-          "name": "中日新聞Web",
-          "publishedAt": null
-        },
-        {
-          "title": "ビーチでの無防備な姿が話題・吉岡里帆(33)「ついついお買い物」最新ショットに絶賛の声「美しさの暴力」「クールビューティー！」",
-          "url": "https://abema.tv/video/episode/89-116_s25_p16775",
-          "name": "ABEMA",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "アストン・ビラ 対 フェネルバフチェ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "jr札幌病院 看護師",
-      "status": "ok",
-      "summary": "「おもしろ半分だった」JR札幌病院看護師が患者を撮影…SNSに不適切投稿 病院利用者「とんでもないこと」",
-      "summaryBasis": "related-headline",
-      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
-      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「おもしろ半分だった」JR札幌病院看護師が患者を撮影…SNSに不適切投稿 病院利用者「とんでもないこと」",
-          "url": "https://newsdig.tbs.co.jp/articles/-/3010065",
-          "name": "TBS NEWS DIG",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "タリック・スクーバル",
-      "status": "ok",
-      "summary": "【大谷翔平】ドジャースの新戦力タリック・スクーバルに“神の手”矢田修が驚愕！腕に隠された「まさかの秘密」を見抜く！投手陣の危機を救う“特別プラン”にドジャース首脳陣も歓喜！ Austin Reaves (RNlD7tyKE1)",
-      "summaryBasis": "related-headline",
-      "issue": "「タリック・スクーバル」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【大谷翔平】ドジャースの新戦力タリック・スクーバルに“神の手”矢田修が驚愕！腕に隠された「まさかの秘密」を見抜く！投手陣の危機を救う“特別プラン”にドジャース首脳陣も歓喜！ Austin Reaves (RNlD7tyKE1)",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeEUtNEV5X29QLUlaYjlVU1Y4SEhYd1B2V3hOV2t4akY3OFhNQW5VbmplaW5vdnNMT1QwZThQN3V6VlN5RzZkZnJmTTdfMGlxRmFGaEFpWmg0MHJ4Yk9UdGxqbFVuQ3RHSURNUVhqa3p3a1F2MmpqajJCS3BvRnk3dHo0OA?oc=5",
-          "name": "Unisba Media",
-          "publishedAt": "Mon, 12 Oct 2026 21:40:47 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "モンローウォーク",
-      "status": "ok",
-      "summary": "【重賞見どころ・秋華賞】無敗の超新星モンローウォーク、牝馬三冠最終戦も通過点とするか",
+      "summary": "「金曜ロードショーとジブリ展」×佐賀県×JR九州記事｜西日本新聞meは、九州のニュースを中心に最新情報を伝えるニュースサイトです。九州・福岡の社会、政治、経済などのニュースを提供します。",
       "summaryBasis": "publisher-description",
-      "issue": "「モンローウォーク」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「金曜ロードショー」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【重賞見どころ・秋華賞】無敗の超新星モンローウォーク、牝馬三冠最終戦も通過点とするか",
-          "url": "https://sports.yahoo.co.jp/official/detail/2026101400030-spnaviow",
-          "name": "スポーツナビ",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "リヴァプール",
-      "status": "ok",
-      "summary": "リヴァプールの高額補強組が苦戦 イラオラ監督はヴィルツとバルコラを擁護「彼らを100％信頼している」",
-      "summaryBasis": "related-headline",
-      "issue": "「リヴァプール」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "リヴァプールの高額補強組が苦戦 イラオラ監督はヴィルツとバルコラを擁護「彼らを100％信頼している」",
-          "url": "https://topics.smt.docomo.ne.jp/article/theworldmagazine/sports/theworldmagazine-509693",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "“高額移籍”も今季は無得点…リヴァプール指揮官、ヴィルツ＆バルコラへの信頼強調「実力は理解している」",
-          "url": "https://www.soccer-king.jp/news/world/eng/20261014/2216619.html",
-          "name": "サッカーキング",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "金正恩",
-      "status": "ok",
-      "summary": "韓国労働党の金正恩総書記と会談するかどうかについて、トランプ米大統領は11月に予定されているアジア訪問中に、ホワイトハウスのメディアからの質問に答えて「可能性がある」と述べ、再び北朝鮮との対話に積極的な姿勢を示した。",
-      "summaryBasis": "publisher-description",
-      "issue": "「金正恩」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "トランプ大統領、アジア訪問中または金正恩氏との会談中に発言| NHK WORLD - JAPANニュース",
-          "url": "https://www3.nhk.or.jp/nhkworld/zh/news/20261013de58520/",
-          "name": "NHKニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "北朝鮮、弾道ミサイル発射を確認トランプ大統領が「アジア訪問か金正恩氏との会談か」と発言",
-          "url": "https://www.stheadline.com/zh-hans/realtime-world/3625438/%E5%8C%97%E9%9F%A9%E8%AF%81%E5%AE%9E%E5%8F%91%E5%B0%84%E5%BC%B9%E9%81%93%E5%AF%BC%E5%BC%B9-%E7%89%B9%E6%9C%97%E6%99%AE%E7%AA%81%E6%94%BE%E8%AF%9D%E4%BA%9A%E6%B4%B2%E8%A1%8C%E6%88%96%E4%BC%9A%E6%99%A4%E9%87%91%E6%AD%A3%E6%81%A9",
-          "name": "星島頭條",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
-      "retained": false
-    },
-    {
-      "topic": "west indies vs india",
-      "status": "unavailable"
-    },
-    {
-      "topic": "アンゴラ",
-      "status": "ok",
-      "summary": "【独自取材!万博工事費未払い問題】アンゴラが「1700万円」\"肩代わり\" 異例対応の裏側は…日本ができることは?協会副会長・吉村知事の見解は（MBSニュース）",
-      "summaryBasis": "related-headline",
-      "issue": "「アンゴラ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【独自取材!万博工事費未払い問題】アンゴラが「1700万円」\"肩代わり\" 異例対応の裏側は…日本ができることは?協会副会長・吉村知事の見解は（MBSニュース）",
-          "url": "https://news.yahoo.co.jp/articles/9e6ad2a4a282d5faad41daac68ec28907d704d5e",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "取材に応じる大阪府の吉村洋文知事＝14日午後、大阪府庁 - 万博未払い救済「難しい」 吉村氏、アンゴラ対応歓迎 - 写真・画像(1/1)",
-          "url": "https://www.nishinippon.co.jp/image/1092126/",
+          "title": "「金曜ロードショーとジブリ展」×佐賀県×JR九州 - 写真・画像(1/1)",
+          "url": "https://www.nishinippon.co.jp/image/1092050/",
           "name": "西日本新聞me",
           "publishedAt": null
+        },
+        {
+          "title": "「金曜ロードショーとジブリ展」×佐賀県×JR九州",
+          "url": "https://prtimes.jp/main/html/rd/p/000001409.000037933.html",
+          "name": "PR TIMES",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
+      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
       "retained": false
     },
     {
-      "topic": "松本 潤",
+      "topic": "出産",
       "status": "ok",
-      "summary": "嵐の元メンバー・松本潤(43)の〝雰囲気激変〟姿に注目が集まっている。【写真あり】「お前、どうしちまったんだ」43歳・松本潤〝雰囲気がらり〟",
+      "summary": "元MBSアナウンサーでフリーの豊崎由里絵アナウンサー(38)が14日、自身のインスタグラムを更新。第3子女児出産を報告した。",
       "summaryBasis": "publisher-description",
-      "issue": "「松本 潤」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「出産」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「お前、どうしちまったんだ」43歳・松本潤〝雰囲気がらり〟最新姿に「自然に年取る感じがいい」「無理に美容整形するよりいい」",
-          "url": "https://news.yahoo.co.jp/articles/2e51daccd0e5bf3f935939b234b6714e289facf1",
+          "title": "豊崎由里絵アナ 第3子出産を報告",
+          "url": "https://news.yahoo.co.jp/pickup/6598773",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "松本潤、『アクアスキュータム』アンバサダー就任で“約20万円のコート”が即完売！老舗ブランドで見せた“カリスマ性”（3ページ目）",
-          "url": "https://www.jprime.jp/articles/-/44097?page=3",
-          "name": "週刊女性PRIME",
+          "title": "豊崎由里絵アナ、第３子出産後に癒着胎盤で救急搬送 手術、輸血を明かす",
+          "url": "https://www.yomiuri.co.jp/culture/hochi/20261014064-OHT1T51352/",
+          "name": "読売新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-15T03:50:11.110393+09:00",
+      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
       "retained": false
+    },
+    {
+      "topic": "園遊会",
+      "status": "ok",
+      "summary": "秋の園遊会に俳優の吉田鋼太郎さんや小説家の宮部みゆきさんら約1800人が招待されました。 「秋の園遊会」は天皇皇后両陛下の主催で今月29日に赤坂御苑で開かれます。 各分野の功績者や地方自治体の関係者",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "秋の園遊会に俳優の吉田鋼太郎さんや小説家の宮部みゆきさんら招待",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000540156.html",
+          "name": "テレ朝NEWS",
+          "publishedAt": null
+        },
+        {
+          "title": "秋の園遊会、小説家の宮部みゆきさんや俳優の吉田鋼太郎さんら招待…会場ではジンギスカンなど提供",
+          "url": "https://www.yomiuri.co.jp/koushitsu/20261014-GYT1T00354/",
+          "name": "読売新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ナスダック100指数",
+      "status": "unavailable"
+    },
+    {
+      "topic": "man city đấu với psg",
+      "status": "unavailable"
+    },
+    {
+      "topic": "千と千尋の神隠し 舞台",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ドジャース 日程",
+      "status": "unavailable"
+    },
+    {
+      "topic": "レアルマドリード",
+      "status": "unavailable"
+    },
+    {
+      "topic": "韓国ドラマ",
+      "status": "ok",
+      "summary": "韓国ドラマ「復讐の化身 ヨン・スジョン」 10月14日(水)放送分 第1話｜ドラマ｜見逃し無料配信はTVer！人気の動画見放題",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "韓国ドラマ「復讐の化身 ヨン・スジョン」 10月14日(水)放送分 第1話｜ドラマ｜見逃し無料配信はTVer！人気の動画見放題",
+          "url": "https://tver.jp/episodes/epz3fodye6",
+          "name": "TVer",
+          "publishedAt": null
+        },
+        {
+          "title": "【きょうから】オム・ヒョンギョン×ソ・ジュニョンのロマンス復讐劇 韓国ドラマ『復讐の化身 ヨン・スジョン』放送スタート＜キャスト・あらすじ＞（オリコン）",
+          "url": "https://news.yahoo.co.jp/articles/1a9fcdaad96c5c5b7444c3ab3a79bc4a5a38b475",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "retained": false
+    },
+    {
+      "topic": "anaラウンジ",
+      "status": "unavailable"
     }
   ]
 }
