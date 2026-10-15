@@ -1,146 +1,185 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-15",
-  "fetchedAt": "2026-10-15T06:10:51.022846+09:00",
+  "updatedAt": "2026-10-16",
+  "fetchedAt": "2026-10-16T03:49:45.207649+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "金曜ロードショー",
-    "出産",
-    "園遊会",
-    "ナスダック100指数",
-    "man city đấu với psg",
-    "千と千尋の神隠し 舞台",
-    "ドジャース 日程",
-    "レアルマドリード",
-    "韓国ドラマ",
-    "anaラウンジ"
+    "ソシエダ",
+    "lol",
+    "miss",
+    "uefaヨーロッパリーグ",
+    "ガーディアンズ 対 レイズ",
+    "rbザルツブルク 対 ミラン",
+    "マツダ・ロータリーエンジン",
+    "吉田羊",
+    "赤灯えれじい ドラマ",
+    "殺人未遂"
   ],
   "briefs": [
     {
-      "topic": "金曜ロードショー",
+      "topic": "ソシエダ",
       "status": "ok",
-      "summary": "「金曜ロードショーとジブリ展」×佐賀県×JR九州記事｜西日本新聞meは、九州のニュースを中心に最新情報を伝えるニュースサイトです。九州・福岡の社会、政治、経済などのニュースを提供します。",
-      "summaryBasis": "publisher-description",
-      "issue": "「金曜ロードショー」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "ユニオンSG対レアル・ソシエダ スタメン発表。出場機会に悩む久保建英は？",
+      "summaryBasis": "related-headline",
+      "issue": "「ソシエダ」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「金曜ロードショーとジブリ展」×佐賀県×JR九州 - 写真・画像(1/1)",
-          "url": "https://www.nishinippon.co.jp/image/1092050/",
-          "name": "西日本新聞me",
-          "publishedAt": null
+          "title": "ユニオンSG対レアル・ソシエダ スタメン発表。出場機会に悩む久保建英は？",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZbVhHS1doV0lfa2I4UTM0TXhWWnVqRzhzajM3MENwaXM1YnRRNHhjVzRFald6WXVnT3luWFozcS1HUGJKRlZKQTFFTGgySzItclRiYjVnTlgwUTNTR3ViMXBSV0U?oc=5",
+          "name": "フットボールチャンネル",
+          "publishedAt": "Thu, 15 Oct 2026 15:32:26 GMT"
         },
         {
-          "title": "「金曜ロードショーとジブリ展」×佐賀県×JR九州",
-          "url": "https://prtimes.jp/main/html/rd/p/000001409.000037933.html",
-          "name": "PR TIMES",
-          "publishedAt": null
+          "title": "【10月16日】ユニオンvsレアル・ソシエダのテレビ放送/ネット配信予定・視聴方法｜UEFAヨーロッパリーグ2026-27",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbXlYLV9GaUgzYjR0MHlydHU0S2s3dkFrRHZlaDFYcGNucGMyaFRDNnlaYThpdC04TWdaWTRsTVlsbHVqYUh4dXdYejZZVUZzWGpfSnBSbHZla1BLazVaZ0lkeW4wNEZ2WkFGaGUwNWQ2OW1XOWpKVEppaUxkTTBqWEtBM1pzUngzbHg2RE5qSHdDRHozaUFLdmV0NGNMQVl2ZlZRM1FIdm9jLTIxNTNPRTRmUm9faWdOU1hRWXNWb2wtMGloMkxHZXFXQVY1eFNoeGVkY2cyYjJVQlJOdG1TWkxnTnFwWU9BcXVYdA?oc=5",
+          "name": "DAZN",
+          "publishedAt": "Thu, 15 Oct 2026 01:24:46 GMT"
         }
       ],
-      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
       "retained": false
     },
     {
-      "topic": "出産",
+      "topic": "lol",
       "status": "ok",
-      "summary": "元MBSアナウンサーでフリーの豊崎由里絵アナウンサー(38)が14日、自身のインスタグラムを更新。第3子女児出産を報告した。",
-      "summaryBasis": "publisher-description",
-      "issue": "「出産」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "LoL Translator ： 2026年リーグ・オブ・レジェンド世界選手権とは何ですか？",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "豊崎由里絵アナ 第3子出産を報告",
-          "url": "https://news.yahoo.co.jp/pickup/6598773",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "豊崎由里絵アナ、第３子出産後に癒着胎盤で救急搬送 手術、輸血を明かす",
-          "url": "https://www.yomiuri.co.jp/culture/hochi/20261014064-OHT1T51352/",
-          "name": "読売新聞",
+          "title": "LoL Translator ： 2026年リーグ・オブ・レジェンド世界選手権とは何ですか？",
+          "url": "https://sports.yahoo.com/articles/lol-translator-2026-league-legends-151039682.html",
+          "name": "Yahoo Sports",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
       "retained": false
     },
     {
-      "topic": "園遊会",
+      "topic": "miss",
       "status": "ok",
-      "summary": "秋の園遊会に俳優の吉田鋼太郎さんや小説家の宮部みゆきさんら約1800人が招待されました。 「秋の園遊会」は天皇皇后両陛下の主催で今月29日に赤坂御苑で開かれます。 各分野の功績者や地方自治体の関係者",
+      "summary": "Brynlee Zimmerman （中央、赤色）は、週末にフラトニアで開催されたロイヤリティコンテストでMiss Czhilispiel 54に選ばれました。この祭りは、フラトニアの100周年を祝うために1973年に始まりました。",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "企画は地域のどんな課題に応え、住民や事業者にどのような効果があるか？",
+      "whyItMatters": "開催自体を目的にせず、参加・消費・継続性などの成果で評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "秋の園遊会に俳優の吉田鋼太郎さんや小説家の宮部みゆきさんら招待",
-          "url": "https://news.tv-asahi.co.jp/news_society/articles/000540156.html",
-          "name": "テレ朝NEWS",
-          "publishedAt": null
-        },
-        {
-          "title": "秋の園遊会、小説家の宮部みゆきさんや俳優の吉田鋼太郎さんら招待…会場ではジンギスカンなど提供",
-          "url": "https://www.yomiuri.co.jp/koushitsu/20261014-GYT1T00354/",
-          "name": "読売新聞",
+          "title": "ジマーマンがミス・チリスピールを戴冠54",
+          "url": "https://www.fayettecountyrecord.com/news/zimmerman-crowned-miss-czhilispiel-54",
+          "name": "The Fayette County Record",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
       "retained": false
     },
     {
-      "topic": "ナスダック100指数",
-      "status": "unavailable"
-    },
-    {
-      "topic": "man city đấu với psg",
-      "status": "unavailable"
-    },
-    {
-      "topic": "千と千尋の神隠し 舞台",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ドジャース 日程",
-      "status": "unavailable"
-    },
-    {
-      "topic": "レアルマドリード",
-      "status": "unavailable"
-    },
-    {
-      "topic": "韓国ドラマ",
+      "topic": "uefaヨーロッパリーグ",
       "status": "ok",
-      "summary": "韓国ドラマ「復讐の化身 ヨン・スジョン」 10月14日(水)放送分 第1話｜ドラマ｜見逃し無料配信はTVer！人気の動画見放題",
+      "summary": "【10月16日】ユニオンvsレアル・ソシエダのテレビ放送/ネット配信予定・視聴方法｜UEFAヨーロッパリーグ2026-27",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【10月16日】ユニオンvsレアル・ソシエダのテレビ放送/ネット配信予定・視聴方法｜UEFAヨーロッパリーグ2026-27",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/uefa-europa-league-2026-27-union-sg-vs-real-sociedad-20261016/5h0tvjzh0a5d1imdu59gsom70",
+          "name": "DAZN",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ガーディアンズ 対 レイズ",
+      "status": "ok",
+      "summary": "【10月16日】ガーディアンズ対レイズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "韓国ドラマ「復讐の化身 ヨン・スジョン」 10月14日(水)放送分 第1話｜ドラマ｜見逃し無料配信はTVer！人気の動画見放題",
-          "url": "https://tver.jp/episodes/epz3fodye6",
-          "name": "TVer",
-          "publishedAt": null
-        },
-        {
-          "title": "【きょうから】オム・ヒョンギョン×ソ・ジュニョンのロマンス復讐劇 韓国ドラマ『復讐の化身 ヨン・スジョン』放送スタート＜キャスト・あらすじ＞（オリコン）",
-          "url": "https://news.yahoo.co.jp/articles/1a9fcdaad96c5c5b7444c3ab3a79bc4a5a38b475",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "title": "【10月16日】ガーディアンズ対レイズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbWxtWDVtT0RzSUpUUzZRc3N0NkFYQkNCZ3h0SUo4QW53U1hWSzdaak9LMXB3dGZSa0Ruc1dfUUpNRnBrVWZud05mRl85WTZ6c1I1NHFQTnNEOTc1M3J1YjNHY1NISnNpSENxTHM4UjFNTjdUNk83NnFLVjl5cGFrRFU0SXZCakJ3U3loa09oZERCTUN2NVJFOFY5d2lTVDcxNHpEb2J1UGx2SG1rSTZoVVZFMlpEbDlDZVpuOQ?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Thu, 15 Oct 2026 08:00:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-15T06:10:51.022846+09:00",
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
       "retained": false
     },
     {
-      "topic": "anaラウンジ",
+      "topic": "rbザルツブルク 対 ミラン",
       "status": "unavailable"
+    },
+    {
+      "topic": "マツダ・ロータリーエンジン",
+      "status": "unavailable"
+    },
+    {
+      "topic": "吉田羊",
+      "status": "ok",
+      "summary": "俳優の吉田羊さん主演のNHKのドラマ10「会社員」（総合、火曜午後10時）。10月20日放送の第2回のあらすじによると、吉田さん演じる主人公・英理子が、“想定外の状況”に追い込まれる、という。場面カ",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "会社員＞吉田羊主演のドラマ10 第2回あらすじ＆場面カット “想定外の状況”に追い込まれる主人公（MANTANWEB）",
+          "url": "https://news.yahoo.co.jp/articles/0d2e7d2077bcfc77b93b045f573966da413d6d44",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "吉田羊“英理子”の冷酷上司ぶりに衝撃「開始1分で嫌な上司」と反響＜会社員＞",
+          "url": "https://thetv.jp/news/detail/1448575/",
+          "name": "WEBザテレビジョン",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
+      "retained": false
+    },
+    {
+      "topic": "赤灯えれじい ドラマ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "殺人未遂",
+      "status": "ok",
+      "summary": "青森県八戸市内で面識のある会社員男性（51）の背中を刃物で刺して殺害しようとしたとして、青森県警は14日、殺人未遂の疑いで同市鮫町下手代森の会社員の女（39）を逮捕した。男性は意識のある状態で県内の",
+      "summaryBasis": "publisher-description",
+      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
+      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "八戸市で殺人未遂事件 39歳の女逮捕（Web東奥）",
+          "url": "https://news.yahoo.co.jp/articles/8d5a048ea1e14f51167c2eb5d8a8ea2fee7fbd74",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "【続報】傷は背中から肺の一部まで…男を包丁で刺した殺人未遂の疑いで39歳の女を逮捕 青森・八戸市",
+          "url": "https://news.ntv.co.jp/n/rab/category/society/rabd58a0d7c23d43788dda1d0a6a32ad12",
+          "name": "日テレNEWS NNN",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-16T03:49:45.207649+09:00",
+      "retained": false
     }
   ]
 }
