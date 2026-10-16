@@ -1,221 +1,176 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-17",
-  "fetchedAt": "2026-10-17T06:06:50.578904+09:00",
+  "fetchedAt": "2026-10-17T08:02:11.035600+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "植田和男",
-    "タイガージェットシン",
-    "adr",
-    "経済",
-    "メジャーリーグベースボール",
-    "木村 拓哉",
-    "死体",
-    "katie zacharia",
-    "藤川 球児",
-    "ザカリア"
+    "サタプラ",
+    "ディズニークルーズ",
+    "給食",
+    "古江彩佳",
+    "今村聖奈",
+    "トヨタ・アルファード",
+    "ドデ祭り 2026",
+    "臨時ニュース",
+    "アナログナース",
+    "モンスト スクラッチ"
   ],
   "briefs": [
     {
-      "topic": "植田和男",
+      "topic": "サタプラ",
       "status": "ok",
-      "summary": "日本銀行総裁の上田和夫氏が強硬姿勢を繰り返したにもかかわらず、ポンドは円に対して上昇した",
-      "summaryBasis": "related-headline",
-      "issue": "「植田和男」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "日本銀行総裁の上田和夫氏が強硬姿勢を繰り返したにもかかわらず、ポンドは円に対して上昇した",
-          "url": "https://www.tmgm.com/zh-hans/analysis/market-news/article/british-pound-rises-against-japanese-yen-despite-boj-ueda-reiterates-hawkish-outlook-202610160837",
-          "name": "www.tmgm.com",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
-    },
-    {
-      "topic": "タイガージェットシン",
-      "status": "unavailable"
-    },
-    {
-      "topic": "adr",
-      "status": "ok",
-      "summary": "「株式」ADR日本株ランキング～全般売り優勢、シカゴは大阪日中比950円安の65790円",
-      "summaryBasis": "related-headline",
-      "issue": "「adr」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「株式」ADR日本株ランキング～全般売り優勢、シカゴは大阪日中比950円安の65790円",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202610160365",
-          "name": "株探",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
-    },
-    {
-      "topic": "経済",
-      "status": "ok",
-      "summary": "【NHK】タイで開かれていたG20＝主要20か国の財務相・中央銀行総裁会議は15日閉幕しました。 インフレや金利上昇が世界経済を下振れさせるリスクや高性能のAIが悪用された場合の影響を懸念する意見が相次ぎまし",
+      "summary": "2026年10月17日放送の『サタプラ』は「旬を味わう！正門の全国レシピ交換旅」！今回の食材はれんこん！こちらのページではその中で紹介された「ベーコンチーズれんこん」についてまとめました。作り方や材料など詳しいレシピはこちら！旬を味わう！",
       "summaryBasis": "publisher-description",
-      "issue": "「経済」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "サタプラ｜Aぇ! group正門×ちはる「ベーコンチーズれんこん」の作り方～全国レシピ交換旅（2026/10/17）",
+          "url": "https://www.e-recipe.site/tv/satplus261017_renkon02/",
+          "name": "知っ得レシピ",
+          "publishedAt": null
+        },
+        {
+          "title": "サタプラ｜正門の全国レシピ交換旅「れんこん」レシピまとめ（2026/10/17）",
+          "url": "https://www.e-recipe.site/tv/satplus261017_renkon/",
+          "name": "知っ得レシピ",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ディズニークルーズ",
+      "status": "ok",
+      "summary": "日本で初めてとなるディズニークルーズの船名が「ディズニー・イマジネーション」に決定しました。東京ディズニーリゾートを運営するオリエンタルランドなどは、2029年春にディズニークルーズの就航を予定して",
+      "summaryBasis": "publisher-description",
+      "issue": "「ディズニークルーズ」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "G20閉幕 世界経済やAIリスク議論も共同声明なし",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261016de60163",
-          "name": "NHKニュース",
+          "title": "“日本初”ディズニークルーズ、29年春就航へ 定員約4000人…劇場や飲食施設も完備！（TOKYO MX）",
+          "url": "https://news.yahoo.co.jp/articles/36607a589fca7f42165066f51227955f1bbf1e18",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
       "retained": false
     },
     {
-      "topic": "メジャーリーグベースボール",
+      "topic": "給食",
       "status": "ok",
-      "summary": "【MLB】メジャーリーグベースボールの雑貨コレクションが、カジュアルファッションブランド「CIAOPANIC TYPY」より登場！",
-      "summaryBasis": "related-headline",
+      "summary": "札幌市内の小学6年生に提供された学校給食の写真がSNS上で波紋を広げている。主食のパン、牛乳、スープ、ウインナー2本という内容で、「量が少なすぎる」との声が相次いだ。今年度から国の交付金を活用して小",
+      "summaryBasis": "publisher-description",
+      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
+      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「あの量では足りない」札幌市の小学校給食が“少なすぎる”と波紋…1食382円は高い？安い？無償化と質の問題、センター化の功罪とは（ABEMA TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/f3c06cc588381dedd55a83ed9bae7c168fb59a04",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "\"貧相な給食\"に｢これだけ？｣の声…元給食室勤務の管理栄養士が解説｢給食が少なく見える｣想像以上に深い理由",
+          "url": "https://topics.smt.docomo.ne.jp/article/toyokeizai/life/toyokeizai-961308",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "retained": false
+    },
+    {
+      "topic": "古江彩佳",
+      "status": "ok",
+      "summary": "「富士通レディース」2日目。",
+      "summaryBasis": "publisher-description",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【MLB】メジャーリーグベースボールの雑貨コレクションが、カジュアルファッションブランド「CIAOPANIC TYPY」より登場！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KZnRiTFlRYlZyenVEdGlsdU5oSUdHT3piWlNLaG1DSVE2U0tzSlFmVDdRbXN0dEFPbEdTQ29ydTdIVFlXZTBRMzBtTGFsaUp2bjV5dF9WeGc0OHBGVnM3TjZ2SUI4cFhkaWc?oc=5",
-          "name": "PR TIMES",
-          "publishedAt": "Fri, 16 Oct 2026 01:00:01 GMT"
+          "title": "「入れ！ 入れ！」ギャラリー絶叫！ 古江彩佳が過去3勝の得意大会で見せた圧巻の一打… 後半6バーディーで首位タイ浮上",
+          "url": "https://topics.smt.docomo.ne.jp/article/egolf/sports/egolf-258857?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
       "retained": false
     },
     {
-      "topic": "木村 拓哉",
+      "topic": "今村聖奈",
       "status": "ok",
-      "summary": "キテレツ猪狩蒼弥、木村拓哉から直々のオファーで映画出演決定 指名理由に驚き「僕は襟足枠」（日刊スポーツ）",
+      "summary": "ジュウリョクピエロ登録見送りも...今村聖奈騎手が自厩舎の“隠し玉”と秋華賞へ 「新馬前から期待している馬」",
+      "summaryBasis": "related-headline",
+      "issue": "「今村聖奈」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ジュウリョクピエロ登録見送りも...今村聖奈騎手が自厩舎の“隠し玉”と秋華賞へ 「新馬前から期待している馬」",
+          "url": "https://umatoku.hochi.co.jp/articles/20261013-OHT1T51305.html?utm_source=ynews&utm_term=20261015-OHT1T51112&utm_content=2&revision_id=4",
+          "name": "UMATOKU",
+          "publishedAt": null
+        },
+        {
+          "title": "【秋華賞】今村聖奈騎手のロザーンジュは大外17番枠 寺島調教師「変にゴチャつく枠じゃないことをメリットと考えて…」",
+          "url": "https://news.netkeiba.com/?pid=news_view&no=345775",
+          "name": "netkeiba",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "retained": false
+    },
+    {
+      "topic": "トヨタ・アルファード",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ドデ祭り 2026",
+      "status": "unavailable"
+    },
+    {
+      "topic": "臨時ニュース",
+      "status": "unavailable"
+    },
+    {
+      "topic": "アナログナース",
+      "status": "ok",
+      "summary": "『アナログナース』に岡田将生＆中井貴一が参戦 『ザ・トラベルナース』コンビが同役で出演（リアルサウンド）",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "キテレツ猪狩蒼弥、木村拓哉から直々のオファーで映画出演決定 指名理由に驚き「僕は襟足枠」（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/116d00bb7cc1ffce47c1544237d98afc83cd1afa",
+          "title": "『アナログナース』に岡田将生＆中井貴一が参戦 『ザ・トラベルナース』コンビが同役で出演（リアルサウンド）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vLUNFRXJaV3ZqM2hzZ0lHaTk3dHFlZ2JrN2FiRlRBTlBiSFQ5blFQQmpWaVlWYVdQMGpXY3o5WFFRMDh6Tkt2MzZQT0dRczZ2bl9mcHp5QnoyVHZaV2pYay00NlhRNFRuNFZKS0RkdnpJdXBwVktDRi1LVFZPdGc?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "publishedAt": "Fri, 16 Oct 2026 20:34:46 GMT"
+        },
+        {
+          "title": "22日スタート「アナログナース」に岡田将生＆中井貴一が参戦！ 最強ナース・コンビが前作に続き",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzhrcnhLbHVNZExhcmxXVkg3Y2xoNjR1d1NFeUlKNmpEX2NDOUxyV2ZMdV92NXdLY0JBV09CVnE4bmxjcV83T3pwWUJua0hyUTVLMU9mSlFlLXQwWlBCT1N2WHBGcDh5WlBlQk9va2x1T1RjeE5OTXB2ZHlvM3lYM3dxSjhuN1hwbTlyUlZkS053anBqS3c?oc=5",
+          "name": "スポニチ Sponichi Annex",
+          "publishedAt": "Fri, 16 Oct 2026 22:00:03 GMT"
         }
       ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
       "retained": false
     },
     {
-      "topic": "死体",
-      "status": "ok",
-      "summary": "死体遺棄で捜査 ３人暮らしの住宅内 死後かなりの時間が経った男性遺体 北海道小樽市",
-      "summaryBasis": "related-headline",
-      "issue": "「死体」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "死体遺棄で捜査 ３人暮らしの住宅内 死後かなりの時間が経った男性遺体 北海道小樽市",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XNVJpRTFtdlJzdVF2b3lHZW90UXFudVROYktpdkd5V0hRNHVJbURoTHpEUEN5U3BhUFhaOVJXWVNndDNkWWVGQmpfc3BsTUVrSExjeXlDTWptZFIyQ2hr?oc=5",
-          "name": "TBS NEWS DIG",
-          "publishedAt": "Fri, 16 Oct 2026 10:15:00 GMT"
-        },
-        {
-          "title": "「死体は私の母」白骨化“母親”遺体を自宅に放置か 53歳無職男逮捕 「きょうまで生きていた」と容疑否認 群馬",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xMkhnMm1SWXZsQXlGNF9sYmszQ210MHlXNENEeU53MFhqaUIyNDFwQnY0bTU2dUJXdi1UYmx1QjdNcUh3RWJJZTVxWkxyZw?oc=5",
-          "name": "FNNプライムオンライン",
-          "publishedAt": "Fri, 16 Oct 2026 03:04:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
-    },
-    {
-      "topic": "katie zacharia",
-      "status": "ok",
-      "summary": "ホワイトハウスの報道官、ケイティ・ザカリア氏が5日後に追放される",
-      "summaryBasis": "related-headline",
-      "issue": "「katie zacharia」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ホワイトハウスの報道官、ケイティ・ザカリア氏が5日後に追放される",
-          "url": "https://www.nytimes.com/2026/10/16/us/politics/katie-zacharia-fired-press-secretary.html",
-          "name": "The New York Times",
-          "publishedAt": null
-        },
-        {
-          "title": "ホワイトハウスの報道官としてケイティ・ザカリアの後任になれるのは誰か？",
-          "url": "https://www.theguardian.com/us-news/2026/oct/16/who-replace-katie-zacharia-white-house-press-secretary",
-          "name": "The Guardian",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
-    },
-    {
-      "topic": "藤川 球児",
-      "status": "ok",
-      "summary": "【阪神】藤川球児監督 崖っぷち３連敗 主砲不在も「やらなければいけない」２７回連続無得点でＣＳ連続無得点記録を更新",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【阪神】藤川球児監督 崖っぷち３連敗 主砲不在も「やらなければいけない」２７回連続無得点でＣＳ連続無得点記録を更新",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNlNmRXg3X3V0am9uUndsWGVBQ2dDcGUwdVZBRkhwdlF3dmJEajk3YXZyRzhCSnFpWW4wV3E0LUdmU0ZJRFUwVkdHMTRrMlB5dU40TE9jX0JZb0xxbThrLVBZV21MamZkNk1YRjJpaHM3V1ZJYjdrYTRBdTltTnM?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Fri, 16 Oct 2026 20:00:56 GMT"
-        },
-        {
-          "title": "【阪神】藤川球児監督、満身創痍の佐藤輝明＆森下翔太の現状を説明「厳しい状況に変わりない」「明日以降のために最善の努力を」",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nZFNiVVl2OU0yQm40UFZGaUctZ3FHb2JYYmQ2bDJYVkppRldXOGJXUFVQZzAwZkswMkFNNjRLUkYzaWl3c1B3UmltTGplcEFuNGtUdWhTb2VzZ3k4VGRsb0JB?oc=5",
-          "name": "スポーツ報知",
-          "publishedAt": "Fri, 16 Oct 2026 12:18:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ザカリア",
-      "status": "ok",
-      "summary": "ザカリア米大統領報道官、職務開始5日で退任決定 弁護士経歴で疑惑",
-      "summaryBasis": "related-headline",
-      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
-      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ザカリア米大統領報道官、職務開始5日で退任決定 弁護士経歴で疑惑",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVTXExZmZ2SWdMM1dsWE5PalUyVmh6SUt1RXNpVFNnbVJqeEdGLWxzN2ZydDRmTzlLUmcxODdMclMyWlFBaXVDZ2lHOFRXM09TcEg4LW05VGhQN01PTU41T0RLd2cxS3gyNDJBag?oc=5",
-          "name": "日本経済新聞",
-          "publishedAt": "Fri, 16 Oct 2026 19:31:06 GMT"
-        },
-        {
-          "title": "ザカリア新報道官「解任」、就任1週間足らず＝ホワイトハウス当局者",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSTBBb0VVQmN6NlRvcENmTkJKaFd4YnBJVzdyVXhqRVluQ01jQ1hwcl9zdjFtcE05NmU3UWR1S1NXeFVrUDBOUVZFSW1GT2RBZnVmNFIxVVpjNFdpVEJwS2VRX0NvNThzMFh1eEowNVpmUkxZZW00X2pjOEg1aG8?oc=5",
-          "name": "Reuters",
-          "publishedAt": "Fri, 16 Oct 2026 18:37:02 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
-      "retained": false
+      "topic": "モンスト スクラッチ",
+      "status": "unavailable"
     }
   ]
 }
