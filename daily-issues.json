@@ -1,265 +1,220 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-16",
-  "fetchedAt": "2026-10-16T06:12:49.776928+09:00",
+  "updatedAt": "2026-10-17",
+  "fetchedAt": "2026-10-17T06:06:50.578904+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "メーガン",
-    "venue101",
-    "猪俣周杜",
-    "中田敦彦",
-    "ダウ",
-    "消費税",
-    "岡田彰布",
-    "爆発",
-    "ブライトン",
-    "山本由伸"
+    "植田和男",
+    "タイガージェットシン",
+    "adr",
+    "経済",
+    "メジャーリーグベースボール",
+    "木村 拓哉",
+    "死体",
+    "katie zacharia",
+    "藤川 球児",
+    "ザカリア"
   ],
   "briefs": [
     {
-      "topic": "メーガン",
+      "topic": "植田和男",
       "status": "ok",
-      "summary": "イギリスのヘンリー王子とメーガン妃が、生活の拠点をイギリスに移してから初めて2人そろって公の場に姿を現しました。 ヘンリー王子夫妻は15日、イギリス中部のノッティンガムで市民らに歓声で迎えられ、若者",
-      "summaryBasis": "publisher-description",
-      "issue": "「メーガン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "日本銀行総裁の上田和夫氏が強硬姿勢を繰り返したにもかかわらず、ポンドは円に対して上昇した",
+      "summaryBasis": "related-headline",
+      "issue": "「植田和男」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ヘンリー王子とメーガン妃に“大歓声”英へ拠点を移して以降初 2人そろって公の場に",
-          "url": "https://news.tv-asahi.co.jp/news_international/articles/000540567.html",
-          "name": "テレ朝NEWS",
-          "publishedAt": null
-        },
-        {
-          "title": "メーガン妃、英国で4年ぶりの公の場に…ヘンリー王子とそろって登場、沿道では歓声と花束も",
-          "url": "https://www.newsweekjapan.jp/articles/photo/337054",
-          "name": "ニューズウィーク日本版",
+          "title": "日本銀行総裁の上田和夫氏が強硬姿勢を繰り返したにもかかわらず、ポンドは円に対して上昇した",
+          "url": "https://www.tmgm.com/zh-hans/analysis/market-news/article/british-pound-rises-against-japanese-yen-despite-boj-ueda-reiterates-hawkish-outlook-202610160837",
+          "name": "www.tmgm.com",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
       "retained": false
     },
     {
-      "topic": "venue101",
+      "topic": "タイガージェットシン",
+      "status": "unavailable"
+    },
+    {
+      "topic": "adr",
       "status": "ok",
-      "summary": "【Venue101】10月17日(土)生放送の見どころ発表！",
+      "summary": "「株式」ADR日本株ランキング～全般売り優勢、シカゴは大阪日中比950円安の65790円",
+      "summaryBasis": "related-headline",
+      "issue": "「adr」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「株式」ADR日本株ランキング～全般売り優勢、シカゴは大阪日中比950円安の65790円",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202610160365",
+          "name": "株探",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "経済",
+      "status": "ok",
+      "summary": "【NHK】タイで開かれていたG20＝主要20か国の財務相・中央銀行総裁会議は15日閉幕しました。 インフレや金利上昇が世界経済を下振れさせるリスクや高性能のAIが悪用された場合の影響を懸念する意見が相次ぎまし",
+      "summaryBasis": "publisher-description",
+      "issue": "「経済」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "G20閉幕 世界経済やAIリスク議論も共同声明なし",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261016de60163",
+          "name": "NHKニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "メジャーリーグベースボール",
+      "status": "ok",
+      "summary": "【MLB】メジャーリーグベースボールの雑貨コレクションが、カジュアルファッションブランド「CIAOPANIC TYPY」より登場！",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【MLB】メジャーリーグベースボールの雑貨コレクションが、カジュアルファッションブランド「CIAOPANIC TYPY」より登場！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KZnRiTFlRYlZyenVEdGlsdU5oSUdHT3piWlNLaG1DSVE2U0tzSlFmVDdRbXN0dEFPbEdTQ29ydTdIVFlXZTBRMzBtTGFsaUp2bjV5dF9WeGc0OHBGVnM3TjZ2SUI4cFhkaWc?oc=5",
+          "name": "PR TIMES",
+          "publishedAt": "Fri, 16 Oct 2026 01:00:01 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "木村 拓哉",
+      "status": "ok",
+      "summary": "キテレツ猪狩蒼弥、木村拓哉から直々のオファーで映画出演決定 指名理由に驚き「僕は襟足枠」（日刊スポーツ）",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【Venue101】10月17日(土)生放送の見どころ発表！",
-          "url": "https://www.nhk.jp/g/ts/WX1N9WR8GY/blog/bl/p7x4Gzaqg7/bp/p21nxjM6R3/",
-          "name": "NHK",
-          "publishedAt": null
-        },
-        {
-          "title": "NHK『Venue101』に休止から復帰のimase登場 &TEAM・TAKIの特製ペペロンチーノがスタジオに INI＆STU48もトーク＆ライブ",
-          "url": "https://www.yamagata-np.jp/oricon/print.php?id=2485361",
-          "name": "山形新聞",
+          "title": "キテレツ猪狩蒼弥、木村拓哉から直々のオファーで映画出演決定 指名理由に驚き「僕は襟足枠」（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/116d00bb7cc1ffce47c1544237d98afc83cd1afa",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
       "retained": false
     },
     {
-      "topic": "猪俣周杜",
+      "topic": "死体",
       "status": "ok",
-      "summary": "元timeleszの猪俣周杜が、女性への暴行容疑で逮捕されてから約3週間。所属事務所のSTARTO ENTERTAINMENTは専属契約を解除し、残る7人も会見で謝罪する事態となった。【写真】誰より",
-      "summaryBasis": "publisher-description",
+      "summary": "死体遺棄で捜査 ３人暮らしの住宅内 死後かなりの時間が経った男性遺体 北海道小樽市",
+      "summaryBasis": "related-headline",
+      "issue": "「死体」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "死体遺棄で捜査 ３人暮らしの住宅内 死後かなりの時間が経った男性遺体 北海道小樽市",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XNVJpRTFtdlJzdVF2b3lHZW90UXFudVROYktpdkd5V0hRNHVJbURoTHpEUEN5U3BhUFhaOVJXWVNndDNkWWVGQmpfc3BsTUVrSExjeXlDTWptZFIyQ2hr?oc=5",
+          "name": "TBS NEWS DIG",
+          "publishedAt": "Fri, 16 Oct 2026 10:15:00 GMT"
+        },
+        {
+          "title": "「死体は私の母」白骨化“母親”遺体を自宅に放置か 53歳無職男逮捕 「きょうまで生きていた」と容疑否認 群馬",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xMkhnMm1SWXZsQXlGNF9sYmszQ210MHlXNENEeU53MFhqaUIyNDFwQnY0bTU2dUJXdi1UYmx1QjdNcUh3RWJJZTVxWkxyZw?oc=5",
+          "name": "FNNプライムオンライン",
+          "publishedAt": "Fri, 16 Oct 2026 03:04:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "katie zacharia",
+      "status": "ok",
+      "summary": "ホワイトハウスの報道官、ケイティ・ザカリア氏が5日後に追放される",
+      "summaryBasis": "related-headline",
+      "issue": "「katie zacharia」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ホワイトハウスの報道官、ケイティ・ザカリア氏が5日後に追放される",
+          "url": "https://www.nytimes.com/2026/10/16/us/politics/katie-zacharia-fired-press-secretary.html",
+          "name": "The New York Times",
+          "publishedAt": null
+        },
+        {
+          "title": "ホワイトハウスの報道官としてケイティ・ザカリアの後任になれるのは誰か？",
+          "url": "https://www.theguardian.com/us-news/2026/oct/16/who-replace-katie-zacharia-white-house-press-secretary",
+          "name": "The Guardian",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "藤川 球児",
+      "status": "ok",
+      "summary": "【阪神】藤川球児監督 崖っぷち３連敗 主砲不在も「やらなければいけない」２７回連続無得点でＣＳ連続無得点記録を更新",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【阪神】藤川球児監督 崖っぷち３連敗 主砲不在も「やらなければいけない」２７回連続無得点でＣＳ連続無得点記録を更新",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNlNmRXg3X3V0am9uUndsWGVBQ2dDcGUwdVZBRkhwdlF3dmJEajk3YXZyRzhCSnFpWW4wV3E0LUdmU0ZJRFUwVkdHMTRrMlB5dU40TE9jX0JZb0xxbThrLVBZV21MamZkNk1YRjJpaHM3V1ZJYjdrYTRBdTltTnM?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Fri, 16 Oct 2026 20:00:56 GMT"
+        },
+        {
+          "title": "【阪神】藤川球児監督、満身創痍の佐藤輝明＆森下翔太の現状を説明「厳しい状況に変わりない」「明日以降のために最善の努力を」",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nZFNiVVl2OU0yQm40UFZGaUctZ3FHb2JYYmQ2bDJYVkppRldXOGJXUFVQZzAwZkswMkFNNjRLUkYzaWl3c1B3UmltTGplcEFuNGtUdWhTb2VzZ3k4VGRsb0JB?oc=5",
+          "name": "スポーツ報知",
+          "publishedAt": "Fri, 16 Oct 2026 12:18:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ザカリア",
+      "status": "ok",
+      "summary": "ザカリア米大統領報道官、職務開始5日で退任決定 弁護士経歴で疑惑",
+      "summaryBasis": "related-headline",
       "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
       "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「人間関係を見直しなさい」猪俣周杜の暴行騒動後、事務所がグループに〈異例の忠告〉…知人が明かす猪俣の“女性関係”",
-          "url": "https://news.yahoo.co.jp/articles/2d0e2416476c361df91b53b67873ee02fab6b2c5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "title": "ザカリア米大統領報道官、職務開始5日で退任決定 弁護士経歴で疑惑",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVTXExZmZ2SWdMM1dsWE5PalUyVmh6SUt1RXNpVFNnbVJqeEdGLWxzN2ZydDRmTzlLUmcxODdMclMyWlFBaXVDZ2lHOFRXM09TcEg4LW05VGhQN01PTU41T0RLd2cxS3gyNDJBag?oc=5",
+          "name": "日本経済新聞",
+          "publishedAt": "Fri, 16 Oct 2026 19:31:06 GMT"
         },
         {
-          "title": "timelesz猪俣周杜「契約解除」「謝罪会見」の裏側 菊池風磨は事務所と交渉、新体制の極秘企画も…週刊文春報道まとめ",
-          "url": "https://bunshun.jp/articles/-/92925",
-          "name": "文春オンライン",
-          "publishedAt": null
+          "title": "ザカリア新報道官「解任」、就任1週間足らず＝ホワイトハウス当局者",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YSTBBb0VVQmN6NlRvcENmTkJKaFd4YnBJVzdyVXhqRVluQ01jQ1hwcl9zdjFtcE05NmU3UWR1S1NXeFVrUDBOUVZFSW1GT2RBZnVmNFIxVVpjNFdpVEJwS2VRX0NvNThzMFh1eEowNVpmUkxZZW00X2pjOEg1aG8?oc=5",
+          "name": "Reuters",
+          "publishedAt": "Fri, 16 Oct 2026 18:37:02 GMT"
         }
       ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "中田敦彦",
-      "status": "ok",
-      "summary": "「ぽかぽか」岩井の夏休み代打にオリラジ中田敦彦が特別MC",
-      "summaryBasis": "related-headline",
-      "issue": "「中田敦彦」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "「ぽかぽか」岩井の夏休み代打にオリラジ中田敦彦が特別MC",
-          "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNenBqQXhNYzBpc25hQ3FRdTVfYXM2OFVmV1BITE00QkNkQ0FPcVZyRmFiWnBfbEtnbkN0WWo4NU9PNTVFRlI0dEpscTFyOUpOSUVWSXRHMFFnWVd2M3ZvT3daZHdlTExPcFhNc0UzbEsyX0tGVV9qSzJKb25Cc2RBVWpkNTVYcDdtV3VZWmc4ekNXTFdsZzRpM2hCcTEwSnBIT09EWXFEUW5lWUVfQnZDYk9zZmwtcTFkYU5XSXoyT3VuWFY1VXR0eVo4TlJlNGVYblc3eHptcVFFejgzV2JpaDBhV09DVUNOaGl1RTNkak9KOXRBdnlmSTVBSWhhVUV5M2hGWHM3bzMwZlctUlBpRGl4UjN6cTdheWg3a29XWjNDVG0yZDB2ejFsUUFmZk5Vc2tfZzE3MGg3OUV3RjQtaEFSNGtjamQyVFRRa3Q0RVFpNWZDbUU2VkpTbkFBT3lPLVkyNU1kMWU3YzJ5U0hzeUVuOUxoZzBWTE1DelMtbDJLdk01VnB4VTN5bGpBaWVUZW5RV1lrcjZDSkpSZVlTNVUteUdpUQ?oc=5",
-          "name": "SmartNews",
-          "publishedAt": "Wed, 14 Oct 2026 05:26:00 GMT"
-        },
-        {
-          "title": "「オリエンタルラジオ」の中田敦彦",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUVY0aG1acDl6azlyRXM0RDNFN2pNemRGTl9HMTlHLURsWE9oZnk3UzRJZ2ZPNmJqbmxJSmpUZ2dJa3M0SThNRTJvYlhoZXA1aWpJX1J3Yko2YnBLSkZXczlJMEJRR1RlckpSU1JCR3RNWms4NVB2NktldTFialk4VUhGdk9LLU9nWlZhUWwwYzU2QkV3Z3c?oc=5",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": "Wed, 14 Oct 2026 20:23:25 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ダウ",
-      "status": "ok",
-      "summary": "〔米株式〕ダウ3日ぶり反発、556ドル高＝ナスダックは小幅上昇（15日）(時事通信)",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "〔米株式〕ダウ3日ぶり反発、556ドル高＝ナスダックは小幅上昇（15日）(時事通信)",
-          "url": "https://finance.yahoo.co.jp/news/detail/e3f557d40e468537eb24f6df8b456b32268692d3",
-          "name": "Yahoo!ファイナンス",
-          "publishedAt": null
-        },
-        {
-          "title": "ＮＹダウ終値、５５６ドル高の５万２１７７ドル…３日ぶり値上がり",
-          "url": "https://www.yomiuri.co.jp/economy/20261016-GYT1T00077/",
-          "name": "読売新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "消費税",
-      "status": "ok",
-      "summary": "【NHK】食料品の消費税減税関連法案の審議日程をめぐり、自民党は民主改革の会に対し、来週20日に審議入りしたいと改めて提案したのに対し、民主改革の会は、高市総理大臣も出席して質疑を行うなど充実した審議を求め、引",
-      "summaryBasis": "publisher-description",
-      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
-      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "自民“消費税法案20日審議入り”民改“首相出席し審議充実を”",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261015de60104",
-          "name": "NHKニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "「物価高は2年後には収まっているんでしょうか」消費税減税めぐり共産・辰巳氏が追及「一番消費税の負担が重い人が排除になる」（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/de947c7a2e5662db1b9f27b1a5c59c06a22636a9",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "岡田彰布",
-      "status": "ok",
-      "summary": "「ＪＥＲＡ ＣＳセ・ファイナルＳ・第１戦、阪神０－２ＤｅＮＡ」（１４日、甲子園球場） ＡＢＣ「スーパーベースボール」で阪神前監督の岡田彰布オーナー付顧問、前日本代表監督の井端弘和氏、元阪神の原口文仁氏が解説を務めた。",
-      "summaryBasis": "publisher-description",
-      "issue": "「岡田彰布」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "阪神 完封負けのポイントとは 岡田彰布顧問と井端弘和氏が同じ場面を指摘 岡田氏「相手が想像しないことをやってもいい」井端氏「三振が痛かった」",
-          "url": "https://www.daily.co.jp/tigers/2026/10/15/0020928808.shtml",
-          "name": "デイリースポーツ",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "爆発",
-      "status": "ok",
-      "summary": "2026年10月13日、メキシコの首都メキシコシティ近郊にあるコアカルコ市で、液化石油ガス（LPガス）を扱う施設から激しい炎が噴き上がった。【動画】ガス施設で突然の大爆発、巨大な炎が噴き上がる…住民",
-      "summaryBasis": "publisher-description",
-      "issue": "「爆発」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ガス施設で突然の大爆発、巨大な炎が噴き上がる…住民が逃げ惑う衝撃の瞬間を撮影（ニューズウィーク日本版）",
-          "url": "https://news.yahoo.co.jp/articles/4e0781e16e20ef28fbd45b1f4eb4946e1fb58225",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "黒煙と爆発音 札幌市北区で共同住宅併設の建物焼く火事 女性１人病院搬送",
-          "url": "https://www.htb.co.jp/news/archives_39962.html",
-          "name": "HTB 北海道テレビ",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ブライトン",
-      "status": "ok",
-      "summary": "ブライトンは現在4勝1分けで2位につけており、首位に追いつくチャンスはまだ残されている。カウノ・ジャルギリスとの試合は、2026年10月16日午前2時にアメックス・スタジアムで行われる。",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ブライトン対カウノ・ジャルギリスの予想：首位を狙うチャンス",
-          "url": "https://www.vietnam.vn/ja/nhan-dinh-brighton-vs-kauno-zalgiris-co-hoi-bam-duoi-ngoi-dau",
-          "name": "Vietnam.vn",
-          "publishedAt": null
-        },
-        {
-          "title": "試合プレビュー：ブライトン対カウノ・ジャルギリス、10月16日午前2時：「シーガルズ」が高みへ。",
-          "url": "https://www.vietnam.vn/ja/nhan-dinh-tran-dau-brighton-vs-kauno-zalgiris-2h00-ngay-16-10-mong-bien-bay-cao",
-          "name": "Vietnam.vn",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
-      "retained": false
-    },
-    {
-      "topic": "山本由伸",
-      "status": "ok",
-      "summary": "ドジャースの山本由伸投手が12日（日本時間13日）、敵地で行われたブルワーズとのナ・リーグ優勝決定シリーズ（NLCS）第2戦に先発したものの、3回途中3失点でKOされた一戦について、球種が相手に完全",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "山本由伸の「球種が分かっていた」 他球団選手が確信…不可解だった3回KOの理由（Full-Count）",
-          "url": "https://news.yahoo.co.jp/articles/11777a8a6ae34c0902fce2d8166925cdc27d7894",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "山本由伸に“球種バレ”疑惑 他球団選手が証言「ブルワーズは分かっていた」米司会者「あり得る」",
-          "url": "https://topics.smt.docomo.ne.jp/article/ans/sports/ans-740610",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-16T06:12:49.776928+09:00",
+      "verifiedAt": "2026-10-17T06:06:50.578904+09:00",
       "retained": false
     }
   ]
