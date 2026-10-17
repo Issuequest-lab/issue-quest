@@ -1,176 +1,176 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-17",
-  "fetchedAt": "2026-10-17T08:02:11.035600+09:00",
+  "updatedAt": "2026-10-18",
+  "fetchedAt": "2026-10-18T05:35:35.707007+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "サタプラ",
-    "ディズニークルーズ",
-    "給食",
-    "古江彩佳",
-    "今村聖奈",
-    "トヨタ・アルファード",
-    "ドデ祭り 2026",
-    "臨時ニュース",
-    "アナログナース",
-    "モンスト スクラッチ"
+    "天気予報 台風情報",
+    "klasemen real betis vs fc barcelona",
+    "real betis vs fc barcelona standings",
+    "小谷野 栄一",
+    "佐藤佳奈",
+    "低気圧",
+    "整体",
+    "バイエルン 対 rbライプツィヒ 順位",
+    "吉田優利",
+    "リフレ"
   ],
   "briefs": [
     {
-      "topic": "サタプラ",
+      "topic": "天気予報 台風情報",
+      "status": "unavailable"
+    },
+    {
+      "topic": "klasemen real betis vs fc barcelona",
+      "status": "unavailable"
+    },
+    {
+      "topic": "real betis vs fc barcelona standings",
+      "status": "unavailable"
+    },
+    {
+      "topic": "小谷野 栄一",
       "status": "ok",
-      "summary": "2026年10月17日放送の『サタプラ』は「旬を味わう！正門の全国レシピ交換旅」！今回の食材はれんこん！こちらのページではその中で紹介された「ベーコンチーズれんこん」についてまとめました。作り方や材料など詳しいレシピはこちら！旬を味わう！",
+      "summary": "◆２０２６ＪＥＲＡクライマックスシリーズセ最終ステージ第４戦阪神５-８ＤｅＮＡ（１７日・甲子園）阪神・小谷野栄一打撃チーフコーチ（４６）が今季限りで退団することが１７日、分かった。",
       "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
+      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "サタプラ｜Aぇ! group正門×ちはる「ベーコンチーズれんこん」の作り方～全国レシピ交換旅（2026/10/17）",
-          "url": "https://www.e-recipe.site/tv/satplus261017_renkon02/",
-          "name": "知っ得レシピ",
-          "publishedAt": null
-        },
-        {
-          "title": "サタプラ｜正門の全国レシピ交換旅「れんこん」レシピまとめ（2026/10/17）",
-          "url": "https://www.e-recipe.site/tv/satplus261017_renkon/",
-          "name": "知っ得レシピ",
+          "title": "【阪神】小谷野栄一打撃チーフコーチが電撃退団「タイガースに縁もないなかで本当に感謝」ナインに寄り添う指導で連覇に貢献 福原忍氏、岡崎太一氏を招へい 和田豊ヘッドは巡回コーディネーターへ (2026年10月18日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32593070/",
+          "name": "ライブドアニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
       "retained": false
     },
     {
-      "topic": "ディズニークルーズ",
+      "topic": "佐藤佳奈",
       "status": "ok",
-      "summary": "日本で初めてとなるディズニークルーズの船名が「ディズニー・イマジネーション」に決定しました。東京ディズニーリゾートを運営するオリエンタルランドなどは、2029年春にディズニークルーズの就航を予定して",
-      "summaryBasis": "publisher-description",
-      "issue": "「ディズニークルーズ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "レインボー池田妻・佐藤佳奈 父の職業明かす 芸人に拒絶反応「絶対会わない」も…対面後は「超上機嫌」",
+      "summaryBasis": "related-headline",
+      "issue": "「佐藤佳奈」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "“日本初”ディズニークルーズ、29年春就航へ 定員約4000人…劇場や飲食施設も完備！（TOKYO MX）",
-          "url": "https://news.yahoo.co.jp/articles/36607a589fca7f42165066f51227955f1bbf1e18",
-          "name": "Yahoo!ニュース",
+          "title": "レインボー池田妻・佐藤佳奈 父の職業明かす 芸人に拒絶反応「絶対会わない」も…対面後は「超上機嫌」",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/entertainment/sponichi-spngoo-20261009-0165",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "佐藤佳奈 夫・レインボー池田の“親友”女性アナを名指しでジェラシー「いい気はしないんで」 (2026年10月9日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32527491/",
+          "name": "ライブドアニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
       "retained": false
     },
     {
-      "topic": "給食",
+      "topic": "低気圧",
       "status": "ok",
-      "summary": "札幌市内の小学6年生に提供された学校給食の写真がSNS上で波紋を広げている。主食のパン、牛乳、スープ、ウインナー2本という内容で、「量が少なすぎる」との声が相次いだ。今年度から国の交付金を活用して小",
+      "summary": "台風３０号の影響で、来週後半は沖縄で大荒れとなるおそれがあります。一方、その台風より前に、発達する低気圧の影響で北日本でも大荒れとなるおそれがあり、また寒気も流れ込むため、北海道の内陸や東北の山では雪",
       "summaryBasis": "publisher-description",
-      "issue": "本人の公表と周囲の推測を分けると、何が事実として確認できるか？",
-      "whyItMatters": "私生活についての憶測や反響の大きさだけで判断しないため。",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「あの量では足りない」札幌市の小学校給食が“少なすぎる”と波紋…1食382円は高い？安い？無償化と質の問題、センター化の功罪とは（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/f3c06cc588381dedd55a83ed9bae7c168fb59a04",
+          "title": "南は台風、北は急発達する低気圧で大荒れのおそれ（杉江勇次） - エキスパート",
+          "url": "https://news.yahoo.co.jp/expert/articles/9db21382a39215ca8645988b8cf477f7da2116bc",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "\"貧相な給食\"に｢これだけ？｣の声…元給食室勤務の管理栄養士が解説｢給食が少なく見える｣想像以上に深い理由",
-          "url": "https://topics.smt.docomo.ne.jp/article/toyokeizai/life/toyokeizai-961308",
-          "name": "ｄメニューニュース",
+          "title": "【警報級大雨のおそれ】気象庁の週間天気予報(10月18日～10月24日) 低気圧の影響で北日本で荒天に 台風30号の影響は？今後の雨風シミュレーション【気象庁17日発表】",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3019642?page=5",
+          "name": "TBS NEWS DIG",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
       "retained": false
     },
     {
-      "topic": "古江彩佳",
+      "topic": "整体",
       "status": "ok",
-      "summary": "「富士通レディース」2日目。",
-      "summaryBasis": "publisher-description",
+      "summary": "丹田✖️背中のW力点構造で姿勢をサポート『整体シャツ ONE』、10月16日より一般販売を開始",
+      "summaryBasis": "related-headline",
+      "issue": "「整体」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "丹田✖️背中のW力点構造で姿勢をサポート『整体シャツ ONE』、10月16日より一般販売を開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JZGlEWUFtOFVBSW1qTmVweVBYMFJuMHc2cWs1SEpDRkl2YUdZRDJkY056a0hjNGRqMy1DbTZsRk15RVE4Unh5RTlpeXFvMjRKVWtPdG53M2NHT0VYeDB6UHZoMDVCVW1sZFE?oc=5",
+          "name": "PR TIMES",
+          "publishedAt": "Fri, 16 Oct 2026 06:36:32 GMT"
+        },
+        {
+          "title": "自営業のエンジニアです。肩こりや腰痛がひどいため、週1回整体に通っています。仕事を続けるための体のメンテナンスなので、整体代は経費として認められますか？ (ファイナンシャルフィールド)",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVlUT0o1LUpBeFhKTkxWYW81N1FfMUlJRmZBLWVyQWhCQ1NqdjR4RHJoLWNXd3NObUxHckdDSzZpallWeXF0ZVNZZEwydURsM1hMekI4eTg2RmFLVjNWLUNVNXFOSTJJekdUcjV4VVVGZ29PRlRSaHZiUWdoZnFhUV84Z193ZEdOZmtTV0RB?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Fri, 16 Oct 2026 23:20:27 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "retained": false
+    },
+    {
+      "topic": "バイエルン 対 rbライプツィヒ 順位",
+      "status": "unavailable"
+    },
+    {
+      "topic": "吉田優利",
+      "status": "ok",
+      "summary": "【米女子ゴルフ】吉田優利が31人抜きの急浮上 竹田麗央は4位キープ セキ・ユウティン妹が7位",
+      "summaryBasis": "related-headline",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「入れ！ 入れ！」ギャラリー絶叫！ 古江彩佳が過去3勝の得意大会で見せた圧巻の一打… 後半6バーディーで首位タイ浮上",
-          "url": "https://topics.smt.docomo.ne.jp/article/egolf/sports/egolf-258857?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch1",
+          "title": "【米女子ゴルフ】吉田優利が31人抜きの急浮上 竹田麗央は4位キープ セキ・ユウティン妹が7位",
+          "url": "https://topics.smt.docomo.ne.jp/article/egolf/sports/egolf-258943",
           "name": "ｄメニューニュース",
           "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
-      "retained": false
-    },
-    {
-      "topic": "今村聖奈",
-      "status": "ok",
-      "summary": "ジュウリョクピエロ登録見送りも...今村聖奈騎手が自厩舎の“隠し玉”と秋華賞へ 「新馬前から期待している馬」",
-      "summaryBasis": "related-headline",
-      "issue": "「今村聖奈」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ジュウリョクピエロ登録見送りも...今村聖奈騎手が自厩舎の“隠し玉”と秋華賞へ 「新馬前から期待している馬」",
-          "url": "https://umatoku.hochi.co.jp/articles/20261013-OHT1T51305.html?utm_source=ynews&utm_term=20261015-OHT1T51112&utm_content=2&revision_id=4",
-          "name": "UMATOKU",
-          "publishedAt": null
         },
         {
-          "title": "【秋華賞】今村聖奈騎手のロザーンジュは大外17番枠 寺島調教師「変にゴチャつく枠じゃないことをメリットと考えて…」",
-          "url": "https://news.netkeiba.com/?pid=news_view&no=345775",
-          "name": "netkeiba",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
-      "retained": false
-    },
-    {
-      "topic": "トヨタ・アルファード",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ドデ祭り 2026",
-      "status": "unavailable"
-    },
-    {
-      "topic": "臨時ニュース",
-      "status": "unavailable"
-    },
-    {
-      "topic": "アナログナース",
-      "status": "ok",
-      "summary": "『アナログナース』に岡田将生＆中井貴一が参戦 『ザ・トラベルナース』コンビが同役で出演（リアルサウンド）",
-      "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "『アナログナース』に岡田将生＆中井貴一が参戦 『ザ・トラベルナース』コンビが同役で出演（リアルサウンド）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vLUNFRXJaV3ZqM2hzZ0lHaTk3dHFlZ2JrN2FiRlRBTlBiSFQ5blFQQmpWaVlWYVdQMGpXY3o5WFFRMDh6Tkt2MzZQT0dRczZ2bl9mcHp5QnoyVHZaV2pYay00NlhRNFRuNFZKS0RkdnpJdXBwVktDRi1LVFZPdGc?oc=5",
+          "title": "40位→9位 吉田優利が上がり3連続バーディ締め「借金をぜんぶ返せた」（ゴルフ総合サイト ALBA Net）",
+          "url": "https://news.yahoo.co.jp/articles/3850497209f213f2c0eae2257c5e9928b856ddb8",
           "name": "Yahoo!ニュース",
-          "publishedAt": "Fri, 16 Oct 2026 20:34:46 GMT"
-        },
-        {
-          "title": "22日スタート「アナログナース」に岡田将生＆中井貴一が参戦！ 最強ナース・コンビが前作に続き",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzhrcnhLbHVNZExhcmxXVkg3Y2xoNjR1d1NFeUlKNmpEX2NDOUxyV2ZMdV92NXdLY0JBV09CVnE4bmxjcV83T3pwWUJua0hyUTVLMU9mSlFlLXQwWlBCT1N2WHBGcDh5WlBlQk9va2x1T1RjeE5OTXB2ZHlvM3lYM3dxSjhuN1hwbTlyUlZkS053anBqS3c?oc=5",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": "Fri, 16 Oct 2026 22:00:03 GMT"
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-17T08:02:11.035600+09:00",
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
       "retained": false
     },
     {
-      "topic": "モンスト スクラッチ",
-      "status": "unavailable"
+      "topic": "リフレ",
+      "status": "ok",
+      "summary": "日本は金融緩和と財政出動を志向する「リフレ政策」から脱したと、政府要人が相次いで主張している。リフレ政策が円安につながっているとみる米国の懸念を拭いたい思惑がある。",
+      "summaryBasis": "publisher-description",
+      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
+      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "政府脱リフレ発言続々 市場懐疑的、予算に注目",
+          "url": "https://www.fukuishimbun.co.jp/articles/-/2724945",
+          "name": "福井新聞社",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "retained": false
     }
   ]
 }
