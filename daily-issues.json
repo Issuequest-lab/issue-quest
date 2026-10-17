@@ -1,176 +1,164 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-18",
-  "fetchedAt": "2026-10-18T05:35:35.707007+09:00",
+  "fetchedAt": "2026-10-18T07:41:07.278774+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "天気予報 台風情報",
-    "klasemen real betis vs fc barcelona",
-    "real betis vs fc barcelona standings",
-    "小谷野 栄一",
-    "佐藤佳奈",
-    "低気圧",
-    "整体",
-    "バイエルン 対 rbライプツィヒ 順位",
-    "吉田優利",
-    "リフレ"
+    "子役",
+    "タイ王妃",
+    "レガシーハーフマラソン 2026",
+    "クリミナル・マインド fbi行動分析課",
+    "ユーロ円",
+    "東京マラソン",
+    "ジャスティンビーバー",
+    "ムーキー ベッツ",
+    "世界体操競技選手権",
+    "フランス デモ"
   ],
   "briefs": [
     {
-      "topic": "天気予報 台風情報",
-      "status": "unavailable"
-    },
-    {
-      "topic": "klasemen real betis vs fc barcelona",
-      "status": "unavailable"
-    },
-    {
-      "topic": "real betis vs fc barcelona standings",
-      "status": "unavailable"
-    },
-    {
-      "topic": "小谷野 栄一",
+      "topic": "子役",
       "status": "ok",
-      "summary": "◆２０２６ＪＥＲＡクライマックスシリーズセ最終ステージ第４戦阪神５-８ＤｅＮＡ（１７日・甲子園）阪神・小谷野栄一打撃チーフコーチ（４６）が今季限りで退団することが１７日、分かった。",
-      "summaryBasis": "publisher-description",
-      "issue": "所属や起用は何が変わる見込みで、本人とチームにどう影響するか？",
-      "whyItMatters": "決定済みの情報と見通しを分け、来季の活動や戦力への影響を理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【阪神】小谷野栄一打撃チーフコーチが電撃退団「タイガースに縁もないなかで本当に感謝」ナインに寄り添う指導で連覇に貢献 福原忍氏、岡崎太一氏を招へい 和田豊ヘッドは巡回コーディネーターへ (2026年10月18日掲載)",
-          "url": "https://news.livedoor.com/topics/detail/32593070/",
-          "name": "ライブドアニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
-      "retained": false
-    },
-    {
-      "topic": "佐藤佳奈",
-      "status": "ok",
-      "summary": "レインボー池田妻・佐藤佳奈 父の職業明かす 芸人に拒絶反応「絶対会わない」も…対面後は「超上機嫌」",
+      "summary": "「イケメン俳優の子役、全制覇？」金１０【ＬＯＳＴ１０】主人公の尖った金髪中学時代 人気者少年期常連の１３歳子役に衝撃「めちゃくちゃ有望株」（デイリースポーツ）",
       "summaryBasis": "related-headline",
-      "issue": "「佐藤佳奈」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "レインボー池田妻・佐藤佳奈 父の職業明かす 芸人に拒絶反応「絶対会わない」も…対面後は「超上機嫌」",
-          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/entertainment/sponichi-spngoo-20261009-0165",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
+          "title": "「イケメン俳優の子役、全制覇？」金１０【ＬＯＳＴ１０】主人公の尖った金髪中学時代 人気者少年期常連の１３歳子役に衝撃「めちゃくちゃ有望株」（デイリースポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCTmhCOVdIV0xKbEVaWnhmcVpmWnFxRzZtaF9QTkNHejA4SGZtYVBveGFPVzd3MnY2M1Y1NFRqRHozUjhmWkhPVWtUanF3LUcwNEpKUlVMUDZBaGNLbTNuQ3FJMWFiWGJVU3ZxcTdhNXNVSXVpTDdIOHVKVmFSa3c?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Sat, 17 Oct 2026 13:22:25 GMT"
         },
         {
-          "title": "佐藤佳奈 夫・レインボー池田の“親友”女性アナを名指しでジェラシー「いい気はしないんで」 (2026年10月9日掲載)",
-          "url": "https://news.livedoor.com/topics/detail/32527491/",
-          "name": "ライブドアニュース",
-          "publishedAt": null
+          "title": "日本でも人気の韓ドラ「賢い医師生活」出演の子役 ６歳→１２歳に成長 ＹｏｕＴｕｂｅ登場にファン歓喜",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6UG5WRy1OSDlMYUhYZ3dQQ1cxX1RMQUltWXc1Ykd0NUVaWWN0OHgybXdCa0ZwNnZPOXFPQkhxT29XRWdCbjI3c0J2T3VPdjNPb0c3NVNSdUUydk1FWUI5NWx0eDd1bVo3X3c?oc=5",
+          "name": "デイリースポーツ",
+          "publishedAt": "Sat, 17 Oct 2026 11:44:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
       "retained": false
     },
     {
-      "topic": "低気圧",
+      "topic": "タイ王妃",
       "status": "ok",
-      "summary": "台風３０号の影響で、来週後半は沖縄で大荒れとなるおそれがあります。一方、その台風より前に、発達する低気圧の影響で北日本でも大荒れとなるおそれがあり、また寒気も流れ込むため、北海道の内陸や東北の山では雪",
-      "summaryBasis": "publisher-description",
-      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
-      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "summary": "タイ王妃 自らの操縦で札幌に着陸 空軍などで訓練し免許取得 戦闘機の操縦も（テレビ朝日系（ANN））",
+      "summaryBasis": "related-headline",
+      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
+      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "南は台風、北は急発達する低気圧で大荒れのおそれ（杉江勇次） - エキスパート",
-          "url": "https://news.yahoo.co.jp/expert/articles/9db21382a39215ca8645988b8cf477f7da2116bc",
+          "title": "タイ王妃 自らの操縦で札幌に着陸 空軍などで訓練し免許取得 戦闘機の操縦も（テレビ朝日系（ANN））",
+          "url": "https://news.yahoo.co.jp/articles/3a49dd9d089d098d5c21ac3f1b0d9415e7cbb970",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "【警報級大雨のおそれ】気象庁の週間天気予報(10月18日～10月24日) 低気圧の影響で北日本で荒天に 台風30号の影響は？今後の雨風シミュレーション【気象庁17日発表】",
-          "url": "https://newsdig.tbs.co.jp/articles/-/3019642?page=5",
-          "name": "TBS NEWS DIG",
+          "title": "王室専用機ではなく… タイ王妃“まさかの方法”で来日",
+          "url": "https://news.tv-asahi.co.jp/news_international/articles/000540738.html",
+          "name": "テレ朝NEWS",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
       "retained": false
     },
     {
-      "topic": "整体",
+      "topic": "レガシーハーフマラソン 2026",
       "status": "ok",
-      "summary": "丹田✖️背中のW力点構造で姿勢をサポート『整体シャツ ONE』、10月16日より一般販売を開始",
-      "summaryBasis": "related-headline",
-      "issue": "「整体」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "10月18日(日)に予定されている「東京レガシーハーフマラソン2026」の開催に伴い、秋葉原地区周辺道路の横断ができなくなるようです。",
+      "summaryBasis": "publisher-description",
+      "issue": "「レガシーハーフマラソン 2026」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "丹田✖️背中のW力点構造で姿勢をサポート『整体シャツ ONE』、10月16日より一般販売を開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JZGlEWUFtOFVBSW1qTmVweVBYMFJuMHc2cWs1SEpDRkl2YUdZRDJkY056a0hjNGRqMy1DbTZsRk15RVE4Unh5RTlpeXFvMjRKVWtPdG53M2NHT0VYeDB6UHZoMDVCVW1sZFE?oc=5",
-          "name": "PR TIMES",
-          "publishedAt": "Fri, 16 Oct 2026 06:36:32 GMT"
-        },
-        {
-          "title": "自営業のエンジニアです。肩こりや腰痛がひどいため、週1回整体に通っています。仕事を続けるための体のメンテナンスなので、整体代は経費として認められますか？ (ファイナンシャルフィールド)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVlUT0o1LUpBeFhKTkxWYW81N1FfMUlJRmZBLWVyQWhCQ1NqdjR4RHJoLWNXd3NObUxHckdDSzZpallWeXF0ZVNZZEwydURsM1hMekI4eTg2RmFLVjNWLUNVNXFOSTJJekdUcjV4VVVGZ29PRlRSaHZiUWdoZnFhUV84Z193ZEdOZmtTV0RB?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Fri, 16 Oct 2026 23:20:27 GMT"
+          "title": "「東京レガシーハーフマラソン2026」の開催に伴い、18日は秋葉原周辺道路で交通規制",
+          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2148958.html",
+          "name": "AKIBA PC Hotline!",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
       "retained": false
     },
     {
-      "topic": "バイエルン 対 rbライプツィヒ 順位",
+      "topic": "クリミナル・マインド fbi行動分析課",
       "status": "unavailable"
     },
     {
-      "topic": "吉田優利",
+      "topic": "ユーロ円",
       "status": "ok",
-      "summary": "【米女子ゴルフ】吉田優利が31人抜きの急浮上 竹田麗央は4位キープ セキ・ユウティン妹が7位",
+      "summary": "ユーロ円・ポンド円の週間見通し（2026年10月19日〜23日）。ユーロ円はフランス財政不安とECB利上げ観測の後退で上値が重く、ポンド円は英利上げ期待が下支え。仏予算審議と英CPIを焦点に、ユーロ円176円台の攻防とポンド円210円突破の条件、予想レンジを解説します。",
+      "summaryBasis": "publisher-description",
+      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
+      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "来週の為替予想（ユーロ/円 ポンド/円）ユーロ円は下げ渋り、ポンド円は上値重い｜仏予算と英CPIが次の焦点 ハロンズFX 2026/10/17",
+          "url": "https://www.gaitame.com/media/entry/2026/10/17/060400",
+          "name": "外為どっとコム",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "retained": false
+    },
+    {
+      "topic": "東京マラソン",
+      "status": "ok",
+      "summary": "「東京マラソン2027」のボランティアエントリー開始！海外在住者向けエントリーも導入しグローバル化を促進",
+      "summaryBasis": "related-headline",
+      "issue": "「東京マラソン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「東京マラソン2027」のボランティアエントリー開始！海外在住者向けエントリーも導入しグローバル化を促進",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FcmhES0ZPSnA4YmtPZEdiM1hRMGFJdHhnbkZvaDU3NEVoZHc4MkI5bzh1Q1RrdG5SR0duM1pYb0pmYTBTTlBCSkM3azB0c2RCZHk0?oc=5",
+          "name": "STRAIGHT PRESS",
+          "publishedAt": "Sat, 17 Oct 2026 02:00:37 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ジャスティンビーバー",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ムーキー ベッツ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "世界体操競技選手権",
+      "status": "ok",
+      "summary": "実力者から新鋭まで多士済々の日本代表に注目！ 世界体操競技選手権大会",
       "summaryBasis": "related-headline",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【米女子ゴルフ】吉田優利が31人抜きの急浮上 竹田麗央は4位キープ セキ・ユウティン妹が7位",
-          "url": "https://topics.smt.docomo.ne.jp/article/egolf/sports/egolf-258943",
-          "name": "ｄメニューニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "40位→9位 吉田優利が上がり3連続バーディ締め「借金をぜんぶ返せた」（ゴルフ総合サイト ALBA Net）",
-          "url": "https://news.yahoo.co.jp/articles/3850497209f213f2c0eae2257c5e9928b856ddb8",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "title": "実力者から新鋭まで多士済々の日本代表に注目！ 世界体操競技選手権大会",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HZVVqT3VLanFzd093aU4tZllSWVBFVmVGX1FUaWFyUXhudElXcWUtVHN4Y0NCaG8zQ1ZaRHg2eS1xQkVjUldDVlRMeHU5czBfdXN2MFRQZWFqTS1XSjFV?oc=5",
+          "name": "anan",
+          "publishedAt": "Sat, 17 Oct 2026 08:00:45 GMT"
         }
       ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
+      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
       "retained": false
     },
     {
-      "topic": "リフレ",
-      "status": "ok",
-      "summary": "日本は金融緩和と財政出動を志向する「リフレ政策」から脱したと、政府要人が相次いで主張している。リフレ政策が円安につながっているとみる米国の懸念を拭いたい思惑がある。",
-      "summaryBasis": "publisher-description",
-      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
-      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "政府脱リフレ発言続々 市場懐疑的、予算に注目",
-          "url": "https://www.fukuishimbun.co.jp/articles/-/2724945",
-          "name": "福井新聞社",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-18T05:35:35.707007+09:00",
-      "retained": false
+      "topic": "フランス デモ",
+      "status": "unavailable"
     }
   ]
 }
