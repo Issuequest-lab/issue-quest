@@ -1,0 +1,2263 @@
+{
+  "date": "2026-10-17",
+  "snapshots": [
+    {
+      "schemaVersion": 1,
+      "date": "2026-10-17",
+      "checkedAt": "2026-10-17T10:32:08+09:00",
+      "games": [
+        {
+          "id": "elden-ring",
+          "name": "ELDEN RING",
+          "company": "フロム・ソフトウェア／バンダイナムコ",
+          "releaseDate": "2022-02-25",
+          "releaseSource": "https://www.eldenring.jp/newsdetail/news_detail_211018_1.html",
+          "source": "https://www.eldenring.jp/news.html",
+          "parser": "elden",
+          "baseline": "PS5発売時を基準に、公式パッチで追加が確認できた機能を比較します。発売時の全項目を復元したものではありません。",
+          "milestones": [
+            {
+              "category": "操作性",
+              "before": "遭遇したNPCの名前・位置を地図に記録する機能は未実装",
+              "after": "NPCの名前・位置を地図に記録する機能を追加",
+              "date": "2022-03-17",
+              "version": "1.03",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220317_1.html",
+              "basis": "発売後の公式追加記録に基づく比較"
+            }
+          ],
+          "checkedAt": "2026-10-17T10:32:08+09:00",
+          "sourceStatus": "partial",
+          "errors": [
+            {
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220225_1.html",
+              "reason": "ValueError"
+            }
+          ],
+          "updates": [
+            {
+              "id": "d57caf93a0f94ea5b140",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_260908_1.html",
+              "date": "2026-09-08",
+              "title": "2026.09.08 アップデートファイル配信のお知らせ",
+              "version": "1.17.1",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "マルチプレイにおいて、特定の条件下で本来入手できないアイテムを入手できる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "0c01fd828408b185dc828130ac9392383867a513f08b4d9834bc7339b4e456e2",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "a9d870ecc4aba1375d1c",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_260827_1.html",
+              "date": "2026-08-27",
+              "title": "2026.08.27 アップデートファイル配信のお知らせ",
+              "version": "1.17",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "いずれかの霊馬の装束を入手すると、祝福メニューに霊馬の姿を変更する機能が追加されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "流紋の短剣／レラーナの双剣 致命の一撃の威力を上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "狭間の地に、特定の商人やフィールドで入手できる武器を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "既に入手済みのアイテムは変更されません。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "操作性",
+                "その他の修正",
+                "バランス"
+              ],
+              "contentHash": "06074fbf77b829f49cc4a51c9105380dd289980a33ae7bc5daaaaca231891865",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "68fed19968dcc4c2ea1c",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_260528_1.html",
+              "date": "2026-05-28",
+              "title": "2026.05.28 アップデートファイル配信のお知らせ(PC)",
+              "version": "1.16.2",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "一部 の 環境下 に おいて、 ゲーム が 瞬間的 または 長時間 フリーズ する 場合 が ある 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "一部 の 環境下 に おいて、 ゲーム が 予期せず 終了 したり、 描画 に 乱れ が 発生 する 場合 が ある 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "安定性",
+                "性能・画質"
+              ],
+              "contentHash": "c7e189428741fd6edeb65876ffa782a877b4979aa1f7ce851ff5e32840cc6cbb",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "0c6ff13ea68706aff76c",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_250821_1.html",
+              "date": "2025-08-21",
+              "title": "2025.08.21 アップデートファイル配信のお知らせ",
+              "version": "1.16.1",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "特定 の 手順 で、 誤った 武器 に 属性 攻撃力 や 状態 異常 を 付加 できる 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "各 プラット フォーム に おける 他 プレイヤー を ブロック する 機能 の 反映 を、 不正な 方法 で 回避 できる 問題 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "バランス",
+                "その他の修正"
+              ],
+              "contentHash": "27895e479ae9746dccdebbb711d9a41032d5be145f462b61db028a09bc9b7a24",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "da3e1ca71930dec059c0",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_241017_1.html",
+              "date": "2024-10-17",
+              "title": "2024.10.17 アップデートファイル配信のお知らせ",
+              "version": "1.16",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "一時的な ステータス の 上昇 効果 が 適用 されて いる 状態 で セーブ、 ロード を 実行 する と プレイヤー の ステータス が 正常な 値 に ならない 場合 が ある 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "cb04e65201e2b681e8e14706715d1e397e04b709cf4c5d19594081247be3db30",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "7dc2a6874e86b03c6842",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_241002_1.html",
+              "date": "2024-10-02",
+              "title": "2024.10.02 アップデートファイル配信のお知らせ",
+              "version": "1.15",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "特定 の 条件下 に おいて、 一部 の 敵 の 描画 や 挙動 が 想定 と 異なる 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "バランス",
+                  "text": "武器 「ゴーレム の 拳」 に おいて、 プレイヤー に 一部 の 特殊 効果 が 適用 されて いる 際 に、 一部 攻撃 の ダメージ が 発生 しない 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "DLC エリア の 特定 の 範囲 に 入った 際 に、 一度 見た ムービー が 再生 され、 プレイヤー キャラクター が 「影 の 城、 教区」 に 移動 する 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "祈祷 「坩堝 の 諸相 ： 針」 を 連続 で 使用 した 際 に、 入力 を 受け 付けず 発動 しない 場合 が ある 不具合 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "バランス",
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "ce7b08239877b7d19958e5406eeb917404a48e78b05d0b093845c1990cde5181",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "fa7b394864f6174c18ff",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240911_1.html",
+              "date": "2024-09-11",
+              "title": "2024.09.11 アップデートファイル配信のお知らせ",
+              "version": "1.14",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "その他いくつかのパフォーマンスの改善、不具合現象の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "以下の戦技において、ロックオン操作を行った際に不正なモーションが再生されることがある不具合の修正 乱撃／回転撃／終わりなき舞い",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "一部の攻撃の威力を下方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "戦闘開始直後の行動パターンを変更",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス",
+                "操作性",
+                "性能・画質"
+              ],
+              "contentHash": "214f61c0b6bff2fdd3e54ce05aaf92d328845540c9aa5528204cd9949ef53cb1",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "6198755a5403b6030500",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240808_1.html",
+              "date": "2024-08-08",
+              "title": "2024.08.08 レギュレーション（1.13.2）配信のお知らせ",
+              "version": "1.13",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "NPC「赤熊」の使用する一部攻撃の威力が意図せず高くなっている不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "戦技「猛毒散布」に戦技「死のフレア」による死の状態異常の効果が適用される不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス"
+              ],
+              "contentHash": "d9add4a53dcb6381f57bf7fd6ce1e3a0ced016b7d5438213b152aacff02e8328",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "0cf0b2962240add7d0fb",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240730_1.html",
+              "date": "2024-07-30",
+              "title": "2024.07.30 アップデートファイル配信のお知らせ",
+              "version": "1.13",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "一部の状況下において、カットシーンの描画が正しく反映されていない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "武器「ウォーピック」のメニュー表示上の物理攻撃属性の表記を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "以下の武器種別において、他プレイヤーに対する通常攻撃の怯ませやすさを上方修正 軽大剣 / 逆手剣 / 格闘 / 獣爪",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "ゴーレムの拳 拳を打ち出す攻撃において、手元部分に攻撃判定を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス",
+                "コンテンツ",
+                "操作性",
+                "性能・画質"
+              ],
+              "contentHash": "e03af475837047df84070597d9cdeb2ef4150b585a6591e7af0aa947cd5451fa",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "858cd047e1f7c22d6071",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240704_1.html",
+              "date": "2024-07-04",
+              "title": "2024.07.04 アップデートファイル配信のお知らせ",
+              "version": "1.12.3",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "その他 いくつか の パフォーマンス の 改善、 不具合 現象 の 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "バランス",
+                  "text": "戦技 「速斬」 に おいて、 他 プレイヤー に 対する 威力 と、 切り 裂く 真空 部分 が ヒット した 際の ダメージ モーション を 下方 修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "ボス 「黄金 カバ」、 「宿将 ガイウス」 との 再戦時 の ボス の 配置を、 初戦時 と 同じ 位置 に 変更",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "バランス",
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "1571d6bb7dd35a75a359bf0b1cbf9a1f934e03dcefedc0966a57abc660aa428d",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "1dd39ec8b88352b116d4",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240626_1.html",
+              "date": "2024-06-26",
+              "title": "2024.06.26 レギュレーション（1.12.2）配信のお知らせ",
+              "version": "未確認",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "一部の記載内容に誤りがあったため、修正いたしました。*6月26日16：50更新 誤： 「影樹の加護」および「霊灰の加護」による攻撃力とカット率の強化率の上昇曲線と、最大強化時の効果量を修正 正： 「影樹の加護」による攻撃力とカット率の強化率の上昇曲線と、最大強化時の効果量を修正",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "前半の強化率上昇が高めになるよう、上昇曲線を調整",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "バランス",
+                "その他の修正"
+              ],
+              "contentHash": "3a37c479abb446631e036d30aee7141a239a07ec2b964f6379bed024737091e7",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "9627d4a66d723a0da17c",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240620_1.html",
+              "date": "2024-06-20",
+              "title": "2024.06.20 アップデートファイル配信のお知らせ",
+              "version": "1.12",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "特定の状況下において、一部のマップの描画が想定と異なる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "地図メニューに「地図機能メニュー」を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "以下の武器種において、他プレイヤーに対する、一部の攻撃による怯ませやすさを上方修正 大剣／特大剣／大曲剣／大斧／槌／フレイル／大槌／特大武器／大槍／斧槍",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "DLC「SHADOW OF THE ERDTREE」に対応",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "操作性",
+                "その他の修正",
+                "バランス",
+                "性能・画質"
+              ],
+              "contentHash": "4d084ce7ab6209b0e48745226eea52882757baf40f99f7ebcb6fc7ec5699c51d",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "5b93304f473613275f00",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240614_2.html",
+              "date": "2024-06-14",
+              "title": "2024.06.14 DLC『SHADOW OF THE ERDTREE』プレイ開始日時およびアップデートファイルの配信について",
+              "version": "未確認",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "新たに追加されるマップ機能メニューのサイン溜まり一覧から、サイン溜まりの有効／無効を個別に設定し、サインの送信先を選定できるようになる機能を追加",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "髪型の追加 キャラクター作成や化粧で使える5種の髪型を追加します。",
+                  "excerpt": true,
+                  "platforms": []
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "予告無く終了時間が変更になる可能性がございます。",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "コンテンツ",
+                "操作性"
+              ],
+              "contentHash": "d14bf30d1e680b2cb53f5fa1df43c6ff81f617a4e1d93d9c026070e2eed507e5",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "0463016324ce6506398c",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_240111_1.html",
+              "date": "2024-01-11",
+              "title": "2024.01.11 アップデートファイル配信のお知らせ(PC)",
+              "version": "1.10.1",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "SteamOSのアップデートに対応するためのEasy Anti-Cheatの更新",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "35206ca5f0e37ae312d1c8664f8d7d94e9eeb17eeba9322c3219561fa44ed56f",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "569d8a74c84fa7c63487",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_230727_1.html",
+              "date": "2023-07-27",
+              "title": "2023.07.27 アップデートファイル配信のお知らせ",
+              "version": "1.10",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "武器による攻撃全般と、一部の魔術や祈祷による敵の体勢の崩しやすさを上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "この項目における調整内容は、シングルプレイや協力プレイには影響しません。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス"
+              ],
+              "contentHash": "0fc80907a253f85ca6b914cf91dd385e855fb71a5a0d9fd0206eef53753303f7",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "83f6f27d0001b81652fb",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_230418_1.html",
+              "date": "2023-04-18",
+              "title": "2023.04.18 アップデートファイル配信のお知らせ",
+              "version": "1.09.1",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "攻撃力を高める一部の戦技や祈祷、アイテム、武器の効果が、魔術・祈祷の攻撃に適用されない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "オンラインマルチプレイにおける、他プレイヤーに対する性能に変更はございません。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "バランス",
+                "その他の修正"
+              ],
+              "contentHash": "7f50388a821cd2d8e3ef29ec03903c327f81cd10267ede112725ec44620daf43",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "672df48d5bc290a3f6d3",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_230323_1.html",
+              "date": "2023-03-23",
+              "title": "2023.03.23 アップデートファイル配信のお知らせ",
+              "version": "1.09",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "一部の敵において描画や挙動が想定と異なる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "闘技場で復活した際にカメラが適切な位置になっていない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "祈祷「発狂伝染」の威力と対象を掴む角度を上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "武器種別がフレイルの武器において、一部攻撃のモーション速度を向上、攻撃後の硬直を軽減し、両手持ちでの攻撃時に敵の攻撃で怯みづらくなる仕様を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス",
+                "コンテンツ",
+                "操作性",
+                "性能・画質"
+              ],
+              "contentHash": "ad9bf333ab5a337a2ecbc7ecff0e38607caf3ecc304cb86a05a1730a8b199f18",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "217f104b3adf52df3717",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_221215_1.html",
+              "date": "2022-12-15",
+              "title": "2022.12.15 アップデートファイル配信のお知らせ",
+              "version": "1.08.1",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "闘技場を除く各種マルチプレイ時において、他プレイヤーの位置がコンパスや地図メニュー上に正しく表示されない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "左手に特定の種別の武器を持っている状態で、右手の武器でしゃがみ攻撃を行った際に、武器の種別に関わらず特定の攻撃モーションが発生する不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "操作性"
+              ],
+              "contentHash": "e5b5d9f045e93db07f0b2a7bff886a91b0f3e210f196e57dc5b938d8fae7472a",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "921e56968887e143458d",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_221207_1.html",
+              "date": "2022-12-07",
+              "title": "2022.12.07 アップデートファイル配信のお知らせ",
+              "version": "1.08",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "刺突攻撃特有の、カウンター攻撃の威力を下方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "「闘技場」機能の追加 闘技場では、1対1の決闘や、最大6人での乱闘/共闘、そして霊体を召喚しての闘技など、様々なルールで他プレイヤーとの対戦をお楽しみいただけます。 闘技場については こちら も合わせてご確認ください。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "この項目における調整内容は、シングルプレイや協力プレイには影響しません。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "その他の修正",
+                "バランス"
+              ],
+              "contentHash": "aea0e34370bcc46f064bee165776b6a446d36673e0d8fffb90676561e725823c",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "c3fb2b331d5aca9ea4b9",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_221025_1.html",
+              "date": "2022-10-25",
+              "title": "2022.10.25 レギュレーション（1.07.1）配信のお知らせ",
+              "version": "1.07",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "アップデート1.07における調整によって、想定以上に戦闘バランスに影響を与える性能となったため、効果時間のみ下方修正いたしました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "バランス"
+              ],
+              "contentHash": "334eb717feae9fc647cd62255bf9a6d366101ce4fdc1149bb65d9d813e60ca31",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "d9e60bd7d9a41b8973a5",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_221013_1.html",
+              "date": "2022-10-13",
+              "title": "2022.10.13 アップデートファイル配信のお知らせ",
+              "version": "1.07",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "一部のマップにおいて描画や当たり判定が想定と異なる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "一部のダメージモーション中において、各種アクションの操作性を改善",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "遠距離武器を除く武器の攻撃全般において、ガードに対するスタミナ攻撃力を上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "血刃乱舞 発動直後のモーションに攻撃判定を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "バランス",
+                "コンテンツ",
+                "操作性",
+                "性能・画質"
+              ],
+              "contentHash": "24a58a99d1cc295ad27551669c4b77159c150b5109a51bbc50adb6e5536f5f60",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "ca7b99fa9522234f10ed",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220809_1.html",
+              "date": "2022-08-09",
+              "title": "2022.08.09 アップデートファイル配信のお知らせ",
+              "version": "1.06",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "「典礼街オルディナ」において、特定の状況下でパフォーマンスが著しく低下する場合がある不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "武器「ルッツエルン」の一部の攻撃に敵のガードを貫通する効果が設定されていない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "装備重量が軽量の場合において、ローリングの移動距離を上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "遠方を含むより広い範囲に侵入を試みる機能を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "バランス",
+                "操作性",
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "a4985711099a0831e2d88bec3389f3bbb696f82a928302631e48fc757495e97e",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "bed15bc14cb139ea5eff",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220613_1.html",
+              "date": "2022-06-13",
+              "title": "2022.06.13 アップデートファイル配信のお知らせ",
+              "version": "1.05",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "特定の状況下においてNPC「戦士の壺、アレキサンダー」のイベントが進行しない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "特定の状況下において武器「歩哨の松明」を装備した際にパフォーマンスが低下する不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "祝福のメニューにおいて強化可能な聖杯瓶の選択肢とその他のいくつかの選択肢への強調表現を追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "戦技「黄金樹に誓って」を使用した際に、一部の戦技の攻撃力が低下する不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "操作性",
+                "その他の修正",
+                "バランス",
+                "安定性",
+                "性能・画質"
+              ],
+              "contentHash": "8ed24152aeeca8858855e58c74e25383a62a4f2982430bc4a485d4ba8d039381",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "ab21aeaf387b7ed03218",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220427_1.html",
+              "date": "2022-04-27",
+              "title": "2022.04.27 アップデートファイル配信のお知らせ",
+              "version": "1.04.1",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "「青色の秘雫」の効果時間が意図せず下方修正された不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "マルチプレイ時においてボス「ミケラの刃、マレニア」のHPの回復が正常に動作しない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "バランス",
+                "その他の修正"
+              ],
+              "contentHash": "65e69d70aba9d3e1e0781e9fb94a16493cd77287679d57d3313809e4466e9c64",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "8e0bb89fc0206067c24d",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220419_1.html",
+              "date": "2022-04-19",
+              "title": "2022.04.19 アップデートファイル配信のお知らせ",
+              "version": "1.04",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "一部のマップにおいて描画と当たり判定が想定と異なる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "「カメラの自動回転」機能のON/OFFを切り替えることができるオプションの追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "特大剣、特大武器のジャンプ攻撃を除く両手持ち攻撃の威力を上方修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "NPC「パッチ」のイベントにいくつかのフェーズを追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "操作性",
+                "コンテンツ",
+                "バランス",
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "fe49865ab71b1bced4437e219de2c4e92852ed7a911c04d81174a27fedca6e18",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "d67754fb70a2785e8c42",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220404_1.html",
+              "date": "2022-04-04",
+              "title": "2022.04.04 アップデートファイル配信のお知らせ",
+              "version": "1.03.2",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "バランス",
+                  "text": "アップデート1.03におけるボス「星砕きのラダーン」のバランス調整において、一部の攻撃の威力が意図せず下がっていた不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "バランス"
+              ],
+              "contentHash": "53aa586bcb9bebc83bca999eac1ba2df52da53f34d7fac52fcf099bcc51cae2a",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "e82958b6e9b15efc8226",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220323_1.html",
+              "date": "2022-03-23",
+              "title": "2022.03.23 アップデートファイル配信のお知らせ",
+              "version": "1.03.2",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "特定の条件下において、NPC「ネフェリ・ルー」のイベントが正しく進行しない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "「獣の神殿」付近で、本来降りることができる場所に降りようとすると、プレイヤーキャラクターが死亡してしまう不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "安定性",
+                "その他の修正"
+              ],
+              "contentHash": "40ee29b3090e98e2e6500323241878f9d977f56d590effd484ef04c2ee010e77",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "47051f5b82a412cbf3d1",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220317_1.html",
+              "date": "2022-03-17",
+              "title": "2022.03.17 アップデートファイル配信のお知らせ",
+              "version": "1.03",
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "特定の環境下においてハングする不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "魔術「見えざる姿」のグラフィック表現を調整",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "NPCと遭遇した際に、地図上にアイコンとNPCの名前が記録される機能の追加",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "一部のボス戦において、召喚したNPCがダメージを受けなくなる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5",
+                    "PS4",
+                    "PC",
+                    "Xbox"
+                  ]
+                }
+              ],
+              "categories": [
+                "操作性",
+                "コンテンツ",
+                "バランス",
+                "その他の修正",
+                "安定性",
+                "性能・画質"
+              ],
+              "contentHash": "ce9552e545b2c2553d086f902b2675fb6d251496b6e80ff0f4d84f42ca949639",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "8abd75591b2ace923e8e",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220304_1.html",
+              "date": "2022-03-04",
+              "title": "2022.03.04 アップデートファイル配信のお知らせ(PC)",
+              "version": "1.02.3",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "特定の環境下において、PCに接続したコントローラーが正しく認識されない不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "7ea61b32114aff0a915b1d4ca65ccf88b503d465e8f913d9e8d8fa4486d3d8a8",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "745ee86aca8b278bb0de",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220302_1.html",
+              "date": "2022-03-02",
+              "title": "2022.03.02 アップデートファイル配信のお知らせ(PS5 / PC)",
+              "version": "1.02.2",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "グラフィックボードが使用されないためにパフォーマンスが低下する不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "ゲーム終了時以外にもセーブデータが保存されるようにするための変更",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "13ef723b9008b046e75afbd031a1546274f0093fce406038a1f900f253b1e576",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "dcb3e398eed3551a2189",
+              "url": "https://www.eldenring.jp/newsdetail/news_detail_220226_1.html",
+              "date": "2022-02-26",
+              "title": "2022.02.26 アップデートファイル配信のお知らせ(PS5 / PC)",
+              "version": "1.02.1",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "PC版のマウス操作の感度が高すぎる不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "特定の条件下でゲームが予期せず終了する不具合の修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "操作性"
+              ],
+              "contentHash": "78e9b8ad1425555f001ca62b93dc037e95ebce2777df8608b61656427261f901",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            }
+          ],
+          "coverage": "取得できた公式履歴のみ。全更新の網羅・現在の実機状態は未確認。"
+        },
+        {
+          "id": "ff16",
+          "name": "FINAL FANTASY XVI",
+          "company": "スクウェア・エニックス",
+          "releaseDate": "2023-06-22",
+          "releaseSource": "https://jp.finalfantasyxvi.com/",
+          "source": "https://jp.finalfantasyxvi.com/manage/news.json",
+          "parser": "ff16",
+          "ps5ExclusiveUntil": "2024-09-17",
+          "baseline": "PS5版の発売後の変更を基準に比較。PC版の修正は別枠です。",
+          "milestones": [
+            {
+              "category": "コンテンツ",
+              "before": "キャラクター衣装・武器外観の変更機能は未実装",
+              "after": "衣装変更と、性能を維持した武器外観の変更を追加",
+              "date": "2023-09-03",
+              "version": "1.10",
+              "url": "https://jp.finalfantasyxvi.com/news/20230903_01/",
+              "basis": "発売後の公式追加記録に基づく比較"
+            },
+            {
+              "category": "コンテンツ",
+              "before": "本編のみ。追加の物語・地域は未配信",
+              "after": "DLC第2弾で新たな物語・地域・召喚獣の力を追加（有料）",
+              "date": "2024-04-17",
+              "version": "1.31",
+              "url": "https://jp.finalfantasyxvi.com/news/20240417_01/",
+              "basis": "パッチ告知日。購入が必要な追加要素を含む"
+            }
+          ],
+          "checkedAt": "2026-10-17T10:32:08+09:00",
+          "sourceStatus": "partial",
+          "errors": [
+            {
+              "url": "https://jp.finalfantasyxvi.com/news/20230825_01/",
+              "reason": "ValueError"
+            }
+          ],
+          "updates": [
+            {
+              "id": "8827d35964ca698ba457",
+              "url": "https://jp.finalfantasyxvi.com/news/20241017_01/",
+              "date": "2024-10-17",
+              "title": "PC版アップデートファイルの配信について",
+              "version": "1.02",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "修正対象：雲の影の品質を「シャドウ品質」のコンフィグに合わせて調整するようにしました。 「中」「低」設定時、従来よりパフォーマンスが向上します。 ※「高」は変更ありません。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "修正対象：「操作設定」コンフィグに「画面外へのマウスカーソル移動制限」を追加しました。 ONにすると、ゲーム画面外へマウスカーソルが移動しなくなります。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "修正対象：スクリーンショット撮影時のSEタイミングを調整しました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "操作性",
+                "その他の修正",
+                "性能・画質"
+              ],
+              "contentHash": "fd40cdfb07b39756396398efe96963636d878799cf293a100bad44dcc63cc98a",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "2ba8ed6ceb66376dc173",
+              "url": "https://jp.finalfantasyxvi.com/news/20240927_01/",
+              "date": "2024-09-27",
+              "title": "PC版アップデートファイルの配信について",
+              "version": "1.01",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "性能・画質",
+                  "text": "修正対象：特定条件下において、フレームレートが低下してしまう不具合を修正しました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "修正対象：一部のUIが正しくない。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "■ゲームプレイの安定性改善",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正",
+                "性能・画質",
+                "操作性"
+              ],
+              "contentHash": "96fd2958fdef879a68b3cf67c72b35b95224f124d8b16c0b2d2721d7eca97078",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "66611cff5712e25f7e2d",
+              "url": "https://jp.finalfantasyxvi.com/news/20240606_01/",
+              "date": "2024-06-06",
+              "title": "アップデートファイルの配信について",
+              "version": "1.33",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "修正対象：コントローラー操作タイプ「カスタム」の《ボタンアサインの変更》メニューにおいて、アサイン可能なボタンの色分けを行い、視認性を改善しました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "修正対象：一部のバトルコンテンツにおいて、敵の攻撃判定が正しくない。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "操作性",
+                "その他の修正"
+              ],
+              "contentHash": "0b49b18188f10b80e942c249646a333734db3308360400f216c1e48b9f70db2b",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "a2b23ddc3c468229e750",
+              "url": "https://jp.finalfantasyxvi.com/news/20240509_01/",
+              "date": "2024-05-09",
+              "title": "アップデートファイルの配信について",
+              "version": "1.32",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "修正対象：「つよくてニューゲーム」において、特定条件下で仲間が表示されず、チャプター「邂逅」が正しく進行しないことがある。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "修正対象：トロフィー「ドミナント」および「ミュトス」が正しく取得できない場合がある。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "安定性",
+                "その他の修正"
+              ],
+              "contentHash": "1a4d9f9df7046822c59f0af2f8918460185c0b2bf54373df95e6ed3d9d1e2417",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "5df5360ed41a1b9bcc35",
+              "url": "https://jp.finalfantasyxvi.com/news/20240417_01/",
+              "date": "2024-04-17",
+              "title": "アップデートファイルの配信について",
+              "version": "1.31",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "修正対象：一部のクエストにおいて、特定条件下で正しく進行できない場合がある。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "修正対象：一部のカットシーンにおいて、グラフィックが正しくない箇所がある。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "修正対象：一部の召喚獣バトルの特定フェーズにおいて、ゲーム性向上を目的としたUI追加が行われます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "修正対象：一部をのぞく召喚獣バトルにおいて、プレイヤーの攻撃力が上方調整されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "その他の修正",
+                "バランス",
+                "操作性",
+                "性能・画質",
+                "安定性"
+              ],
+              "contentHash": "65bee5009af24647fa9d8dda77cb67debb142365fa0802243205373e061a3792",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "bfad0061373f3806832f",
+              "url": "https://jp.finalfantasyxvi.com/news/20231208_01/",
+              "date": "2023-12-08",
+              "title": "アップデートファイルの配信について",
+              "version": "1.21",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "修正対象：ポーズ画面から《フォトモード》が起動できるようになります。 これにより、各種カットシーンでも《フォトモード》を起動できるようになります。（一部機能は制限されます。）",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "修正対象：トレーニングオプションの設定項目に《強敵を怯ませる》 が追加されます。 トレーニングモードにおいて、敵を即座に『怯み』や『テイクダウン』状態にすることができます。 項目をONに切り替えると、1回目の攻撃で怯み状態になり、2回目の攻撃でテイクダウン状態になります。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "修正対象：《アーケードモード》において、バトルパフォーマンスを増加させる《テクニカルボーナス》が追加されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "修正対象：ヴィヴィアンレポートの《主要人物》において、《インナーボイス》が追加されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "その他の修正",
+                "バランス",
+                "操作性",
+                "安定性"
+              ],
+              "contentHash": "99e7fbd0fb898d9cf258c73438c5efadd8ce5d2254de872451feb48dbc1cd63a",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "bd7554d162ae6404decf",
+              "url": "https://jp.finalfantasyxvi.com/news/20231201_01/",
+              "date": "2023-12-01",
+              "title": "アップデートファイルの配信について",
+              "version": "未確認",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "■日時 2023年12月8日(金) 14:00頃(JST) ※アップデートファイルの配信時間は、状況によって変更する場合があります。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "dab1adf05f992b25dedf066701890ff596bd0f31baee57d3ccbefe8c42089a9c",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "5ad51e6aa8d8ddaaa151",
+              "url": "https://jp.finalfantasyxvi.com/news/20230903_01/",
+              "date": "2023-09-03",
+              "title": "アップデートファイルの配信について",
+              "version": "1.10",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "本機能はストーリーの進行にあわせて開放され、アレテ・ストーンに追加されます。 なお、既にその進行を過ぎているセーブデータの場合、ロードした時点でアレテ・ストーンに追加されます。 《コスチューム変更》を行ったセーブデータを引継ぎ、《つよくてニューゲーム》を開始した場合、各キャラクターの コスチュームは一度初期化されます。 その後、ストーリーを進めることで…",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "バランス",
+                  "text": "修正対象：敵の攻撃を剣で受け流す《パリィ》において、バランス調整が行われます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "修正対象：隠れ家の《アレテ・ストーン》に《コスチューム変更》機能が追加されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "修正対象：クライヴをはじめとした一部キャラクターの「キャラクターの見た目」が変更できるようになります。 クライヴの「武器の見た目」を、これまで入手した別の武器に変更できるようになります。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "コンテンツ",
+                "その他の修正",
+                "操作性",
+                "バランス"
+              ],
+              "contentHash": "ca753c9337790d3e1e53d1c2bd6b67fde56bdecf8142bb1de8dc7cba1489b957",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "c92d85df569e771d7d45",
+              "url": "https://jp.finalfantasyxvi.com/news/20230706_01/",
+              "date": "2023-07-06",
+              "title": "アップデートファイルの配信について",
+              "version": "1.03",
+              "platforms": [
+                "PS5"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "操作性",
+                  "text": "■アップデートの内容 ■機能追加 メインメニュー内の「システム」に以下の機能を追加しました。 モーションブラーの強度 キャラクターの移動やカメラの操作時のモーションブラーの強弱を変更できるようになります。 初期設定は最大値の５で、数字を下げることにより弱くなり、0を設定することでオフになります。 移動時のカメラ追従 攻撃時のカメラ追従 これらの項目をO…",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "■その他の修正 Share機能を利用してTwitterまたはyoutubeにシェアする際の情報に、ハッシュタグ「#FF16」を追加しました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PS5"
+                  ]
+                }
+              ],
+              "categories": [
+                "操作性",
+                "コンテンツ"
+              ],
+              "contentHash": "5e1e8931a3d43c24242f64001d1499f33feb7d7fab1614890ee341b95c8f0eca",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            }
+          ],
+          "coverage": "取得できた公式履歴のみ。全更新の網羅・現在の実機状態は未確認。"
+        },
+        {
+          "id": "ronin",
+          "name": "Rise of the Ronin",
+          "company": "コーエーテクモ／Team NINJA",
+          "releaseDate": "2024-03-22",
+          "releaseSource": "https://blog.ja.playstation.com/2024/03/22/20240322-ronin/",
+          "source": "https://teamninja-studio.com/ronin/jp/update/",
+          "parser": "ronin",
+          "baseline": "この取得元では主にSteam版の更新履歴を確認できます。PS5発売時との具体的な差は未確認です。",
+          "milestones": [],
+          "checkedAt": "2026-10-17T10:32:08+09:00",
+          "sourceStatus": "ok",
+          "errors": [],
+          "updates": [
+            {
+              "id": "1ba71595b2b3bfa9a25e",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver10905",
+              "date": "2025-11-11",
+              "title": "Ver.1.09.0.5 2025/11/11 Steam ®",
+              "version": "1.09.0.5",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "特定のWindows更新プログラム適用後、ゲームがクラッシュする不具合が確認されました。 調査の結果、特定のキャラクターや装備が表示されるとクラッシュが発生することが判明したため、こちらの問題を修正いたしました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "安定性"
+              ],
+              "contentHash": "78d1db99772bfd294d044519c812ba51411e261507b1879e31f9d1545826e640",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "ca532668b345c2c389c0",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver10904",
+              "date": "2025-04-30",
+              "title": "Ver.1.09.0.4 2025/04/30 Steam ®",
+              "version": "1.09.0.4",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "因縁ミッション「まだ見ぬ知識を求めて」が進行できなくなる不具合が発生したセーブデータに対して、復旧する処理を追加 アップデート適用後、ゲーム再開時に復旧されます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "特定のステージ、状況下でカクつきが発生する症状を緩和",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "安定性",
+                "性能・画質"
+              ],
+              "contentHash": "938afc275052047e06215d55fe0b96de9b9163a89c895635e0e80dc62a575ffe",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "a83f278cb84ceb98db8a",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver10903",
+              "date": "2025-04-10",
+              "title": "Ver.1.09.0.3 2025/04/10 Steam ®",
+              "version": "1.09.0.3",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "治安改善時の演出中に、進行不能になることがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "ディスプレイ設定の設定項目に「FPSの動的変更」を追加 有効にすると、負荷に合わせてFPSが動的に変化し、安定したゲームプレイを継続することができます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "セーブデータの保管状況について、エラーチェック機能を追加 セーブデータファイルが正規の場所に作成できなかった場合に警告メッセージを表示するようにしました。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "Steam ® オーバーレイを開いた際に、自動的にゲームを一時停止するように調整",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "性能・画質",
+                "コンテンツ",
+                "その他の修正",
+                "安定性"
+              ],
+              "contentHash": "a6694a17bb80d7efbc9c5bc23f3b073881256852621cefa8c694d33f88960ce8",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "f2f1b1a7755c3f572daf",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver10902",
+              "date": "2025-03-25",
+              "title": "Ver.1.09.0.2 2025/03/25 Steam ®",
+              "version": "1.09.0.2",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "DualSense ワイヤレスコントローラー使用時、コントローラーが振動した際にクラッシュすることがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "ディスプレイ設定の項目に「ゲームモード」を追加。 ゲーム全般の描画において「画質優先」「FPS優先」のどちらにするかを選択できます。 負荷が高まり動作が遅くなった場合、「FPS優先」を選択することで動的に描画品質を調整し動作を安定させることができます。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "メニュー操作時やイベントシーンの開始時に、ロードが終わらなくなることがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "コンテンツ",
+                  "text": "セーブデータのバックアップファイルの保存先を、既存のフォルダ以外の場所に新規に追加 セーブデータに問題が発生した場合に備え、既存の保管場所以外にもバックアップファイルを保存するようにしました。 【セーブデータ保管場所】 \\Users\\[アカウント名]\\Documents\\KoeiTecmo\\Ronin\\Savedata\\(SteamアカウントID) 各…",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "性能・画質",
+                "コンテンツ",
+                "操作性",
+                "その他の修正",
+                "安定性"
+              ],
+              "contentHash": "2132fe14be6836f540e795d53619ce60b07ea2da1b0819c9420429a5b1f68f75",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "f4f1f2599852628a15ab",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver10901",
+              "date": "2025-03-14",
+              "title": "Ver.1.09.0.1 2025/03/14 Steam ®",
+              "version": "1.09.0.1",
+              "platforms": [
+                "PC"
+              ],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "安定性",
+                  "text": "CPUのスレッド数が33以上の環境において、ゲーム起動時にクラッシュする不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "性能・画質",
+                  "text": "グラフィックス設定のプリセット選択時に設定される内容を変更 負荷が大きくかかる設定項目について、プリセットで設定される段階を下げました。 各項目について、個別にさらに高い設定に変更することは引き続き可能です。",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "操作性",
+                  "text": "タイトルメニューでOPTIONを素早く選択した際に操作不能になることがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                },
+                {
+                  "category": "その他の修正",
+                  "text": "特定環境において、ロードが終わらなくなることがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": [
+                    "PC"
+                  ]
+                }
+              ],
+              "categories": [
+                "性能・画質",
+                "安定性",
+                "その他の修正",
+                "操作性"
+              ],
+              "contentHash": "40990f19e5c3c707f64d5f0b121d4b0da278333fc16f71f8063a7be6b0e3e282",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            },
+            {
+              "id": "98bcba53310856e3c919",
+              "url": "https://teamninja-studio.com/ronin/jp/update/#ver109",
+              "date": "2025-03-11",
+              "title": "Ver.1.09 2025/03/11",
+              "version": "1.09",
+              "platforms": [],
+              "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+              "changes": [
+                {
+                  "category": "その他の修正",
+                  "text": "滑空暗殺を行うと、稀に地面をすり抜けてしまうことがある不具合を修正",
+                  "excerpt": true,
+                  "platforms": []
+                }
+              ],
+              "categories": [
+                "その他の修正"
+              ],
+              "contentHash": "564e3cbb0f9198edfffe6e2ed03de069c12b44c5b6728abbb743df263ac6bebd",
+              "lastVerifiedAt": "2026-10-17T10:32:08+09:00",
+              "firstSeenAt": "2026-10-13T04:49:29+09:00",
+              "evidence": "公式発表／実機検証なし"
+            }
+          ],
+          "coverage": "取得できた公式履歴のみ。全更新の網羅・現在の実機状態は未確認。"
+        }
+      ]
+    }
+  ]
+}
