@@ -1,164 +1,185 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-18",
-  "fetchedAt": "2026-10-18T07:41:07.278774+09:00",
+  "updatedAt": "2026-10-19",
+  "fetchedAt": "2026-10-19T05:41:26.464283+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "子役",
-    "タイ王妃",
-    "レガシーハーフマラソン 2026",
-    "クリミナル・マインド fbi行動分析課",
-    "ユーロ円",
-    "東京マラソン",
-    "ジャスティンビーバー",
-    "ムーキー ベッツ",
-    "世界体操競技選手権",
-    "フランス デモ"
+    "のん",
+    "森岡毅",
+    "天皇賞(秋)",
+    "la liga",
+    "不正 アクセス",
+    "madrid vs sevilla",
+    "俳優中村蒼",
+    "sports",
+    "阪神戦力外",
+    "ユヴェントス 対 ラツィオ"
   ],
   "briefs": [
     {
-      "topic": "子役",
+      "topic": "のん",
       "status": "ok",
-      "summary": "「イケメン俳優の子役、全制覇？」金１０【ＬＯＳＴ１０】主人公の尖った金髪中学時代 人気者少年期常連の１３歳子役に衝撃「めちゃくちゃ有望株」（デイリースポーツ）",
-      "summaryBasis": "related-headline",
+      "summary": "女優で歌手の、のん（33）が18日、岩手県久慈市の久慈市文化会館で全国ツアー「のん自由（10）ツアー 2026」の久慈公演を行った。女優の橋本愛（30）もゲストとして駆けつけ、2013年のNHK連続",
+      "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「イケメン俳優の子役、全制覇？」金１０【ＬＯＳＴ１０】主人公の尖った金髪中学時代 人気者少年期常連の１３歳子役に衝撃「めちゃくちゃ有望株」（デイリースポーツ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCTmhCOVdIV0xKbEVaWnhmcVpmWnFxRzZtaF9QTkNHejA4SGZtYVBveGFPVzd3MnY2M1Y1NFRqRHozUjhmWkhPVWtUanF3LUcwNEpKUlVMUDZBaGNLbTNuQ3FJMWFiWGJVU3ZxcTdhNXNVSXVpTDdIOHVKVmFSa3c?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 17 Oct 2026 13:22:25 GMT"
-        },
-        {
-          "title": "日本でも人気の韓ドラ「賢い医師生活」出演の子役 ６歳→１２歳に成長 ＹｏｕＴｕｂｅ登場にファン歓喜",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6UG5WRy1OSDlMYUhYZ3dQQ1cxX1RMQUltWXc1Ykd0NUVaWWN0OHgybXdCa0ZwNnZPOXFPQkhxT29XRWdCbjI3c0J2T3VPdjNPb0c3NVNSdUUydk1FWUI5NWx0eDd1bVo3X3c?oc=5",
-          "name": "デイリースポーツ",
-          "publishedAt": "Sat, 17 Oct 2026 11:44:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
-      "retained": false
-    },
-    {
-      "topic": "タイ王妃",
-      "status": "ok",
-      "summary": "タイ王妃 自らの操縦で札幌に着陸 空軍などで訓練し免許取得 戦闘機の操縦も（テレビ朝日系（ANN））",
-      "summaryBasis": "related-headline",
-      "issue": "確認された動きは何で、関係者や市民への影響はどう変わるか？",
-      "whyItMatters": "各当事者の主張と確認済みの事実を分け、影響を把握するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "タイ王妃 自らの操縦で札幌に着陸 空軍などで訓練し免許取得 戦闘機の操縦も（テレビ朝日系（ANN））",
-          "url": "https://news.yahoo.co.jp/articles/3a49dd9d089d098d5c21ac3f1b0d9415e7cbb970",
+          "title": "橋本愛とユニット復活 のんが希望",
+          "url": "https://news.yahoo.co.jp/pickup/6599286",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "王室専用機ではなく… タイ王妃“まさかの方法”で来日",
-          "url": "https://news.tv-asahi.co.jp/news_international/articles/000540738.html",
-          "name": "テレ朝NEWS",
+          "title": "のん＆橋本愛「潮騒のメモリーズ」13年ぶり1日限定復活！ のん「泣きそうなくらい尊い時間」",
+          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/19/kiji/20261019s00041000028000c.html",
+          "name": "スポニチ Sponichi Annex",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
       "retained": false
     },
     {
-      "topic": "レガシーハーフマラソン 2026",
+      "topic": "森岡毅",
       "status": "ok",
-      "summary": "10月18日(日)に予定されている「東京レガシーハーフマラソン2026」の開催に伴い、秋葉原地区周辺道路の横断ができなくなるようです。",
-      "summaryBasis": "publisher-description",
-      "issue": "「レガシーハーフマラソン 2026」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "ジャングリア沖縄は赤字173億円では終わらない…｢刀｣の森岡毅氏が持つディズニー創業者とそっくりな｢狂気｣",
+      "summaryBasis": "related-headline",
+      "issue": "「森岡毅」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「東京レガシーハーフマラソン2026」の開催に伴い、18日は秋葉原周辺道路で交通規制",
-          "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2148958.html",
-          "name": "AKIBA PC Hotline!",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
-      "retained": false
-    },
-    {
-      "topic": "クリミナル・マインド fbi行動分析課",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ユーロ円",
-      "status": "ok",
-      "summary": "ユーロ円・ポンド円の週間見通し（2026年10月19日〜23日）。ユーロ円はフランス財政不安とECB利上げ観測の後退で上値が重く、ポンド円は英利上げ期待が下支え。仏予算審議と英CPIを焦点に、ユーロ円176円台の攻防とポンド円210円突破の条件、予想レンジを解説します。",
-      "summaryBasis": "publisher-description",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
+          "title": "ジャングリア沖縄は赤字173億円では終わらない…｢刀｣の森岡毅氏が持つディズニー創業者とそっくりな｢狂気｣",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ubWhSVGNaOUs3TmpKRXFxYjJ6ZnRhbU1TNVJRdDlEb3dEQ3NVQVR5N2cyeWctR01QRWdaNXVGYjVLOVFjTkVGcnNQQkdzNTNEeE1RRVlKUTU?oc=5",
+          "name": "PRESIDENT Online（プレジデントオンライン）",
+          "publishedAt": "Sun, 18 Oct 2026 06:00:00 GMT"
+        },
         {
-          "title": "来週の為替予想（ユーロ/円 ポンド/円）ユーロ円は下げ渋り、ポンド円は上値重い｜仏予算と英CPIが次の焦点 ハロンズFX 2026/10/17",
-          "url": "https://www.gaitame.com/media/entry/2026/10/17/060400",
-          "name": "外為どっとコム",
-          "publishedAt": null
+          "title": "森岡毅が仕掛ける“ジャングリア沖縄”巨大テーマパーク開発の舞台裏に密着【ガイアの夜明け】 Rex Reed (ZLmToi8cea)",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rcFI1TkZvS1dZYk9lNzVVY3ZNRUZfSW5FanRsZDNqMkFOZ1drRUNNWEk3ZVE3czA3WmVNaE5SQ3ZTNEh1ZHFCeXFYM29tbE93RlpQWmttLTAtTlpuNW9HXzhOZU40QQ?oc=5",
+          "name": "Unisba Media",
+          "publishedAt": "Sat, 17 Oct 2026 19:06:49 GMT"
         }
       ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
       "retained": false
     },
     {
-      "topic": "東京マラソン",
+      "topic": "天皇賞(秋)",
       "status": "ok",
-      "summary": "「東京マラソン2027」のボランティアエントリー開始！海外在住者向けエントリーも導入しグローバル化を促進",
+      "summary": "【天皇賞(秋)】クロワデュノール、リアライズシリウスなどが登録",
       "summaryBasis": "related-headline",
-      "issue": "「東京マラソン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「天皇賞(秋)」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「東京マラソン2027」のボランティアエントリー開始！海外在住者向けエントリーも導入しグローバル化を促進",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FcmhES0ZPSnA4YmtPZEdiM1hRMGFJdHhnbkZvaDU3NEVoZHc4MkI5bzh1Q1RrdG5SR0duM1pYb0pmYTBTTlBCSkM3azB0c2RCZHk0?oc=5",
-          "name": "STRAIGHT PRESS",
-          "publishedAt": "Sat, 17 Oct 2026 02:00:37 GMT"
+          "title": "【天皇賞(秋)】クロワデュノール、リアライズシリウスなどが登録",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DTUJLdjExc0xkOW5vTjQtZDFFUHNNQXVOUXJxUi1jVjhVVG9NX3phSW95WFQ4UTNVWUdvWFlYb0ZIMjU0ZmtMTWx5MGI4UU5LREllUnQyRGE2VWNNWFhv?oc=5",
+          "name": "netkeiba",
+          "publishedAt": "Sun, 18 Oct 2026 08:28:00 GMT"
         }
       ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
       "retained": false
     },
     {
-      "topic": "ジャスティンビーバー",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ムーキー ベッツ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "世界体操競技選手権",
+      "topic": "la liga",
       "status": "ok",
-      "summary": "実力者から新鋭まで多士済々の日本代表に注目！ 世界体操競技選手権大会",
+      "summary": "ライセンス対象写真：レアル・マドリードvセビリアFC -ラ・リーガ",
       "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "issue": "「la liga」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "実力者から新鋭まで多士済々の日本代表に注目！ 世界体操競技選手権大会",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HZVVqT3VLanFzd093aU4tZllSWVBFVmVGX1FUaWFyUXhudElXcWUtVHN4Y0NCaG8zQ1ZaRHg2eS1xQkVjUldDVlRMeHU5czBfdXN2MFRQZWFqTS1XSjFV?oc=5",
-          "name": "anan",
-          "publishedAt": "Sat, 17 Oct 2026 08:00:45 GMT"
+          "title": "ライセンス対象写真：レアル・マドリードvセビリアFC -ラ・リーガ",
+          "url": "https://www.reutersconnect.com/item/real-madrid-v-sevilla-fc-la-liga/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwM04yOEVK",
+          "name": "Reuters Connect",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-18T07:41:07.278774+09:00",
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
       "retained": false
     },
     {
-      "topic": "フランス デモ",
+      "topic": "不正 アクセス",
+      "status": "ok",
+      "summary": "2026年9～10月、企業や公的機関で不正アクセスや情報漏えいの事案が相次いで公表された。会員情報の大量流出から本人確認書類画像の漏えいまで、被害の内容はさまざまだ。各社の公式発表を基に、主な10事例を振り返る。",
+      "summaryBasis": "publisher-description",
+      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
+      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "止まらない不正アクセス、広がる情報漏えい 大手企業・公的機関を襲った10事案",
+          "url": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002324/",
+          "name": "キーマンズネット",
+          "publishedAt": null
+        },
+        {
+          "title": "不正アクセス急増背景に“中国製LLM”台頭、AIが自動で偵察→侵入→情報奪取「情報漏れていない人の方が珍しい」専門家が警鐘、対策は? | 高知のニュース・天気｜KUTV NEWS | KUTVテレビ高知 (3ページ)",
+          "url": "https://newsdig.tbs.co.jp/articles/kutv/3020110?page=3",
+          "name": "TBS NEWS DIG",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
+      "retained": false
+    },
+    {
+      "topic": "madrid vs sevilla",
       "status": "unavailable"
+    },
+    {
+      "topic": "俳優中村蒼",
+      "status": "unavailable"
+    },
+    {
+      "topic": "sports",
+      "status": "ok",
+      "summary": "Stryker Sports Complexで車両と大勢の人々が関わる事故が発生したことを認識しています。",
+      "summaryBasis": "publisher-description",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "警察： 6歳の少年、35歳の男性がストライカー・スポーツ・コンプレックスでの衝突で死亡",
+          "url": "https://www.kwch.com/2026/10/17/breaking-news-injury-accident-stryker-sports-complex/",
+          "name": "KWCH",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
+      "retained": false
+    },
+    {
+      "topic": "阪神戦力外",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ユヴェントス 対 ラツィオ",
+      "status": "ok",
+      "summary": "[ライブ配信] ユヴェントス対ラツィオ戦 無料生中継",
+      "summaryBasis": "related-headline",
+      "issue": "「ユヴェントス 対 ラツィオ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "[ライブ配信] ユヴェントス対ラツィオ戦 無料生中継",
+          "url": "https://news.google.com/rss/articles/CBMi1AVBVV95cUxOMEN3OThvQUFyWWZXcVB0WkNhdDNzbnIwMEduQnJLTzdqVWhabHNmNFAyODB2R0VjZGVPajMzODdLRktSTS1QXy00dzJNTmlyTkkzaC1CU3RYa2NPYTJNbzE5cWQ2c1NBR3NzZ3hadlBFem5SdUgwbTNWcEhjTnN3UTRsVFNIN3JCZXlPVGdYUnYzd2R4NXhVR0RyMkt6YkN2OXh5VkxGUzJEbGF1VjFSUnU2Z1VMVU9INWF0NXo3WEJxbmtNZ2licnI0ZFA2ZXplUWxGZUdObjA0T280ZjRLLVhGNFVBWDJuVERjX3g1YTJtUUtERVNzeldqa0RLSGo4MXFhR1FxSEpnZTJTcF96d1Y2RzR3Zk56aUswWW5rOTlaeV95a0psaHRETGE0c3RpZUE4RkZNb1cwU2pIVXRaY2c0b09ucDY4eDRNa18wQUVzRDI3OU9PdGFMV1FDQ3YtU2pIZWFjRU1fSHZodXhrekU0TnRaamt0Mjl0UUxiaFo2NjBaWHBUWHlEUmxYcWd3dGdVTTJFdG5iM1dhLTdieGY4LTJzVXRseVFranEzSXZRRjBwdE9CUWg4NWc0ZlFMUE1vLVBGTXRjZ00wa3YwYmcyZHJpVDBiSTBKMmIzdkxRVkdqbzFIM01zb3ZMRDlDUkxZYWo4T1FobG1rd2p2X3ZPVEdsVTZlajFKZXZYV3dsblA2THBya2E3ODNHY2NORUZNWEZtaGVXQnp5VGx4R096SWw1WTlBbE1xSkcyY3BfZjFTNEdObVlHZjlwSmNxNUUzeFhNWGJpUnd4bXhfWmF5ZVV1TllrcFhEeDJXS2RYV2tJRkZ1Y0NzcnNGbk5vYjctcjgtVDN2NWd2RjlSWW45WTQ0OTRtS2Ftcmo5bFB6SDFDNTlqZWZUSnZzRjhFcWRGMzNHanpOQkRad01qVDJxMkVKQnFjNjl5dk5HdXhkaEhT?oc=5",
+          "name": "Universidad de Córdoba (UCO)",
+          "publishedAt": "Sun, 18 Oct 2026 18:45:33 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
+      "retained": false
     }
   ]
 }
