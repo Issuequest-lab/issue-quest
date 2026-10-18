@@ -1,184 +1,139 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-19",
-  "fetchedAt": "2026-10-19T05:41:26.464283+09:00",
+  "fetchedAt": "2026-10-19T07:36:57.774284+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "のん",
-    "森岡毅",
-    "天皇賞(秋)",
-    "la liga",
-    "不正 アクセス",
-    "madrid vs sevilla",
-    "俳優中村蒼",
-    "sports",
-    "阪神戦力外",
-    "ユヴェントス 対 ラツィオ"
+    "lua blanco",
+    "フォーミュラ1",
+    "青森市 天気",
+    "宇宙航空研究開発機構",
+    "融資",
+    "釧路 天気",
+    "長崎天気",
+    "ザ!鉄腕!dash!!",
+    "大分天気",
+    "天气"
   ],
   "briefs": [
     {
-      "topic": "のん",
+      "topic": "lua blanco",
+      "status": "translation-unavailable"
+    },
+    {
+      "topic": "フォーミュラ1",
       "status": "ok",
-      "summary": "女優で歌手の、のん（33）が18日、岩手県久慈市の久慈市文化会館で全国ツアー「のん自由（10）ツアー 2026」の久慈公演を行った。女優の橋本愛（30）もゲストとして駆けつけ、2013年のNHK連続",
-      "summaryBasis": "publisher-description",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "summary": "オフィシャルシャンパン モエ・エ・シャンドン 2026年フォーミュラ1® シンガポールグランプリ 表彰台から街へ、勝利と歓喜の瞬間を彩る – Wine Bazaar",
+      "summaryBasis": "related-headline",
+      "issue": "「フォーミュラ1」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "橋本愛とユニット復活 のんが希望",
-          "url": "https://news.yahoo.co.jp/pickup/6599286",
+          "title": "オフィシャルシャンパン モエ・エ・シャンドン 2026年フォーミュラ1® シンガポールグランプリ 表彰台から街へ、勝利と歓喜の瞬間を彩る – Wine Bazaar",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hcUxMVzNqRWlNTG4yN3RDYVJHaDR3UGc5TVVtMXl2dmM2QnFyWFljY2ZHZHdXQXBFTm9vek5MNTRMckpjWnVOczl6WS1EaTg?oc=5",
+          "name": "ワインバザールニュース",
+          "publishedAt": "Sat, 17 Oct 2026 02:43:21 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "retained": false
+    },
+    {
+      "topic": "青森市 天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "宇宙航空研究開発機構",
+      "status": "unavailable"
+    },
+    {
+      "topic": "融資",
+      "status": "ok",
+      "summary": "アグリバンクは、明日10月19日から融資金利を引き下げるという流れに加わります。",
+      "summaryBasis": "related-headline",
+      "issue": "「融資」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "アグリバンクは、明日10月19日から融資金利を引き下げるという流れに加わります。",
+          "url": "https://www.vietnam.vn/ja/them-agribank-nhap-cuoc-giam-lai-suat-cho-vay-tu-ngay-mai-19-10",
+          "name": "Vietnam.vn",
+          "publishedAt": null
+        },
+        {
+          "title": "潜在的なリスクのあるセクターへの融資を厳しく管理する。",
+          "url": "https://www.vietnam.vn/ja/kiem-soat-chat-viec-cap-tin-dung-doi-voi-linh-vuc-tiem-an-rui-ro",
+          "name": "Vietnam.vn",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "retained": false
+    },
+    {
+      "topic": "釧路 天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "長崎天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ザ!鉄腕!dash!!",
+      "status": "ok",
+      "summary": "『ザ！鉄腕！DASH!!』無人島築城計画に石原良純が緊急参戦 城づくりの技術を学ぶべく丸亀城の石垣復旧現場にバラエティー初潜入（TV LIFE web）",
+      "summaryBasis": "related-headline",
+      "issue": "「ザ!鉄腕!dash!!」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "『ザ！鉄腕！DASH!!』無人島築城計画に石原良純が緊急参戦 城づくりの技術を学ぶべく丸亀城の石垣復旧現場にバラエティー初潜入（TV LIFE web）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPQ0FndUh5WWgzWHFHeFlHMW5LR1NyT3ZaN05SWlY1QzZydUR2T0VEdGtyUmRfakI2TWVNV0VpXy1kQ29xSzduOUl0WkhLaWNlZ2xKdWROVzlMWElvaXBrWTMwX2dlQ3ZTY0tpTy15VTlpSFpOdHFpX0pyM2tXaDg?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "publishedAt": "Sat, 17 Oct 2026 09:01:33 GMT"
         },
         {
-          "title": "のん＆橋本愛「潮騒のメモリーズ」13年ぶり1日限定復活！ のん「泣きそうなくらい尊い時間」",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/19/kiji/20261019s00041000028000c.html",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": null
+          "title": "【香川県】これは見逃せない！ 丸亀城が全国ネットに登場しますよ！ 『ザ！鉄腕！DASH!!』で徹底調査へ！",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpSTFDTWhlOHhVZUxwemgwdFBza1RTZEdmZE9oc01KNWp6akpKQTRaeXNBUFQ2WWtscmxoYU5CTmR0Ukt2WTJTNHEzY01xbnJXSThEX0RfUjdpRmJYbjdkM2JvaUkxdERBRE5sY0hB?oc=5",
+          "name": "号外NET 高松市",
+          "publishedAt": "Sat, 17 Oct 2026 00:37:16 GMT"
         }
       ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
+      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
       "retained": false
     },
     {
-      "topic": "森岡毅",
-      "status": "ok",
-      "summary": "ジャングリア沖縄は赤字173億円では終わらない…｢刀｣の森岡毅氏が持つディズニー創業者とそっくりな｢狂気｣",
-      "summaryBasis": "related-headline",
-      "issue": "「森岡毅」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ジャングリア沖縄は赤字173億円では終わらない…｢刀｣の森岡毅氏が持つディズニー創業者とそっくりな｢狂気｣",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ubWhSVGNaOUs3TmpKRXFxYjJ6ZnRhbU1TNVJRdDlEb3dEQ3NVQVR5N2cyeWctR01QRWdaNXVGYjVLOVFjTkVGcnNQQkdzNTNEeE1RRVlKUTU?oc=5",
-          "name": "PRESIDENT Online（プレジデントオンライン）",
-          "publishedAt": "Sun, 18 Oct 2026 06:00:00 GMT"
-        },
-        {
-          "title": "森岡毅が仕掛ける“ジャングリア沖縄”巨大テーマパーク開発の舞台裏に密着【ガイアの夜明け】 Rex Reed (ZLmToi8cea)",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rcFI1TkZvS1dZYk9lNzVVY3ZNRUZfSW5FanRsZDNqMkFOZ1drRUNNWEk3ZVE3czA3WmVNaE5SQ3ZTNEh1ZHFCeXFYM29tbE93RlpQWmttLTAtTlpuNW9HXzhOZU40QQ?oc=5",
-          "name": "Unisba Media",
-          "publishedAt": "Sat, 17 Oct 2026 19:06:49 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
-      "retained": false
-    },
-    {
-      "topic": "天皇賞(秋)",
-      "status": "ok",
-      "summary": "【天皇賞(秋)】クロワデュノール、リアライズシリウスなどが登録",
-      "summaryBasis": "related-headline",
-      "issue": "「天皇賞(秋)」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【天皇賞(秋)】クロワデュノール、リアライズシリウスなどが登録",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DTUJLdjExc0xkOW5vTjQtZDFFUHNNQXVOUXJxUi1jVjhVVG9NX3phSW95WFQ4UTNVWUdvWFlYb0ZIMjU0ZmtMTWx5MGI4UU5LREllUnQyRGE2VWNNWFhv?oc=5",
-          "name": "netkeiba",
-          "publishedAt": "Sun, 18 Oct 2026 08:28:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
-      "retained": false
-    },
-    {
-      "topic": "la liga",
-      "status": "ok",
-      "summary": "ライセンス対象写真：レアル・マドリードvセビリアFC -ラ・リーガ",
-      "summaryBasis": "related-headline",
-      "issue": "「la liga」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ライセンス対象写真：レアル・マドリードvセビリアFC -ラ・リーガ",
-          "url": "https://www.reutersconnect.com/item/real-madrid-v-sevilla-fc-la-liga/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwM04yOEVK",
-          "name": "Reuters Connect",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
-      "retained": false
-    },
-    {
-      "topic": "不正 アクセス",
-      "status": "ok",
-      "summary": "2026年9～10月、企業や公的機関で不正アクセスや情報漏えいの事案が相次いで公表された。会員情報の大量流出から本人確認書類画像の漏えいまで、被害の内容はさまざまだ。各社の公式発表を基に、主な10事例を振り返る。",
-      "summaryBasis": "publisher-description",
-      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
-      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "止まらない不正アクセス、広がる情報漏えい 大手企業・公的機関を襲った10事案",
-          "url": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002324/",
-          "name": "キーマンズネット",
-          "publishedAt": null
-        },
-        {
-          "title": "不正アクセス急増背景に“中国製LLM”台頭、AIが自動で偵察→侵入→情報奪取「情報漏れていない人の方が珍しい」専門家が警鐘、対策は? | 高知のニュース・天気｜KUTV NEWS | KUTVテレビ高知 (3ページ)",
-          "url": "https://newsdig.tbs.co.jp/articles/kutv/3020110?page=3",
-          "name": "TBS NEWS DIG",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
-      "retained": false
-    },
-    {
-      "topic": "madrid vs sevilla",
+      "topic": "大分天気",
       "status": "unavailable"
     },
     {
-      "topic": "俳優中村蒼",
-      "status": "unavailable"
-    },
-    {
-      "topic": "sports",
+      "topic": "天气",
       "status": "ok",
-      "summary": "Stryker Sports Complexで車両と大勢の人々が関わる事故が発生したことを認識しています。",
-      "summaryBasis": "publisher-description",
-      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
-      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "警察： 6歳の少年、35歳の男性がストライカー・スポーツ・コンプレックスでの衝突で死亡",
-          "url": "https://www.kwch.com/2026/10/17/breaking-news-injury-accident-stryker-sports-complex/",
-          "name": "KWCH",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
-      "retained": false
-    },
-    {
-      "topic": "阪神戦力外",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ユヴェントス 対 ラツィオ",
-      "status": "ok",
-      "summary": "[ライブ配信] ユヴェントス対ラツィオ戦 無料生中継",
+      "summary": "天気|今日は晴れて乾燥しています。昼間はニューテリトリーの暑さが約32度上昇しています。",
       "summaryBasis": "related-headline",
-      "issue": "「ユヴェントス 対 ラツィオ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「天气」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "[ライブ配信] ユヴェントス対ラツィオ戦 無料生中継",
-          "url": "https://news.google.com/rss/articles/CBMi1AVBVV95cUxOMEN3OThvQUFyWWZXcVB0WkNhdDNzbnIwMEduQnJLTzdqVWhabHNmNFAyODB2R0VjZGVPajMzODdLRktSTS1QXy00dzJNTmlyTkkzaC1CU3RYa2NPYTJNbzE5cWQ2c1NBR3NzZ3hadlBFem5SdUgwbTNWcEhjTnN3UTRsVFNIN3JCZXlPVGdYUnYzd2R4NXhVR0RyMkt6YkN2OXh5VkxGUzJEbGF1VjFSUnU2Z1VMVU9INWF0NXo3WEJxbmtNZ2licnI0ZFA2ZXplUWxGZUdObjA0T280ZjRLLVhGNFVBWDJuVERjX3g1YTJtUUtERVNzeldqa0RLSGo4MXFhR1FxSEpnZTJTcF96d1Y2RzR3Zk56aUswWW5rOTlaeV95a0psaHRETGE0c3RpZUE4RkZNb1cwU2pIVXRaY2c0b09ucDY4eDRNa18wQUVzRDI3OU9PdGFMV1FDQ3YtU2pIZWFjRU1fSHZodXhrekU0TnRaamt0Mjl0UUxiaFo2NjBaWHBUWHlEUmxYcWd3dGdVTTJFdG5iM1dhLTdieGY4LTJzVXRseVFranEzSXZRRjBwdE9CUWg4NWc0ZlFMUE1vLVBGTXRjZ00wa3YwYmcyZHJpVDBiSTBKMmIzdkxRVkdqbzFIM01zb3ZMRDlDUkxZYWo4T1FobG1rd2p2X3ZPVEdsVTZlajFKZXZYV3dsblA2THBya2E3ODNHY2NORUZNWEZtaGVXQnp5VGx4R096SWw1WTlBbE1xSkcyY3BfZjFTNEdObVlHZjlwSmNxNUUzeFhNWGJpUnd4bXhfWmF5ZVV1TllrcFhEeDJXS2RYV2tJRkZ1Y0NzcnNGbk5vYjctcjgtVDN2NWd2RjlSWW45WTQ0OTRtS2Ftcmo5bFB6SDFDNTlqZWZUSnZzRjhFcWRGMzNHanpOQkRad01qVDJxMkVKQnFjNjl5dk5HdXhkaEhT?oc=5",
-          "name": "Universidad de Córdoba (UCO)",
-          "publishedAt": "Sun, 18 Oct 2026 18:45:33 GMT"
+          "title": "天気|今日は晴れて乾燥しています。昼間はニューテリトリーの暑さが約32度上昇しています。",
+          "url": "https://global.hk01.com/%E5%A4%A9%E6%B0%94/60401077/%E5%A4%A9%E6%B0%94-%E4%BB%8A%E6%97%A5%E5%A4%A9%E6%99%B4%E5%B9%B2%E7%87%A5-%E6%97%A5%E9%97%B4%E7%82%8E%E7%83%AD%E7%BA%A632%E5%BA%A6-%E6%96%B0%E7%95%8C%E5%86%8D%E9%AB%98%E4%B8%80%E4%B8%A4%E5%BA%A6",
+          "name": "香港01",
+          "publishedAt": null
+        },
+        {
+          "title": "日中は部分的に晴れて乾燥しています市内で最高31°C |即時ニュース|交通気象| on.cc East",
+          "url": "https://hk.on.cc/hk/bkn/cnt/weather/20261018/bkn-20261018093819035-1018_00942_001_cn.html",
+          "name": "on.cc東網",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-19T05:41:26.464283+09:00",
+      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
       "retained": false
     }
   ]
