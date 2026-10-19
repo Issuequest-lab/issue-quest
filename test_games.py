@@ -17,6 +17,12 @@ class Tests(unittest.TestCase):
   h=HTML.replace('<h2>修正</h2>','<h2>PC版のみの修正</h2>')
   r=g.parse_detail(GAME,'https://a.jp','更新','2026-10-12',h,NOW)
   self.assertEqual(r['changes'][0]['platforms'],['PC'])
+ def test_full_timeline_preserved(self):
+  items=''.join('<li>武器'+str(i)+'の攻撃力を上方修正</li>' for i in range(8))
+  h=HTML.replace('<li>特定条件で進行不能になる不具合の修正</li>',items)
+  r=g.parse_detail(GAME,'https://a.jp','更新','2026-10-12',h,NOW)
+  self.assertEqual(len(r['timelineChanges']),8)
+  self.assertLessEqual(len(r['changes']),4)
  def test_platform_and_version(self):
   r=g.parse_detail(GAME,'https://www.eldenring.jp/test','更新','2026-10-12',HTML,NOW)
   self.assertEqual(r['platforms'],['PS5','PC']);self.assertEqual(r['version'],'1.20');self.assertEqual(r['changes'][0]['category'],'安定性')

@@ -1,0 +1,12 @@
+const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('node:assert/strict');
+const {build}=require('./game-audio.js');
+const fixture=[{id:'test',name:'テスト',updates:[{date:'2024-02-01',version:'2',platforms:['PS5'],changes:[],timelineChanges:[{text:'地図に印を追加',platforms:['PS5']},{text:'PCの画質を改善',platforms:['PC']}]},{date:'2024-01-01',version:'1',platforms:['PS5'],changes:[{text:'地図を改善'},{text:'カメラを改善'}]}]}];
+const chapters=build(fixture,'PS5'),text=chapters.flatMap(c=>c.lines).join('\n');
+assert(text.indexOf('2024年1月1日')<text.indexOf('2024年2月1日'));assert(!text.includes('PCの画質'));assert(text.includes('地図に印'));
+const dom=new JSDOM(fs.readFileSync(__dirname+'/game-updates.html','utf8'),{url:'https://test.example',runScripts:'outside-only'}),w=dom.window;
+let current;w.SpeechSynthesisUtterance=function(text){this.text=text;};w.speechSynthesis={cancel(){},getVoices(){return[]},speak(u){current=u;u.onstart();}};w.HTMLElement.prototype.scrollIntoView=function(){};
+w.eval(fs.readFileSync(__dirname+'/game-audio.js','utf8'));
+const emit=()=>w.dispatchEvent(new w.CustomEvent('game-data',{detail:{games:fixture,platform:'PS5'}})),click=id=>w.document.getElementById(id).click();emit();
+assert.equal(w.document.getElementById('readPlay').disabled,false);click('readPlay');assert(w.document.querySelector('.audio-reading'));current.onend();click('readStop');assert(!w.document.querySelector('.audio-reading'));const old=current;old.onend();
+emit();assert(w.document.getElementById('readStatus').textContent.includes('保存'));click('readNext');assert.equal(w.document.getElementById('readChapter').value,'1');click('readPlay');current.onend();assert(current.text.includes('カメラ'));click('readStop');
+const data=JSON.parse(fs.readFileSync(__dirname+'/game-updates-latest.json'));const full=build(data.games,'PS5');console.log('PASS chronology, detailed history, platform filter, highlight, pause, stale callback, resume, chapter skip');console.log(JSON.stringify(full.map(c=>({chapter:c.title,minutes:Math.ceil(c.lines.join('').length/300)}))));console.log('Total chapters/minutes:',full.length,Math.ceil(full.flatMap(c=>c.lines).join('').length/300));dom.window.close();

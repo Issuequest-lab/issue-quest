@@ -65,7 +65,7 @@ def make_record(game,url,title,day,scope,body,lines,now):
         found=next((x for x in changes if x['category']==category),None)
         if found:chosen.append(found)
     chosen=chosen[:4]
-    return {'id':digest(url)[:20],'url':url,'date':day,'title':title,'version':version.group(1) if version else '未確認','platforms':scope,'platformBasis':'公式の対象機種表記（FF16初期分はPS5独占期間）','changes':chosen,'categories':list(dict.fromkeys(c['category'] for c in changes)),'contentHash':digest(body),'lastVerifiedAt':now,'firstSeenAt':now,'evidence':'公式発表／実機検証なし'}
+    return {'id':digest(url)[:20],'url':url,'date':day,'title':title,'version':version.group(1) if version else '未確認','platforms':scope,'platformBasis':'公式の対象機種表記（FF16初期分はPS5独占期間）','changes':chosen,'timelineChanges':changes,'categories':list(dict.fromkeys(c['category'] for c in changes)),'contentHash':digest(body),'lastVerifiedAt':now,'firstSeenAt':now,'evidence':'公式発表／実機検証なし'}
 
 def parse_detail(game,url,title,day,html,now):
     soup=BeautifulSoup(html,'html.parser');article=soup.select_one('article')
