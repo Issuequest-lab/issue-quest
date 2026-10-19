@@ -1,140 +1,185 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-19",
-  "fetchedAt": "2026-10-19T07:36:57.774284+09:00",
+  "updatedAt": "2026-10-20",
+  "fetchedAt": "2026-10-20T07:20:39.793202+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "lua blanco",
-    "フォーミュラ1",
-    "青森市 天気",
-    "宇宙航空研究開発機構",
-    "融資",
-    "釧路 天気",
+    "weather",
+    "クリスティアーノ・ロナウド",
+    "富山天気",
+    "郡山 天気",
     "長崎天気",
-    "ザ!鉄腕!dash!!",
-    "大分天気",
-    "天气"
+    "小川航基",
+    "なにわ淀川花火大会",
+    "thời tiết",
+    "望月理恵",
+    "広島天気"
   ],
   "briefs": [
     {
-      "topic": "lua blanco",
-      "status": "translation-unavailable"
-    },
-    {
-      "topic": "フォーミュラ1",
+      "topic": "weather",
       "status": "ok",
-      "summary": "オフィシャルシャンパン モエ・エ・シャンドン 2026年フォーミュラ1® シンガポールグランプリ 表彰台から街へ、勝利と歓喜の瞬間を彩る – Wine Bazaar",
+      "summary": "シンシナティの素晴らしい秋の天気を満喫しよう",
       "summaryBasis": "related-headline",
-      "issue": "「フォーミュラ1」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「weather」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "オフィシャルシャンパン モエ・エ・シャンドン 2026年フォーミュラ1® シンガポールグランプリ 表彰台から街へ、勝利と歓喜の瞬間を彩る – Wine Bazaar",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hcUxMVzNqRWlNTG4yN3RDYVJHaDR3UGc5TVVtMXl2dmM2QnFyWFljY2ZHZHdXQXBFTm9vek5MNTRMckpjWnVOczl6WS1EaTg?oc=5",
-          "name": "ワインバザールニュース",
-          "publishedAt": "Sat, 17 Oct 2026 02:43:21 GMT"
+          "title": "シンシナティの素晴らしい秋の天気を満喫しよう",
+          "url": "https://www.wlwt.com/article/fantastic-fall-weather-all-week-cincinnati/74185069",
+          "name": "WLWT",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
       "retained": false
     },
     {
-      "topic": "青森市 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "宇宙航空研究開発機構",
-      "status": "unavailable"
-    },
-    {
-      "topic": "融資",
+      "topic": "クリスティアーノ・ロナウド",
       "status": "ok",
-      "summary": "アグリバンクは、明日10月19日から融資金利を引き下げるという流れに加わります。",
-      "summaryBasis": "related-headline",
-      "issue": "「融資」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "ポルトガルサッカー連盟（FPF）は19日、代表チームから独断で離脱したFWクリスティアーノ・ロナウド（41）に対して処分を科した。【画像】C・ロナウドの奥様が超絶美人！C・ロナウドは9月27日のUE",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "アグリバンクは、明日10月19日から融資金利を引き下げるという流れに加わります。",
-          "url": "https://www.vietnam.vn/ja/them-agribank-nhap-cuoc-giam-lai-suat-cho-vay-tu-ngay-mai-19-10",
-          "name": "Vietnam.vn",
-          "publishedAt": null
-        },
-        {
-          "title": "潜在的なリスクのあるセクターへの融資を厳しく管理する。",
-          "url": "https://www.vietnam.vn/ja/kiem-soat-chat-viec-cap-tin-dung-doi-voi-linh-vuc-tiem-an-rui-ro",
-          "name": "Vietnam.vn",
+          "title": "ポルトガル代表離脱のクリスティアーノ・ロナウドを処分、30日活動禁止と罰金4万5000円（GOAL）",
+          "url": "https://news.yahoo.co.jp/articles/601f1dfa34ead8fb82e1f6a2efbb2e3beac7912c",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
       "retained": false
     },
     {
-      "topic": "釧路 天気",
+      "topic": "富山天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "郡山 天気",
       "status": "unavailable"
     },
     {
       "topic": "長崎天気",
-      "status": "unavailable"
+      "status": "ok",
+      "summary": "【長崎天気】今週は晴れと雨が交互に 気温変化も大きい | 長崎のニュース | 天気 | NBC長崎放送 (1ページ)",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【長崎天気】今週は晴れと雨が交互に 気温変化も大きい | 長崎のニュース | 天気 | NBC長崎放送 (1ページ)",
+          "url": "https://newsdig.tbs.co.jp/articles/nbc/3023083?display=1",
+          "name": "TBS NEWS DIG",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "retained": false
     },
     {
-      "topic": "ザ!鉄腕!dash!!",
+      "topic": "小川航基",
       "status": "ok",
-      "summary": "『ザ！鉄腕！DASH!!』無人島築城計画に石原良純が緊急参戦 城づくりの技術を学ぶべく丸亀城の石垣復旧現場にバラエティー初潜入（TV LIFE web）",
+      "summary": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」（FOOTBALL ZONE）",
       "summaryBasis": "related-headline",
-      "issue": "「ザ!鉄腕!dash!!」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「小川航基」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "『ザ！鉄腕！DASH!!』無人島築城計画に石原良純が緊急参戦 城づくりの技術を学ぶべく丸亀城の石垣復旧現場にバラエティー初潜入（TV LIFE web）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPQ0FndUh5WWgzWHFHeFlHMW5LR1NyT3ZaN05SWlY1QzZydUR2T0VEdGtyUmRfakI2TWVNV0VpXy1kQ29xSzduOUl0WkhLaWNlZ2xKdWROVzlMWElvaXBrWTMwX2dlQ3ZTY0tpTy15VTlpSFpOdHFpX0pyM2tXaDg?oc=5",
+          "title": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」（FOOTBALL ZONE）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qN0pRQk55MDA1aHRQLXZBSzJaNEM3aVlLOWhvZDdNSm5XMWJjUjdjV3lzUmczbDFsZ3hnaC1xM2JyOTdUNjBzdmo0QXhWR0RzemV4cnMteksxNmRfX2Q4dHB4b2pHRUEzOG5taGc3MTBGdUJsWVk3RTJ4MjQxbFE?oc=5",
           "name": "Yahoo!ニュース",
-          "publishedAt": "Sat, 17 Oct 2026 09:01:33 GMT"
+          "publishedAt": "Mon, 19 Oct 2026 19:54:19 GMT"
         },
         {
-          "title": "【香川県】これは見逃せない！ 丸亀城が全国ネットに登場しますよ！ 『ザ！鉄腕！DASH!!』で徹底調査へ！",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpSTFDTWhlOHhVZUxwemgwdFBza1RTZEdmZE9oc01KNWp6akpKQTRaeXNBUFQ2WWtscmxoYU5CTmR0Ukt2WTJTNHEzY01xbnJXSThEX0RfUjdpRmJYbjdkM2JvaUkxdERBRE5sY0hB?oc=5",
-          "name": "号外NET 高松市",
-          "publishedAt": "Sat, 17 Oct 2026 00:37:16 GMT"
+          "title": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLc0xHeHhadmJRdFVsem1EaWstODMwUWFXNFBfMkdsck9FMHZmNzQ3RDNONEhIMTU0cWxXWFllT2V3d1cwR2U3bWlvMjdaUmZfT05RLTd3c2Z6MEUwcUw4emRVUmQ?oc=5",
+          "name": "千葉テレビ放送株式会社",
+          "publishedAt": "Mon, 19 Oct 2026 19:53:25 GMT"
         }
       ],
-      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
       "retained": false
     },
     {
-      "topic": "大分天気",
-      "status": "unavailable"
+      "topic": "なにわ淀川花火大会",
+      "status": "ok",
+      "summary": "秋の夜空に大輪、なにわ淀川花火大会 暑さ避けて今年も10月開催 動画",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "秋の夜空に大輪、なにわ淀川花火大会 暑さ避けて今年も10月開催 動画",
+          "url": "https://www.asahi.com/video/articles/ASVBK42N6VBKOXIE04CM.html?iref=video_ranking_rank9",
+          "name": "朝日新聞",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "retained": false
     },
     {
-      "topic": "天气",
+      "topic": "thời tiết",
       "status": "ok",
-      "summary": "天気|今日は晴れて乾燥しています。昼間はニューテリトリーの暑さが約32度上昇しています。",
+      "summary": "ドゥ・バオ・トゥイ・ティット・ジュム19ヴァン・ガイ20/10",
       "summaryBasis": "related-headline",
-      "issue": "「天气」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「thời tiết」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "天気|今日は晴れて乾燥しています。昼間はニューテリトリーの暑さが約32度上昇しています。",
-          "url": "https://global.hk01.com/%E5%A4%A9%E6%B0%94/60401077/%E5%A4%A9%E6%B0%94-%E4%BB%8A%E6%97%A5%E5%A4%A9%E6%99%B4%E5%B9%B2%E7%87%A5-%E6%97%A5%E9%97%B4%E7%82%8E%E7%83%AD%E7%BA%A632%E5%BA%A6-%E6%96%B0%E7%95%8C%E5%86%8D%E9%AB%98%E4%B8%80%E4%B8%A4%E5%BA%A6",
-          "name": "香港01",
+          "title": "ドゥ・バオ・トゥイ・ティット・ジュム19ヴァン・ガイ20/10",
+          "url": "https://baolaocai.vn/du-bao-thoi-tiet-dem-19-va-ngay-2010-post912348.html",
+          "name": "Báo Lào Cai điện tử",
           "publishedAt": null
         },
         {
-          "title": "日中は部分的に晴れて乾燥しています市内で最高31°C |即時ニュース|交通気象| on.cc East",
-          "url": "https://hk.on.cc/hk/bkn/cnt/weather/20261018/bkn-20261018093819035-1018_00942_001_cn.html",
-          "name": "on.cc東網",
+          "title": "[動画]ドゥー・バオ・ティ・ティ・ジャム・ナイ・ヴァン・ガイ・マイ20/10/2026 ：ミー・ナム・ティ・ティ・ディ・ヌ・マ・ドン",
+          "url": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-20102026-mien-bac-nang-rao-mien-nam-tiep-dien-mua-dong-post996517.html",
+          "name": "Báo Nhân Dân điện tử",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-19T07:36:57.774284+09:00",
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
       "retained": false
+    },
+    {
+      "topic": "望月理恵",
+      "status": "ok",
+      "summary": "「続くと…軽んじてしまうようになる」望月理恵アナ、緊急地震速報の取り消しに私見「気を付けなくてはいけない」…「ＤａｙＤａｙ．」",
+      "summaryBasis": "related-headline",
+      "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
+      "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「続くと…軽んじてしまうようになる」望月理恵アナ、緊急地震速報の取り消しに私見「気を付けなくてはいけない」…「ＤａｙＤａｙ．」",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWY0s2R2dYQ2ZaSEcyenRYLUtBT2tQYm9FcXZlZFd3MnRCa2pPbFRHUjB6TV9lVHppejVBeHQ5TnJrZ1QzOFVyaG5LYXR1N3lMc25JUXRZRnAtUjBZZU1BLVVtcE5tRjZWMHZuUEh1N2Y?oc=5",
+          "name": "読売新聞",
+          "publishedAt": "Mon, 19 Oct 2026 08:45:00 GMT"
+        },
+        {
+          "title": "10/19〜30OA 10/23（金）公開！映画『バッド・ルーテナント：トウキョウ』｜望月理恵のエンタメ☆カフェ",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84RFlubklwQjdYYW1ja3pwaUZaUjBhVnJuY3RXaFZXSGlheUxmd2QzOHNPOTNtWnFGYjdWeHZEMlMxbjh5V2FDMkNJX0pNcmJfNzJDdTVfYjNMNEwtSTBjeDhTOGk5QWdjMWhFeUF0b3p4WmJt?oc=5",
+          "name": "日本テレビ",
+          "publishedAt": "Mon, 19 Oct 2026 13:26:25 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "retained": false
+    },
+    {
+      "topic": "広島天気",
+      "status": "unavailable"
     }
   ]
 }
