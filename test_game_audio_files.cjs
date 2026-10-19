@@ -1,0 +1,13 @@
+const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('node:assert/strict');
+const {build,hash}=require('./game-audio-files.js');
+const games=[{id:'test',name:'テスト',updates:[{date:'2024-01-01',version:'1',platforms:['PS5'],changes:[{text:'地図を改善'},{text:'カメラを改善'}]}]}];
+const raw=build(games,'PS5');let at=0;const chapters=raw.map(c=>({...c,start:at,lines:c.lines.map(text=>{let start=at;at+=10;return{text,start,end:at}}),end:at}));
+const manifest={tracks:[{gameId:'test',platform:'PS5',signature:hash(JSON.stringify(raw)),key:'test',src:'game-audio-media/test.mp3',duration:at,chapters}]};
+const dom=new JSDOM(fs.readFileSync(__dirname+'/game-updates.html','utf8'),{url:'https://test.example',runScripts:'outside-only'}),w=dom.window,a=w.document.getElementById('gameAudio');
+let paused=true,pauses=0;const actions={};Object.defineProperty(a,'paused',{get:()=>paused});Object.defineProperty(a,'duration',{get:()=>at});a.pause=()=>{paused=true;pauses++;a.dispatchEvent(new w.Event('pause'))};a.play=async()=>{paused=false;a.dispatchEvent(new w.Event('play'))};a.load=()=>{a.currentTime=0;queueMicrotask(()=>a.dispatchEvent(new w.Event('loadedmetadata')))};
+w.HTMLElement.prototype.scrollIntoView=function(){};w.fetch=async()=>({ok:true,json:async()=>manifest});w.navigator.mediaSession={setActionHandler:(k,v)=>actions[k]=v,setPositionState(){}};w.MediaMetadata=function(v){Object.assign(this,v)};
+w.eval(fs.readFileSync(__dirname+'/game-audio-files.js','utf8'));
+const emit=()=>w.dispatchEvent(new w.CustomEvent('game-data',{detail:{games,platform:'PS5'}})),tick=()=>new Promise(r=>setTimeout(r,0)),click=id=>w.document.getElementById(id).click();
+(async()=>{emit();await tick();assert.equal(a.getAttribute('src'),'game-audio-media/test.mp3');click('readPlay');await tick();assert.equal(paused,false);assert(w.document.querySelector('.audio-reading'));const before=pauses;w.document.dispatchEvent(new w.Event('visibilitychange'));w.dispatchEvent(new w.Event('pagehide'));assert.equal(pauses,before);assert.equal(paused,false);
+a.currentTime=15;a.dispatchEvent(new w.Event('timeupdate'));actions.pause();assert(paused);assert(!w.document.querySelector('.audio-reading'));actions.play();await tick();assert(!paused);actions.nexttrack();await tick();assert.equal(a.currentTime,chapters[1].start);assert(!paused);actions.seekbackward({seekOffset:5});assert.equal(a.currentTime,chapters[1].start-5);actions.pause();
+assert([...Array(w.localStorage.length)].some((_,i)=>w.localStorage.key(i).startsWith('game-file-read')));console.log('PASS: MP3 source, background does not pause, highlight, notification controls, seek, chapter continuity, persistence');dom.window.close();})().catch(e=>{console.error(e);process.exitCode=1});
