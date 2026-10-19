@@ -1,185 +1,191 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-20",
-  "fetchedAt": "2026-10-20T07:20:39.793202+09:00",
+  "fetchedAt": "2026-10-20T08:56:56.555045+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "weather",
-    "クリスティアーノ・ロナウド",
-    "富山天気",
-    "郡山 天気",
-    "長崎天気",
-    "小川航基",
-    "なにわ淀川花火大会",
-    "thời tiết",
-    "望月理恵",
-    "広島天気"
+    "レイズ 対 ガーディアンズ",
+    "孝太郎&ちさ子 プラチナファミリー 華麗なる一家をのぞき見",
+    "大阪 天気予報",
+    "ラピダス",
+    "corinthians x ec vitória",
+    "ワクチン",
+    "運行情報",
+    "古市憲寿",
+    "遅延",
+    "東京メトロ"
   ],
   "briefs": [
     {
-      "topic": "weather",
+      "topic": "レイズ 対 ガーディアンズ",
       "status": "ok",
-      "summary": "シンシナティの素晴らしい秋の天気を満喫しよう",
-      "summaryBasis": "related-headline",
-      "issue": "「weather」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "シンシナティの素晴らしい秋の天気を満喫しよう",
-          "url": "https://www.wlwt.com/article/fantastic-fall-weather-all-week-cincinnati/74185069",
-          "name": "WLWT",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
-      "retained": false
-    },
-    {
-      "topic": "クリスティアーノ・ロナウド",
-      "status": "ok",
-      "summary": "ポルトガルサッカー連盟（FPF）は19日、代表チームから独断で離脱したFWクリスティアーノ・ロナウド（41）に対して処分を科した。【画像】C・ロナウドの奥様が超絶美人！C・ロナウドは9月27日のUE",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ポルトガル代表離脱のクリスティアーノ・ロナウドを処分、30日活動禁止と罰金4万5000円（GOAL）",
-          "url": "https://news.yahoo.co.jp/articles/601f1dfa34ead8fb82e1f6a2efbb2e3beac7912c",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
-      "retained": false
-    },
-    {
-      "topic": "富山天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "郡山 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "長崎天気",
-      "status": "ok",
-      "summary": "【長崎天気】今週は晴れと雨が交互に 気温変化も大きい | 長崎のニュース | 天気 | NBC長崎放送 (1ページ)",
+      "summary": "【10月20日】レイズ対ガーディアンズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
       "summaryBasis": "related-headline",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【長崎天気】今週は晴れと雨が交互に 気温変化も大きい | 長崎のニュース | 天気 | NBC長崎放送 (1ページ)",
-          "url": "https://newsdig.tbs.co.jp/articles/nbc/3023083?display=1",
-          "name": "TBS NEWS DIG",
-          "publishedAt": null
+          "title": "【10月20日】レイズ対ガーディアンズの地上波テレビ放送/ネット配信・無料視聴｜MLB 2026ポストシーズン",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSW9ONjF3X0hLTm5jc0xDNXpOUzh0UkdvYUVvVUR1U1FJWVh5LVNYNXk2eHc1Njh5Ujh2T3FLc3c3RDd3T0ZqdlI5WDRreFlTeVBvaFpaVjE3QU5OSWVNWHJkOWRYLVJ1M0Q0SFVQVUg4Ukpzc3dOWnpSVElmd2V2ZlFLMlQxRXl5LTdOMlFjYnFXYmRhUUtBcWktblcxaHpCakdrVkppNHk3V3R6UHhKOWtHa3ZqOWVRN0ZTdw?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Mon, 19 Oct 2026 02:36:58 GMT"
         }
       ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
       "retained": false
     },
     {
-      "topic": "小川航基",
+      "topic": "孝太郎&ちさ子 プラチナファミリー 華麗なる一家をのぞき見",
+      "status": "unavailable"
+    },
+    {
+      "topic": "大阪 天気予報",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ラピダス",
       "status": "ok",
-      "summary": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」（FOOTBALL ZONE）",
-      "summaryBasis": "related-headline",
-      "issue": "「小川航基」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "【読売新聞】 経済産業省は１９日、次世代半導体の量産を目指すラピダスに対し、２０２８年度と２９年度に計２５００億円の追加出資を検討していることを明らかにした。実現すれば、ラピダスへの政府出資は総額６５００億円に膨らむことになる。 １",
+      "summaryBasis": "publisher-description",
+      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
+      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」（FOOTBALL ZONE）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qN0pRQk55MDA1aHRQLXZBSzJaNEM3aVlLOWhvZDdNSm5XMWJjUjdjV3lzUmczbDFsZ3hnaC1xM2JyOTdUNjBzdmo0QXhWR0RzemV4cnMteksxNmRfX2Q4dHB4b2pHRUEzOG5taGc3MTBGdUJsWVk3RTJ4MjQxbFE?oc=5",
+          "title": "ラピダスへ２５００億円追加出資検討…経産省が２９年度までに、実現なら政府出資は６５００億円に",
+          "url": "https://www.yomiuri.co.jp/economy/20261020-GYT1T00008/",
+          "name": "読売新聞",
+          "publishedAt": null
+        },
+        {
+          "title": "海外マーケットトピック－経産省、ラピダスに27年度から3年で4000億円の産業投資計画＝ロイター(トレーダーズ・ウェブ)",
+          "url": "https://finance.yahoo.co.jp/news/detail/89168b69dc6eb051c14b8669434cfcd8dff8fff6",
+          "name": "Yahoo!ファイナンス",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
+      "retained": false
+    },
+    {
+      "topic": "corinthians x ec vitória",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ワクチン",
+      "status": "ok",
+      "summary": "福島市は、予防接種業務を委託している医療機関で、生後2か月の男児にワクチンを誤って接種する事案があったと公表した。福島市によると、間違い接種があったのは10月13日。5種混合ワクチンを接種した生後2",
+      "summaryBasis": "publisher-description",
+      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
+      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "生後2か月男児にワクチン誤接種 用法誤り自己判断で＜福島県福島市＞（福島テレビ）",
+          "url": "https://news.yahoo.co.jp/articles/2a427cb208b462be319e04a704b6615ed422480a",
           "name": "Yahoo!ニュース",
-          "publishedAt": "Mon, 19 Oct 2026 19:54:19 GMT"
-        },
-        {
-          "title": "小川航基、日本代表の落選に本音「なんでだよ」 欧州→帰国も…森保監督に「見捨てられたわけじゃない」",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLc0xHeHhadmJRdFVsem1EaWstODMwUWFXNFBfMkdsck9FMHZmNzQ3RDNONEhIMTU0cWxXWFllT2V3d1cwR2U3bWlvMjdaUmZfT05RLTd3c2Z6MEUwcUw4emRVUmQ?oc=5",
-          "name": "千葉テレビ放送株式会社",
-          "publishedAt": "Mon, 19 Oct 2026 19:53:25 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
-      "retained": false
-    },
-    {
-      "topic": "なにわ淀川花火大会",
-      "status": "ok",
-      "summary": "秋の夜空に大輪、なにわ淀川花火大会 暑さ避けて今年も10月開催 動画",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "秋の夜空に大輪、なにわ淀川花火大会 暑さ避けて今年も10月開催 動画",
-          "url": "https://www.asahi.com/video/articles/ASVBK42N6VBKOXIE04CM.html?iref=video_ranking_rank9",
-          "name": "朝日新聞",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
-      "retained": false
-    },
-    {
-      "topic": "thời tiết",
-      "status": "ok",
-      "summary": "ドゥ・バオ・トゥイ・ティット・ジュム19ヴァン・ガイ20/10",
-      "summaryBasis": "related-headline",
-      "issue": "「thời tiết」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "ドゥ・バオ・トゥイ・ティット・ジュム19ヴァン・ガイ20/10",
-          "url": "https://baolaocai.vn/du-bao-thoi-tiet-dem-19-va-ngay-2010-post912348.html",
-          "name": "Báo Lào Cai điện tử",
           "publishedAt": null
         },
         {
-          "title": "[動画]ドゥー・バオ・ティ・ティ・ジャム・ナイ・ヴァン・ガイ・マイ20/10/2026 ：ミー・ナム・ティ・ティ・ディ・ヌ・マ・ドン",
-          "url": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-20102026-mien-bac-nang-rao-mien-nam-tiep-dien-mua-dong-post996517.html",
-          "name": "Báo Nhân Dân điện tử",
+          "title": "インフルエンザ流行 鶏卵がワクチンになるまで 専門家に聞いた（日本農業新聞）",
+          "url": "https://news.yahoo.co.jp/articles/970f4383948269093d2f175390e4d6a0b12bf60c",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
       "retained": false
     },
     {
-      "topic": "望月理恵",
+      "topic": "運行情報",
       "status": "ok",
-      "summary": "「続くと…軽んじてしまうようになる」望月理恵アナ、緊急地震速報の取り消しに私見「気を付けなくてはいけない」…「ＤａｙＤａｙ．」",
+      "summary": "［鉄道運行情報］大雨の影響で、JR磐越西線五十島―馬下駅間で運転見合わせ（10月20日）",
       "summaryBasis": "related-headline",
       "issue": "どの地域・時間帯に影響があり、生活や移動の予定をどう変える必要があるか？",
       "whyItMatters": "対象地域・発表時刻・公式の最新情報を確かめ、行動を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「続くと…軽んじてしまうようになる」望月理恵アナ、緊急地震速報の取り消しに私見「気を付けなくてはいけない」…「ＤａｙＤａｙ．」",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWY0s2R2dYQ2ZaSEcyenRYLUtBT2tQYm9FcXZlZFd3MnRCa2pPbFRHUjB6TV9lVHppejVBeHQ5TnJrZ1QzOFVyaG5LYXR1N3lMc25JUXRZRnAtUjBZZU1BLVVtcE5tRjZWMHZuUEh1N2Y?oc=5",
-          "name": "読売新聞",
-          "publishedAt": "Mon, 19 Oct 2026 08:45:00 GMT"
-        },
-        {
-          "title": "10/19〜30OA 10/23（金）公開！映画『バッド・ルーテナント：トウキョウ』｜望月理恵のエンタメ☆カフェ",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84RFlubklwQjdYYW1ja3pwaUZaUjBhVnJuY3RXaFZXSGlheUxmd2QzOHNPOTNtWnFGYjdWeHZEMlMxbjh5V2FDMkNJX0pNcmJfNzJDdTVfYjNMNEwtSTBjeDhTOGk5QWdjMWhFeUF0b3p4WmJt?oc=5",
-          "name": "日本テレビ",
-          "publishedAt": "Mon, 19 Oct 2026 13:26:25 GMT"
+          "title": "［鉄道運行情報］大雨の影響で、JR磐越西線五十島―馬下駅間で運転見合わせ（10月20日）",
+          "url": "https://www.niigata-nippo.co.jp/articles/-/927285",
+          "name": "新潟日報",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-20T07:20:39.793202+09:00",
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
       "retained": false
     },
     {
-      "topic": "広島天気",
-      "status": "unavailable"
+      "topic": "古市憲寿",
+      "status": "ok",
+      "summary": "社会学者の古市憲寿氏が20日までにXを更新。三谷幸喜氏作・演出の舞台「アメリカン・ドリーム」を観劇したことなどを報告した。【写真】古市憲寿氏のインスタグラムから 1940年代に米国で吹き荒れ、多くの",
+      "summaryBasis": "publisher-description",
+      "issue": "「古市憲寿」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "古市憲寿氏投稿「中居くん騒動の時はみんな何の証拠もないはずなのにたやすく彼を断罪していた」（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/9e89f743edf76d9d9a0f4beb933e2fdf559c6c4f",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "古市憲寿氏が舞台「アメリカン・ドリーム」観劇後、中居騒動時の世間に言及 (2026年10月20日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32607547/",
+          "name": "ライブドアニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
+      "retained": false
+    },
+    {
+      "topic": "遅延",
+      "status": "ok",
+      "summary": "重量約13.3kgとなる製品パッケージのサイズについても公開されました。 不満の声多数…『真・女神転生』ボードゲームさらなる発送遅延と送料・関税の最終金額を告知 1枚目の写真・画像",
+      "summaryBasis": "publisher-description",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "不満の声多数…『真・女神転生』ボードゲームさらなる発送遅延と送料・関税の最終金額を告知 1枚目の写真・画像",
+          "url": "https://www.gamespark.jp/article/img/2026/10/17/173734/1207799.html",
+          "name": "Game*Spark",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
+      "retained": false
+    },
+    {
+      "topic": "東京メトロ",
+      "status": "ok",
+      "summary": "自動運転中の電車がオーバーラン 東京メトロ日比谷線虎ノ門ヒルズ駅 [東京都]",
+      "summaryBasis": "related-headline",
+      "issue": "「東京メトロ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "自動運転中の電車がオーバーラン 東京メトロ日比谷線虎ノ門ヒルズ駅 [東京都]",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvOW9yU1poOC11SDJmcmxoQzVydUE4Q096TkR6T2FhelF6aUZUNU1fNUxZTXdoSk1CSmNoZkhCOVpyeHFTSzkwZ3dOZHozSFpqRXlobTUxZjRtX1BOV2loVjNySEZUZ00?oc=5",
+          "name": "朝日新聞",
+          "publishedAt": "Mon, 19 Oct 2026 09:00:00 GMT"
+        },
+        {
+          "title": "東京メトロ日比谷線 自動運転中に300mオーバーラン 一時運転見合わせ3.4万人に影響",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNE1lSWlVOFMtclFScFo5eUJ3dFR3N05RX0NRRld3RnI2dDBjdmVJSi1BcV9pbFg4SG5XVmVlRG5FNFFibG9LQmRwM0lnZHVjZkdnaGNtY082X0dUMExiV19DZERGc3AyNXJxR19rNUVGQQ?oc=5",
+          "name": "テレ朝NEWS",
+          "publishedAt": "Mon, 19 Oct 2026 06:14:33 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-20T08:56:56.555045+09:00",
+      "retained": false
     }
   ]
 }
