@@ -1,0 +1,53 @@
+name: Build background game audio
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Update game patch archive']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - build_game_audio.py
+      - game-audio-files.js
+      - .github/workflows/game-audio.yml
+permissions:
+  contents: write
+concurrency:
+  group: game-background-audio
+  cancel-in-progress: false
+jobs:
+  audio:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/cache@v4
+        with:
+          path: .game-tts-cache
+          key: game-tts-mei-v1-${{ github.run_id }}
+          restore-keys: game-tts-mei-v1-
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python -m pip install pyopenjtalk==0.4.1
+        env:
+          CC: gcc
+          CXX: g++
+      - run: python build_game_audio.py
+      - name: Publish continuous audio and timings
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add game-audio-manifest.json game-audio-media
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate background game audio'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
