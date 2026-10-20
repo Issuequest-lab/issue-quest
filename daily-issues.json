@@ -1,143 +1,146 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-21",
-  "fetchedAt": "2026-10-21T06:36:32.192327+09:00",
+  "fetchedAt": "2026-10-21T08:25:42.810344+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "klasemen psg vs fc barcelona",
-    "広島 天気",
-    "날씨",
-    "ウラジーミル・プーチン",
-    "西日本新聞",
-    "日曜ドラマ",
-    "天氣",
-    "福岡市天気",
-    "豊橋 天気",
-    "テスラ株価"
+    "横浜マラソン",
+    "ブラッサム あらすじ",
+    "長崎市天気",
+    "倶知安 火事",
+    "windy",
+    "高知 天気",
+    "wetter",
+    "ミルウォーキー ブルワーズ",
+    "本店鉄なべ",
+    "山口市 天気"
   ],
   "briefs": [
     {
-      "topic": "klasemen psg vs fc barcelona",
-      "status": "unavailable"
-    },
-    {
-      "topic": "広島 天気",
+      "topic": "横浜マラソン",
       "status": "ok",
-      "summary": "【寒冷前線通過】あす（２０日）前線通過 雨脚が強まる所も 大きめの傘の出番（広島天気）",
-      "summaryBasis": "related-headline",
-      "issue": "「広島 天気」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "「横浜マラソン2026」が10月25日、横浜市内で開催される。募集人数は過去最多の3万200人で、フルマラソン、ペアリレー、湾岸ハイウェイラン、みなとみらい7キロラン、ファンランなどの種目を用意する",
+      "summaryBasis": "publisher-description",
+      "issue": "「横浜マラソン」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【寒冷前線通過】あす（２０日）前線通過 雨脚が強まる所も 大きめの傘の出番（広島天気）",
-          "url": "https://newsdig.tbs.co.jp/articles/-/3025913?display=1",
-          "name": "TBS NEWS DIG",
+          "title": "横浜マラソンに過去最多3万人 花火や観覧車の特別演出も（みんなの経済新聞ネットワーク）",
+          "url": "https://news.yahoo.co.jp/articles/72ad72a9a42d74d7e2677f9c2478327d3ee76799",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "大観覧車「コスモクロック21」、横浜マラソンとコラボ",
+          "url": "https://www.hamakei.com/photoflash/12198/",
+          "name": "ヨコハマ経済新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-21T06:36:32.192327+09:00",
+      "verifiedAt": "2026-10-21T08:25:42.810344+09:00",
       "retained": false
     },
     {
-      "topic": "날씨",
+      "topic": "ブラッサム あらすじ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "長崎市天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "倶知安 火事",
+      "status": "unavailable"
+    },
+    {
+      "topic": "windy",
       "status": "ok",
-      "summary": "強い風と寒い天気。全国的に穏やかな雨。",
-      "summaryBasis": "related-headline",
-      "issue": "「날씨」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "火曜日おめでとうございます！今日はここまで風が強かったです。水曜日もかなり風が強く、少し涼しくなってきています。",
+      "summaryBasis": "publisher-description",
+      "issue": "「windy」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "強い風と寒い天気。全国的に穏やかな雨。",
-          "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6859456_36989.html",
-          "name": "MBC 뉴스",
+          "title": "水曜日は涼しく、風が強い日",
+          "url": "https://whdh.com/news/cooler-windy-day-ahead-wednesday/",
+          "name": "WHDH",
+          "publishedAt": null
+        },
+        {
+          "title": "ボストンの天気予報（晴れた日曜日、風の強い週）",
+          "url": "https://hoodline.com/2026/10/boston-basks-in-sunny-sunday-before-blustery-mostly-dry-week-of-coastal-gales/",
+          "name": "Hoodline",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-21T06:36:32.192327+09:00",
+      "verifiedAt": "2026-10-21T08:25:42.810344+09:00",
       "retained": false
     },
     {
-      "topic": "ウラジーミル・プーチン",
+      "topic": "高知 天気",
       "status": "unavailable"
     },
     {
-      "topic": "西日本新聞",
-      "status": "unavailable"
-    },
-    {
-      "topic": "日曜ドラマ",
+      "topic": "wetter",
       "status": "ok",
-      "summary": "日テレ史上“歴代最高”を樹立！「１０回は観た」「ハンパない」“TVer・Hulu１位”を記録「圧巻」の完成度【日曜ドラマ】",
+      "summary": "So wird das Wetter in der Halloween - Woche inバイエルン",
       "summaryBasis": "related-headline",
+      "issue": "「wetter」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "So wird das Wetter in der Halloween - Woche inバイエルン",
+          "url": "https://www.augsburger-allgemeine.de/bayern/so-wird-das-wetter-in-der-halloween-woche-in-bayern-115535816",
+          "name": "Augsburger Allgemeine",
+          "publishedAt": null
+        },
+        {
+          "title": "ニーダーサクセンのWetterdienst warnt vor schweren Sturmböen",
+          "url": "https://www.kreiszeitung.de/lokales/niedersachsen/experten-warnen-vor-schweren-sturmboeen-in-niedersachsen-94549697.html",
+          "name": "Kreiszeitung",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-21T08:25:42.810344+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ミルウォーキー ブルワーズ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "本店鉄なべ",
+      "status": "ok",
+      "summary": "鉄なべ餃子発祥の店とされる「本店鉄なべ」を運営していた北九州市八幡西区の「温（はる）」が10月2日、福岡地裁小倉支部から破産開始決定を受けました。【画像で見る】鉄なべ餃子発祥の店「本店鉄なべ」運営会",
+      "summaryBasis": "publisher-description",
       "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
       "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "日テレ史上“歴代最高”を樹立！「１０回は観た」「ハンパない」“TVer・Hulu１位”を記録「圧巻」の完成度【日曜ドラマ】",
-          "url": "https://trilltrill.jp/articles/5069913",
-          "name": "TRILL",
+          "title": "【倒産】創業68年 鉄なべ餃子発祥の店「本店鉄なべ」を運営していた会社が破産開始決定 高齢の代表に後継者不在で9月に営業終了【東京商工リサーチ】（RKB毎日放送）",
+          "url": "https://news.yahoo.co.jp/articles/a2598470ecc43fcf22a3e70ad6d3636acff1bb56",
+          "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "NTV 新日曜ドラマ『ハイド&シーク 0秒前の彼女』出演の志田彩良が所属するテンカラットが新人を募集『2026秋ドラマ特別オーディション』開催",
-          "url": "https://topics.smt.docomo.ne.jp/article/oricon/entertainment/oricon-2487152",
-          "name": "ｄメニューニュース",
+          "title": "北九州のギョーザ店「本店鉄なべ」破産へ 運営会社「温」",
+          "url": "https://www.nishinippon.co.jp/item/1550982/",
+          "name": "西日本新聞me",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-21T06:36:32.192327+09:00",
+      "verifiedAt": "2026-10-21T08:25:42.810344+09:00",
       "retained": false
     },
     {
-      "topic": "天氣",
-      "status": "ok",
-      "summary": "【しまむら】【アベイル】どこに行っても赤い看板のお店に引き込まれてく... 明天的天氣 (s7yny0XQg1)",
-      "summaryBasis": "related-headline",
-      "issue": "「天氣」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【しまむら】【アベイル】どこに行っても赤い看板のお店に引き込まれてく... 明天的天氣 (s7yny0XQg1)",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11dlNBOTVFcXdtMDg1d0RZZ2duTm81UE1mdnctbFBUX1F2N2RKTWlWUzNkU1hzX05IRXAzM0hxNmlrRm9Mdl93YnN6d3V3S2JHMlFDUjJMTjNFVE9IUC1hVW1KVFhVbUtqa1JrYw?oc=5",
-          "name": "Unisba Media",
-          "publishedAt": "Mon, 19 Oct 2026 11:29:27 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-21T06:36:32.192327+09:00",
-      "retained": false
-    },
-    {
-      "topic": "福岡市天気",
+      "topic": "山口市 天気",
       "status": "unavailable"
-    },
-    {
-      "topic": "豊橋 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "テスラ株価",
-      "status": "ok",
-      "summary": "テスラ株価予想：第3四半期決算を控え、TSLA株は400ドルを突破できるか？",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "テスラ株価予想：第3四半期決算を控え、TSLA株は400ドルを突破できるか？",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajEzYXZzUUI3Tm9HUm9wR1dVUW9XQnYycW9pcl92SWcxcVBoa0lMd1pHQkZMQWplRGFWZHI4aXFFMEpJTGJuQ0tiN2lfc0haMUE1cGk4MGp2dFotOTRwZjdDWVJEQk8tZjZ5Rnh2bFJaMEszME5fNEdSZWpXNzZGclJicjY1b2JYaUZsU3R2OFh2dDlRQjFjNUdUTkRHMWloa0lYc3h1YzRjdFFyakFaMzkzVk5BRlhSUGc?oc=5",
-          "name": "TradingKey",
-          "publishedAt": "Mon, 19 Oct 2026 21:11:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-21T06:36:32.192327+09:00",
-      "retained": false
     }
   ]
 }
