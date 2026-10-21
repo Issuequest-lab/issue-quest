@@ -115,11 +115,63 @@ def parse_ronin(game,html,now):
         if record:result.append(record)
     return result
 
+def parse_aniimo(game,html,now):
+    soup=BeautifulSoup(html,'html.parser')
+    article=soup.select_one('.news-htmlStr')
+    if article is None:raise ValueError('aniimo-article-not-found')
+    published=parse_date(soup.get_text(' ',strip=True))
+    # The page date is an edit date. Each dated section is a separate update.
+    common=['PS5','PC','Xbox','Android','iOS']; sections={}; day=None; scope=common
+    for raw in article.get_text('\n',strip=True).splitlines():
+        text=clean(raw)
+        heading=re.fullmatch(r'(\d{1,2})月(\d{1,2})日\s*最適化[・･]修正内容',text)
+        if heading:
+            year=int((published or now)[:4])
+            if published and int(heading[1])>int(published[5:7])+6:year-=1
+            day=parse_date(f"{year}-{heading[1]}-{heading[2]}");scope=common
+            if day and game['releaseDate']<=day<=now[:10]:sections.setdefault(day,[])
+            else:day=None
+            continue
+        if not day:continue  # Known issues at the top are NOT completed fixes.
+        if text.startswith('【') or text.startswith('〖'):
+            scope=['PS5','Xbox'] if 'コンソール' in text else common
+        line_scope=platforms(text)
+        if not line_scope:
+            line_scope=['Android'] if 'Android' in text else ['Android','iOS'] if 'モバイル' in text else ['PS5','Xbox'] if 'コンソール' in text else ['PS5'] if 'PS版' in text else scope
+        sections[day].append((text,line_scope))
+    result=[]
+    for day,lines in sections.items():
+        try:
+            r=make_record(game,game['source']+'#'+day,'アニモ 最適化・修正',day,common,' '.join(t for t,_ in lines),lines,now)
+        except ValueError:continue
+        if r:
+            r['timelineChanges']=r['changes']
+            r['platforms']=list(dict.fromkeys(p for c in r['changes'] for p in c['platforms']))
+            r['platformBasis']='機種限定の行・見出しを優先。機種指定のない共通告知は対応機種共通として整理。'
+            result.append(r)
+    if not result:raise ValueError('aniimo-dated-updates-empty')
+    return result
+
 def collect(game,old,now):
     records={r['id']:r for r in old.get('updates',[])};errors=[];fresh=[]
     try:
         html=fetch(game['source'])
-        if game['parser']=='ronin':fresh=parse_ronin(game,html,now)
+        if game['parser']=='aniimo':
+            fresh=parse_aniimo(game,html,now)
+            for url in game.get('weeklySources',[]):
+                try:
+                    soup=BeautifulSoup(fetch(url),'html.parser');body=soup.select_one('.news-htmlStr')
+                    if body is None:raise ValueError('aniimo-weekly-body-missing')
+                    text=body.get_text(' ',strip=True)
+                    performed=re.search(r'(20\d{2}年\d{1,2}月\d{1,2}日)に.*?リソース更新を行いました',text)
+                    if not performed:raise ValueError('aniimo-weekly-date-unconfirmed')
+                    common=['PS5','PC','Xbox','Android','iOS']
+                    record=make_record(game,url,'アニモ ウィークリー更新',parse_date(performed[1]),common,text,body.get_text('\n',strip=True).splitlines(),now)
+                    if record:
+                        record['timelineChanges']=record['changes'];record['platformBasis']='機種を限定しない公式共通告知'
+                        fresh.append(record)
+                except Exception as exc:errors.append({'url':url,'reason':type(exc).__name__})
+        elif game['parser']=='ronin':fresh=parse_ronin(game,html,now)
         else:
             refs=discover(game,html)
             if not refs:raise ValueError('update-index-empty')
@@ -164,3 +216,4 @@ def main():
     print(json.dumps([{'game':g['id'],'status':g['sourceStatus'],'updates':len(g['updates'])} for g in games],ensure_ascii=False))
     if all(g['sourceStatus']=='failed' for g in games):print('WARNING: all sources failed; preserved previous records with explicit failed status')
 if __name__=='__main__':main()
+

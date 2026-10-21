@@ -9,6 +9,10 @@
   function build(games,p){
     const chapters=[];
     for(const g of games){
+      if(g.deepDive && (p==='all'||g.deepDive.platforms.includes(p))){
+        for(const [i,c] of g.deepDive.chapters.entries())chapters.push({id:g.id+':article:'+i,title:g.name+' ／ '+c.title,lines:[`${g.name}。${c.title}。`,...c.paragraphs.map(spoken)]});
+        continue;
+      }
       const groups=new Map(),add=(key,item)=>{if(!groups.has(key))groups.set(key,[]);groups.get(key).push(item);};
       if(['PS5','all'].includes(p))for(const m of g.milestones||[])add(feature(m.before+' '+m.after)||'追加コンテンツ',{date:m.date,text:`発売時は、${spoken(m.before)}。${day(m.date)}には、${spoken(m.after)}。`,baseline:true});
       const seen=new Set();
@@ -91,3 +95,4 @@
     }catch{if(serial!==revision)return;status('音声を準備中、または読み込めませんでした。時間をおいて再読み込みしてください。');}
   });
 })();
+

@@ -17,6 +17,11 @@ function note(u,details=false){const box=n('div',undefined,details?'history':'bo
 for(const c of u.changes)box.append(n('p',excerpt(c),details?'':'insight-row'));
 box.append(n('p','公式発表をもとに整理。','hint'),link(u.url));return box;}
 function gameCard(g){const card=n('article',undefined,'card');card.append(n('div',g.company,'meta'),n('h3',g.name),n('p',`PS5発売日：${g.releaseDate}`,'meta'));
+card.id='game-'+g.id;
+if(g.deepDive){const d=g.deepDive,story=n('section',undefined,'deep-dive');story.append(n('p',`深掘り記事 · ${d.publishedAt}公開 · ${d.asOf}時点`,'meta'),n('h4',d.title),n('p',d.summary,'insight-row'),n('p','中心となるイシュー：'+d.issue,'insight-row'));
+const listen=n('button','この作品の音声を選ぶ','btn');listen.type='button';listen.onclick=()=>{$('#search').value=g.name;$('#platform').value='PS5';reset();render();$('#readPlay').scrollIntoView({block:'center',behavior:'smooth'});$('#readStatus').textContent='この作品を選択しました。再生ボタンで開始できます。';};story.append(listen);
+for(const c of d.chapters){const section=n('details');section.open=true;section.append(n('summary',c.title));for(const text of c.paragraphs)section.append(n('p',text));story.append(section);}
+story.append(n('p','変更の意味や評価は編集上の考察です。公式の修正発表と、実機での解消確認は区別しています。','hint'));const sources=n('details');sources.append(n('summary','参考情報（読み上げ対象外）'));for(const s of d.sources)sources.append(link(s.url,s.title));story.append(sources);card.append(story);}
 if(g.sourceStatus!=='ok')card.append(n('p',g.sourceStatus==='failed'?'今回の確認に失敗。前回までの記録を表示しています。':'一部の公式履歴を取得できていません。','warn'));
 card.append(n('p',`公式情報の確認：${dateTime(g.checkedAt)}`,'meta'));
 const updates=matching(g),latest=updates[0];card.append(n('h4',`${$('#platform').selectedOptions[0].textContent}の最新確認記録`));
@@ -38,3 +43,4 @@ function month(){options($('#day'),days.filter(d=>d.startsWith($('#month').value
 $('#platform').onchange=()=>{reset();render();};$('#search').oninput=()=>{reset();render();};$('#month').onchange=month;$('#day').onchange=loadDay;$('#compareBtn').onclick=compare;$('#clearBtn').onclick=()=>{reset();render();};
 (async()=>{try{const index=await read('game-updates-index.json');days=index.days.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().reverse();if(!days.length)throw Error('まだ更新の記録がありません。');options($('#month'),[...new Set(days.map(d=>d.slice(0,7)))]);await month();}catch(e){$('#status').textContent=e.message;}})();
 })();
+

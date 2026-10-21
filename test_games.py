@@ -9,6 +9,18 @@ NOW='2026-10-13T08:00:00+09:00'
 GAME={'id':'test','name':'Test','parser':'elden','source':'https://www.eldenring.jp/news.html','releaseDate':'2022-02-25'}
 HTML='''<article><p>対象プラットフォーム</p><p>PlayStation 5 / Steam</p><h2>修正</h2><ul><li>特定条件で進行不能になる不具合の修正</li></ul><p>App Ver. 1.20</p></article>'''
 class Tests(unittest.TestCase):
+ def test_aniimo_dates_and_known_issues(self):
+  game={**GAME,'parser':'aniimo','releaseDate':'2026-09-16'}
+  html='<div>2026-10-16</div><div class="news-htmlStr"><p>現在判明：未修正の問題</p><p>10月12日 最適化・修正内容</p><p>PS5で暗転する問題を修正</p><p>10月30日 最適化・修正内容</p><p>未来の機能を追加</p></div>'
+  records=g.parse_aniimo(game,html,'2026-10-21T10:00:00+09:00')
+  self.assertEqual([r['date'] for r in records],['2026-10-12'])
+  self.assertEqual(records[0]['changes'][0]['platforms'],['PS5'])
+  self.assertNotIn('未修正',json.dumps(records,ensure_ascii=False))
+  self.assertEqual(g.parse_aniimo(game,html,'2027-01-01T10:00:00+09:00')[0]['date'],'2026-10-12')
+ def test_aniimo_article_has_dated_chapters(self):
+  game=next(x for x in json.loads((Path(__file__).parent/'game-catalog.json').read_text())['games'] if x['id']=='aniimo')
+  self.assertEqual(len(game['deepDive']['chapters']),7)
+  self.assertTrue(all(len(c['paragraphs'])>=3 for c in game['deepDive']['chapters']))
  def test_semantic_categories(self):
   self.assertEqual(g.classify('フォトモードのクイック起動機能を追加'),'コンテンツ')
   self.assertEqual(g.classify('バトルパフォーマンスを増加させるボーナスを追加'),'バランス')
@@ -60,3 +72,4 @@ class Tests(unittest.TestCase):
    a=g.collect(GAME,{},NOW);b=g.collect(GAME,a,'2026-10-13T17:00:00+09:00')
   self.assertEqual(len(b['updates']),1);self.assertEqual(b['updates'][0]['firstSeenAt'],NOW)
 if __name__=='__main__':unittest.main()
+
