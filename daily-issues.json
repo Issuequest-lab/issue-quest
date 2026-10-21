@@ -1,170 +1,176 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-22",
-  "fetchedAt": "2026-10-22T06:42:02.065953+09:00",
+  "fetchedAt": "2026-10-22T08:40:08.955881+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "real madrid vs rb leipzig standings",
-    "青森市 天気",
-    "klasemen real madrid vs rb leipzig",
-    "バロンドール",
-    "president online",
-    "杉原愛子",
-    "spcx",
-    "nvda",
-    "アコスタ",
-    "ナスダック100指数"
+    "高橋塁",
+    "ネッツ 対 ホーネッツ",
+    "java 脆弱性",
+    "東京湾大華火祭 2026",
+    "中須翔真",
+    "ディオマンデ",
+    "パンサー向井",
+    "ヒート 対 ウルブズ",
+    "メーガン妃",
+    "放送休止"
   ],
   "briefs": [
     {
-      "topic": "real madrid vs rb leipzig standings",
-      "status": "unavailable"
-    },
-    {
-      "topic": "青森市 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "klasemen real madrid vs rb leipzig",
-      "status": "unavailable"
-    },
-    {
-      "topic": "バロンドール",
+      "topic": "高橋塁",
       "status": "ok",
-      "summary": "バロンドール歴代受賞者一覧｜最多受賞者ランキング・国別・クラブ別・男子・女子",
-      "summaryBasis": "related-headline",
-      "issue": "「バロンドール」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "バロンドール歴代受賞者一覧｜最多受賞者ランキング・国別・クラブ別・男子・女子",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaXNWM1pURXBmd2VTbHpPdUxhbTkzejlhdWk1a2N3Z3NCa18zTk1jdVRnb2ZKYml5VFJzME9JbXZ3My0wTkd3b3k0LU5MTUFGbkl2SllXYkRVWTRQdExUZTJReUJoMDkxclNfUjY5NWhMQ1NVZWFJY3dsNW5OUGRtTXNEanF4UEh0VVFIQUJCWUw0MjRFUGt5ZzU3SEFlaTlpTENKRmh3bmkwMWp2aGlld1hEVTZxRGtKVlE?oc=5",
-          "name": "DAZN",
-          "publishedAt": "Wed, 21 Oct 2026 17:20:35 GMT"
-        },
-        {
-          "title": "クルトワ「バロンドールにふさわしいのはエンバペだが…僕たちは無冠だ」「ヤマルは彼ほど活躍していないのにW杯で優勝した」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uUlh0bnBUalBpNDVLMXlyMlkyMTBNdUYzZzdHQ3NpOTVDeW4tUTgzeEFQSGQzWDBwRDFFTWlfNnFybDNTTkVIYzdOYmtSZ3lFVmZrSWVJNktmNkxRVGt1eGpPMGNnWm1LYk1OT29hZ1pKY3Bxc3dlOEY5bllIckE?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 21 Oct 2026 14:53:14 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
-      "retained": false
-    },
-    {
-      "topic": "president online",
-      "status": "unavailable"
-    },
-    {
-      "topic": "杉原愛子",
-      "status": "ok",
-      "summary": "西山実沙、岡村真を3種目で起用 体操世界選手権の女子団体、杉原愛子は2種目",
-      "summaryBasis": "related-headline",
+      "summary": "自身がゲイ（男性の同性愛者）であることをSNSで公表したバレーボール男子の高橋塁選手（26）=サントリーサンバーズ大阪=が単独インタビューに応じ、公表に至るまでの葛藤や思いを語った。日本のトップスポ",
+      "summaryBasis": "publisher-description",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "西山実沙、岡村真を3種目で起用 体操世界選手権の女子団体、杉原愛子は2種目",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LdkU2czJOTmhSZnU1ekFOSi1BbF91SWNvbGs5WU8xTDlpWEd5SzJBdkxRd0FMR00zRUtkakRvYTFwdXU4b0hpTEFOVUdlZ1NlTkd1NE9pWm1EdGsyTHNFV3BLY3ZMQ1VCVlRwZjFyY0g1dGZ0d1E?oc=5",
-          "name": "産経ニュース",
-          "publishedAt": "Wed, 21 Oct 2026 00:30:25 GMT"
+          "title": "「最悪、バレーができなくなっても」高橋塁選手、ゲイ公表の葛藤語る",
+          "url": "https://news.yahoo.co.jp/pickup/6599656",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
         },
         {
-          "title": "【体操】杉原愛子ら日本５位、女子団体決勝へ 世界選手権、予選で中国首位",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wbEtUNDZlZzEwcl9HTEE0dEVRc29pTDVjOWtreHcwOXBnVll0NVk4UWhRV0N4cUh4V1g3UF8xSG90Z051Vi1fM0tpZGxaMUZWbDdTR2dQUTUzS0hZb2Vid3JBUWQ3NXBYUUJrNDNrTkFmN1HSAXZBVV95cUxQbVJMb0EzbGoySy1ySERpTHRsRGlwYkloVWNmXzREQ0F6YUpZeS01MjFUR0otMVBGeGxhdG9NbUlJZEI1cDc5bWVUelloa3JmTmZrOXBNbG5mcmF5QWlIQmJRWXpoVEs4OGxXa0xPUVhCcFl3NFVB?oc=5",
-          "name": "日刊スポーツ",
-          "publishedAt": "Tue, 20 Oct 2026 00:25:49 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
-      "retained": false
-    },
-    {
-      "topic": "spcx",
-      "status": "ok",
-      "summary": "$スペースX (SPCX.US)$",
-      "summaryBasis": "related-headline",
-      "issue": "「spcx」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "$スペースX (SPCX.US)$",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpcGFDMHlIYmxQTTF1YmFKU3BhcktCY1VHSGoxeHdya0FJMjhEZXQzanFnbkdLZGd5V0owaTlMZll0cmhDRE10RGxyc3RWT0lLbWQyWE45YU02VUxOaTRxcjAyaGRlb1ZKQVg1aE5YQnFKQktydk9kcmN1bw?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Wed, 21 Oct 2026 16:10:42 GMT"
-        },
-        {
-          "title": "10月21日のSpaceX (SPCX) 始値は8.04%上昇：主な推進要因が明らかにされました",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTE9rVEtlUTROTlVXNWJJRmVwd2FCM2RTSjlOVE9LMm05Q014VVdySXlHVFZlTF9vMEJJYXhleW1hQUNuSFFwbDRhdFVUZmJpQlNfeS1XTkxVelpUYWFqX3NldzVoN043Y3JjSmRMUkxSS3BYNE1PeWtxUnZIc2thd21fa3VSdTZtVFpTd1I5MA?oc=5",
-          "name": "TradingKey",
-          "publishedAt": "Wed, 21 Oct 2026 13:48:13 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
-      "retained": false
-    },
-    {
-      "topic": "nvda",
-      "status": "ok",
-      "summary": "NVDAの株価は220 $を上回り、AmazonはNvidiaチップで数十億ドルを購入するが、電力の制約がリターンを脅かす",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "NVDAの株価は220 $を上回り、AmazonはNvidiaチップで数十億ドルを購入するが、電力の制約がリターンを脅かす",
-          "url": "https://www.fxleaders.com/news/2026/10/21/nvda-stock-rebounds-above-220-as-amazon-buys-billions-in-nvidia-chips-but-electricity-constraints-threaten-returns/",
-          "name": "FXLeaders",
+          "title": "ゲイ公表の高橋塁選手、藍選手のラフな感じに「僕はすごく救われた」",
+          "url": "https://www.asahi.com/articles/ASVBP2T0NVBPUTIL03NM.html",
+          "name": "朝日新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
       "retained": false
     },
     {
-      "topic": "アコスタ",
+      "topic": "ネッツ 対 ホーネッツ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "java 脆弱性",
+      "status": "unavailable"
+    },
+    {
+      "topic": "東京湾大華火祭 2026",
       "status": "ok",
-      "summary": "10月10日、東京都江東区のTFTビルにて「acosta!＠TFTビル」が開催されました。【画像】ミニ丈ニットがセクシーな『NIKKE』など「アコスタTFT」で出会った美女レイヤー7選（33枚）同イ",
-      "summaryBasis": "publisher-description",
-      "issue": "「アコスタ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "【今週末ついに放送！】東京湾大華火祭2026の舞台裏",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【今週末ついに放送！】東京湾大華火祭2026の舞台裏",
+          "url": "https://www.bs-asahi.co.jp/episode0/lineup/20261021/",
+          "name": "BS朝日",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
+      "retained": false
+    },
+    {
+      "topic": "中須翔真",
+      "status": "ok",
+      "summary": "「ブラッサム」弟・守“涙の熱演”15歳・中須翔真とは？珠ついに岩国と決別「チビ武志」ネットもらい泣き（スポニチアネックス）",
+      "summaryBasis": "related-headline",
+      "issue": "「中須翔真」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【コスプレ】肩出しニットがセクシーな『NIKKE』、振り向いた背中が美しい『ゼンゼロ』まで「アコスタTFT」美女レイヤー7選【写真33枚】（インサイド）",
-          "url": "https://news.yahoo.co.jp/articles/f5f7db8bcf7a628def7c78681389aa903e314a2f",
+          "title": "「ブラッサム」弟・守“涙の熱演”15歳・中須翔真とは？珠ついに岩国と決別「チビ武志」ネットもらい泣き（スポニチアネックス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0RUk1X1hIYW5XWEZLVDlrMW1FQ0h0YmJzVWNUTWR5Vktld3Nqbzd6QmQtOVVnMjY4RDFZem9iQmtPclVUNmdLSW45aVQtYmEtYXVQUzRJNVNKcThGTG1mN29vUmpVZ0NKTlphVTJST3ozYkZOV0xSTWNxMUlkSU0?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Wed, 21 Oct 2026 23:15:00 GMT"
+        },
+        {
+          "title": "連続テレビ小説「ブラッサム」第19話。葉野守（中須翔真）は葉野珠（石橋静河）に「どがあな目に遭うても耐えてきたんは、姉さまと一緒におりたかったからじゃ」――（C）NHK",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWXRKWFF2YlQ2R2prai1OTUJYb0h6VUJRUG40Vkh5MjVtTy1pZC0yQWcyendXdXNTT01QeGkxYUt5THFPbks4MFRXRFpEOGUtelN1aklVSndCMGdUWWc1N1FvaTg1aXdILUtPTzNvc2lOcEhGWUxXcHBZbERYVGs4bEJFRzE1OXVNU2RvME85V0FHTVZwQ1E?oc=5",
+          "name": "スポニチ Sponichi Annex",
+          "publishedAt": "Wed, 21 Oct 2026 23:26:49 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ディオマンデ",
+      "status": "ok",
+      "summary": "レアル・マドリーがRBライプツィヒに快勝！B・シウバ、エンバペ、ギュレル、ディオマンデがゴール…渦中のヴィニシウスは結果を残せずブーイング（GOAL）",
+      "summaryBasis": "related-headline",
+      "issue": "「ディオマンデ」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "レアル・マドリーがRBライプツィヒに快勝！B・シウバ、エンバペ、ギュレル、ディオマンデがゴール…渦中のヴィニシウスは結果を残せずブーイング（GOAL）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KS3ZNd3RBV01mc3BxVnBucnNCekJyMVgtelB1VE5RRjBteW0zU01YbkZNTmU5Q1VFTXE4Ry1oSlJkTHFWclZsV3dJQWU4NVF3U0g1NzdvUzEyOVFXUXM0MHVWa2E1bHV4V19MMFcyQkN6WjUyMVNnUF9aRXJSaDQ?oc=5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": "Wed, 21 Oct 2026 20:55:10 GMT"
+        },
+        {
+          "title": "ヤン・ディオマンデが圧巻のスーパーゴール。レアル・マドリーの快勝で輝く",
+          "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxNNHg1bnYyTGVVMl9XLXREaG4zcW9XREllX1ROUm1paVBabFlvQUotaTVHVUJyalFNWkNQNlZ4TW93QnNKajRUOXoxdm4tYXBzVUhfMVBsbTlBRVFXcnVrWi12RkVieFYzTDMwNWQ3X2FVQ0VlV0UxMTZFZXN2ZU5DU3V4emFucUdKcEVVdWxIazZkQUljSGR5Ulg0YnljejZLMzJFRVdCeGFjXzA1VExZU3VyUGVBOTR1YWt0ZnRndkZBSUtFRUlSZmU1bTk1bjBjWktwYWlPQTFGRENma3Q3T1FVa2R4N3JGMlF5OTRxUnJlZ1VmTnFvWmtZUlRmX1hfTmJ4azlHQXl4bmZubkxxZWkxbUNIcXVtM3VoMEUxNHhhOHRDU3dTZVNmS21jMXBiWHhlY1FQQl9JRWdRenNlVGVRNDdhQU1jQlFQeTlkdFFWb01rQV8xSXJaWEl4eGRQLVhvZGxlTUZ1T0taX0NGWUJab204WlcwRVZ0aXNlbXFIc2pRTlczXzdOWlJRaW5XWC1uck5BUlp1T3VRU0hXNEpnczEzVVJzRE9ZMjJlZWNfU2JkOE90VnBrZ2lPUzAwckNCemJPNXM5UFFQRHpJdEVWendxTF95WGF0R1ZWTTNLSFl0bGVNQ0syTGxNRFJHNWlJM1poeW1IZHBHZlpMb3VHbkdtQXNHY1ZFUUR5QVBnT1piWi1OblZmd08wREZjdEg2R2NxNWpMamRySUhOVS1xdmlIYlhJTDdpVUdRb1FlTTdJbF9uSFBrejJDWjhiQ1hIa3RrTkcwLTNHQjhPdg?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Wed, 21 Oct 2026 21:00:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
+      "retained": false
+    },
+    {
+      "topic": "パンサー向井",
+      "status": "ok",
+      "summary": "パンサー向井慧、TBS若林有子アナの話題連発に顔真っ赤でタジタジ 共演者も報道陣もイジる（日刊スポーツ）",
+      "summaryBasis": "related-headline",
+      "issue": "「パンサー向井」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "パンサー向井慧、TBS若林有子アナの話題連発に顔真っ赤でタジタジ 共演者も報道陣もイジる（日刊スポーツ）",
+          "url": "https://news.yahoo.co.jp/articles/0818a97939927067c6cd535772d16f6d4a190be6",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
       "retained": false
     },
     {
-      "topic": "ナスダック100指数",
+      "topic": "ヒート 対 ウルブズ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "メーガン妃",
       "status": "ok",
-      "summary": "米国市場の展望：ナスダック100指数、下落率1％に拡大 アップル、iPhone 18 Pro向け可変絞り技術でQnityとの協力拡大 アマゾン、来年ドイツに160億ユーロ以上を投資へ",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
+      "summary": "王室の公務から退いた後、移住していたアメリカから突然帰国したメーガン妃が、初めてヘンリー王子とそろって公の場に登場した。自らの“最大の強み”であるファッションの力を借りて、イギリスへの敬意を示そうと",
+      "summaryBasis": "publisher-description",
+      "issue": "「メーガン妃」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "米国市場の展望：ナスダック100指数、下落率1％に拡大 アップル、iPhone 18 Pro向け可変絞り技術でQnityとの協力拡大 アマゾン、来年ドイツに160億ユーロ以上を投資へ",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjluTHRwUjJGbXpDMU83Q1FCcXBweUVYSTVmUkxEdTA1a25yVV80YXBQMjRkeVVUY0hMZlM1akdTUnBTaThiQ18xcUpyUG1OWEJzVkt0N0tLR0k4dE5XeEVHV3VpRHJRYy1zZ2dXaHFtX1phMWlNLWRoMjdTcXhPY05NMU1uWHF3Z0hwUmptVWNvalZ2aUhZS2hWM3RTdVlKWi01Q1FkT3JTci00LWc?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Tue, 20 Oct 2026 13:45:23 GMT"
+          "title": "メーガン妃「ロイヤル気分」に思わず\"ルンルン\"の表情をみせる。「最大の強み」でイギリスでの好感度アップを狙う",
+          "url": "https://news.yahoo.co.jp/articles/f24793ab4f99d3a0f39f0ae18ad19ab5f21cd409",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        },
+        {
+          "title": "「二度と英国に戻りたくない」と報じられたメーガン妃が、英国で頼りにする味方リスト",
+          "url": "https://www.elle.com/jp/culture/celebgossip/g74086537/meghan-markle-sussex-celebrity-friends-in-uk-261009/",
+          "name": "ELLE",
+          "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-22T06:42:02.065953+09:00",
+      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
       "retained": false
+    },
+    {
+      "topic": "放送休止",
+      "status": "unavailable"
     }
   ]
 }
