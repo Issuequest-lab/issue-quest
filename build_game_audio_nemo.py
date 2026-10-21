@@ -14,9 +14,12 @@ def digest(value):
 def pcm(text):
  return synthesize(text, CACHE)
 
-def main():
+def get_tracks():
  script="const {build,hash}=require('./game-audio-files.js');const d=require('./game-updates-latest.json');const out=[];for(const p of ['PS5','PC','all','unknown'])for(const g of d.games){const chapters=build([g],p);if(chapters.length)out.push({gameId:g.id,name:g.name,platform:p,signature:hash(JSON.stringify(chapters)),chapters});}console.log(JSON.stringify(out));"
- tracks=json.loads(subprocess.check_output(['node','-e',script],cwd=ROOT))
+ return json.loads(subprocess.check_output(['node','-e',script],cwd=ROOT))
+
+def main():
+ tracks=get_tracks()
  manifest_path=ROOT/'game-audio-manifest.json'
  old=json.loads(manifest_path.read_text()) if manifest_path.exists() else {'tracks':[]}
  MEDIA.mkdir(exist_ok=True)

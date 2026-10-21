@@ -48,7 +48,8 @@ def main():
                         time.sleep(1)
                 else:
                     raise TimeoutError('Nemo startup timed out')
-                subprocess.run([os.sys.executable, str(ROOT/'build_game_audio_nemo.py')],check=True,cwd=ROOT)
+                target = 'warm_game_audio.py' if 'GAME_AUDIO_WARM_SHARD' in os.environ else 'build_game_audio_nemo.py'
+                subprocess.run([os.sys.executable, str(ROOT/target)],check=True,cwd=ROOT)
             except BaseException:
                 log.flush(); log.seek(0)
                 print(log.read()[-4000:],flush=True)

@@ -67,11 +67,19 @@ def wav_pcm(data):
         return raw
 
 
+def cache_key(text):
+    return hashlib.sha256((VOICE + json.dumps(SETTINGS,sort_keys=True) + pronunciation(text)).encode()).hexdigest()
+
+
+def shard_for(text):
+    return int(cache_key(text)[:8], 16) % 8
+
+
 def pcm(text, cache):
-    cache = Path(cache)
+    cache = Path(cache) / ('shard-' + str(shard_for(text)))
     cache.mkdir(parents=True, exist_ok=True)
     speech = pronunciation(text)
-    key = hashlib.sha256((VOICE + json.dumps(SETTINGS,sort_keys=True) + speech).encode()).hexdigest()
+    key = cache_key(text)
     path = cache / (key + '.pcm.z')
     if path.exists():
         try:

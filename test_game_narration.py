@@ -35,6 +35,6 @@ class NarrationTests(unittest.TestCase):
                 self.assertEqual(request.call_count,2)
             with patch.object(n,'request',side_effect=OSError('offline')):
                 with self.assertRaises(OSError):n.pcm('別の音声。',d)
-            self.assertEqual(len(list(Path(d).glob('*.pcm.z'))),1)
+            self.assertEqual(len(list(Path(d).rglob('*.pcm.z'))),1)
 
 if __name__=='__main__':unittest.main()
