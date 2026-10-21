@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-20",
-  "checkedAt": "2026-10-20T11:04:44+09:00",
+  "date": "2026-10-21",
+  "checkedAt": "2026-10-21T11:00:26+09:00",
   "games": [
     {
       "id": "elden-ring",
@@ -23,7 +23,7 @@
           "basis": "発売後の公式追加記録に基づく比較"
         }
       ],
-      "checkedAt": "2026-10-20T11:04:44+09:00",
+      "checkedAt": "2026-10-21T11:00:26+09:00",
       "sourceStatus": "partial",
       "errors": [
         {
@@ -32,6 +32,98 @@
         }
       ],
       "updates": [
+        {
+          "id": "881c35cf2994b0cad80c",
+          "url": "https://www.eldenring.jp/newsdetail/news_detail_261020_1.html",
+          "date": "2026-10-20",
+          "title": "2026.10.20 アップデートファイル配信のお知らせ",
+          "version": "1.17.2",
+          "platforms": [
+            "PS5",
+            "PS4",
+            "PC",
+            "Xbox"
+          ],
+          "platformBasis": "公式の対象機種表記（FF16初期分はPS5独占期間）",
+          "changes": [
+            {
+              "category": "性能・画質",
+              "text": "「黄金の文身（胴）」を装備した状態において、ステータスメニューで「兜の非表示」を行うとキャラクターのグラフィックが正しく表示されない不具合の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            },
+            {
+              "category": "その他の修正",
+              "text": "スタッフロールの一部記載の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            }
+          ],
+          "timelineChanges": [
+            {
+              "category": "性能・画質",
+              "text": "「黄金の文身（胴）」を装備した状態において、ステータスメニューで「兜の非表示」を行うとキャラクターのグラフィックが正しく表示されない不具合の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            },
+            {
+              "category": "性能・画質",
+              "text": "右手に「レオティエルの大剣」を持った状態で左手に持った「連弩」の戦技を使用すると、左手のグラフィックが正しく表示されなくなる不具合の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            },
+            {
+              "category": "その他の修正",
+              "text": "スタッフロールの一部記載の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            },
+            {
+              "category": "その他の修正",
+              "text": "特定の手順で放った「骨の誘い矢」「骨の誘い矢（羽付き）」に状態異常を蓄積する効果が付与される不具合の修正",
+              "excerpt": true,
+              "platforms": [
+                "PS5",
+                "PS4",
+                "PC",
+                "Xbox"
+              ]
+            }
+          ],
+          "categories": [
+            "性能・画質",
+            "その他の修正"
+          ],
+          "contentHash": "2dc7bd373517c6863e83b3beac92514f103cf268f428d2e7ef669bbc2fe15be0",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
+          "firstSeenAt": "2026-10-21T11:00:26+09:00",
+          "evidence": "公式発表／実機検証なし"
+        },
         {
           "id": "d57caf93a0f94ea5b140",
           "url": "https://www.eldenring.jp/newsdetail/news_detail_260908_1.html",
@@ -75,7 +167,7 @@
             "その他の修正"
           ],
           "contentHash": "0c01fd828408b185dc828130ac9392383867a513f08b4d9834bc7339b4e456e2",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -416,7 +508,7 @@
             "バランス"
           ],
           "contentHash": "06074fbf77b829f49cc4a51c9105380dd289980a33ae7bc5daaaaca231891865",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -461,7 +553,7 @@
             "性能・画質"
           ],
           "contentHash": "c7e189428741fd6edeb65876ffa782a877b4979aa1f7ce851ff5e32840cc6cbb",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -506,7 +598,7 @@
             "その他の修正"
           ],
           "contentHash": "27895e479ae9746dccdebbb711d9a41032d5be145f462b61db028a09bc9b7a24",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -544,7 +636,7 @@
             "その他の修正"
           ],
           "contentHash": "cb04e65201e2b681e8e14706715d1e397e04b709cf4c5d19594081247be3db30",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -657,7 +749,7 @@
             "性能・画質"
           ],
           "contentHash": "ce7b08239877b7d19958e5406eeb917404a48e78b05d0b093845c1990cde5181",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -1433,7 +1525,7 @@
             "性能・画質"
           ],
           "contentHash": "214f61c0b6bff2fdd3e54ce05aaf92d328845540c9aa5528204cd9949ef53cb1",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -1547,7 +1639,7 @@
             "バランス"
           ],
           "contentHash": "d9add4a53dcb6381f57bf7fd6ce1e3a0ced016b7d5438213b152aacff02e8328",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -3553,7 +3645,7 @@
             "性能・画質"
           ],
           "contentHash": "e03af475837047df84070597d9cdeb2ef4150b585a6591e7af0aa947cd5451fa",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -3707,7 +3799,7 @@
             "性能・画質"
           ],
           "contentHash": "1571d6bb7dd35a75a359bf0b1cbf9a1f934e03dcefedc0966a57abc660aa428d",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -3758,7 +3850,7 @@
             "その他の修正"
           ],
           "contentHash": "3a37c479abb446631e036d30aee7141a239a07ec2b964f6379bed024737091e7",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -5037,7 +5129,7 @@
             "性能・画質"
           ],
           "contentHash": "4d084ce7ab6209b0e48745226eea52882757baf40f99f7ebcb6fc7ec5699c51d",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -5113,7 +5205,7 @@
             "操作性"
           ],
           "contentHash": "d14bf30d1e680b2cb53f5fa1df43c6ff81f617a4e1d93d9c026070e2eed507e5",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -5149,7 +5241,7 @@
             "その他の修正"
           ],
           "contentHash": "35206ca5f0e37ae312d1c8664f8d7d94e9eeb17eeba9322c3219561fa44ed56f",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -5329,7 +5421,7 @@
             "バランス"
           ],
           "contentHash": "0fc80907a253f85ca6b914cf91dd385e855fb71a5a0d9fd0206eef53753303f7",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -5410,7 +5502,7 @@
             "その他の修正"
           ],
           "contentHash": "7f50388a821cd2d8e3ef29ec03903c327f81cd10267ede112725ec44620daf43",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -6052,7 +6144,7 @@
             "性能・画質"
           ],
           "contentHash": "ad9bf333ab5a337a2ecbc7ecff0e38607caf3ecc304cb86a05a1730a8b199f18",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -6122,7 +6214,7 @@
             "操作性"
           ],
           "contentHash": "e5b5d9f045e93db07f0b2a7bff886a91b0f3e210f196e57dc5b938d8fae7472a",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -6545,7 +6637,7 @@
             "バランス"
           ],
           "contentHash": "aea0e34370bcc46f064bee165776b6a446d36673e0d8fffb90676561e725823c",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -6603,7 +6695,7 @@
             "バランス"
           ],
           "contentHash": "334eb717feae9fc647cd62255bf9a6d366101ce4fdc1149bb65d9d813e60ca31",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -8456,7 +8548,7 @@
             "性能・画質"
           ],
           "contentHash": "24a58a99d1cc295ad27551669c4b77159c150b5109a51bbc50adb6e5536f5f60",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -8988,7 +9080,7 @@
             "性能・画質"
           ],
           "contentHash": "a4985711099a0831e2d88bec3389f3bbb696f82a928302631e48fc757495e97e",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -9562,7 +9654,7 @@
             "性能・画質"
           ],
           "contentHash": "8ed24152aeeca8858855e58c74e25383a62a4f2982430bc4a485d4ba8d039381",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -9665,7 +9757,7 @@
             "その他の修正"
           ],
           "contentHash": "65e69d70aba9d3e1e0781e9fb94a16493cd77287679d57d3313809e4466e9c64",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -10744,7 +10836,7 @@
             "性能・画質"
           ],
           "contentHash": "fe49865ab71b1bced4437e219de2c4e92852ed7a911c04d81174a27fedca6e18",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -10791,7 +10883,7 @@
             "バランス"
           ],
           "contentHash": "53aa586bcb9bebc83bca999eac1ba2df52da53f34d7fac52fcf099bcc51cae2a",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -10880,7 +10972,7 @@
             "その他の修正"
           ],
           "contentHash": "40ee29b3090e98e2e6500323241878f9d977f56d590effd484ef04c2ee010e77",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -11449,7 +11541,7 @@
             "性能・画質"
           ],
           "contentHash": "ce9552e545b2c2553d086f902b2675fb6d251496b6e80ff0f4d84f42ca949639",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -11485,7 +11577,7 @@
             "その他の修正"
           ],
           "contentHash": "7ea61b32114aff0a915b1d4ca65ccf88b503d465e8f913d9e8d8fa4486d3d8a8",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -11554,7 +11646,7 @@
             "性能・画質"
           ],
           "contentHash": "13ef723b9008b046e75afbd031a1546274f0093fce406038a1f900f253b1e576",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -11623,7 +11715,7 @@
             "操作性"
           ],
           "contentHash": "78e9b8ad1425555f001ca62b93dc037e95ebce2777df8608b61656427261f901",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         }
@@ -11660,7 +11752,7 @@
           "basis": "パッチ告知日。購入が必要な追加要素を含む"
         }
       ],
-      "checkedAt": "2026-10-20T11:04:44+09:00",
+      "checkedAt": "2026-10-21T11:00:26+09:00",
       "sourceStatus": "partial",
       "errors": [
         {
@@ -11817,7 +11909,7 @@
             "性能・画質"
           ],
           "contentHash": "fd40cdfb07b39756396398efe96963636d878799cf293a100bad44dcc63cc98a",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -11937,7 +12029,7 @@
             "操作性"
           ],
           "contentHash": "96fd2958fdef879a68b3cf67c72b35b95224f124d8b16c0b2d2721d7eca97078",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -12048,7 +12140,7 @@
             "その他の修正"
           ],
           "contentHash": "0b49b18188f10b80e942c249646a333734db3308360400f216c1e48b9f70db2b",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -12119,7 +12211,7 @@
             "その他の修正"
           ],
           "contentHash": "1a4d9f9df7046822c59f0af2f8918460185c0b2bf54373df95e6ed3d9d1e2417",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13050,7 +13142,7 @@
             "安定性"
           ],
           "contentHash": "65bee5009af24647fa9d8dda77cb67debb142365fa0802243205373e061a3792",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13268,7 +13360,7 @@
             "安定性"
           ],
           "contentHash": "99e7fbd0fb898d9cf258c73438c5efadd8ce5d2254de872451feb48dbc1cd63a",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13306,7 +13398,7 @@
             "その他の修正"
           ],
           "contentHash": "dab1adf05f992b25dedf066701890ff596bd0f31baee57d3ccbefe8c42089a9c",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13555,7 +13647,7 @@
             "バランス"
           ],
           "contentHash": "ca753c9337790d3e1e53d1c2bd6b67fde56bdecf8142bb1de8dc7cba1489b957",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13618,7 +13710,7 @@
             "コンテンツ"
           ],
           "contentHash": "5e1e8931a3d43c24242f64001d1499f33feb7d7fab1614890ee341b95c8f0eca",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         }
@@ -13635,7 +13727,7 @@
       "parser": "ronin",
       "baseline": "この取得元では主にSteam版の更新履歴を確認できます。PS5発売時との具体的な差は未確認です。",
       "milestones": [],
-      "checkedAt": "2026-10-20T11:04:44+09:00",
+      "checkedAt": "2026-10-21T11:00:26+09:00",
       "sourceStatus": "ok",
       "errors": [],
       "updates": [
@@ -13673,7 +13765,7 @@
             "安定性"
           ],
           "contentHash": "78d1db99772bfd294d044519c812ba51411e261507b1879e31f9d1545826e640",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13728,7 +13820,7 @@
             "性能・画質"
           ],
           "contentHash": "938afc275052047e06215d55fe0b96de9b9163a89c895635e0e80dc62a575ffe",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -13889,7 +13981,7 @@
             "安定性"
           ],
           "contentHash": "a6694a17bb80d7efbc9c5bc23f3b073881256852621cefa8c694d33f88960ce8",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -14043,7 +14135,7 @@
             "安定性"
           ],
           "contentHash": "2132fe14be6836f540e795d53619ce60b07ea2da1b0819c9420429a5b1f68f75",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -14164,7 +14256,7 @@
             "操作性"
           ],
           "contentHash": "40990f19e5c3c707f64d5f0b121d4b0da278333fc16f71f8063a7be6b0e3e282",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         },
@@ -14220,7 +14312,7 @@
             "その他の修正"
           ],
           "contentHash": "564e3cbb0f9198edfffe6e2ed03de069c12b44c5b6728abbb743df263ac6bebd",
-          "lastVerifiedAt": "2026-10-20T11:04:44+09:00",
+          "lastVerifiedAt": "2026-10-21T11:00:26+09:00",
           "firstSeenAt": "2026-10-13T04:49:29+09:00",
           "evidence": "公式発表／実機検証なし"
         }
