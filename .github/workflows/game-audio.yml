@@ -7,7 +7,11 @@ on:
   push:
     branches: [main]
     paths:
-      - build_game_audio.py
+      - build_game_audio_nemo.py
+      - game_narration.py
+      - run_game_audio.py
+      - warm_game_audio.py
+      - test_game_narration.py
       - game-audio-files.js
       - .github/workflows/game-audio.yml
 permissions:
@@ -16,14 +20,19 @@ concurrency:
   group: game-background-audio
   cancel-in-progress: false
 jobs:
-  audio:
+  speech:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.sha }}
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -32,22 +41,76 @@ jobs:
           node-version: '22'
       - uses: actions/cache@v4
         with:
-          path: .game-tts-cache
-          key: game-tts-mei-v1-${{ github.run_id }}
-          restore-keys: game-tts-mei-v1-
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: python -m pip install pyopenjtalk==0.4.1
+          path: .game-tts-cache/shard-${{ matrix.shard }}
+          key: game-tts-nemo-0240-v1-s${{ matrix.shard }}-${{ github.run_id }}
+          restore-keys: game-tts-nemo-0240-v1-s${{ matrix.shard }}-
+      - run: python test_game_narration.py
+      - run: python run_game_audio.py
         env:
-          CC: gcc
-          CXX: g++
-      - run: python build_game_audio.py
+          GAME_AUDIO_WARM_SHARD: ${{ matrix.shard }}
+  audio:
+    needs: speech
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-0
+          key: game-tts-nemo-0240-v1-s0-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-1
+          key: game-tts-nemo-0240-v1-s1-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-2
+          key: game-tts-nemo-0240-v1-s2-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-3
+          key: game-tts-nemo-0240-v1-s3-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-4
+          key: game-tts-nemo-0240-v1-s4-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-5
+          key: game-tts-nemo-0240-v1-s5-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-6
+          key: game-tts-nemo-0240-v1-s6-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - uses: actions/cache/restore@v4
+        with:
+          path: .game-tts-cache/shard-7
+          key: game-tts-nemo-0240-v1-s7-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python build_game_audio_nemo.py
       - name: Publish continuous audio and timings
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add game-audio-manifest.json game-audio-media
           if ! git diff --cached --quiet; then
-            git commit -m 'Generate background game audio'
+            git commit -m 'Generate background game audio with VOICEVOX Nemo'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
