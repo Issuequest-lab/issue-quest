@@ -1,176 +1,134 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-22",
-  "fetchedAt": "2026-10-22T08:40:08.955881+09:00",
+  "updatedAt": "2026-10-23",
+  "fetchedAt": "2026-10-23T06:34:36.416344+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "高橋塁",
-    "ネッツ 対 ホーネッツ",
-    "java 脆弱性",
-    "東京湾大華火祭 2026",
-    "中須翔真",
-    "ディオマンデ",
-    "パンサー向井",
-    "ヒート 対 ウルブズ",
-    "メーガン妃",
-    "放送休止"
+    "橋本大輝",
+    "今日の気温",
+    "thời tiết",
+    "横浜 天気",
+    "山田邦子",
+    "ウエザーニュース",
+    "台湾 天気",
+    "久保建英",
+    "京都天気",
+    "spcx"
   ],
   "briefs": [
     {
-      "topic": "高橋塁",
+      "topic": "橋本大輝",
       "status": "ok",
-      "summary": "自身がゲイ（男性の同性愛者）であることをSNSで公表したバレーボール男子の高橋塁選手（26）=サントリーサンバーズ大阪=が単独インタビューに応じ、公表に至るまでの葛藤や思いを語った。日本のトップスポ",
+      "summary": "【体操】橋本大輝が４連覇を達成 ６連覇のキングに続く史上２人目の快挙 世界選手権の個人総合決勝",
+      "summaryBasis": "related-headline",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【体操】橋本大輝が４連覇を達成 ６連覇のキングに続く史上２人目の快挙 世界選手権の個人総合決勝",
+          "url": "https://topics.smt.docomo.ne.jp/article/hochi/sports/hochi-20261023-OHT1T51003",
+          "name": "ｄメニューニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
+      "retained": false
+    },
+    {
+      "topic": "今日の気温",
+      "status": "unavailable"
+    },
+    {
+      "topic": "thời tiết",
+      "status": "ok",
+      "summary": "ドゥー・バオ・トゥー・ティット10ナイ・トゥー・トゥー・ジュム22.10ドゥーン1.11トレン・チュ・ヌー・チュ",
+      "summaryBasis": "related-headline",
+      "issue": "「thời tiết」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "ドゥー・バオ・トゥー・ティット10ナイ・トゥー・トゥー・ジュム22.10ドゥーン1.11トレン・チュ・ヌー・チュ",
+          "url": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-2210-den-111-tren-ca-nuoc-1787562.ldo",
+          "name": "Laodong.vn",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
+      "retained": false
+    },
+    {
+      "topic": "横浜 天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "山田邦子",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ウエザーニュース",
+      "status": "unavailable"
+    },
+    {
+      "topic": "台湾 天気",
+      "status": "unavailable"
+    },
+    {
+      "topic": "久保建英",
+      "status": "ok",
+      "summary": "22日のヨーロッパリーグ（EL）・リーグフェーズ第3節、レアル・ソシエダはアウェーでのリールストロム（ノルウェー）戦に臨み、6-0の大勝を収めた。日本代表MF久保建英は先発出場を果たし、58分にピッ",
       "summaryBasis": "publisher-description",
       "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
       "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「最悪、バレーができなくなっても」高橋塁選手、ゲイ公表の葛藤語る",
-          "url": "https://news.yahoo.co.jp/pickup/6599656",
+          "title": "レアル・ソシエダがリールストロムに6発大勝…2戦連続で先発の久保建英は見せ場なく交代（GOAL）",
+          "url": "https://news.yahoo.co.jp/articles/dc0acb32ad70bcf33357099cf7b5f6c95818a352",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "ゲイ公表の高橋塁選手、藍選手のラフな感じに「僕はすごく救われた」",
-          "url": "https://www.asahi.com/articles/ASVBP2T0NVBPUTIL03NM.html",
-          "name": "朝日新聞",
+          "title": "久保建英、ELリールストロム戦は２試合ぶりベンチスタートか 前節マラガ戦で１得点１アシスト",
+          "url": "https://www.nikkansports.com/soccer/world/news/202610220000204.html",
+          "name": "日刊スポーツ",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
+      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
       "retained": false
     },
     {
-      "topic": "ネッツ 対 ホーネッツ",
+      "topic": "京都天気",
       "status": "unavailable"
     },
     {
-      "topic": "java 脆弱性",
-      "status": "unavailable"
-    },
-    {
-      "topic": "東京湾大華火祭 2026",
+      "topic": "spcx",
       "status": "ok",
-      "summary": "【今週末ついに放送！】東京湾大華火祭2026の舞台裏",
+      "summary": "$スペースX (SPCX.US)$ 目標を143に引き上げ。十分な余地があり、ベア派の燃料となっている $ストラテジー (MSTR.US)$ ありがとう、目標達成 $モデルナ (MRNA.US)$ 大暴落 調整後TOL 216.68",
       "summaryBasis": "related-headline",
-      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
-      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "【今週末ついに放送！】東京湾大華火祭2026の舞台裏",
-          "url": "https://www.bs-asahi.co.jp/episode0/lineup/20261021/",
-          "name": "BS朝日",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
-      "retained": false
-    },
-    {
-      "topic": "中須翔真",
-      "status": "ok",
-      "summary": "「ブラッサム」弟・守“涙の熱演”15歳・中須翔真とは？珠ついに岩国と決別「チビ武志」ネットもらい泣き（スポニチアネックス）",
-      "summaryBasis": "related-headline",
-      "issue": "「中須翔真」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "「spcx」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "「ブラッサム」弟・守“涙の熱演”15歳・中須翔真とは？珠ついに岩国と決別「チビ武志」ネットもらい泣き（スポニチアネックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0RUk1X1hIYW5XWEZLVDlrMW1FQ0h0YmJzVWNUTWR5Vktld3Nqbzd6QmQtOVVnMjY4RDFZem9iQmtPclVUNmdLSW45aVQtYmEtYXVQUzRJNVNKcThGTG1mN29vUmpVZ0NKTlphVTJST3ozYkZOV0xSTWNxMUlkSU0?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 21 Oct 2026 23:15:00 GMT"
+          "title": "$スペースX (SPCX.US)$ 目標を143に引き上げ。十分な余地があり、ベア派の燃料となっている $ストラテジー (MSTR.US)$ ありがとう、目標達成 $モデルナ (MRNA.US)$ 大暴落 調整後TOL 216.68",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcEFJdF8tckJya0g3N1JEUjk1ZHJfY3cyWUdWQlNvUm5STTJXSjJyYjkzY0ZIWUpfNU92dmwtcV82V2FGQUFrZmRZOTZzUU5xNnNCYXpqS2YwSkFTMUZ6ekEwWFJ1WkFGWkhEa0hXQXEweUs2eEVORjNlRXNFV0VwR1l4R3k1MWdkdnRreDdKUUhkZlU3VkFUOVl0dV9VS1Q3SlMyeDZ1R0RSQnct?oc=5",
+          "name": "Moomoo",
+          "publishedAt": "Thu, 22 Oct 2026 14:52:32 GMT"
         },
         {
-          "title": "連続テレビ小説「ブラッサム」第19話。葉野守（中須翔真）は葉野珠（石橋静河）に「どがあな目に遭うても耐えてきたんは、姉さまと一緒におりたかったからじゃ」――（C）NHK",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWXRKWFF2YlQ2R2prai1OTUJYb0h6VUJRUG40Vkh5MjVtTy1pZC0yQWcyendXdXNTT01QeGkxYUt5THFPbks4MFRXRFpEOGUtelN1aklVSndCMGdUWWc1N1FvaTg1aXdILUtPTzNvc2lOcEhGWUxXcHBZbERYVGs4bEJFRzE1OXVNU2RvME85V0FHTVZwQ1E?oc=5",
-          "name": "スポニチ Sponichi Annex",
-          "publishedAt": "Wed, 21 Oct 2026 23:26:49 GMT"
+          "title": "10月22日のSpaceX (SPCX) 始値は4.22%下落：どのようなシグナルを示しているのか？",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX0x3cjNMQ25qZHMwWGdldU9xWXctZXZTa0o2Yk9ocWFHMkFSZ3JYZklNc1FNM1V4T1A5TUpldVN3RDF4c1g5dFFMUGJYWXM4VG95anhUajFpTjhUaFgtRTBoaXlYU3ZaLURyTXpWVjlaWlVnOHVEeXpVV21ZUVlubUxhNWQ4MGJ2YUU0c1ZOQQ?oc=5",
+          "name": "TradingKey",
+          "publishedAt": "Thu, 22 Oct 2026 13:48:26 GMT"
         }
       ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
+      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
       "retained": false
-    },
-    {
-      "topic": "ディオマンデ",
-      "status": "ok",
-      "summary": "レアル・マドリーがRBライプツィヒに快勝！B・シウバ、エンバペ、ギュレル、ディオマンデがゴール…渦中のヴィニシウスは結果を残せずブーイング（GOAL）",
-      "summaryBasis": "related-headline",
-      "issue": "「ディオマンデ」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "レアル・マドリーがRBライプツィヒに快勝！B・シウバ、エンバペ、ギュレル、ディオマンデがゴール…渦中のヴィニシウスは結果を残せずブーイング（GOAL）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KS3ZNd3RBV01mc3BxVnBucnNCekJyMVgtelB1VE5RRjBteW0zU01YbkZNTmU5Q1VFTXE4Ry1oSlJkTHFWclZsV3dJQWU4NVF3U0g1NzdvUzEyOVFXUXM0MHVWa2E1bHV4V19MMFcyQkN6WjUyMVNnUF9aRXJSaDQ?oc=5",
-          "name": "Yahoo!ニュース",
-          "publishedAt": "Wed, 21 Oct 2026 20:55:10 GMT"
-        },
-        {
-          "title": "ヤン・ディオマンデが圧巻のスーパーゴール。レアル・マドリーの快勝で輝く",
-          "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxNNHg1bnYyTGVVMl9XLXREaG4zcW9XREllX1ROUm1paVBabFlvQUotaTVHVUJyalFNWkNQNlZ4TW93QnNKajRUOXoxdm4tYXBzVUhfMVBsbTlBRVFXcnVrWi12RkVieFYzTDMwNWQ3X2FVQ0VlV0UxMTZFZXN2ZU5DU3V4emFucUdKcEVVdWxIazZkQUljSGR5Ulg0YnljejZLMzJFRVdCeGFjXzA1VExZU3VyUGVBOTR1YWt0ZnRndkZBSUtFRUlSZmU1bTk1bjBjWktwYWlPQTFGRENma3Q3T1FVa2R4N3JGMlF5OTRxUnJlZ1VmTnFvWmtZUlRmX1hfTmJ4azlHQXl4bmZubkxxZWkxbUNIcXVtM3VoMEUxNHhhOHRDU3dTZVNmS21jMXBiWHhlY1FQQl9JRWdRenNlVGVRNDdhQU1jQlFQeTlkdFFWb01rQV8xSXJaWEl4eGRQLVhvZGxlTUZ1T0taX0NGWUJab204WlcwRVZ0aXNlbXFIc2pRTlczXzdOWlJRaW5XWC1uck5BUlp1T3VRU0hXNEpnczEzVVJzRE9ZMjJlZWNfU2JkOE90VnBrZ2lPUzAwckNCemJPNXM5UFFQRHpJdEVWendxTF95WGF0R1ZWTTNLSFl0bGVNQ0syTGxNRFJHNWlJM1poeW1IZHBHZlpMb3VHbkdtQXNHY1ZFUUR5QVBnT1piWi1OblZmd08wREZjdEg2R2NxNWpMamRySUhOVS1xdmlIYlhJTDdpVUdRb1FlTTdJbF9uSFBrejJDWjhiQ1hIa3RrTkcwLTNHQjhPdg?oc=5",
-          "name": "Goal.com",
-          "publishedAt": "Wed, 21 Oct 2026 21:00:00 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
-      "retained": false
-    },
-    {
-      "topic": "パンサー向井",
-      "status": "ok",
-      "summary": "パンサー向井慧、TBS若林有子アナの話題連発に顔真っ赤でタジタジ 共演者も報道陣もイジる（日刊スポーツ）",
-      "summaryBasis": "related-headline",
-      "issue": "「パンサー向井」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "パンサー向井慧、TBS若林有子アナの話題連発に顔真っ赤でタジタジ 共演者も報道陣もイジる（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/0818a97939927067c6cd535772d16f6d4a190be6",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
-      "retained": false
-    },
-    {
-      "topic": "ヒート 対 ウルブズ",
-      "status": "unavailable"
-    },
-    {
-      "topic": "メーガン妃",
-      "status": "ok",
-      "summary": "王室の公務から退いた後、移住していたアメリカから突然帰国したメーガン妃が、初めてヘンリー王子とそろって公の場に登場した。自らの“最大の強み”であるファッションの力を借りて、イギリスへの敬意を示そうと",
-      "summaryBasis": "publisher-description",
-      "issue": "「メーガン妃」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "メーガン妃「ロイヤル気分」に思わず\"ルンルン\"の表情をみせる。「最大の強み」でイギリスでの好感度アップを狙う",
-          "url": "https://news.yahoo.co.jp/articles/f24793ab4f99d3a0f39f0ae18ad19ab5f21cd409",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
-        },
-        {
-          "title": "「二度と英国に戻りたくない」と報じられたメーガン妃が、英国で頼りにする味方リスト",
-          "url": "https://www.elle.com/jp/culture/celebgossip/g74086537/meghan-markle-sussex-celebrity-friends-in-uk-261009/",
-          "name": "ELLE",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-22T08:40:08.955881+09:00",
-      "retained": false
-    },
-    {
-      "topic": "放送休止",
-      "status": "unavailable"
     }
   ]
 }
