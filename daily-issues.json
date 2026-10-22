@@ -1,133 +1,181 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-23",
-  "fetchedAt": "2026-10-23T06:34:36.416344+09:00",
+  "fetchedAt": "2026-10-23T08:37:23.325638+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "橋本大輝",
-    "今日の気温",
-    "thời tiết",
-    "横浜 天気",
-    "山田邦子",
-    "ウエザーニュース",
-    "台湾 天気",
-    "久保建英",
-    "京都天気",
-    "spcx"
+    "ソフビ",
+    "ウォーレン・バフェット",
+    "新生銀行",
+    "tom skerritt",
+    "瀬戸康史",
+    "小栗旬",
+    "ブラッサム あらすじ",
+    "ブラッサム キャスト",
+    "アイフォン",
+    "菊花賞 2026 予想"
   ],
   "briefs": [
     {
-      "topic": "橋本大輝",
+      "topic": "ソフビ",
       "status": "ok",
-      "summary": "【体操】橋本大輝が４連覇を達成 ６連覇のキングに続く史上２人目の快挙 世界選手権の個人総合決勝",
-      "summaryBasis": "related-headline",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "summary": "株式会社ケンエレファントのプレスリリース（2026年10月22日 18時00分）「サンリオキャラクターズ よいこのソフビマスコット」2027年2月発売予定",
+      "summaryBasis": "publisher-description",
+      "issue": "従来と比べて何が変わり、費用に見合う価値があるか？",
+      "whyItMatters": "価格・条件・代替案を比べ、利用や購入の判断につなげるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【体操】橋本大輝が４連覇を達成 ６連覇のキングに続く史上２人目の快挙 世界選手権の個人総合決勝",
-          "url": "https://topics.smt.docomo.ne.jp/article/hochi/sports/hochi-20261023-OHT1T51003",
-          "name": "ｄメニューニュース",
+          "title": "「サンリオキャラクターズ よいこのソフビマスコット」2027年2月発売予定",
+          "url": "https://prtimes.jp/main/html/rd/p/000000155.000166988.html",
+          "name": "PR TIMES",
+          "publishedAt": null
+        },
+        {
+          "title": "ハローキティ、ポチャッコ、マイメロディ、ハンギョドンが吊り下げ型のソフビチャームに！ケンエレファントから「サンリオキャラクターズ よいこのソフビマスコット」が登場！",
+          "url": "https://hobby.dengeki.com/news/3204724/",
+          "name": "電撃ホビーウェブ",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
       "retained": false
     },
     {
-      "topic": "今日の気温",
-      "status": "unavailable"
-    },
-    {
-      "topic": "thời tiết",
+      "topic": "ウォーレン・バフェット",
       "status": "ok",
-      "summary": "ドゥー・バオ・トゥー・ティット10ナイ・トゥー・トゥー・ジュム22.10ドゥーン1.11トレン・チュ・ヌー・チュ",
-      "summaryBasis": "related-headline",
-      "issue": "「thời tiết」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "summary": "ウォーレン・バフェットは、あらゆる投資家が低コストのS&P500インデックスファンドを保有すべきだと、繰り返し語っている。10月6日にS&P500が過去最高値を更新したことで、このビジネス界のアイコ",
+      "summaryBasis": "publisher-description",
+      "issue": "「ウォーレン・バフェット」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "ドゥー・バオ・トゥー・ティット10ナイ・トゥー・トゥー・ジュム22.10ドゥーン1.11トレン・チュ・ヌー・チュ",
-          "url": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-2210-den-111-tren-ca-nuoc-1787562.ldo",
-          "name": "Laodong.vn",
-          "publishedAt": null
-        }
-      ],
-      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
-      "retained": false
-    },
-    {
-      "topic": "横浜 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "山田邦子",
-      "status": "unavailable"
-    },
-    {
-      "topic": "ウエザーニュース",
-      "status": "unavailable"
-    },
-    {
-      "topic": "台湾 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "久保建英",
-      "status": "ok",
-      "summary": "22日のヨーロッパリーグ（EL）・リーグフェーズ第3節、レアル・ソシエダはアウェーでのリールストロム（ノルウェー）戦に臨み、6-0の大勝を収めた。日本代表MF久保建英は先発出場を果たし、58分にピッ",
-      "summaryBasis": "publisher-description",
-      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
-      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "レアル・ソシエダがリールストロムに6発大勝…2戦連続で先発の久保建英は見せ場なく交代（GOAL）",
-          "url": "https://news.yahoo.co.jp/articles/dc0acb32ad70bcf33357099cf7b5f6c95818a352",
+          "title": "ウォーレン・バフェットの古典的なアドバイスは今なお有効…「S&P500を買い、仕事に戻る」（海外）",
+          "url": "https://news.yahoo.co.jp/articles/2b30ada886762d00a3c4f43c9ed81e66d3cbe08d",
           "name": "Yahoo!ニュース",
           "publishedAt": null
         },
         {
-          "title": "久保建英、ELリールストロム戦は２試合ぶりベンチスタートか 前節マラガ戦で１得点１アシスト",
-          "url": "https://www.nikkansports.com/soccer/world/news/202610220000204.html",
-          "name": "日刊スポーツ",
+          "title": "ウォーレン・バフェットの古典的なアドバイスは今なお有効…「S&P500を買い、仕事に戻る」",
+          "url": "https://www.businessinsider.jp/article/2610-warren-buffett-investing-advice-stocks-spx-index-funds-strategy-berkshire/",
+          "name": "Business Insider Japan",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
       "retained": false
     },
     {
-      "topic": "京都天気",
+      "topic": "新生銀行",
       "status": "unavailable"
     },
     {
-      "topic": "spcx",
+      "topic": "tom skerritt",
       "status": "ok",
-      "summary": "$スペースX (SPCX.US)$ 目標を143に引き上げ。十分な余地があり、ベア派の燃料となっている $ストラテジー (MSTR.US)$ ありがとう、目標達成 $モデルナ (MRNA.US)$ 大暴落 調整後TOL 216.68",
+      "summary": "「ピケットフェンス」と「トップガン」で重要な役割を果たしたトム・スケリットが93歳で死去",
       "summaryBasis": "related-headline",
-      "issue": "「spcx」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "issue": "公表された経緯と功績は何で、未確認の情報はどこか？",
+      "whyItMatters": "本人・関係者の発表と推測を区別し、出来事を正確に理解するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「ピケットフェンス」と「トップガン」で重要な役割を果たしたトム・スケリットが93歳で死去",
+          "url": "https://www.nytimes.com/2026/10/22/arts/television/tom-skerritt-dead.html",
+          "name": "The New York Times",
+          "publishedAt": null
+        },
+        {
+          "title": "「ピケットフェンス」と「エイリアン」のスター、トム・スケリットが93歳で死去",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/tom-skerritt-dead-picket-fences-alien-mash-1236738429/",
+          "name": "The Hollywood Reporter",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
+      "retained": false
+    },
+    {
+      "topic": "瀬戸康史",
+      "status": "ok",
+      "summary": "お笑いコンビ「博多華丸・大吉」と鈴木奈穂子アナウンサーがキャスターを務めるNHKの朝の情報番組「あさイチ」（総合、月～金曜午前8時15分）。10月23日は「プレミアムトーク 瀬戸康史」を放送する。",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "あさイチ＞10月23日は瀬戸康史が生出演 “パパ仲間”俳優が明かす家族思いの一面 きゃりーぱみゅぱみゅの生パフォーマンスも（毎日キレイ）",
+          "url": "https://news.yahoo.co.jp/articles/11481cf9ccfc0db8d6586fa65b618fcb90c340a5",
+          "name": "Yahoo!ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
+      "retained": false
+    },
+    {
+      "topic": "小栗旬",
+      "status": "ok",
+      "summary": "「LOST10」＃1 [再] 【横浜流星×小栗旬×北海道のサスペンスエンタテインメント】 [字]",
+      "summaryBasis": "related-headline",
+      "issue": "「小栗旬」について何が新しく確認され、誰の判断や行動に関係するか？",
       "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "$スペースX (SPCX.US)$ 目標を143に引き上げ。十分な余地があり、ベア派の燃料となっている $ストラテジー (MSTR.US)$ ありがとう、目標達成 $モデルナ (MRNA.US)$ 大暴落 調整後TOL 216.68",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcEFJdF8tckJya0g3N1JEUjk1ZHJfY3cyWUdWQlNvUm5STTJXSjJyYjkzY0ZIWUpfNU92dmwtcV82V2FGQUFrZmRZOTZzUU5xNnNCYXpqS2YwSkFTMUZ6ekEwWFJ1WkFGWkhEa0hXQXEweUs2eEVORjNlRXNFV0VwR1l4R3k1MWdkdnRreDdKUUhkZlU3VkFUOVl0dV9VS1Q3SlMyeDZ1R0RSQnct?oc=5",
-          "name": "Moomoo",
-          "publishedAt": "Thu, 22 Oct 2026 14:52:32 GMT"
+          "title": "「LOST10」＃1 [再] 【横浜流星×小栗旬×北海道のサスペンスエンタテインメント】 [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPNzkzeVFRU0dWeG0zNE1OS1JXTnctZk9PdGY1UDJNS0FKX2tDTy1qYlROc2JJX2tnT1JDRlZQYW5Bb3RkQkhoa1hUbUtzMWlJVDlrNHhn?oc=5",
+          "name": "TBSテレビ",
+          "publishedAt": "Thu, 22 Oct 2026 20:48:24 GMT"
         },
         {
-          "title": "10月22日のSpaceX (SPCX) 始値は4.22%下落：どのようなシグナルを示しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX0x3cjNMQ25qZHMwWGdldU9xWXctZXZTa0o2Yk9ocWFHMkFSZ3JYZklNc1FNM1V4T1A5TUpldVN3RDF4c1g5dFFMUGJYWXM4VG95anhUajFpTjhUaFgtRTBoaXlYU3ZaLURyTXpWVjlaWlVnOHVEeXpVV21ZUVlubUxhNWQ4MGJ2YUU0c1ZOQQ?oc=5",
-          "name": "TradingKey",
-          "publishedAt": "Thu, 22 Oct 2026 13:48:26 GMT"
+          "title": "小栗旬、ハワイでともにBBQを楽しんだ“芸人”明かす まさかの人物に千鳥・大悟も驚き「芸能界のど真ん中に入り込んでいく」",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Kb1hlQXYwb0dEb3hUTHUtb1hSMjFaQW9pZ1hsbUt0VDliSzYzQjZ0UThQUHFxSWFXUEk1NENrWEYtcC1MSFEwbFliejFWc1NuUUE?oc=5",
+          "name": "山陽新聞デジタル｜さんデジ",
+          "publishedAt": "Thu, 22 Oct 2026 21:20:53 GMT"
         }
       ],
-      "verifiedAt": "2026-10-23T06:34:36.416344+09:00",
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
+      "retained": false
+    },
+    {
+      "topic": "ブラッサム あらすじ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ブラッサム キャスト",
+      "status": "unavailable"
+    },
+    {
+      "topic": "アイフォン",
+      "status": "unavailable"
+    },
+    {
+      "topic": "菊花賞 2026 予想",
+      "status": "ok",
+      "summary": "【菊花賞2026予想】過去10年の騎手データ ルメール騎手の複勝率は60%以上など最新情報 | 競馬まとめ - netkeiba",
+      "summaryBasis": "related-headline",
+      "issue": "「菊花賞 2026 予想」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【菊花賞2026予想】過去10年の騎手データ ルメール騎手の複勝率は60%以上など最新情報 | 競馬まとめ - netkeiba",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4TERFSlRBR1puX2VYRl9fb2VxdEtSLUlSVmNLZkptQTJGMGloTGtob3I0UmhLUVdidFFsR1VEb25QbTBJdXg5d0lzOF9rN0NHMnlKZGJSQjVUT0ZuaHc4b1JOT3pKYzDSAWxBVV95cUxPb0xZOUNzX25hQlNDZUUyZHREVzJ5RjdSRVBROHNFV3IwbFhzc3ROSGF5Q0U1VzVPNzBQdWFHTjNidTFnVW5ES0EzbVFBQnRWN2lMZjNBZDdhOFd3OVpZS3lvMHd3QmdLa1diU1A?oc=5",
+          "name": "netkeiba",
+          "publishedAt": "Thu, 22 Oct 2026 10:19:17 GMT"
+        },
+        {
+          "title": "【菊花賞2026予想】出走馬全頭診断 元競馬記者が解説｜穴馬紹介",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObXJoS2pYYzlLMmVUUzIzUllkUE5HQjBUbGJjeG9PdnZhbkZBUDFpX0pIWWVleF81MFVEMVFYaTFkdGxBR01KYmFvZ3V4ZURDSlNfSDdHcHJWcDVlbkJNQjFlNjRHdjNVdEhxUUtSY3NQWGdrak5TSF94a0tTdzJ1T2pLanYxWUtRRnJZazJSLXJyTWFDZlhfOE80blJHY3J0clNSVklGTmpDZVFnZ2QtNw?oc=5",
+          "name": "Sporting News JP",
+          "publishedAt": "Thu, 22 Oct 2026 05:25:02 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-23T08:37:23.325638+09:00",
       "retained": false
     }
   ]
