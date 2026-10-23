@@ -1,113 +1,170 @@
 {
   "schemaVersion": 3,
   "updatedAt": "2026-10-24",
-  "fetchedAt": "2026-10-24T06:23:29.597102+09:00",
+  "fetchedAt": "2026-10-24T08:32:48.105401+09:00",
   "source": "Google Trends Japan",
   "sourceUrl": "https://trends.google.com/trending/rss?geo=JP",
   "mode": "live",
   "topics": [
-    "アルカディア",
-    "片山さつき",
-    "京都 天気",
-    "clima",
-    "豊橋 天気",
-    "museとは",
-    "横浜 天気",
-    "株価",
-    "大阪 天気予報",
-    "バックス 対 ブルズ"
+    "typhoon champi (rosal)",
+    "マジック 対 ウルブズ",
+    "ヴァンサン・コンパニ",
+    "fifa u-17女子ワールドカップ",
+    "スバル・wrx",
+    "北陸銀行",
+    "航空自衛隊 築城基地",
+    "ブルワーズ 対 レイズ",
+    "俺たちの旅",
+    "fcコペンハーゲン"
   ],
   "briefs": [
     {
-      "topic": "アルカディア",
+      "topic": "typhoon champi (rosal)",
+      "status": "unavailable"
+    },
+    {
+      "topic": "マジック 対 ウルブズ",
+      "status": "unavailable"
+    },
+    {
+      "topic": "ヴァンサン・コンパニ",
       "status": "ok",
-      "summary": "自治体の防災情報の配信サービスなどを提供する大阪府箕面市のIT会社「アルカディア」が、不正アクセスを受けた問題について23日、会見を開き、会社のシステムを使って不審なメールが約142万通配信されてい",
-      "summaryBasis": "publisher-description",
-      "issue": "報道で確認された事実と主張はどこまでで、何が未確認か？",
-      "whyItMatters": "疑惑や一方の主張を確定事実として扱わず、判断の根拠を見極めるため。",
+      "summary": "バイエルンが発表：ヴァンサン・コンパニが倒れて病院に搬送、容体は安定",
+      "summaryBasis": "related-headline",
+      "issue": "誰が対象で、効果・リスクについて何が確認されているか？",
+      "whyItMatters": "対象条件と根拠を分けて、情報を自分に当てはめてよいか判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "【速報】不審なメール約142万通の配信が判明 フィッシング詐欺が疑われるものも 不正アクセス受け個人や警察官のメールアドレス流出 大阪のIT会社「アルカディア」",
-          "url": "https://news.yahoo.co.jp/articles/2d16a3f7dae49c890ba55274f27c75e24ced3ce7",
-          "name": "Yahoo!ニュース",
-          "publishedAt": null
+          "title": "バイエルンが発表：ヴァンサン・コンパニが倒れて病院に搬送、容体は安定",
+          "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxONnltNF9BXzVTMlpZUWlBTG1aUzN3bnhvLTYxUU1HN3p0TS1nX19tSVh3VFlPSzdaUlFDSnpKREJvVUZ4dVlwUGFONTl6ZC1qWS1GTW9aZjBmTEVCN2VhaFZVNV9hbk9Bb2xidWtHemFILXR0VXY1VnBHRmUxN005SnU3REQzeXhLc3hIcEx0M3VINDJlTFFTVEVaYmdqV3JwbGt4MFdXanBKQ1JqQ2F6T1prS256azlZblpXd0xPUlFldENsdzVsQlNQenJSTFkwQ3RZaDJyR1NTbmhyMHlMVmd4RjdsNVVsMklCNmMwR3BYZFF4b1RVSzR0WGt4ZUYxdWdNUG1zNzAtcDZIZW01U2V4bzlKWGowSjVZZnBacnViaGFnR0ltY0VCeGFxV3lsSzdXaHBsRE92OW9qN0tseXBVSWVlNVpISG9WNGVsS29IS0xlaDRRbTFmczBTeDVJT0FNU1pHajF1aEJuc2xZQ200TnotcFpNcjNyYnJiN0h1WVk4TDlCMGlPYkpGNG5FTE9FMFhWX1ZLV2JXdXg0NUJ1N2IxV3BtUVlrWlM1RXJrLTJKXzBENXhUYnpYMUJ3TUQzdkRIX3J4eGZYamR2aVhsVU82U3VFQ05IUXVUTXFWWTFFYUpST1FkM1BjYXJmUnpVU3F3bUNodXRxOEpVWGU2MVlQbUNXOWFNZmJyb3JRLXJmZk85dmJua0s3WWxCeFhMcXhHdzF6X2ZQRHRZZ0dxSDFmMjJsZWxxbA?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Fri, 23 Oct 2026 19:21:00 GMT"
         },
         {
-          "title": "アルカディアに攻撃継続 同社から１４２万通不審メール",
-          "url": "https://ryukyushimpo.jp/economics/entry-5574025.html",
-          "name": "琉球新報デジタル",
+          "title": "FCバイエルンが確認：ヴァンサン・コンパニが倒れ、病院に搬送",
+          "url": "https://news.google.com/rss/articles/CBMiywRBVV95cUxPWU03UXZpejRlWE9hdEVDelB5N3F6dEZFZ3JsNDlUUEZIZ05wTTI5cEF3N3Y2UE9ZdmVwWkdDaXN2WHBLd0ZxOTRTOGxzaWxRV0FJT0ZGbzJ1TjZDYWdDTmhFWW1pbjhqNm8zc1hUSG04Q01JV2l3OFVJUDFoV1FIZkt0UnJUcTB1bjhyYTZIU0dESnpWcDhCTHVQQzFaMTZhZ0V5QzQxSFc0eTl2Si1HdVIyYm13dE52QVltTmw5YktyQzZPZmVydHhxV21aOUN2V2p3ajVJVElvNm14WVZOMU5zY1BtRDZ2aVdjZE9PQmU1QUFoYS13ZnlENXlHREVISHh0TFlQZklXdXQ3dkFRczNaRzExcnJlaE15QjVkR0xOeTZSYWxINldxQjNoSHQtZTd1QkFLbllmSjB0SWZsc2lmeldPUXprS0YtMTR5MVNGQm1Ebk9DUWJfX2RzZ1VDOEh6VWlNek5CR2FZdm5ISTFDbmRKSGlpMjF2c05yZ1A4Nzg1SFhiQUExemFJZWFESTAyem9ySGlVYVUzNkRUOEZSMnhGQkNsUkpsZmZ4Qlg3Uk1TY3BHVWtac0xFYlc1QjZsTDBzVU5OWWlnbWgyejBtVktTN2REcWNqSjY1SU1KTm1MSzEyaHZIOWtOcEVpRDhvQm16NS0yTjhFUTdmdzlpQWxvYmJiVFJyQ3FDM29yMEMwS0x1Q3R6aWlnTl9SUFRaTHlVNzdfT0hNc0ZQYnFpNVNtQkxzVUlfeUJNVUpGcnA3LUppb1dYUQ?oc=5",
+          "name": "Goal.com",
+          "publishedAt": "Fri, 23 Oct 2026 16:29:00 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
+      "retained": false
+    },
+    {
+      "topic": "fifa u-17女子ワールドカップ",
+      "status": "ok",
+      "summary": "2026年10月18日（日本時間）に開幕するFIFA U-17女子ワールドカップ モロッコ2026のグループリーグ組み合わせ・順位表は下記の通り。各グループの上位2チームと、各グループの3位のうち上位4チームの計16チームが決勝トーナメントに進出する。",
+      "summaryBasis": "publisher-description",
+      "issue": "結果を左右した要因は何で、次の試合や順位にどう影響するか？",
+      "whyItMatters": "一度の結果だけでなく、成績・条件・今後の日程を比べて評価するため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "【U-17女子W杯 順位表】FIFA U-17女子ワールドカップ2026 グループリーグ組み合わせ",
+          "url": "https://www.footballchannel.jp/2026/10/24/post1023000/",
+          "name": "フットボールチャンネル",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-24T06:23:29.597102+09:00",
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
       "retained": false
     },
     {
-      "topic": "片山さつき",
+      "topic": "スバル・wrx",
+      "status": "unavailable"
+    },
+    {
+      "topic": "北陸銀行",
       "status": "ok",
-      "summary": "“所得に応じた支援金”「年収53万円から」公明・赤羽氏が求める 片山さつき財務大臣「しっかり踏まえたい」と反映に含み 衆院・財務金融委員会で論戦続く",
-      "summaryBasis": "related-headline",
-      "issue": "「片山さつき」について何が新しく確認され、誰の判断や行動に関係するか？",
-      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "summary": "北陸銀行は23日、6つの定期預金商品の金利引き上げを発表した。4商品を26日から、2商品を11月2日から適用する。日銀の政策金利引き上げに伴う、市場金利の動向を踏まえた対応となる。北陸銀が26日に金利を引き上げる対象商品の一つが「ほくぎん特別金利定期預金」。1年物を0.8%から0.95%に、",
+      "summaryBasis": "publisher-description",
+      "issue": "何が変わり、誰にどのような利益や負担が生じるか？",
+      "whyItMatters": "発言や計画と実施済みの内容を分け、生活への影響を判断するため。",
       "analysisBasis": "related-news-rules",
       "sources": [
         {
-          "title": "“所得に応じた支援金”「年収53万円から」公明・赤羽氏が求める 片山さつき財務大臣「しっかり踏まえたい」と反映に含み 衆院・財務金融委員会で論戦続く",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00M0V4U1JzaWNqOUJLR0wybWxtSnZLRmhEaXBnLVRyaWZiNEZfRDd0UnhUWkZTd0M0VG9kako2V3M5ZE1YQU0tcWp4RlRaOU1SNjVobjEyZw?oc=5",
-          "name": "TBS NEWS DIG",
-          "publishedAt": "Fri, 23 Oct 2026 07:34:23 GMT"
-        }
-      ],
-      "verifiedAt": "2026-10-24T06:23:29.597102+09:00",
-      "retained": false
-    },
-    {
-      "topic": "京都 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "clima",
-      "status": "translation-unavailable"
-    },
-    {
-      "topic": "豊橋 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "museとは",
-      "status": "unavailable"
-    },
-    {
-      "topic": "横浜 天気",
-      "status": "unavailable"
-    },
-    {
-      "topic": "株価",
-      "status": "ok",
-      "summary": "三菱UFJFG株価4カ月ぶり安値 金利急低下で利ざや改善期待が剝落",
-      "summaryBasis": "related-headline",
-      "issue": "値動きの要因は何で、一時的な変化と継続する変化をどう見分けるか？",
-      "whyItMatters": "期間や比較対象、複数の要因を確認し、一日の値動きだけで結論を出さないため。",
-      "analysisBasis": "related-news-rules",
-      "sources": [
-        {
-          "title": "三菱UFJFG株価4カ月ぶり安値 金利急低下で利ざや改善期待が剝落",
-          "url": "https://www.nikkei.com/article/DGXZQOFL233270T21C26A0000000/",
+          "title": "北陸銀行、定期預金6商品の金利引き上げ",
+          "url": "https://www.nikkei.com/article/DGXZQOCC237Q90T21C26A0000000/",
           "name": "日本経済新聞",
           "publishedAt": null
         }
       ],
-      "verifiedAt": "2026-10-24T06:23:29.597102+09:00",
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
       "retained": false
     },
     {
-      "topic": "大阪 天気予報",
+      "topic": "航空自衛隊 築城基地",
       "status": "unavailable"
     },
     {
-      "topic": "バックス 対 ブルズ",
-      "status": "unavailable"
+      "topic": "ブルワーズ 対 レイズ",
+      "status": "ok",
+      "summary": "~!@[ライブ配信] ブルワーズ対レイズ 第1戦 Brewers vs Rays Game 1 生中継, テレビ放送 ライブ配信 2026年10月23日",
+      "summaryBasis": "related-headline",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "~!@[ライブ配信] ブルワーズ対レイズ 第1戦 Brewers vs Rays Game 1 生中継, テレビ放送 ライブ配信 2026年10月23日",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNak11X2FUbGZYdGJhbTRtYWtqSkp6ZE5PTzlxQ1NCU3dnenR0MGlrcno5WTI0ZkVBd3ZlQ1JYMmFqd3ZCMGY2X0M0cDhlQjFYR2duNktGLWl1QVp0aExqOHpFcDVDeXpqbjdwanV5d1N3X09TOXlKZmZNQlJiOG9wb2U3UE5USnFPRjUzbDY0LUpTcnRQYXN1c3ZQckRIWUVXelVzdW1ybTJLeTJVc2lhdWdBUkQ3MEpxLVY0Q0t5RW8yekh5XzNWMnJkSUVfcmNoXzhrdWV4OFk4QlBRQXZqYzhpNHNRTUsycTV6aFptNU9BaXBzcm92UXYtSFBIZC1KX0x5MktJV2xvMlV2ZmczZnZHTUZJQlMzYUhkVkRYVE9GbF91S2M3TGJvQTBVWFNOWUtkOFVxLWUxUEloa1RZZEtWOTUyVkNEY0h1X1JSYkI3OWE1WEsw?oc=5",
+          "name": "小豆島町",
+          "publishedAt": "Fri, 23 Oct 2026 22:19:17 GMT"
+        },
+        {
+          "title": "あすからワールドシリーズ ブルワーズ対レイズの見どころは",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuQ0dKOFI4eHR1Q21sT1pEandCWExrWUNKNDhHZDkyVHZsOWkwSTB2a0NmbEVwVjNPbDNaTmtkOTdqYV96Wl91U1hEeGgwcXRuaFp1b3RXMlFNbDZoNTVn?oc=5",
+          "name": "NHKニュース",
+          "publishedAt": "Fri, 23 Oct 2026 09:34:11 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
+      "retained": false
+    },
+    {
+      "topic": "俺たちの旅",
+      "status": "ok",
+      "summary": "BS日テレの番組がもっと楽しくなる！「BS日テレマガジン」は、再会！〜俺たちの旅〜五十年目の答え合わせの裏側や出演者の素顔に迫る面白記事が満載。番組の魅力や見どころをさらに深掘りする公式マガジンです。",
+      "summaryBasis": "publisher-description",
+      "issue": "作品・出演・放送について何が新しく発表され、いつ確認できるか？",
+      "whyItMatters": "公式の発表と感想・憶測を分け、作品を理解したり視聴を判断したりするため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "「再会！～俺たちの旅～五十年目の答え合わせ」10月25日（日）午後5時～6時55分放送",
+          "url": "https://www.bs4.jp/magazine/variety/oretabi-1/",
+          "name": "BS日テレ",
+          "publishedAt": null
+        },
+        {
+          "title": "中村雅俊君は最初、「汚い人だなあ」と 「俺たちの旅」って内容がよく分からないんですね",
+          "url": "https://www.sankei.com/article/20261023-I62R3R345FI6FACOX36HX6GAIE/?outputType=theme_portrait",
+          "name": "産経ニュース",
+          "publishedAt": null
+        }
+      ],
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
+      "retained": false
+    },
+    {
+      "topic": "fcコペンハーゲン",
+      "status": "ok",
+      "summary": "FKツルヴェナ・ズヴェズダ対FCコペンハーゲンの予想：トップの座を狙うチャンス。",
+      "summaryBasis": "related-headline",
+      "issue": "「fcコペンハーゲン」について何が新しく確認され、誰の判断や行動に関係するか？",
+      "whyItMatters": "単に話題かどうかでなく、答えによって理解や行動が変わる問いかを確かめるため。",
+      "analysisBasis": "related-news-rules",
+      "sources": [
+        {
+          "title": "FKツルヴェナ・ズヴェズダ対FCコペンハーゲンの予想：トップの座を狙うチャンス。",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcUk3UWZ3TzF3Ql9idmZwYjI5T3hMQlY5SHYwUHJTam5Xb00tdTR4bklKb0lnRExHWVlXVlc3Z1U5VEg1N2pBU3ZUelZ1eU9oN1UxWUl1bll3ODd0Tkc1VjFWVkJPWXN0TUl0Q3Y5cHI0a2ZIcndRbF9YX0kwWHZKQWRvV2FrdTN5a2VKcEN5cHEzZzdCMDAzbjl3?oc=5",
+          "name": "Vietnam.vn",
+          "publishedAt": "Thu, 22 Oct 2026 12:24:03 GMT"
+        }
+      ],
+      "verifiedAt": "2026-10-24T08:32:48.105401+09:00",
+      "retained": false
     }
   ]
 }
